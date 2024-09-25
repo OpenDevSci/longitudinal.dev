@@ -1,0 +1,12 @@
+import{R as v}from"./B2XZCPWg.js";import{l as u,r as b,c as _,e as p,au as w,bi as R,f as t,_ as f,p as m,j as h,h as l}from"./fg3NjqXi.js";const o=e=>(m("data-v-9593bd47"),e=e(),h(),e),y={class:"container"},g=o(()=>t("h2",{class:"title"},"Calculate Descriptive Statistics with Tidyverse",-1)),x=o(()=>t("p",null,' Click "Run" to calculate and display the descriptive statistics for the selected variables (Age, Education, CogTestScore). ',-1)),E=o(()=>t("small",null,'Edit the R code and click "Run" to see the results.',-1)),S=o(()=>t("h3",null,"Descriptive Statistics",-1)),C=o(()=>t("div",{id:"desc-output",class:"output-box"}," Descriptive statistics will appear here... ",-1)),T={__name:"MeanComponent",setup(e){const c=b(`
+    library(tidyverse)
+    url <- "https://gist.githubusercontent.com/swhawes/447351298561aa1a9d90e87c650977ff/raw/c18a661edeae55718b0aa424273742e977a737da/longitudinal_dataset.csv"
+    data <- read_csv(url) %>% as_tibble()
+    desc_stats <- data %>%
+      summarise(
+        mean_Age = mean(Age, na.rm = TRUE),
+        mean_Education = mean(Education, na.rm = TRUE),
+        mean_CogTestScore = mean(CogTestScore, na.rm = TRUE)
+      )
+    desc_stats
+  `);async function i(){const{WebR:d}=await f(async()=>{const{WebR:a}=await import("https://webr.r-wasm.org/latest/webr.mjs");return{WebR:a}},[],import.meta.url),s=new d;await s.init(),await s.installPackages(["tidyverse"]);try{const n=await(await s.evalR(c.value)).toJs();if(console.log("Raw R Output:",n),!(n&&n.values&&Array.isArray(n.values)))throw new Error("Unexpected data structure returned from R.")}catch(a){document.getElementById("desc-output").innerHTML=`Error: ${a.message}`}}return(d,s)=>(_(),p("div",y,[g,x,w(t("textarea",{"onUpdate:modelValue":s[0]||(s[0]=a=>c.value=a),rows:"8",cols:"60",class:"code-editor"},null,512),[[R,c.value]]),E,t("button",{class:"run-button",onClick:i},"Run"),S,C]))}},I=u(T,[["__scopeId","data-v-9593bd47"]]),r=e=>(m("data-v-f21d66f6"),e=e(),h(),e),$={class:"sandbox-container"},D=r(()=>t("h1",{class:"sandbox-title"},"Sandbox: Interactive R Playground",-1)),k=r(()=>t("p",{class:"sandbox-description"}," Welcome to the interactive R playground. Here, you can test and run your R code directly in the browser. Modify the provided R code and see the output instantly. ",-1)),A=r(()=>t("div",null,"test",-1)),M={class:"r-component-wrapper"},U={__name:"sandbox",setup(e){return(c,i)=>(_(),p("div",$,[D,k,t("div",null,[l(I)]),A,t("div",M,[l(v)])]))}},V=u(U,[["__scopeId","data-v-f21d66f6"]]);export{V as default};

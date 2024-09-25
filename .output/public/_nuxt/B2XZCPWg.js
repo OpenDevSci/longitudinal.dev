@@ -1,0 +1,7 @@
+import{l as i,r as l,c as u,e as d,f as t,au as _,bi as p,_ as m,p as v,j as h}from"./fg3NjqXi.js";const o=s=>(v("data-v-c75c3f09"),s=s(),h(),s),w={class:"container"},R=o(()=>t("h2",{class:"title"},"Interactive Regression Example",-1)),g=o(()=>t("small",null,'Edit the R code and click "Run" to see the results.',-1)),f=o(()=>t("h3",null,"Regression Output",-1)),b=o(()=>t("div",{id:"regression-output",class:"output-box"}," Result will appear here... ",-1)),E={__name:"RComponent",setup(s){const n=l(`
+      library(readr)
+      url <- "https://gist.githubusercontent.com/swhawes/447351298561aa1a9d90e87c650977ff/raw/c18a661edeae55718b0aa424273742e977a737da/longitudinal_dataset.csv"
+      data <- read_csv(url)
+      model <- lm(CogTestScore ~ Education, data = data)
+      summary(model)$coefficients
+    `);async function c(){const{WebR:r}=await m(async()=>{const{WebR:e}=await import("https://webr.r-wasm.org/latest/webr.mjs");return{WebR:e}},[],import.meta.url),a=new r;await a.init(),await a.installPackages(["readr"]);try{const e=await a.evalR(n.value);document.getElementById("regression-output").innerHTML=(await e.toJs()).values.join(", ")}catch(e){document.getElementById("regression-output").innerHTML=`Error: ${e.message}`}}return(r,a)=>(u(),d("div",w,[R,t("div",null,[_(t("textarea",{"onUpdate:modelValue":a[0]||(a[0]=e=>n.value=e),rows:"8",cols:"60",class:"code-editor"},null,512),[[p,n.value]]),g]),t("button",{class:"run-button",onClick:c},"Run Regression"),f,b]))}},x=i(E,[["__scopeId","data-v-c75c3f09"]]);export{x as R};
