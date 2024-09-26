@@ -789,7 +789,7 @@ const _routes = [
   {
     name: "test",
     path: "/test",
-    component: () => import('./test-DZZ2kh52.mjs').then((m2) => m2.default || m2)
+    component: () => import('./test-CfZHNESi.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "tools",

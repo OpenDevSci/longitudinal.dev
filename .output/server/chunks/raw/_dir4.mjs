@@ -1,5 +1,5 @@
 // ROLLUP_NO_REPLACE 
- const _dir = "{\"parsed\":{\"_path\":\"/abcd-study/_dir\",\"_dir\":\"abcd-study\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"ABCD Study\",\"description\":\"ABCD Study content.\",\"defaultOpen\":false,\"_id\":\"content:3.abcd-study:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"3.abcd-study/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"zPVA3oNpGD\"}";
+ const _dir = "{\"parsed\":{\"_path\":\"/playground/_dir\",\"_dir\":\"playground\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"General\",\"description\":\"General sections/notes to be incorporated later.\",\"defaultOpen\":true,\"_id\":\"content:6.playground:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"6.playground/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"6McRe4zXx0\"}";
 
 export { _dir as default };
 //# sourceMappingURL=_dir4.mjs.map

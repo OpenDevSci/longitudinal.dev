@@ -671,7 +671,7 @@ const _routes = [
   {
     name: "test",
     path: "/test",
-    component: () => import("./_nuxt/test-DZZ2kh52.js").then((m2) => m2.default || m2)
+    component: () => import("./_nuxt/test-CfZHNESi.js").then((m2) => m2.default || m2)
   },
   {
     name: "tools",
