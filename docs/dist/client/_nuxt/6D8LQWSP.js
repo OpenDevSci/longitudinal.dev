@@ -1,0 +1,1 @@
+import{R as o}from"./BLKxZ4aO.js";import{l as t,e as n,h as c,f as s,c as a}from"./BFOc3Iih.js";const r={components:{RComponent:o},layout:"playground"},p=s("h1",null,"Contribute Page",-1);function _(l,m,u,d,i,f){const e=o;return a(),n("div",null,[p,c(e)])}const x=t(r,[["render",_]]);export{x as default};

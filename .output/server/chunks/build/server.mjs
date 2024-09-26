@@ -789,7 +789,7 @@ const _routes = [
   {
     name: "test",
     path: "/test",
-    component: () => import('./test-z-VtTbFa.mjs').then((m2) => m2.default || m2)
+    component: () => import('./test-CfZHNESi.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "tools",
@@ -1337,7 +1337,7 @@ const lazyGlobalComponents = [
   ["Icon", LazyIcon],
   ["IconCSS", LazyIconCSS]
 ];
-const components_plugin_KR1HBZs4kY = /* @__PURE__ */ defineNuxtPlugin({
+const components_plugin_iEbO6CxTsv = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:global-components",
   setup(nuxtApp) {
     for (const [name, component] of lazyGlobalComponents) {
@@ -2209,7 +2209,7 @@ const plugins = [
   plugin,
   _0_siteConfig_7pzUtwM1Zj,
   revive_payload_server_eJ33V7gbc6,
-  components_plugin_KR1HBZs4kY,
+  components_plugin_iEbO6CxTsv,
   og_image_canonical_urls_server_3MRa0uZwqs,
   route_rule_og_image_server_OQYH1Ux5Eu,
   slideovers_LDumGYo2KH,

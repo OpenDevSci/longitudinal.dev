@@ -1,5 +1,5 @@
 // ROLLUP_NO_REPLACE 
- const _dir = "{\"parsed\":{\"_path\":\"/abcd-study/traditional-nonlinear-models/_dir\",\"_dir\":\"traditional-nonlinear-models\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"Traditional Nonlinear Models\",\"defaultOpen\":false,\"_id\":\"content:3.abcd-study:5.Traditional-Nonlinear-Models:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"3.abcd-study/5.Traditional-Nonlinear-Models/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"jtOiTTILBM\"}";
+ const _dir = "{\"parsed\":{\"_path\":\"/tools/version-control/_dir\",\"_dir\":\"version-control\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"Version Control\",\"description\":\"Version Control for Longitudinal Data Science.\",\"defaultOpen\":true,\"_id\":\"content:4.tools:5.version-control:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"4.tools/5.version-control/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"ADuWEziD6s\"}";
 
 export { _dir as default };
 //# sourceMappingURL=_dir8.mjs.map

@@ -1,5 +1,5 @@
 // ROLLUP_NO_REPLACE 
- const _dir = "{\"parsed\":{\"_path\":\"/stats_learning/_dir\",\"_dir\":\"stats_learning\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"Statistics Learning Resources\",\"description\":\"Resources for learning statistics.\",\"defaultOpen\":true,\"_id\":\"content:5.stats_learning:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"5.stats_learning/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"n8bKnKSLiL\"}";
+ const _dir = "{\"parsed\":{\"_path\":\"/abcd-study/_dir\",\"_dir\":\"abcd-study\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"ABCD Study\",\"description\":\"ABCD Study content.\",\"defaultOpen\":false,\"_id\":\"content:3.abcd-study:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"3.abcd-study/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"zPVA3oNpGD\"}";
 
 export { _dir as default };
 //# sourceMappingURL=_dir3.mjs.map

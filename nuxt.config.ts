@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   extends: ['@nuxt/ui-pro'],
   components: true,
+  buildDir: 'docs', // Add this line to output build files into the 'docs' folder
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
@@ -56,8 +57,7 @@ export default defineNuxtConfig({
         'yaml',
         'r'
       ],
-      // Enable Document-Driven Mode
-      documentDriven: true // Add this line to enable Document-Driven Mode
+      documentDriven: true
     }
   },
   vite: {
@@ -78,13 +78,7 @@ export default defineNuxtConfig({
     }
   },
   plugins: ['~/plugins/customDirectives.js'],
-
-  // Added for GitHub Pages
-  target: 'static', // Build as a static site
   router: {
-    base: '/longitudinal.dev/' // Replace 'your-repo-name' with your actual repo name
-  },
-  generate: {
-    dir: 'docs' // Output directory for GitHub Pages
+    base: '/longitudinal.dev/'
   }
 })
