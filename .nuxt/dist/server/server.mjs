@@ -646,7 +646,7 @@ const _routes = [
   {
     name: "contribute",
     path: "/contribute",
-    component: () => import("./_nuxt/contribute-ClECxXal.js").then((m2) => m2.default || m2)
+    component: () => import("./_nuxt/contribute-zUuI97Aa.js").then((m2) => m2.default || m2)
   },
   {
     name: "index",
@@ -666,12 +666,12 @@ const _routes = [
   {
     name: "sandbox",
     path: "/sandbox",
-    component: () => import("./_nuxt/sandbox-2tXFN0ID.js").then((m2) => m2.default || m2)
+    component: () => import("./_nuxt/sandbox-BlKKuqaQ.js").then((m2) => m2.default || m2)
   },
   {
     name: "test",
     path: "/test",
-    component: () => import("./_nuxt/test-CfZHNESi.js").then((m2) => m2.default || m2)
+    component: () => import("./_nuxt/test-z-VtTbFa.js").then((m2) => m2.default || m2)
   },
   {
     name: "tools",

@@ -1,17 +1,17 @@
-<template>
+<template>test</template>
+
+<!-- <template>
   <div class="container">
     <h2 class="title">Interactive Regression Example</h2>
 
-    <!-- Code Editor -->
     <div>
       <textarea v-model="userCode" rows="8" cols="60" class="code-editor" />
       <small>Edit the R code and click "Run" to see the results.</small>
     </div>
 
-    <!-- Run Button -->
-    <button class="run-button" @click="runWebR">Run Regression</button>
+    <button class="run-button" @click="runWebR">Run Regression</button> -->
 
-    <!-- Display Output -->
+<!--
     <h3>Regression Output</h3>
     <div id="regression-output" class="output-box">
       Result will appear here...
@@ -104,3 +104,5 @@ async function runWebR() {
   font-size: 14px;
 }
 </style>
+
+-->

@@ -1,5 +1,5 @@
 // ROLLUP_NO_REPLACE 
- const _dir = "{\"parsed\":{\"_path\":\"/abcd-study/twin-genetics-models/_dir\",\"_dir\":\"twin-genetics-models\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"Twin and Genetics Models\",\"defaultOpen\":false,\"_id\":\"content:3.abcd-study:9.Twin-Genetics-Models:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"3.abcd-study/9.Twin-Genetics-Models/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"m7PNymliHx\"}";
+ const _dir = "{\"parsed\":{\"_path\":\"/tools/literate-programming/_dir\",\"_dir\":\"literate-programming\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"Literate Programming\",\"description\":\"Literate Programming for Longitudinal Data Science.\",\"defaultOpen\":true,\"_id\":\"content:4.tools:10.literate-programming:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"4.tools/10.literate-programming/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"YJufrNpyDe\"}";
 
 export { _dir as default };
 //# sourceMappingURL=_dir13.mjs.map

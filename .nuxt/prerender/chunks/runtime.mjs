@@ -248,7 +248,7 @@ const appConfig = defuFn(appConfig0, appConfig1, inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "79d3a1d4-3357-4955-923c-438df16e7a84",
+    "buildId": "744acd14-34e0-4c65-9cdf-6506c5b72d64",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -331,7 +331,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1727372634026,
+      "integrity": 1727374932379,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -8599,21 +8599,6 @@ const components = {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3983,
-                4099
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "query",
           "type": "undefined",
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
@@ -8664,6 +8649,21 @@ const components = {
               "true"
             ]
           }
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3983,
+                4099
+              ]
+            }
+          ],
+          "schema": "string"
         },
         {
           "name": "head",
@@ -10838,21 +10838,6 @@ const components = {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
-              "range": [
-                1975,
-                2091
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "query",
           "type": "undefined",
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
@@ -10866,6 +10851,21 @@ const components = {
             }
           ],
           "schema": "undefined"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "range": [
+                1975,
+                2091
+              ]
+            }
+          ],
+          "schema": "string"
         }
       ]
     }
@@ -15862,25 +15862,6 @@ const components = {
           "default": "\"\""
         },
         {
-          "name": "language",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                297,
-                348
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "null"
-        },
-        {
           "name": "filename",
           "global": false,
           "description": "",
@@ -15893,6 +15874,25 @@ const components = {
               "range": [
                 352,
                 403
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "null"
+        },
+        {
+          "name": "language",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                297,
+                348
               ]
             }
           ],
@@ -16046,21 +16046,6 @@ const components = {
           "schema": "string"
         },
         {
-          "name": "language",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                297,
-                348
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "filename",
           "type": "string",
           "description": "",
@@ -16070,6 +16055,21 @@ const components = {
               "range": [
                 352,
                 403
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "language",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                297,
+                348
               ]
             }
           ],
@@ -18354,6 +18354,21 @@ const components = {
           "schema": "string"
         },
         {
+          "name": "icon",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                5363,
+                5433
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
           "name": "variant",
           "type": "ButtonVariant",
           "description": "",
@@ -18529,21 +18544,6 @@ const components = {
             }
           ],
           "schema": "any"
-        },
-        {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                5363,
-                5433
-              ]
-            }
-          ],
-          "schema": "string"
         },
         {
           "name": "loadingIcon",
@@ -21301,7 +21301,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _WSBVO7, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _WSBVO7, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _WSBVO7, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1727372634026.json', handler: _N7CKZO, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1727374932379.json', handler: _N7CKZO, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _PgrdMk, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _PgrdMk, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _PgrdMk, lazy: false, middleware: false, method: "get" },

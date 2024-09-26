@@ -1,4 +1,5 @@
-<template>
+<template>test</template>
+<!-- <template>
   <div class="container">
     <h2 class="title">Calculate Descriptive Statistics with Tidyverse</h2>
     <p>
@@ -6,14 +7,11 @@
       selected variables (Age, Education, CogTestScore).
     </p>
 
-    <!-- Code Editor -->
     <textarea v-model="descStatsCode" rows="8" cols="60" class="code-editor" />
     <small>Edit the R code and click "Run" to see the results.</small>
 
-    <!-- Run Button -->
     <button class="run-button" @click="calculateDescriptiveStats">Run</button>
 
-    <!-- Display Output -->
     <h3>Descriptive Statistics</h3>
     <div id="desc-output" class="output-box">
       Descriptive statistics will appear here...
@@ -135,4 +133,4 @@ td {
   padding: 8px;
   text-align: left;
 }
-</style>
+</style> -->

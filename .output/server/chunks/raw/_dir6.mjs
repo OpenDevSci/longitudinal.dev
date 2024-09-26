@@ -1,5 +1,5 @@
 // ROLLUP_NO_REPLACE 
- const _dir = "{\"parsed\":{\"_path\":\"/tools/_dir\",\"_dir\":\"tools\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"Open Source Tools\",\"description\":\"Open Source Tools for Longitudinal Data Science.\",\"defaultOpen\":true,\"layout\":\"no-sidebar\",\"_id\":\"content:4.tools:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"4.tools/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"bOMluGXtM9\"}";
+ const _dir = "{\"parsed\":{\"_path\":\"/general/_dir\",\"_dir\":\"general\",\"_draft\":false,\"_partial\":true,\"_locale\":\"\",\"title\":\"Playground\",\"description\":\"Sandbox for learning methods and analyses.\",\"defaultOpen\":true,\"_id\":\"content:7.general:_dir.yml\",\"_type\":\"yaml\",\"_source\":\"content\",\"_file\":\"7.general/_dir.yml\",\"_extension\":\"yml\"},\"hash\":\"lq3XNJAkyW\"}";
 
 export { _dir as default };
 //# sourceMappingURL=_dir6.mjs.map

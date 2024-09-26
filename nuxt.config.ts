@@ -77,6 +77,14 @@ export default defineNuxtConfig({
       }
     }
   },
-  // Add the plugins array here
-  plugins: ['~/plugins/customDirectives.js']
+  plugins: ['~/plugins/customDirectives.js'],
+
+  // Added for GitHub Pages
+  target: 'static', // Build as a static site
+  router: {
+    base: '/longitudinal.dev/' // Replace 'your-repo-name' with your actual repo name
+  },
+  generate: {
+    dir: 'docs' // Output directory for GitHub Pages
+  }
 })

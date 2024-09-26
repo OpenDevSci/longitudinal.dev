@@ -681,7 +681,7 @@ const _routes = [
   {
     name: "contribute",
     path: "/contribute",
-    component: () => import('./contribute-ClECxXal.mjs').then((m2) => m2.default || m2)
+    component: () => import('./contribute-zUuI97Aa.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "index",
@@ -701,12 +701,12 @@ const _routes = [
   {
     name: "sandbox",
     path: "/sandbox",
-    component: () => import('./sandbox-2tXFN0ID.mjs').then((m2) => m2.default || m2)
+    component: () => import('./sandbox-BlKKuqaQ.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "test",
     path: "/test",
-    component: () => import('./test-CfZHNESi.mjs').then((m2) => m2.default || m2)
+    component: () => import('./test-z-VtTbFa.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "tools",
