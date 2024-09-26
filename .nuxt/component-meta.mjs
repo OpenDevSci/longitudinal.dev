@@ -1463,21 +1463,6 @@ export default {
           "schema": "string"
         },
         {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1240,
-                1327
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
           "name": "type",
           "type": "string",
           "description": "",
@@ -1513,6 +1498,21 @@ export default {
               "true"
             ]
           }
+        },
+        {
+          "name": "class",
+          "type": "any",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1240,
+                1327
+              ]
+            }
+          ],
+          "schema": "any"
         },
         {
           "name": "description",
@@ -14724,21 +14724,6 @@ export default {
           "schema": "string"
         },
         {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                5363,
-                5433
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "variant",
           "type": "ButtonVariant",
           "description": "",
@@ -14914,6 +14899,21 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "icon",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                5363,
+                5433
+              ]
+            }
+          ],
+          "schema": "string"
         },
         {
           "name": "loadingIcon",
