@@ -1,7 +1,6 @@
 export default defineNuxtConfig({
   extends: ['@nuxt/ui-pro'],
   components: true,
-  buildDir: 'docs', // Add this line to output build files into the 'docs' folder
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
@@ -44,19 +43,7 @@ export default defineNuxtConfig({
   },
   content: {
     highlight: {
-      langs: [
-        'json',
-        'js',
-        'ts',
-        'html',
-        'css',
-        'vue',
-        'shell',
-        'mdc',
-        'md',
-        'yaml',
-        'r'
-      ],
+      langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'mdc', 'md', 'yaml', 'r'],
       documentDriven: true
     }
   },
