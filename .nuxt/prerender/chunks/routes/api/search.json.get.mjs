@@ -14,7 +14,6 @@ import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstor
 import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/fs-lite.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/lru-cache.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/radix3/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
 import 'node:fs';
 import 'node:url';
 import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/pathe/dist/index.mjs';

@@ -1,461 +1,443 @@
-import { defu } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/defu/dist/defu.mjs';
-import { prefixStorage, createStorage } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/dist/index.mjs';
-import lruCacheDriver from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/lru-cache.mjs';
-import { a as useStorage, t as toBase64Image, d as useNitroOrigin, e as decodeHtml, f as fetchIsland, h as htmlDecodeQuotes, u as useOgImageRuntimeConfig, n as normaliseFontInput } from '../runtime.mjs';
-import { html } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/satori-html/dist/index.js';
-import { inline } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@css-inline/css-inline/index.js';
-import { t as theme, a as applyEmojis } from '../virtual/unocss-config.mjs';
-import { createGenerator } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@unocss/core/dist/index.mjs';
-import presetWind from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@unocss/preset-wind/dist/index.mjs';
-import { withBase } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ufo/dist/index.mjs';
-import sizeOf from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/image-size/dist/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/h3/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ofetch/dist/node.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/destr/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unenv/runtime/fetch/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hookable/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/klona/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/scule/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ohash/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/fs.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/radix3/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
-import 'node:fs';
-import 'node:url';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/pathe/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/core.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@shikijs/transformers/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unified/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/mdast-util-to-string/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unist-util-stringify-position/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-character/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-chunked/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-resolve-all/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-sanitize-uri/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/slugify/slugify.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-parse/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-rehype/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-mdc/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hast-util-to-string/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/github-slugger/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/detab/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-emoji/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-gfm/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-external-links/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-sort-attribute-values/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-sort-attributes/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-raw/index.js';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { eventHandler, setResponseHeader, send, getResponseStatus, setResponseStatus, setResponseHeaders, getQuery, createError, appendResponseHeader, getResponseStatusText } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/h3/dist/index.mjs';
+import { stringify, uneval } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/devalue/index.js';
+import { joinRelativeURL, joinURL, withoutTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/server-renderer/index.mjs';
+import { propsToString, renderSSRHead } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@unhead/ssr/dist/index.mjs';
+import { u as useNitroApp, a as useRuntimeConfig, b as useStorage, g as getRouteRules } from '../runtime.mjs';
+import { createServerHead as createServerHead$1, CapoPlugin } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unhead/dist/index.mjs';
+import { version, unref } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
+import { defineHeadPlugin } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@unhead/shared/dist/index.mjs';
 
-const assets = prefixStorage(useStorage(), "/assets");
-async function loadFont({ e }, font) {
-  const { name, weight } = font;
-  if (font.data)
-    return font;
-  if (font.key && await assets.hasItem(font.key)) {
-    let fontData = await assets.getItem(font.key);
-    if (fontData instanceof Uint8Array) {
-      const decoder = new TextDecoder();
-      fontData = decoder.decode(fontData);
-    }
-    font.data = Buffer.from(fontData, "base64");
-    return font;
-  }
-  let data;
-  if (font.path) {
-    {
-      const key = `root:public${font.path.replace("./", ":").replace("/", ":")}`;
-      if (await useStorage().hasItem(key))
-        data = await useStorage().getItemRaw(key);
-    }
-  } else {
-    data = await e.$fetch(`/__og-image__/font/${name}/${weight}.ttf`, {
-      responseType: "arrayBuffer",
-      query: {
-        font
-      }
-    });
-  }
-  font.data = data;
-  return font;
-}
-
-const cssInlineInstance = { instance: void 0 };
-const sharpInstance = { instance: void 0 };
-const resvgInstance = { instance: void 0 };
-const satoriInstance = { instance: void 0 };
-async function useResvg() {
-  resvgInstance.instance = resvgInstance.instance || await import('./node.mjs').then((m) => m.default);
-  await resvgInstance.instance.initWasmPromise;
-  return resvgInstance.instance.Resvg;
-}
-async function useSatori() {
-  satoriInstance.instance = satoriInstance.instance || await import('./node2.mjs').then((m) => m.default);
-  await satoriInstance.instance.initWasmPromise;
-  return satoriInstance.instance.satori;
-}
-async function useSharp() {
-  sharpInstance.instance = sharpInstance.instance || await import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unenv/runtime/mock/empty.mjs').then((m) => m.default);
-  return sharpInstance.instance;
-}
-async function useCssInline() {
-  cssInlineInstance.instance = cssInlineInstance.instance || await Promise.resolve().then(function () { return node; }).then((m) => m.default);
-  await cssInlineInstance.instance.initWasmPromise;
-  return cssInlineInstance.instance.cssInline;
-}
-
-const cssInline = {
-  initWasmPromise: Promise.resolve(),
-  cssInline: {
-    inline
-  }
-};
-
-const node = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  default: cssInline
-});
-
-async function applyInlineCss({ e }, island) {
-  let html = island.html;
-  if (!cssInline.__unenv__) {
-    let css = island.head.style.map((s) => s.innerHTML).join("\n");
-    island.head.link.filter((l) => l.href.startsWith("/_nuxt/components"));
-    if (!css.trim().length)
-      return false;
-    const cssInline2 = await useCssInline();
-    html = cssInline2.inline(island.html, {
-      loadRemoteStylesheets: false,
-      extraCss: css
-    });
-    const classes = css.match(/\.([a-zA-Z0-9-_]+)/g)?.map((c) => c.replace(".", ""));
-    if (classes)
-      html = html.replace(new RegExp(`class="(${classes.join("|")})"`, "g"), "");
-    island.html = html;
-    return true;
-  }
-  return false;
-}
-
-function walkSatoriTree(e, node, plugins) {
-  const promises = [];
-  if (!node.props?.children || !Array.isArray(node.props.children))
-    return promises;
-  if (node.props.children.length === 0) {
-    delete node.props.children;
-    return promises;
-  }
-  for (const child of node.props.children || []) {
-    if (child) {
-      for (const plugin of plugins.flat()) {
-        if (plugin.filter(child))
-          promises.push(plugin.transform(child, e));
-      }
-      promises.push(
-        ...walkSatoriTree(e, child, plugins)
+function defineRenderHandler(handler) {
+  return eventHandler(async (event) => {
+    if (event.path.endsWith("/favicon.ico")) {
+      setResponseHeader(event, "Content-Type", "image/x-icon");
+      return send(
+        event,
+        "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
       );
     }
-  }
-  return promises;
-}
-function defineSatoriTransformer(transformer) {
-  return transformer;
+    const response = await handler(event);
+    if (!response) {
+      const _currentStatus = getResponseStatus(event);
+      setResponseStatus(event, _currentStatus === 200 ? 500 : _currentStatus);
+      return send(
+        event,
+        "No response returned from render handler: " + event.path
+      );
+    }
+    const nitroApp = useNitroApp();
+    await nitroApp.hooks.callHook("render:response", response, { event });
+    if (response.headers) {
+      setResponseHeaders(event, response.headers);
+    }
+    if (response.statusCode || response.statusMessage) {
+      setResponseStatus(event, response.statusCode, response.statusMessage);
+    }
+    return response.body;
+  });
 }
 
-const uno = createGenerator({ theme }, {
-  presets: [
-    presetWind()
-  ]
+function baseURL() {
+  return useRuntimeConfig().app.baseURL;
+}
+function buildAssetsDir() {
+  return useRuntimeConfig().app.buildAssetsDir;
+}
+function buildAssetsURL(...path) {
+  return joinRelativeURL(publicAssetsURL(), buildAssetsDir(), ...path);
+}
+function publicAssetsURL(...path) {
+  const app = useRuntimeConfig().app;
+  const publicBase = app.cdnURL || app.baseURL;
+  return path.length ? joinRelativeURL(publicBase, ...path) : publicBase;
+}
+
+const Vue3 = version.startsWith("3");
+
+function resolveUnref(r) {
+  return typeof r === "function" ? r() : unref(r);
+}
+function resolveUnrefHeadInput(ref, lastKey = "") {
+  if (ref instanceof Promise)
+    return ref;
+  const root = resolveUnref(ref);
+  if (!ref || !root)
+    return root;
+  if (Array.isArray(root))
+    return root.map((r) => resolveUnrefHeadInput(r, lastKey));
+  if (typeof root === "object") {
+    return Object.fromEntries(
+      Object.entries(root).map(([k, v]) => {
+        if (k === "titleTemplate" || k.startsWith("on"))
+          return [k, unref(v)];
+        return [k, resolveUnrefHeadInput(v, k)];
+      })
+    );
+  }
+  return root;
+}
+
+const VueReactivityPlugin = defineHeadPlugin({
+  hooks: {
+    "entries:resolve": function(ctx) {
+      for (const entry of ctx.entries)
+        entry.resolvedInput = resolveUnrefHeadInput(entry.input);
+    }
+  }
 });
-const unocss = defineSatoriTransformer({
-  filter: (node) => !!node.props?.class,
-  transform: async (node) => {
-    const classes = node.props.class || "";
-    const styles = node.props.style || {};
-    const replacedClasses = /* @__PURE__ */ new Set();
-    for (const token of classes.split(" ").filter((c) => c.trim())) {
-      const parsedToken = await uno.parseToken(token);
-      if (parsedToken) {
-        const inlineStyles = parsedToken[0][2].split(";").filter((s) => !!s?.trim());
-        const vars = {};
-        inlineStyles.filter((s) => s.startsWith("--")).forEach((s) => {
-          const [key, value] = s.split(":");
-          vars[key] = value;
-        });
-        inlineStyles.filter((s) => !s.startsWith("--")).forEach((s) => {
-          const [key, value] = s.split(":");
-          const camelCasedKey = key.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
-          if (!styles[camelCasedKey])
-            styles[camelCasedKey] = value.replace(/var\((.*?)\)/g, (_, k) => vars[k.trim()]);
-          if (styles[camelCasedKey] && styles[camelCasedKey].includes("/")) {
-            const [rgb, opacity] = styles[camelCasedKey].split("/");
-            if (opacity.trim() === "1)")
-              styles[camelCasedKey] = rgb.replace(/(\d+) (\d+) (\d+).*/, (_, r, g, b) => `${r}, ${g}, ${b})`);
-            else
-              styles[camelCasedKey] = `${rgb.replace("rgb", "rgba").replaceAll(" ", ", ")}${opacity.trim()}`;
-          }
-        });
-        replacedClasses.add(token);
+
+const headSymbol = "usehead";
+function vueInstall(head) {
+  const plugin = {
+    install(app) {
+      if (Vue3) {
+        app.config.globalProperties.$unhead = head;
+        app.config.globalProperties.$head = head;
+        app.provide(headSymbol, head);
       }
     }
-    node.props.class = classes.split(" ").filter((c) => !replacedClasses.has(c)).join(" ");
-    node.props.tw = classes.split(" ").filter((c) => !replacedClasses.has(c)).join(" ");
-    node.props.style = styles;
-  }
-});
-
-function isEmojiFilter(node) {
-  return node.type === "svg" && typeof node.props?.["data-emoji"] !== "undefined";
+  };
+  return plugin.install;
 }
-const emojis = defineSatoriTransformer([
-  // need to make sure parent div has flex for the emoji to render inline
+function createServerHead(options = {}) {
+  const head = createServerHead$1(options);
+  head.use(VueReactivityPlugin);
+  head.install = vueInstall(head);
+  return head;
+}
+
+const unheadPlugins = true ? [CapoPlugin({ track: true })] : [];
+
+const renderSSRHeadOptions = {};
+
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
+
+const appRootTag = "div";
+
+const appRootAttrs = {"id":"__nuxt"};
+
+const appTeleportTag = "div";
+
+const appTeleportAttrs = {"id":"teleports"};
+
+const componentIslands = false;
+
+globalThis.__buildAssetsURL = buildAssetsURL;
+globalThis.__publicAssetsURL = publicAssetsURL;
+const getClientManifest = () => import('../build/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getEntryIds = () => getClientManifest().then((r) => Object.values(r).filter(
+  (r2) => (
+    // @ts-expect-error internal key set by CSS inlining configuration
+    r2._globalCSS
+  )
+).map((r2) => r2.src));
+const getServerEntry = () => import('../build/server.mjs').then((r) => r.default || r);
+const getSSRStyles = lazyCachedFunction(() => import('../build/styles.mjs').then((r) => r.default || r));
+const getSSRRenderer = lazyCachedFunction(async () => {
+  const manifest = await getClientManifest();
+  if (!manifest) {
+    throw new Error("client.manifest is not available");
+  }
+  const createSSRApp = await getServerEntry();
+  if (!createSSRApp) {
+    throw new Error("Server bundle is not available");
+  }
+  const options = {
+    manifest,
+    renderToString: renderToString$1,
+    buildAssetsURL
+  };
+  const renderer = createRenderer(createSSRApp, options);
+  async function renderToString$1(input, context) {
+    const html = await renderToString(input, context);
+    return APP_ROOT_OPEN_TAG + html + APP_ROOT_CLOSE_TAG;
+  }
+  return renderer;
+});
+const getSPARenderer = lazyCachedFunction(async () => {
+  const manifest = await getClientManifest();
+  const spaTemplate = await import('../virtual/_virtual_spa-template.mjs').then((r) => r.template).catch(() => "").then((r) => APP_ROOT_OPEN_TAG + r + APP_ROOT_CLOSE_TAG);
+  const options = {
+    manifest,
+    renderToString: () => spaTemplate,
+    buildAssetsURL
+  };
+  const renderer = createRenderer(() => () => {
+  }, options);
+  const result = await renderer.renderToString({});
+  const renderToString = (ssrContext) => {
+    const config = useRuntimeConfig(ssrContext.event);
+    ssrContext.modules = ssrContext.modules || /* @__PURE__ */ new Set();
+    ssrContext.payload = {
+      serverRendered: false
+    };
+    ssrContext.config = {
+      public: config.public,
+      app: config.app
+    };
+    return Promise.resolve(result);
+  };
+  return {
+    rendererContext: renderer.rendererContext,
+    renderToString
+  };
+});
+const payloadCache = useStorage("internal:nuxt:prerender:payload") ;
+useStorage("internal:nuxt:prerender:island") ;
+useStorage("internal:nuxt:prerender:island-props") ;
+const HAS_APP_TELEPORTS = !!(appTeleportAttrs.id);
+const APP_TELEPORT_OPEN_TAG = HAS_APP_TELEPORTS ? `<${appTeleportTag}${propsToString(appTeleportAttrs)}>` : "";
+const APP_TELEPORT_CLOSE_TAG = HAS_APP_TELEPORTS ? `</${appTeleportTag}>` : "";
+const APP_ROOT_OPEN_TAG = `<${appRootTag}${propsToString(appRootAttrs)}>`;
+const APP_ROOT_CLOSE_TAG = `</${appRootTag}>`;
+const PAYLOAD_URL_RE = /\/_payload.json(\?.*)?$/ ;
+const PRERENDER_NO_SSR_ROUTES = /* @__PURE__ */ new Set(["/index.html", "/200.html", "/404.html"]);
+const renderer = defineRenderHandler(async (event) => {
+  const nitroApp = useNitroApp();
+  const ssrError = event.path.startsWith("/__nuxt_error") ? getQuery(event) : null;
+  if (ssrError && ssrError.statusCode) {
+    ssrError.statusCode = Number.parseInt(ssrError.statusCode);
+  }
+  if (ssrError && !("__unenv__" in event.node.req)) {
+    throw createError({
+      statusCode: 404,
+      statusMessage: "Page Not Found: /__nuxt_error"
+    });
+  }
+  const isRenderingIsland = componentIslands ;
+  const islandContext = void 0;
+  let url = ssrError?.url || islandContext?.url || event.path;
+  const isRenderingPayload = PAYLOAD_URL_RE.test(url) && !isRenderingIsland;
+  if (isRenderingPayload) {
+    url = url.substring(0, url.lastIndexOf("/")) || "/";
+    event._path = url;
+    event.node.req.url = url;
+    if (await payloadCache.hasItem(url)) {
+      return payloadCache.getItem(url);
+    }
+  }
+  const routeOptions = getRouteRules(event);
+  const head = createServerHead({
+    plugins: unheadPlugins
+  });
+  const headEntryOptions = { mode: "server" };
   {
-    filter: (node) => ["div", "p"].includes(node.type) && Array.isArray(node.props?.children) && node.props.children.some(isEmojiFilter),
-    transform: (node) => {
-      node.props.style = node.props.style || {};
-      node.props.style.display = "flex";
-      node.props.style.alignItems = "center";
-      node.props.children = node.props.children.map((child) => {
-        if (typeof child === "string") {
-          return {
-            type: "div",
-            props: {
-              children: child
-            }
-          };
-        }
-        if (child.props.class?.includes("emoji"))
-          delete child.props.class;
-        return child;
+    head.push(appHead, headEntryOptions);
+  }
+  const ssrContext = {
+    url,
+    event,
+    runtimeConfig: useRuntimeConfig(event),
+    noSSR: event.context.nuxt?.noSSR || routeOptions.ssr === false && !isRenderingIsland || (PRERENDER_NO_SSR_ROUTES.has(url) ),
+    head,
+    error: !!ssrError,
+    nuxt: void 0,
+    /* NuxtApp */
+    payload: ssrError ? { error: ssrError } : {},
+    _payloadReducers: {},
+    modules: /* @__PURE__ */ new Set(),
+    set _registeredComponents(value) {
+      this.modules = value;
+    },
+    get _registeredComponents() {
+      return this.modules;
+    },
+    islandContext
+  };
+  const _PAYLOAD_EXTRACTION = !ssrContext.noSSR && !isRenderingIsland;
+  const payloadURL = _PAYLOAD_EXTRACTION ? joinURL(ssrContext.runtimeConfig.app.cdnURL || ssrContext.runtimeConfig.app.baseURL, url, "_payload.json" ) + "?" + ssrContext.runtimeConfig.app.buildId : void 0;
+  {
+    ssrContext.payload.prerenderedAt = Date.now();
+  }
+  const renderer = ssrContext.noSSR ? await getSPARenderer() : await getSSRRenderer();
+  {
+    for (const id of await getEntryIds()) {
+      ssrContext.modules.add(id);
+    }
+  }
+  const _rendered = await renderer.renderToString(ssrContext).catch(async (error) => {
+    if (ssrContext._renderResponse && error.message === "skipping render") {
+      return {};
+    }
+    const _err = !ssrError && ssrContext.payload?.error || error;
+    await ssrContext.nuxt?.hooks.callHook("app:error", _err);
+    throw _err;
+  });
+  await ssrContext.nuxt?.hooks.callHook("app:rendered", { ssrContext, renderResult: _rendered });
+  if (ssrContext._renderResponse) {
+    return ssrContext._renderResponse;
+  }
+  if (ssrContext.payload?.error && !ssrError) {
+    throw ssrContext.payload.error;
+  }
+  if (isRenderingPayload) {
+    const response2 = renderPayloadResponse(ssrContext);
+    {
+      await payloadCache.setItem(url, response2);
+    }
+    return response2;
+  }
+  if (_PAYLOAD_EXTRACTION) {
+    appendResponseHeader(event, "x-nitro-prerender", joinURL(url, "_payload.json" ));
+    await payloadCache.setItem(withoutTrailingSlash(url), renderPayloadResponse(ssrContext));
+  }
+  const inlinedStyles = await renderInlineStyles(ssrContext.modules ?? []) ;
+  const NO_SCRIPTS = routeOptions.experimentalNoScripts;
+  const { styles, scripts } = getRequestDependencies(ssrContext, renderer.rendererContext);
+  if (_PAYLOAD_EXTRACTION && !isRenderingIsland) {
+    head.push({
+      link: [
+        { rel: "preload", as: "fetch", crossorigin: "anonymous", href: payloadURL } 
+      ]
+    }, headEntryOptions);
+  }
+  head.push({ style: inlinedStyles });
+  {
+    const link = [];
+    for (const style in styles) {
+      const resource = styles[style];
+      {
+        link.push({ rel: "stylesheet", href: renderer.rendererContext.buildAssetsURL(resource.file) });
+      }
+    }
+    head.push({ link }, headEntryOptions);
+  }
+  if (!NO_SCRIPTS && !isRenderingIsland) {
+    head.push({
+      link: getPreloadLinks(ssrContext, renderer.rendererContext)
+    }, headEntryOptions);
+    head.push({
+      link: getPrefetchLinks(ssrContext, renderer.rendererContext)
+    }, headEntryOptions);
+    head.push({
+      script: _PAYLOAD_EXTRACTION ? renderPayloadJsonScript({ id: "__NUXT_DATA__", ssrContext, data: splitPayload(ssrContext).initial, src: payloadURL })  : renderPayloadJsonScript({ id: "__NUXT_DATA__", ssrContext, data: ssrContext.payload }) 
+    }, {
+      ...headEntryOptions,
+      // this should come before another end of body scripts
+      tagPosition: "bodyClose",
+      tagPriority: "high"
+    });
+  }
+  if (!routeOptions.experimentalNoScripts && !isRenderingIsland) {
+    head.push({
+      script: Object.values(scripts).map((resource) => ({
+        type: resource.module ? "module" : null,
+        src: renderer.rendererContext.buildAssetsURL(resource.file),
+        defer: resource.module ? null : true,
+        // if we are rendering script tag payloads that import an async payload
+        // we need to ensure this resolves before executing the Nuxt entry
+        tagPosition: _PAYLOAD_EXTRACTION && !true ? "bodyClose" : "head",
+        crossorigin: ""
+      }))
+    }, headEntryOptions);
+  }
+  const { headTags, bodyTags, bodyTagsOpen, htmlAttrs, bodyAttrs } = await renderSSRHead(head, renderSSRHeadOptions);
+  const htmlContext = {
+    island: isRenderingIsland,
+    htmlAttrs: htmlAttrs ? [htmlAttrs] : [],
+    head: normalizeChunks([headTags]),
+    bodyAttrs: bodyAttrs ? [bodyAttrs] : [],
+    bodyPrepend: normalizeChunks([bodyTagsOpen, ssrContext.teleports?.body]),
+    body: [
+      _rendered.html,
+      APP_TELEPORT_OPEN_TAG + (HAS_APP_TELEPORTS ? joinTags([ssrContext.teleports?.[`#${appTeleportAttrs.id}`]]) : "") + APP_TELEPORT_CLOSE_TAG
+    ],
+    bodyAppend: [bodyTags]
+  };
+  await nitroApp.hooks.callHook("render:html", htmlContext, { event });
+  const response = {
+    body: renderHTMLDocument(htmlContext),
+    statusCode: getResponseStatus(event),
+    statusMessage: getResponseStatusText(event),
+    headers: {
+      "content-type": "text/html;charset=utf-8",
+      "x-powered-by": "Nuxt"
+    }
+  };
+  return response;
+});
+function lazyCachedFunction(fn) {
+  let res = null;
+  return () => {
+    if (res === null) {
+      res = fn().catch((err) => {
+        res = null;
+        throw err;
       });
     }
-  }
-]);
-
-const classes = defineSatoriTransformer([
-  {
-    filter: (node) => !!node.props?.class && !node.props?.tw,
-    transform(node) {
-      node.props.tw = node.props.class;
-      node.props.tw = node.props.tw.replace(/icon|inline-style/g, "");
-    }
-  },
-  {
-    filter: (node) => !!node.props?.style?.display,
-    transform(node) {
-      if (["inline-block", "inline"].includes(node.props.style.display))
-        delete node.props.style.display;
-    }
-  }
-]);
-
-async function resolveLocalFilePathImage(src) {
-  const key = `root:public${src.replace("./", ":").replace("/", ":")}`;
-  if (await useStorage().hasItem(key))
-    return await useStorage().getItemRaw(key);
+    return res;
+  };
 }
-const imageSrc = defineSatoriTransformer([
-  // fix <img src="">
-  {
-    filter: (node) => node.type === "img" && node.props?.src,
-    transform: async (node, { e }) => {
-      const src = node.props.src;
-      const isRelative = src.startsWith("/");
-      let dimensions;
-      let imageBuffer;
-      if (isRelative) {
-        {
-          imageBuffer = await resolveLocalFilePathImage(src);
-        }
-        if (imageBuffer)
-          node.props.src = toBase64Image(imageBuffer);
-      } else if (!src.startsWith("data:")) {
-        imageBuffer = await $fetch(src, {
-          responseType: "arrayBuffer"
-        }).catch(() => {
-        });
-      }
-      if (imageBuffer && (!node.props.width || !node.props.height)) {
-        try {
-          const imageSize = sizeOf(imageBuffer);
-          dimensions = { width: imageSize.width, height: imageSize.height };
-        } catch (e2) {
-        }
-        if (dimensions?.width && dimensions?.height) {
-          const naturalAspectRatio = dimensions.width / dimensions.height;
-          if (node.props.width && !node.props.height) {
-            node.props.height = Math.round(node.props.width / naturalAspectRatio);
-          } else if (node.props.height && !node.props.width) {
-            node.props.width = Math.round(node.props.height * naturalAspectRatio);
-          } else if (!node.props.width && !node.props.height) {
-            node.props.width = dimensions.width;
-            node.props.height = dimensions.height;
-          }
-        }
-      }
-      if (typeof node.props.src === "string" && node.props.src.startsWith("/")) {
-        if (imageBuffer) {
-          node.props.src = toBase64Image(imageBuffer);
-        } else {
-          node.props.src = `${withBase(src, `${useNitroOrigin(e)}`)}?${Date.now()}`;
-        }
-      }
-    }
-  },
-  // fix style="background-image: url('')"
-  {
-    filter: (node) => node.props?.style?.backgroundImage?.includes("url("),
-    transform: async (node, { e }) => {
-      const backgroundImage = node.props.style.backgroundImage;
-      const src = backgroundImage.replace(/^url\(['"]?/, "").replace(/['"]?\)$/, "");
-      const isRelative = src?.startsWith("/");
-      if (isRelative) {
-        {
-          const imageBuffer = await resolveLocalFilePathImage(src);
-          if (imageBuffer) {
-            const base64 = toBase64Image(Buffer.from(imageBuffer));
-            node.props.style.backgroundImage = `url(${base64})`;
-          }
-        }
+function normalizeChunks(chunks) {
+  return chunks.filter(Boolean).map((i) => i.trim());
+}
+function joinTags(tags) {
+  return tags.join("");
+}
+function joinAttrs(chunks) {
+  if (chunks.length === 0) {
+    return "";
+  }
+  return " " + chunks.join(" ");
+}
+function renderHTMLDocument(html) {
+  return `<!DOCTYPE html><html${joinAttrs(html.htmlAttrs)}><head>${joinTags(html.head)}</head><body${joinAttrs(html.bodyAttrs)}>${joinTags(html.bodyPrepend)}${joinTags(html.body)}${joinTags(html.bodyAppend)}</body></html>`;
+}
+async function renderInlineStyles(usedModules) {
+  const styleMap = await getSSRStyles();
+  const inlinedStyles = /* @__PURE__ */ new Set();
+  for (const mod of usedModules) {
+    if (mod in styleMap) {
+      for (const style of await styleMap[mod]()) {
+        inlinedStyles.add(style);
       }
     }
   }
-]);
+  return Array.from(inlinedStyles).map((style) => ({ innerHTML: style }));
+}
+function renderPayloadResponse(ssrContext) {
+  return {
+    body: stringify(splitPayload(ssrContext).payload, ssrContext._payloadReducers) ,
+    statusCode: getResponseStatus(ssrContext.event),
+    statusMessage: getResponseStatusText(ssrContext.event),
+    headers: {
+      "content-type": "application/json;charset=utf-8" ,
+      "x-powered-by": "Nuxt"
+    }
+  };
+}
+function renderPayloadJsonScript(opts) {
+  const contents = opts.data ? stringify(opts.data, opts.ssrContext._payloadReducers) : "";
+  const payload = {
+    "type": "application/json",
+    "id": opts.id,
+    "innerHTML": contents,
+    "data-ssr": !(opts.ssrContext.noSSR)
+  };
+  if (opts.src) {
+    payload["data-src"] = opts.src;
+  }
+  return [
+    payload,
+    {
+      innerHTML: `window.__NUXT__={};window.__NUXT__.config=${uneval(opts.ssrContext.config)}`
+    }
+  ];
+}
+function splitPayload(ssrContext) {
+  const { data, prerenderedAt, ...initial } = ssrContext.payload;
+  return {
+    initial: { ...initial, prerenderedAt },
+    payload: { data, prerenderedAt }
+  };
+}
 
-const flex = defineSatoriTransformer({
-  filter: (node) => node.type === "div" && (Array.isArray(node.props?.children) && node.props?.children.length >= 1) && (!node.props.style?.display && !node.props?.class?.includes("hidden")),
-  transform: (node) => {
-    node.props.style = node.props.style || {};
-    node.props.style.display = "flex";
-    if (!node.props?.class?.includes("flex-"))
-      node.props.style.flexDirection = "column";
-  }
+const renderer$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: renderer
 });
 
-const encoding = defineSatoriTransformer([
-  // clean up
-  {
-    filter: (node) => node.props?.["data-v-inspector"],
-    transform: (node) => {
-      delete node.props["data-v-inspector"];
-    }
-  },
-  {
-    filter: (node) => typeof node.props?.children === "string",
-    transform: (node) => {
-      node.props.children = decodeHtml(node.props.children);
-    }
-  }
-]);
-
-async function createVNodes(ctx) {
-  let html$1 = ctx.options.html;
-  if (!html$1) {
-    const island = await fetchIsland(ctx.e, ctx.options.component, typeof ctx.options.props !== "undefined" ? ctx.options.props : ctx.options);
-    island.html = htmlDecodeQuotes(island.html);
-    await applyInlineCss(ctx, island);
-    await applyEmojis(ctx, island);
-    html$1 = island.html;
-  }
-  const template = `<div style="position: relative; display: flex; margin: 0 auto; width: ${ctx.options.width}px; height: ${ctx.options.height}px; overflow: hidden;">${html$1}</div>`;
-  const satoriTree = html(template);
-  walkSatoriTree(ctx, satoriTree, [
-    emojis,
-    classes,
-    flex,
-    encoding
-  ]);
-  await Promise.all(walkSatoriTree(ctx, satoriTree, [
-    unocss,
-    imageSrc
-  ]));
-  return satoriTree;
-}
-
-const fontPromises = {};
-const fontCache = createStorage({
-  driver: lruCacheDriver({ max: 10 })
-});
-async function resolveFonts(event) {
-  const { fonts } = useOgImageRuntimeConfig();
-  const normalisedFonts = normaliseFontInput([...event.options.fonts || [], ...fonts]);
-  const localFontPromises = [];
-  const preloadedFonts = [];
-  for (const font of normalisedFonts) {
-    if (await fontCache.hasItem(font.cacheKey)) {
-      font.data = await fontCache.getItemRaw(font.cacheKey);
-      preloadedFonts.push(font);
-    } else {
-      if (!fontPromises[font.cacheKey]) {
-        fontPromises[font.cacheKey] = loadFont(event, font).then(async (_font) => {
-          if (_font?.data)
-            await fontCache.setItemRaw(_font.cacheKey, _font.data);
-          return _font;
-        });
-      }
-      localFontPromises.push(fontPromises[font.cacheKey]);
-    }
-  }
-  const awaitedFonts = await Promise.all(localFontPromises);
-  return [...preloadedFonts, ...awaitedFonts].map((_f) => {
-    return { name: _f.name, data: _f.data, style: _f.style, weight: Number(_f.weight) };
-  });
-}
-async function createSvg(event) {
-  const { options } = event;
-  const { satoriOptions: _satoriOptions } = useOgImageRuntimeConfig();
-  const [satori, vnodes, fonts] = await Promise.all([
-    useSatori(),
-    createVNodes(event),
-    resolveFonts(event)
-  ]);
-  await event._nitro.hooks.callHook("nuxt-og-image:satori:vnodes", vnodes, event);
-  const satoriOptions = defu(options.satori, _satoriOptions, {
-    fonts,
-    tailwindConfig: { theme },
-    embedFont: true,
-    width: options.width,
-    height: options.height
-  });
-  return satori(vnodes, satoriOptions);
-}
-async function createPng(event) {
-  const { resvgOptions } = useOgImageRuntimeConfig();
-  const svg = await createSvg(event);
-  const Resvg = await useResvg();
-  const resvg = new Resvg(svg, defu(
-    event.options.resvg,
-    resvgOptions
-  ));
-  const pngData = resvg.render();
-  return pngData.asPng();
-}
-async function createJpeg(event) {
-  const { sharpOptions } = useOgImageRuntimeConfig();
-  const png = await createPng(event);
-  const sharp = await useSharp();
-  return sharp(png, defu(event.options.sharp, sharpOptions)).jpeg().toBuffer();
-}
-const SatoriRenderer = {
-  name: "satori",
-  supportedFormats: ["png", "jpeg", "jpg", "json"],
-  async createImage(e) {
-    switch (e.extension) {
-      case "png":
-        return createPng(e);
-      case "jpeg":
-      case "jpg":
-        return createJpeg(e);
-    }
-  },
-  async debug(e) {
-    return {
-      vnodes: await createVNodes(e),
-      svg: await createSvg(e)
-    };
-  }
-};
-
-export { createSvg, SatoriRenderer as default };
+export { buildAssetsURL as a, baseURL as b, publicAssetsURL as p, renderer$1 as r };
 //# sourceMappingURL=renderer.mjs.map

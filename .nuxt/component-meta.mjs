@@ -113,6 +113,330 @@ export default {
               }
             }
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -181,6 +505,330 @@ export default {
               }
             }
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -221,7 +869,332 @@ export default {
           ]
         }
       ],
-      "exposed": []
+      "exposed": [
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   },
   "TestComponent": {
@@ -242,7 +1215,332 @@ export default {
       "props": [],
       "slots": [],
       "events": [],
-      "exposed": []
+      "exposed": [
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   },
   "ArticleList": {
@@ -263,7 +1561,332 @@ export default {
       "props": [],
       "slots": [],
       "events": [],
-      "exposed": []
+      "exposed": [
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   },
   "MethodCardList": {
@@ -284,7 +1907,332 @@ export default {
       "props": [],
       "slots": [],
       "events": [],
-      "exposed": []
+      "exposed": [
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   },
   "SimpleCarousel": {
@@ -305,7 +2253,332 @@ export default {
       "props": [],
       "slots": [],
       "events": [],
-      "exposed": []
+      "exposed": [
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   },
   "Callout": {
@@ -324,44 +2597,6 @@ export default {
     "meta": {
       "type": 1,
       "props": [
-        {
-          "name": "icon",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1600,
-                1652
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "color",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1656,
-                1746
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "\"primary\""
-        },
         {
           "name": "to",
           "global": false,
@@ -382,6 +2617,90 @@ export default {
           "default": "undefined"
         },
         {
+          "name": "icon",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "range": [
+                1600,
+                1652
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "undefined"
+        },
+        {
+          "name": "ui",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "{}",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "range": [
+                1953,
+                2046
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          },
+          "default": "{}"
+        },
+        {
+          "name": "color",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "\"red\" | \"orange\" | \"amber\" | \"yellow\" | \"lime\" | \"green\" | \"emerald\" | \"teal\" | \"cyan\" | \"sky\" | \"blue\" | \"indigo\" | \"violet\" | \"purple\" | \"fuchsia\" | \"pink\" | \"rose\" | \"primary\"",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "range": [
+                1656,
+                1746
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "\"red\" | \"orange\" | \"amber\" | \"yellow\" | \"lime\" | \"green\" | \"emerald\" | \"teal\" | \"cyan\" | \"sky\" | \"blue\" | \"indigo\" | \"violet\" | \"purple\" | \"fuchsia\" | \"pink\" | \"rose\" | \"primary\"",
+            "schema": [
+              "\"red\"",
+              "\"orange\"",
+              "\"amber\"",
+              "\"yellow\"",
+              "\"lime\"",
+              "\"green\"",
+              "\"emerald\"",
+              "\"teal\"",
+              "\"cyan\"",
+              "\"sky\"",
+              "\"blue\"",
+              "\"indigo\"",
+              "\"violet\"",
+              "\"purple\"",
+              "\"fuchsia\"",
+              "\"pink\"",
+              "\"rose\"",
+              "\"primary\""
+            ]
+          },
+          "default": "\"primary\""
+        },
+        {
           "name": "target",
           "global": false,
           "description": "",
@@ -399,25 +2718,6 @@ export default {
           ],
           "schema": "string",
           "default": "undefined"
-        },
-        {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "any",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1953,
-                2046
-              ]
-            }
-          ],
-          "schema": "any",
-          "default": "{}"
         }
       ],
       "slots": [
@@ -481,6 +2781,21 @@ export default {
           }
         },
         {
+          "name": "to",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "range": [
+                1750,
+                1800
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
           "name": "icon",
           "type": "string",
           "description": "",
@@ -496,8 +2811,27 @@ export default {
           "schema": "string"
         },
         {
+          "name": "ui",
+          "type": "{}",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "range": [
+                1953,
+                2046
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
+        },
+        {
           "name": "color",
-          "type": "string",
+          "type": "\"red\" | \"orange\" | \"amber\" | \"yellow\" | \"lime\" | \"green\" | \"emerald\" | \"teal\" | \"cyan\" | \"sky\" | \"blue\" | \"indigo\" | \"violet\" | \"purple\" | \"fuchsia\" | \"pink\" | \"rose\" | \"primary\"",
           "description": "",
           "declarations": [
             {
@@ -508,22 +2842,30 @@ export default {
               ]
             }
           ],
-          "schema": "string"
-        },
-        {
-          "name": "to",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1750,
-                1800
-              ]
-            }
-          ],
-          "schema": "string"
+          "schema": {
+            "kind": "enum",
+            "type": "\"red\" | \"orange\" | \"amber\" | \"yellow\" | \"lime\" | \"green\" | \"emerald\" | \"teal\" | \"cyan\" | \"sky\" | \"blue\" | \"indigo\" | \"violet\" | \"purple\" | \"fuchsia\" | \"pink\" | \"rose\" | \"primary\"",
+            "schema": [
+              "\"red\"",
+              "\"orange\"",
+              "\"amber\"",
+              "\"yellow\"",
+              "\"lime\"",
+              "\"green\"",
+              "\"emerald\"",
+              "\"teal\"",
+              "\"cyan\"",
+              "\"sky\"",
+              "\"blue\"",
+              "\"indigo\"",
+              "\"violet\"",
+              "\"purple\"",
+              "\"fuchsia\"",
+              "\"pink\"",
+              "\"rose\"",
+              "\"primary\""
+            ]
+          }
         },
         {
           "name": "target",
@@ -556,19 +2898,328 @@ export default {
           "schema": "any"
         },
         {
-          "name": "ui",
+          "name": "$plotly",
           "type": "any",
           "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
-              "range": [
-                1953,
-                2046
-              ]
-            }
-          ],
+          "declarations": [],
           "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -590,44 +3241,6 @@ export default {
       "type": 1,
       "props": [
         {
-          "name": "icon",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1663,
-                1715
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "color",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1719,
-                1809
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "\"primary\""
-        },
-        {
           "name": "to",
           "global": false,
           "description": "",
@@ -647,7 +3260,7 @@ export default {
           "default": "undefined"
         },
         {
-          "name": "target",
+          "name": "icon",
           "global": false,
           "description": "",
           "tags": [],
@@ -657,13 +3270,36 @@ export default {
             {
               "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
-                1867,
-                1921
+                1663,
+                1715
               ]
             }
           ],
           "schema": "string",
           "default": "undefined"
+        },
+        {
+          "name": "ui",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "{}",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "range": [
+                2073,
+                2166
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          },
+          "default": "{}"
         },
         {
           "name": "title",
@@ -685,23 +3321,65 @@ export default {
           "default": "undefined"
         },
         {
-          "name": "ui",
+          "name": "color",
           "global": false,
           "description": "",
           "tags": [],
           "required": false,
-          "type": "any",
+          "type": "\"red\" | \"orange\" | \"amber\" | \"yellow\" | \"lime\" | \"green\" | \"emerald\" | \"teal\" | \"cyan\" | \"sky\" | \"blue\" | \"indigo\" | \"violet\" | \"purple\" | \"fuchsia\" | \"pink\" | \"rose\" | \"primary\"",
           "declarations": [
             {
               "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
-                2073,
-                2166
+                1719,
+                1809
               ]
             }
           ],
-          "schema": "any",
-          "default": "{}"
+          "schema": {
+            "kind": "enum",
+            "type": "\"red\" | \"orange\" | \"amber\" | \"yellow\" | \"lime\" | \"green\" | \"emerald\" | \"teal\" | \"cyan\" | \"sky\" | \"blue\" | \"indigo\" | \"violet\" | \"purple\" | \"fuchsia\" | \"pink\" | \"rose\" | \"primary\"",
+            "schema": [
+              "\"red\"",
+              "\"orange\"",
+              "\"amber\"",
+              "\"yellow\"",
+              "\"lime\"",
+              "\"green\"",
+              "\"emerald\"",
+              "\"teal\"",
+              "\"cyan\"",
+              "\"sky\"",
+              "\"blue\"",
+              "\"indigo\"",
+              "\"violet\"",
+              "\"purple\"",
+              "\"fuchsia\"",
+              "\"pink\"",
+              "\"rose\"",
+              "\"primary\""
+            ]
+          },
+          "default": "\"primary\""
+        },
+        {
+          "name": "target",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "range": [
+                1867,
+                1921
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "undefined"
         }
       ],
       "slots": [
@@ -765,36 +3443,6 @@ export default {
           }
         },
         {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1663,
-                1715
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "color",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                1719,
-                1809
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "to",
           "type": "string",
           "description": "",
@@ -810,19 +3458,38 @@ export default {
           "schema": "string"
         },
         {
-          "name": "target",
+          "name": "icon",
           "type": "string",
           "description": "",
           "declarations": [
             {
               "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
-                1867,
-                1921
+                1663,
+                1715
               ]
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "ui",
+          "type": "{}",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "range": [
+                2073,
+                2166
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
         },
         {
           "name": "title",
@@ -834,6 +3501,59 @@ export default {
               "range": [
                 1925,
                 1978
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "color",
+          "type": "\"red\" | \"orange\" | \"amber\" | \"yellow\" | \"lime\" | \"green\" | \"emerald\" | \"teal\" | \"cyan\" | \"sky\" | \"blue\" | \"indigo\" | \"violet\" | \"purple\" | \"fuchsia\" | \"pink\" | \"rose\" | \"primary\"",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "range": [
+                1719,
+                1809
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "\"red\" | \"orange\" | \"amber\" | \"yellow\" | \"lime\" | \"green\" | \"emerald\" | \"teal\" | \"cyan\" | \"sky\" | \"blue\" | \"indigo\" | \"violet\" | \"purple\" | \"fuchsia\" | \"pink\" | \"rose\" | \"primary\"",
+            "schema": [
+              "\"red\"",
+              "\"orange\"",
+              "\"amber\"",
+              "\"yellow\"",
+              "\"lime\"",
+              "\"green\"",
+              "\"emerald\"",
+              "\"teal\"",
+              "\"cyan\"",
+              "\"sky\"",
+              "\"blue\"",
+              "\"indigo\"",
+              "\"violet\"",
+              "\"purple\"",
+              "\"fuchsia\"",
+              "\"pink\"",
+              "\"rose\"",
+              "\"primary\""
+            ]
+          }
+        },
+        {
+          "name": "target",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "range": [
+                1867,
+                1921
               ]
             }
           ],
@@ -855,19 +3575,328 @@ export default {
           "schema": "any"
         },
         {
-          "name": "ui",
+          "name": "$plotly",
           "type": "any",
           "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
-              "range": [
-                2073,
-                2166
-              ]
-            }
-          ],
+          "declarations": [],
           "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -951,6 +3980,330 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -1037,7 +4390,7 @@ export default {
         },
         {
           "name": "selectedIndex",
-          "type": "any",
+          "type": "number",
           "description": "",
           "declarations": [
             {
@@ -1048,7 +4401,331 @@ export default {
               ]
             }
           ],
+          "schema": "number"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
           "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -1231,6 +4908,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -1296,6 +5297,29 @@ export default {
           "default": "undefined"
         },
         {
+          "name": "ui",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "{}",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          },
+          "default": "{}"
+        },
+        {
           "name": "type",
           "global": false,
           "description": "",
@@ -1332,29 +5356,6 @@ export default {
           ],
           "schema": "string",
           "default": "undefined"
-        },
-        {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "{}",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          },
-          "default": "{}"
         },
         {
           "name": "required",
@@ -1448,6 +5449,25 @@ export default {
           "schema": "string"
         },
         {
+          "name": "ui",
+          "type": "{}",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
+        },
+        {
           "name": "name",
           "type": "string",
           "description": "",
@@ -1530,22 +5550,327 @@ export default {
           "schema": "string"
         },
         {
-          "name": "ui",
-          "type": "{}",
+          "name": "$plotly",
+          "type": "any",
           "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
           "schema": {
             "kind": "object",
-            "type": "{}",
-            "schema": {}
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       ]
@@ -1630,6 +5955,330 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -1708,6 +6357,330 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -1826,6 +6799,330 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -1891,25 +7188,6 @@ export default {
           "default": "undefined"
         },
         {
-          "name": "language",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                186,
-                242
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
           "name": "filename",
           "global": false,
           "description": "",
@@ -1922,6 +7200,25 @@ export default {
               "range": [
                 305,
                 361
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "undefined"
+        },
+        {
+          "name": "language",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                186,
+                242
               ]
             }
           ],
@@ -2079,6 +7376,21 @@ export default {
           "schema": "string"
         },
         {
+          "name": "filename",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                305,
+                361
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
           "name": "language",
           "type": "string",
           "description": "",
@@ -2116,21 +7428,6 @@ export default {
           }
         },
         {
-          "name": "filename",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                305,
-                361
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "highlights",
           "type": "number[]",
           "description": "",
@@ -2165,6 +7462,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -2228,6 +7849,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -2319,6 +8264,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -2428,6 +8697,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -2537,6 +9130,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -2646,6 +9563,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -2755,6 +9996,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -3447,8 +11012,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@822": {
-                                    "name": "__@match@822",
+                                  "__@match@877": {
+                                    "name": "__@match@877",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -3474,8 +11039,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@824": {
-                                    "name": "__@replace@824",
+                                  "__@replace@879": {
+                                    "name": "__@replace@879",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -3516,8 +11081,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@827": {
-                                    "name": "__@search@827",
+                                  "__@search@882": {
+                                    "name": "__@search@882",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -3543,8 +11108,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@829": {
-                                    "name": "__@split@829",
+                                  "__@split@884": {
+                                    "name": "__@split@884",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -3574,8 +11139,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@831": {
-                                    "name": "__@matchAll@831",
+                                  "__@matchAll@886": {
+                                    "name": "__@matchAll@886",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -4969,21 +12534,6 @@ export default {
           }
         },
         {
-          "name": "query",
-          "type": "undefined",
-          "description": "A query builder params object to be passed to <ContentQuery /> component.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                4217,
-                4345
-              ]
-            }
-          ],
-          "schema": "undefined"
-        },
-        {
           "name": "tag",
           "type": "string",
           "description": "The tag to use for the renderer element if it is used.",
@@ -5036,6 +12586,21 @@ export default {
           "schema": "string"
         },
         {
+          "name": "query",
+          "type": "undefined",
+          "description": "A query builder params object to be passed to <ContentQuery /> component.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                4217,
+                4345
+              ]
+            }
+          ],
+          "schema": "undefined"
+        },
+        {
           "name": "head",
           "type": "boolean",
           "description": "Whether or not to map the document data to the `head` property.",
@@ -5055,6 +12620,330 @@ export default {
               "false",
               "true"
             ]
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       ]
@@ -5730,8 +13619,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@822": {
-                                    "name": "__@match@822",
+                                  "__@match@877": {
+                                    "name": "__@match@877",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -5757,8 +13646,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@824": {
-                                    "name": "__@replace@824",
+                                  "__@replace@879": {
+                                    "name": "__@replace@879",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -5799,8 +13688,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@827": {
-                                    "name": "__@search@827",
+                                  "__@search@882": {
+                                    "name": "__@search@882",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -5826,8 +13715,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@829": {
-                                    "name": "__@split@829",
+                                  "__@split@884": {
+                                    "name": "__@split@884",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -5857,8 +13746,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@831": {
-                                    "name": "__@matchAll@831",
+                                  "__@matchAll@886": {
+                                    "name": "__@matchAll@886",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -7208,6 +15097,21 @@ export default {
           }
         },
         {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "range": [
+                1975,
+                2091
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
           "name": "query",
           "type": "undefined",
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
@@ -7223,19 +15127,328 @@ export default {
           "schema": "undefined"
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
-              "range": [
-                1975,
-                2091
-              ]
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             }
-          ],
-          "schema": "string"
+          }
         }
       ]
     }
@@ -8412,6 +16625,330 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -9738,6 +18275,330 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -9876,6 +18737,330 @@ export default {
               "false",
               "true"
             ]
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       ]
@@ -10089,6 +19274,330 @@ export default {
               "false",
               "true"
             ]
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       ]
@@ -10334,8 +19843,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@800": {
-                "name": "__@hasInstance@800",
+              "__@hasInstance@845": {
+                "name": "__@hasInstance@845",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -10356,8 +19865,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@802": {
-                "name": "__@metadata@802",
+              "__@metadata@847": {
+                "name": "__@metadata@847",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -10634,8 +20143,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@800": {
-                "name": "__@hasInstance@800",
+              "__@hasInstance@845": {
+                "name": "__@hasInstance@845",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -10656,8 +20165,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@802": {
-                "name": "__@metadata@802",
+              "__@metadata@847": {
+                "name": "__@metadata@847",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -10702,6 +20211,330 @@ export default {
               "false",
               "true"
             ]
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       ]
@@ -12082,6 +21915,330 @@ export default {
               }
             }
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -12104,7 +22261,332 @@ export default {
       "props": [],
       "slots": [],
       "events": [],
-      "exposed": []
+      "exposed": [
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   },
   "Markdown": {
@@ -12188,6 +22670,330 @@ export default {
                   "kind": "event",
                   "type": "(_: {}): any",
                   "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -12480,6 +23286,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -12617,6 +23747,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -12685,6 +24139,330 @@ export default {
               }
             }
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -12749,6 +24527,330 @@ export default {
                   "kind": "event",
                   "type": "(_: {}): any",
                   "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -12862,6 +24964,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -12971,6 +25397,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -12993,7 +25743,332 @@ export default {
       "props": [],
       "slots": [],
       "events": [],
-      "exposed": []
+      "exposed": [
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   },
   "ProseImg": {
@@ -13179,6 +26254,330 @@ export default {
               "number"
             ]
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -13243,6 +26642,330 @@ export default {
                   "kind": "event",
                   "type": "(_: {}): any",
                   "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -13315,6 +27038,330 @@ export default {
               }
             }
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -13379,6 +27426,330 @@ export default {
                   "kind": "event",
                   "type": "(_: {}): any",
                   "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -13451,6 +27822,330 @@ export default {
               }
             }
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -13515,6 +28210,330 @@ export default {
                   "kind": "event",
                   "type": "(_: {}): any",
                   "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -13587,6 +28606,330 @@ export default {
               }
             }
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -13651,6 +28994,330 @@ export default {
                   "kind": "event",
                   "type": "(_: {}): any",
                   "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -13723,6 +29390,330 @@ export default {
               }
             }
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -13787,6 +29778,330 @@ export default {
                   "kind": "event",
                   "type": "(_: {}): any",
                   "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -13859,6 +30174,330 @@ export default {
               }
             }
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -13923,6 +30562,330 @@ export default {
                   "kind": "event",
                   "type": "(_: {}): any",
                   "schema": []
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -14296,11 +31259,11 @@ export default {
             "kind": "enum",
             "type": "ButtonVariant",
             "schema": [
-              "\"link\"",
               "\"solid\"",
+              "\"ghost\"",
               "\"outline\"",
-              "\"soft\"",
-              "\"ghost\""
+              "\"link\"",
+              "\"soft\""
             ]
           },
           "default": "config.default.variant"
@@ -14755,11 +31718,11 @@ export default {
             "kind": "enum",
             "type": "ButtonVariant",
             "schema": [
-              "\"link\"",
               "\"solid\"",
+              "\"ghost\"",
               "\"outline\"",
-              "\"soft\"",
-              "\"ghost\""
+              "\"link\"",
+              "\"soft\""
             ]
           }
         },
@@ -15423,6 +32386,330 @@ export default {
             "type": "{}",
             "schema": {}
           }
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -15527,6 +32814,330 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     }
@@ -15668,6 +33279,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     },
@@ -15766,6 +33701,330 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "$plotly",
+          "type": "any",
+          "description": "",
+          "declarations": [],
+          "schema": "any"
+        },
+        {
+          "name": "$ui",
+          "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+          "description": "",
+          "declarations": [],
+          "schema": {
+            "kind": "object",
+            "type": "{ button: { primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }; }",
+            "schema": {
+              "button": {
+                "name": "button",
+                "global": false,
+                "description": "",
+                "tags": [],
+                "required": true,
+                "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                "declarations": [
+                  {
+                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                    "range": [
+                      847,
+                      1574
+                    ]
+                  }
+                ],
+                "schema": {
+                  "kind": "object",
+                  "type": "{ primary: { color: string; variant: string; }; secondary: { color: string; variant: string; }; input: { color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }; }",
+                  "schema": {
+                    "primary": {
+                      "name": "primary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            865,
+                            938
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  886,
+                                  900
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  912,
+                                  928
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "secondary": {
+                      "name": "secondary",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            948,
+                            1022
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  971,
+                                  984
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  996,
+                                  1012
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          }
+                        }
+                      }
+                    },
+                    "input": {
+                      "name": "input",
+                      "global": false,
+                      "description": "",
+                      "tags": [],
+                      "required": true,
+                      "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                      "declarations": [
+                        {
+                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                          "range": [
+                            1032,
+                            1566
+                          ]
+                        }
+                      ],
+                      "schema": {
+                        "kind": "object",
+                        "type": "{ color: string; variant: string; ui: { font: string; color: { white: { outline: string; }; }; }; }",
+                        "schema": {
+                          "color": {
+                            "name": "color",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1051,
+                                  1065
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "variant": {
+                            "name": "variant",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "string",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1077,
+                                  1095
+                                ]
+                              }
+                            ],
+                            "schema": "string"
+                          },
+                          "ui": {
+                            "name": "ui",
+                            "global": false,
+                            "description": "",
+                            "tags": [],
+                            "required": true,
+                            "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                            "declarations": [
+                              {
+                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                "range": [
+                                  1107,
+                                  1556
+                                ]
+                              }
+                            ],
+                            "schema": {
+                              "kind": "object",
+                              "type": "{ font: string; color: { white: { outline: string; }; }; }",
+                              "schema": {
+                                "font": {
+                                  "name": "font",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "string",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1125,
+                                        1133
+                                      ]
+                                    }
+                                  ],
+                                  "schema": "string"
+                                },
+                                "color": {
+                                  "name": "color",
+                                  "global": false,
+                                  "description": "",
+                                  "tags": [],
+                                  "required": true,
+                                  "type": "{ white: { outline: string; }; }",
+                                  "declarations": [
+                                    {
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                      "range": [
+                                        1147,
+                                        1544
+                                      ]
+                                    }
+                                  ],
+                                  "schema": {
+                                    "kind": "object",
+                                    "type": "{ white: { outline: string; }; }",
+                                    "schema": {
+                                      "white": {
+                                        "name": "white",
+                                        "global": false,
+                                        "description": "",
+                                        "tags": [],
+                                        "required": true,
+                                        "type": "{ outline: string; }",
+                                        "declarations": [
+                                          {
+                                            "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                            "range": [
+                                              1170,
+                                              1530
+                                            ]
+                                          }
+                                        ],
+                                        "schema": {
+                                          "kind": "object",
+                                          "type": "{ outline: string; }",
+                                          "schema": {
+                                            "outline": {
+                                              "name": "outline",
+                                              "global": false,
+                                              "description": "",
+                                              "tags": [],
+                                              "required": true,
+                                              "type": "string",
+                                              "declarations": [
+                                                {
+                                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts",
+                                                  "range": [
+                                                    1195,
+                                                    1514
+                                                  ]
+                                                }
+                                              ],
+                                              "schema": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       ]
     },

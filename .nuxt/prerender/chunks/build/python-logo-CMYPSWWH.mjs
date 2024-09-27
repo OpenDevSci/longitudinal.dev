@@ -1,4 +1,4 @@
-import { a as buildAssetsURL } from '../_/renderer3.mjs';
+import { a as buildAssetsURL } from '../_/renderer.mjs';
 
 const _imports_1 = "" + buildAssetsURL("python-logo.DT_Pl1ZQ.svg");
 

@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/fonts',
     '@nuxthq/studio',
-    'nuxt-og-image',
+    // 'nuxt-og-image',
     '@nuxtjs/tailwindcss',
     ['nuxt-plotly', { inject: true }]
   ],

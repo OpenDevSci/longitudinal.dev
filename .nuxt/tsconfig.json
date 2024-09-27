@@ -96,13 +96,13 @@
         "../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#mdc-configs": [
-        "./mdc-configs"
+        "./mdc-configs.mjs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter"
+        "./mdc-highlighter.mjs"
       ],
       "#mdc-imports": [
-        "./mdc-imports"
+        "./mdc-imports.mjs"
       ],
       "#ui": [
         "../node_modules/@nuxt/ui/dist/runtime"
@@ -111,13 +111,19 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors"
+        "./ui.colors.mjs"
       ],
       "#icon-collections": [
-        "./icon-collections"
+        "./icon-collections.mjs"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
+      ],
+      "#nuxt-component-meta": [
+        "./component-meta.mjs"
+      ],
+      "#nuxt-component-meta/types": [
+        "./component-meta.d.ts"
       ],
       "#vue-router": [
         "./vue-router-stub"
@@ -128,11 +134,8 @@
       "#tailwind-config": [
         "./tailwind.config"
       ],
-      "#tailwind-config/*": [
-        "./tailwind.config/*"
-      ],
       "#app-manifest": [
-        "./manifest/meta/dev.json"
+        "./manifest/meta/ed5bee8b-9a56-4a42-8af2-4697eec46319.json"
       ],
       "#build": [
         "."
@@ -185,9 +188,8 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime",
     "../node_modules/@nuxt/ui/runtime",
     "../node_modules/@nuxt/fonts/runtime",
+    "../node_modules/nuxt-component-meta/runtime",
     "../node_modules/@nuxthq/studio/runtime",
-    "../node_modules/nuxt-site-config/dist/runtime",
-    "../node_modules/nuxt-og-image/runtime",
     "../node_modules/nuxt-plotly/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
@@ -199,7 +201,6 @@
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt/ui-pro/node_modules",
     "../node_modules/@nuxt/ui-pro/modules/pro/node_modules",
-    "../node_modules/nuxt-site-config/dist/node_modules",
     "../node_modules/@nuxt/ui-pro/modules/pro/runtime/server",
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
@@ -209,9 +210,8 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
     "../node_modules/@nuxt/fonts/runtime/server",
+    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
-    "../node_modules/nuxt-site-config/dist/runtime/server",
-    "../node_modules/nuxt-og-image/runtime/server",
     "../node_modules/nuxt-plotly/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",

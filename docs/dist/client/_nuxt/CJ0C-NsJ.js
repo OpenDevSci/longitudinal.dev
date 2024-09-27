@@ -1,1 +1,0 @@
-import{l as o,c as r,e as a,f as e,aj as n,k as s,F as d}from"./BFOc3Iih.js";const c={},l={class:"p-2 border bg-white dark:bg-black dark:border-gray-700 rounded"},_=e("div",null,[e("p",null,"CardComponent2.vue test")],-1);function p(t,u){return r(),a(d,null,[e("div",l,[n(t.$slots,"default")]),_,s(" ```r TestComponent ``` ` ")],64)}const i=o(c,[["render",p]]);export{i as default};
