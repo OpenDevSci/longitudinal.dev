@@ -67,5 +67,9 @@ export default defineNuxtConfig({
   plugins: ['~/plugins/customDirectives.js'],
   router: {
     base: '/longitudinal.dev/'
+  },
+  // Set site URL for OG image generation
+  site: {
+    url: 'https://opendevsci.github.io/longitudinal.dev/' // Set the correct site URL here
   }
 })
