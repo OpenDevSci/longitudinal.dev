@@ -21,6 +21,12 @@ declare module 'nitropack' {
     '/api/component-meta/:component?': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-component-meta/dist/runtime/server/api/component-meta.get').default>>>>
     }
+    '/__og-image__/font/**': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-og-image/dist/runtime/nitro/routes/font').default>>>>
+    }
+    '/__og-image__/image/**': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt-og-image/dist/runtime/nitro/routes/image').default>>>>
+    }
     '/api/_content/query/:qid/**:params': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
     }
@@ -30,7 +36,7 @@ declare module 'nitropack' {
     '/api/_content/query': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/query').default>>>>
     }
-    '/api/_content/cache.1727458016439.json': {
+    '/api/_content/cache.1727459205219.json': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/content/dist/runtime/server/api/cache').default>>>>
     }
     '/api/_content/navigation/:qid/**:params': {

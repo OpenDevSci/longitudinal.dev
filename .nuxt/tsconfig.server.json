@@ -142,8 +142,35 @@
       "#tailwind-config/*": [
         "./tailwind.config/*"
       ],
+      "#internal/nuxt-site-config": [
+        "../node_modules/nuxt-site-config/dist/runtime/nitro/composables"
+      ],
+      "#internal/nuxt-site-config/*": [
+        "../node_modules/nuxt-site-config/dist/runtime/nitro/composables/*"
+      ],
       "#content/server": [
         "../node_modules/@nuxt/content/dist/runtime/legacy/server"
+      ],
+      "#nuxt-og-image/renderers/satori": [
+        "./unenv/runtime/mock/empty"
+      ],
+      "#nuxt-og-image/renderers/chromium": [
+        "./unenv/runtime/mock/empty"
+      ],
+      "#nuxt-og-image/bindings/css-inline": [
+        "./unenv/runtime/mock/empty"
+      ],
+      "#nuxt-og-image/bindings/sharp": [
+        "./unenv/runtime/mock/empty"
+      ],
+      "#nuxt-og-image/bindings/resvg": [
+        "./unenv/runtime/mock/empty"
+      ],
+      "#nuxt-og-image/bindings/satori": [
+        "./unenv/runtime/mock/empty"
+      ],
+      "#nuxt-og-image/bindings/chromium": [
+        "./unenv/runtime/mock/empty"
       ]
     }
   },
@@ -160,9 +187,13 @@
     "../node_modules/@nuxt/fonts/runtime/server",
     "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
+    "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
+    "../node_modules/nuxt-og-image/runtime/server",
     "../node_modules/nuxt-plotly/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
+    "./module/nuxt-site-config.d.ts",
+    "./module/nuxt-og-image.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"
@@ -172,6 +203,7 @@
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt/ui-pro/node_modules",
     "../node_modules/@nuxt/ui-pro/modules/pro/node_modules",
+    "../node_modules/nuxt-site-config/dist/node_modules",
     "../dist"
   ]
 }

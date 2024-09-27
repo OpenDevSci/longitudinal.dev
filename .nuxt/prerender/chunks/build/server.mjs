@@ -1,15 +1,15 @@
-import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, defineAsyncComponent, toRef, isRef, defineComponent, h as h$1, useAttrs, computed, toValue, useSSRContext, provide, createElementBlock, nextTick, onMounted, cloneVNode, Fragment, onUnmounted, unref, Teleport, reactive, shallowRef, normalizeClass, shallowReactive, Suspense, Transition, onServerPrefetch, useSlots, mergeProps, createVNode, resolveDynamicComponent, withCtx, renderSlot, resolveComponent, withAsyncContext, openBlock, createBlock, createCommentVNode, createTextVNode, toDisplayString, createSlots, renderList, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, withKeys as withKeys$1, withDirectives, vShow, isShallow, isReactive, toRaw } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
+import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, toRef, isRef, defineAsyncComponent, unref, defineComponent, h as h$1, useAttrs, computed, toValue, useSSRContext, provide, createElementBlock, nextTick, onMounted, cloneVNode, Fragment, onUnmounted, Teleport, reactive, shallowRef, normalizeClass, shallowReactive, Suspense, Transition, onServerPrefetch, useSlots, mergeProps, createVNode, resolveDynamicComponent, withCtx, renderSlot, resolveComponent, withAsyncContext, openBlock, createBlock, createCommentVNode, createTextVNode, toDisplayString, createSlots, renderList, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, withKeys as withKeys$1, withDirectives, vShow, isShallow, isReactive, toRaw } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
 import { $fetch as $fetch$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ofetch/dist/node.mjs';
-import { b as baseURL } from '../_/renderer.mjs';
+import { b as baseURL } from '../_/renderer3.mjs';
 import { createHooks } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hookable/dist/index.mjs';
 import { getContext } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unctx/dist/index.mjs';
 import { createError as createError$1, getRequestHeader, setCookie, getCookie, deleteCookie, sanitizeStatusCode, appendHeader } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/h3/dist/index.mjs';
-import { withLeadingSlash, joinURL, withoutTrailingSlash, parseQuery, withBase, hasProtocol, withQuery, isScriptProtocol, withTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ufo/dist/index.mjs';
+import { joinURL, withQuery, withLeadingSlash, withoutTrailingSlash, parseQuery, withBase, hasProtocol, isScriptProtocol, parseURL, withoutBase, withTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ufo/dist/index.mjs';
 import { CapoPlugin, getActiveHead } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unhead/dist/index.mjs';
 import { defineHeadPlugin, composableNames, unpackMeta } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@unhead/shared/dist/index.mjs';
 import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue-router/dist/vue-router.node.mjs';
 import { toRouteMatcher, createRouter as createRouter$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/radix3/dist/index.mjs';
-import { defuFn, createDefu, defu } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/defu/dist/defu.mjs';
+import { defu, defuFn, createDefu } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/defu/dist/defu.mjs';
 import { createSharedComposable, useActiveElement, useTimestamp } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vueuse/core/index.mjs';
 import { klona } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/klona/dist/index.mjs';
 import { extendTailwindMerge, twMerge, twJoin } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/tailwind-merge/dist/bundle-mjs.mjs';
@@ -499,6 +499,12 @@ function useSeoMeta(input, options) {
     }
   });
 }
+function useServerHead(input, options = {}) {
+  const head = options.head || injectHead();
+  delete options.head;
+  if (head)
+    return head.push(input, { ...options, mode: "server" });
+}
 [CapoPlugin({ track: true })];
 const unhead_KgADcZ0jPj = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:head",
@@ -665,47 +671,47 @@ const _routes = [
     name: "slug",
     path: "/:slug(.*)*",
     meta: __nuxt_page_meta || {},
-    component: () => import('./_...slug_-8tlJncjU.mjs').then((m2) => m2.default || m2)
+    component: () => import('./_...slug_-RosEDnQ6.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "about",
     path: "/about",
-    component: () => import('./about-aUFuqjPY.mjs').then((m2) => m2.default || m2)
+    component: () => import('./about-Wzru_b_F.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "contribute",
     path: "/contribute",
-    component: () => import('./contribute-BJE8txsU.mjs').then((m2) => m2.default || m2)
+    component: () => import('./contribute-zUuI97Aa.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-CCvM-8Jp.mjs').then((m2) => m2.default || m2)
+    component: () => import('./index-gUIXiAn3.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "plotly-view",
     path: "/plotly-view",
-    component: () => import('./plotly-view-CyzErzzL.mjs').then((m2) => m2.default || m2)
+    component: () => import('./plotly-view-CtuaG_PZ.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "resources_seenote",
     path: "/resources_seenote",
-    component: () => import('./resources_seenote-Bo8qiN-5.mjs').then((m2) => m2.default || m2)
+    component: () => import('./resources_seenote-BVEp4Rt1.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "sandbox",
     path: "/sandbox",
-    component: () => import('./sandbox-DU12cbMI.mjs').then((m2) => m2.default || m2)
+    component: () => import('./sandbox-BlKKuqaQ.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "test",
     path: "/test",
-    component: () => import('./test-Dgbjt50P.mjs').then((m2) => m2.default || m2)
+    component: () => import('./test-CfZHNESi.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "tools",
     path: "/tools",
-    component: () => import('./tools-C9lTWnZV.mjs').then((m2) => m2.default || m2)
+    component: () => import('./tools-Bly9Fa4Q.mjs').then((m2) => m2.default || m2)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1045,6 +1051,69 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
     return { provide: { router } };
   }
 });
+function toArray(value) {
+  return Array.isArray(value) ? value : [value];
+}
+function useRequestEvent(nuxtApp = useNuxtApp()) {
+  var _a;
+  return (_a = nuxtApp.ssrContext) == null ? void 0 : _a.event;
+}
+function useRequestFetch() {
+  var _a;
+  return ((_a = useRequestEvent()) == null ? void 0 : _a.$fetch) || globalThis.$fetch;
+}
+function prerenderRoutes(path) {
+  const paths = toArray(path);
+  appendHeader(useRequestEvent(), "x-nitro-prerender", paths.map((p) => encodeURIComponent(p)).join(", "));
+}
+const useStateKeyPrefix = "$s";
+function useState(...args) {
+  const autoKey = typeof args[args.length - 1] === "string" ? args.pop() : void 0;
+  if (typeof args[0] !== "string") {
+    args.unshift(autoKey);
+  }
+  const [_key, init] = args;
+  if (!_key || typeof _key !== "string") {
+    throw new TypeError("[nuxt] [useState] key must be a string: " + _key);
+  }
+  if (init !== void 0 && typeof init !== "function") {
+    throw new Error("[nuxt] [useState] init must be a function: " + init);
+  }
+  const key = useStateKeyPrefix + _key;
+  const nuxtApp = useNuxtApp();
+  const state = toRef(nuxtApp.payload.state, key);
+  if (state.value === void 0 && init) {
+    const initialValue = init();
+    if (isRef(initialValue)) {
+      nuxtApp.payload.state[key] = initialValue;
+      return initialValue;
+    }
+    state.value = initialValue;
+  }
+  return state;
+}
+const _0_siteConfig_7pzUtwM1Zj = /* @__PURE__ */ defineNuxtPlugin({
+  name: "nuxt-site-config:init",
+  enforce: "pre",
+  async setup(nuxtApp) {
+    const state = useState("site-config");
+    {
+      const { context } = useRequestEvent();
+      nuxtApp.hooks.hook("app:rendered", () => {
+        state.value = context.siteConfig.get({
+          debug: (/* @__PURE__ */ useRuntimeConfig())["nuxt-site-config"].debug,
+          resolveRefs: true
+        });
+      });
+    }
+    let stack = {};
+    return {
+      provide: {
+        nuxtSiteConfig: stack
+      }
+    };
+  }
+});
 function definePayloadReducer(name, reduce) {
   {
     useNuxtApp().ssrContext._payloadReducers[name] = reduce;
@@ -1059,6 +1128,9 @@ const reducers = {
   Ref: (data) => isRef(data) && data.value,
   Reactive: (data) => isReactive(data) && toRaw(data)
 };
+{
+  reducers.Island = (data) => data && (data == null ? void 0 : data.__nuxt_island);
+}
 const revive_payload_server_eJ33V7gbc6 = /* @__PURE__ */ defineNuxtPlugin({
   name: "nuxt:revive-payload:server",
   setup() {
@@ -1067,59 +1139,59 @@ const revive_payload_server_eJ33V7gbc6 = /* @__PURE__ */ defineNuxtPlugin({
     }
   }
 });
-const LazyCardComponent1 = defineAsyncComponent(() => import('./CardComponent1-DL7xOMYW.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCardComponent2 = defineAsyncComponent(() => import('./CardComponent2-Ds3RotpL.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyTabComponent = defineAsyncComponent(() => import('./TabComponent-BRP7TwxO.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyTestComponent = defineAsyncComponent(() => import('./TestComponent-CI69Wc01.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyArticleList = defineAsyncComponent(() => import('./ArticleList-DvvQCYnI.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyMethodCardList = defineAsyncComponent(() => import('./MethodCardList-BRbZEXrQ.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazySimpleCarousel = defineAsyncComponent(() => import('./SimpleCarousel-D9v5qW_j.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCallout = defineAsyncComponent(() => import('./Callout-C49HrJZy.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCard = defineAsyncComponent(() => import('./Card-BefhgheE.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCardComponent1 = defineAsyncComponent(() => import('./CardComponent1-CUBt7ISL.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCardComponent2 = defineAsyncComponent(() => import('./CardComponent2-DVkZMLZv.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyTabComponent = defineAsyncComponent(() => import('./TabComponent-COvEvh8P.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyTestComponent = defineAsyncComponent(() => import('./TestComponent-BPHuWplR.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyArticleList = defineAsyncComponent(() => import('./ArticleList-BDLP6qgF.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyMethodCardList = defineAsyncComponent(() => import('./MethodCardList-C2L0wxSl.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazySimpleCarousel = defineAsyncComponent(() => import('./SimpleCarousel-O-inhhmQ.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCallout = defineAsyncComponent(() => import('./Callout-CWjXRo0M.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCard = defineAsyncComponent(() => import('./Card-BDw2lDLH.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyCardGroup = defineAsyncComponent(() => import('./CardGroup-REkX0go7.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyCodeGroup = defineAsyncComponent(() => import('./CodeGroup-ujtzGjIJ.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-BPQnC3gi.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-BpQZWGei.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyField = defineAsyncComponent(() => import('./Field-CD9ouTL0.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyFieldGroup = defineAsyncComponent(() => import('./FieldGroup-FgMcRV9R.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyShortcut = defineAsyncComponent(() => import('./Shortcut-CVxnFeHm.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyShortcut = defineAsyncComponent(() => import('./Shortcut-CbTJqkY_.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyTabs = defineAsyncComponent(() => import('./Tabs-BO4xuony.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-C0zAUeSr.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton-CyJMqRDP.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-DMtPSXvA.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton-CrZM48we.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseCodeIcon = defineAsyncComponent(() => import('./ProseCodeIcon-BxQtCHS4.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-CDmFAKTA.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-2oIpijzj.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-BbpSZUAn.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-DrL2KRNi.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-DQKcEUQk.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentList = defineAsyncComponent(() => import('./ContentList-DPZ1z8a3.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-Dgex-VMN.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-CKf5WvVA.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-DSYDeib8.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-B4Gzi1ai.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-2VXD7_QD.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-DScNLYsj.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-CzLCtab6.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-DKhTZCHT.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-CIRQLBHf.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentList = defineAsyncComponent(() => import('./ContentList-C7ZulO0Q.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-DfOJwZjP.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-D6QavM2p.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-BZ4In3mA.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-C7LiaGWG.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyContentSlot = defineAsyncComponent(() => import('./ContentSlot-C2mEnxkD.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenEmpty = defineAsyncComponent(() => import('./DocumentDrivenEmpty-CVfz7tly.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenNotFound = defineAsyncComponent(() => import('./DocumentDrivenNotFound-4pTrsASA.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyMarkdown = defineAsyncComponent(() => import('./Markdown-DVqqGV91.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeInline = defineAsyncComponent(() => import('./ProseCodeInline-C18EyUyR.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-Bq-KTk5d.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeInline = defineAsyncComponent(() => import('./ProseCodeInline-CrCGboaA.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-BfTxPOVb.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseA = defineAsyncComponent(() => import('./ProseA-DNFoBgVD.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseBlockquote = defineAsyncComponent(() => import('./ProseBlockquote-SWrsHrCJ.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-CpP5dwon.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-Dvaq7zko.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-DtuxY9tT.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-B2rtaZbS.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-XxiH379L.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-DGMG9NyT.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-BvvcLC9l.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseP = defineAsyncComponent(() => import('./ProseP-Clj6a_xF.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseStrong = defineAsyncComponent(() => import('./ProseStrong-CnVOK7kb.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTable = defineAsyncComponent(() => import('./ProseTable-DGJOTb-4.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTbody = defineAsyncComponent(() => import('./ProseTbody-DZC7xMN7.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTd = defineAsyncComponent(() => import('./ProseTd-BRtf5yHt.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTh = defineAsyncComponent(() => import('./ProseTh-BqdLfr7V.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseThead = defineAsyncComponent(() => import('./ProseThead-LRGtWGs7.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTr = defineAsyncComponent(() => import('./ProseTr-2Z66c7q_.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseUl = defineAsyncComponent(() => import('./ProseUl-6yjadZI-.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseBlockquote = defineAsyncComponent(() => import('./ProseBlockquote-CKJs4nRM.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-7EB9_P56.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-_bW_Bc7Y.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-Wscvu4Vv.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-DQEtGu6v.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-BorqeNQi.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-1dF7W0L3.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-CWiXn1dM.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseP = defineAsyncComponent(() => import('./ProseP-B4aH5vAO.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseStrong = defineAsyncComponent(() => import('./ProseStrong-7dbHdj-2.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTable = defineAsyncComponent(() => import('./ProseTable-CtPwtDiY.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTbody = defineAsyncComponent(() => import('./ProseTbody-CLEdifF5.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTd = defineAsyncComponent(() => import('./ProseTd-BDU15Sb2.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTh = defineAsyncComponent(() => import('./ProseTh-FhqXObml.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseThead = defineAsyncComponent(() => import('./ProseThead-B-0fdVvs.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTr = defineAsyncComponent(() => import('./ProseTr-DL5yDvya.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseUl = defineAsyncComponent(() => import('./ProseUl-U-5At8AW.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyUButton = defineAsyncComponent(() => Promise.resolve().then(function() {
   return Button;
 }).then((r2) => r2["default"] || r2.default || r2));
@@ -1129,7 +1201,7 @@ const LazyUIcon = defineAsyncComponent(() => Promise.resolve().then(function() {
 const LazyIcon = defineAsyncComponent(() => Promise.resolve().then(function() {
   return Icon$1;
 }).then((r2) => r2["default"] || r2.default || r2));
-const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-BWiz7zaH.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-WMjjr6FF.mjs').then((r2) => r2["default"] || r2.default || r2));
 const lazyGlobalComponents = [
   ["CardComponent1", LazyCardComponent1],
   ["CardComponent2", LazyCardComponent2],
@@ -1197,6 +1269,263 @@ const components_plugin_KR1HBZs4kY = /* @__PURE__ */ defineNuxtPlugin({
       nuxtApp.vueApp.component("Lazy" + name, component);
     }
   }
+});
+function useNitroOrigin(e2) {
+  {
+    e2 = e2 || useRequestEvent();
+    return e2.context.siteConfigNitroOrigin;
+  }
+}
+function useSiteConfig(options) {
+  let stack;
+  stack = useRequestEvent().context.siteConfig.get(defu({ resolveRefs: true }, options));
+  return stack || {};
+}
+function resolveSitePath(pathOrUrl, options) {
+  let path = pathOrUrl;
+  if (hasProtocol(pathOrUrl, { strict: false, acceptRelative: true })) {
+    const parsed = parseURL(pathOrUrl);
+    path = parsed.pathname;
+  }
+  const base = withLeadingSlash(options.base || "/");
+  if (base !== "/" && path.startsWith(base)) {
+    path = path.slice(base.length);
+  }
+  const origin = options.siteUrl;
+  const baseWithOrigin = options.withBase ? withBase(base, origin || "/") : origin;
+  const resolvedUrl = withBase(path, baseWithOrigin);
+  return path === "/" && !options.withBase ? withTrailingSlash(resolvedUrl) : fixSlashes(options.trailingSlash, resolvedUrl);
+}
+function fixSlashes(trailingSlash, pathOrUrl) {
+  const $url = parseURL(pathOrUrl);
+  const isFileUrl = $url.pathname.includes(".");
+  if (isFileUrl)
+    return pathOrUrl;
+  const fixedPath = trailingSlash ? withTrailingSlash($url.pathname) : withoutTrailingSlash($url.pathname);
+  return `${$url.protocol ? `${$url.protocol}//` : ""}${$url.host || ""}${fixedPath}${$url.search || ""}${$url.hash || ""}`;
+}
+function withSiteUrl(path, options = {}) {
+  const siteConfig = useSiteConfig();
+  const nitroOrigin = useNitroOrigin();
+  const base = (/* @__PURE__ */ useRuntimeConfig()).app.baseURL || "/";
+  return computed(() => {
+    return resolveSitePath(unref(path), {
+      absolute: true,
+      siteUrl: unref(options.canonical) !== false || true ? siteConfig.url : nitroOrigin,
+      trailingSlash: siteConfig.trailingSlash,
+      base,
+      withBase: unref(options.withBase)
+    });
+  });
+}
+function isInternalRoute(path) {
+  return path.startsWith("/_") || path.startsWith("@");
+}
+function filterIsOgImageOption(key) {
+  const keys = [
+    "url",
+    "extension",
+    "width",
+    "height",
+    "fonts",
+    "alt",
+    "props",
+    "renderer",
+    "html",
+    "component",
+    "renderer",
+    "emojis",
+    "_query",
+    "satori",
+    "resvg",
+    "sharp",
+    "screenshot",
+    "cacheMaxAgeSeconds"
+  ];
+  return keys.includes(key);
+}
+function separateProps(options, ignoreKeys = []) {
+  options = options || {};
+  const _props = defu(options.props, Object.fromEntries(
+    Object.entries({ ...options }).filter(([k2]) => !filterIsOgImageOption(k2) && !ignoreKeys.includes(k2))
+  ));
+  const props = {};
+  Object.entries(_props).forEach(([key, val]) => {
+    props[key.replace(/-([a-z])/g, (g2) => g2[1].toUpperCase())] = val;
+  });
+  return {
+    ...Object.fromEntries(
+      Object.entries({ ...options }).filter(([k2]) => filterIsOgImageOption(k2) || ignoreKeys.includes(k2))
+    ),
+    props
+  };
+}
+function withoutQuery(path) {
+  return path.split("?")[0];
+}
+function getExtension(path) {
+  path = withoutQuery(path);
+  const lastSegment = path.split("/").pop() || path;
+  return lastSegment.split(".").pop() || lastSegment;
+}
+const og_image_canonical_urls_server_3MRa0uZwqs = /* @__PURE__ */ defineNuxtPlugin({
+  setup(nuxtApp) {
+    nuxtApp.hooks.hook("app:rendered", async (ctx) => {
+      const { ssrContext } = ctx;
+      const e2 = useRequestEvent();
+      const path = parseURL(e2.path).pathname;
+      if (isInternalRoute(path))
+        return;
+      ssrContext == null ? void 0 : ssrContext.head.use({
+        key: "nuxt-og-image:overrides-and-canonical-urls",
+        hooks: {
+          "tags:resolve": async (ctx2) => {
+            const hasPrimaryPayload = ctx2.tags.some((tag) => tag.tag === "script" && tag.props.id === "nuxt-og-image-options");
+            let overrides;
+            for (const tag of ctx2.tags) {
+              if (tag.tag === "script" && tag.props.id === "nuxt-og-image-overrides") {
+                if (hasPrimaryPayload) {
+                  overrides = separateProps(JSON.parse(tag.innerHTML || "{}"));
+                  delete ctx2.tags[ctx2.tags.indexOf(tag)];
+                } else {
+                  tag.props.id = "nuxt-og-image-options";
+                  tag.innerHTML = JSON.stringify(separateProps(JSON.parse(tag.innerHTML || "{}")));
+                  tag._d = "script:id:nuxt-og-image-options";
+                }
+                break;
+              }
+            }
+            ctx2.tags = ctx2.tags.filter(Boolean);
+            for (const tag of ctx2.tags) {
+              if (tag.tag === "meta" && (tag.props.property === "og:image" || ["twitter:image:src", "twitter:image"].includes(tag.props.name))) {
+                if (!tag.props.content.startsWith("https")) {
+                  await nuxtApp.runWithContext(() => {
+                    tag.props.content = toValue(withSiteUrl(tag.props.content, {
+                      withBase: true
+                    }));
+                  });
+                }
+              } else if (overrides && tag.tag === "script" && tag.props.id === "nuxt-og-image-options") {
+                tag.innerHTML = JSON.stringify(defu(overrides, JSON.parse(tag.innerHTML)));
+              }
+            }
+          }
+        }
+      });
+    });
+  }
+});
+function getOgImagePath(pagePath, _options) {
+  const baseURL2 = (/* @__PURE__ */ useRuntimeConfig()).app.baseURL;
+  const options = defu(_options, useOgImageRuntimeConfig().defaults);
+  return joinURL("/", baseURL2, "__og-image__/image", pagePath, `og.${options.extension}`);
+}
+function useOgImageRuntimeConfig() {
+  return (/* @__PURE__ */ useRuntimeConfig())["nuxt-og-image"];
+}
+const componentNames = [{ "hash": "i0Vxmj8bqg", "pascalName": "BrandedLogo", "kebabName": "branded-logo", "category": "community", "credits": "Full Stack Heroes <https://fullstackheroes.com/>" }, { "hash": "tBHg51xiAt", "pascalName": "Frame", "kebabName": "frame", "category": "community", "credits": "@arashsheyda <https://github.com/arashsheyda>" }, { "hash": "EtP6PjHVxf", "pascalName": "Nuxt", "kebabName": "nuxt", "category": "community", "credits": "NuxtLabs <https://nuxtlabs.com/>" }, { "hash": "LZkuSUuPEa", "pascalName": "NuxtSeo", "kebabName": "nuxt-seo", "category": "community", "credits": "Nuxt SEO <https://nuxtseo.com/>" }, { "hash": "KfQI8hATPp", "pascalName": "Pergel", "kebabName": "pergel", "category": "community", "credits": "Pergel <https://nuxtlabs.com/>" }, { "hash": "YDrRRvPRVl", "pascalName": "SimpleBlog", "kebabName": "simple-blog", "category": "community", "credits": "Full Stack Heroes <https://fullstackheroes.com/>" }, { "hash": "wt558K6QyQ", "pascalName": "UnJs", "kebabName": "un-js", "category": "community", "credits": "UnJS <https://unjs.io/>" }, { "hash": "6RdQZcuwZZ", "pascalName": "Wave", "kebabName": "wave", "category": "community", "credits": "Full Stack Heroes <https://fullstackheroes.com/>" }, { "hash": "gaB1TrbtTl", "pascalName": "WithEmoji", "kebabName": "with-emoji", "category": "community", "credits": "Full Stack Heroes <https://fullstackheroes.com/>" }];
+function createOgImageMeta(src, input, resolvedOptions, ssrContext) {
+  const _input = separateProps(defu(input, ssrContext._ogImagePayload));
+  let url = src || input.url || resolvedOptions.url;
+  if (!url)
+    return;
+  if (input._query && Object.keys(input._query).length && url)
+    url = withQuery(url, { _query: input._query });
+  let urlExtension = getExtension(url) || resolvedOptions.extension;
+  if (urlExtension === "jpg")
+    urlExtension = "jpeg";
+  const meta = [
+    { property: "og:image", content: url },
+    { property: "og:image:type", content: `image/${urlExtension}` },
+    { name: "twitter:card", content: "summary_large_image" },
+    // we don't need this but avoids issue when using useSeoMeta({ twitterImage })
+    { name: "twitter:image", content: url },
+    { name: "twitter:image:src", content: url }
+  ];
+  if (resolvedOptions.width) {
+    meta.push({ property: "og:image:width", content: resolvedOptions.width });
+    meta.push({ name: "twitter:image:width", content: resolvedOptions.width });
+  }
+  if (resolvedOptions.height) {
+    meta.push({ property: "og:image:height", content: resolvedOptions.height });
+    meta.push({ name: "twitter:image:height", content: resolvedOptions.height });
+  }
+  if (resolvedOptions.alt) {
+    meta.push({ property: "og:image:alt", content: resolvedOptions.alt });
+    meta.push({ name: "twitter:image:alt", content: resolvedOptions.alt });
+  }
+  ssrContext._ogImageInstances = ssrContext._ogImageInstances || [];
+  const script = [];
+  if (src) {
+    script.push({
+      id: "nuxt-og-image-options",
+      type: "application/json",
+      processTemplateParams: true,
+      innerHTML: () => {
+        if (!_input.props.title)
+          _input.props.title = "%s";
+        delete _input.url;
+        return _input;
+      },
+      // we want this to be last in our head
+      tagPosition: "bodyClose"
+    });
+  }
+  const instance = useServerHead({
+    script,
+    meta
+  }, {
+    tagPriority: 35
+  });
+  ssrContext._ogImagePayload = _input;
+  ssrContext._ogImageInstances.push(instance);
+}
+function normaliseOptions(_options) {
+  const options = { ...unref(_options) };
+  if (!options)
+    return options;
+  if (options.component && componentNames) {
+    const originalName = options.component;
+    for (const component of componentNames) {
+      if (component.pascalName.endsWith(originalName) || component.kebabName.endsWith(originalName)) {
+        options.component = component.pascalName;
+        break;
+      }
+    }
+  }
+  return options;
+}
+const route_rule_og_image_server_OQYH1Ux5Eu = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.hooks.hook("app:rendered", async (ctx) => {
+    var _a, _b, _c, _d, _e, _f;
+    const { ssrContext } = ctx;
+    const e2 = useRequestEvent();
+    const path = parseURL(e2.path).pathname;
+    if (isInternalRoute(path))
+      return;
+    const _routeRulesMatcher = toRouteMatcher(
+      createRouter$1({ routes: (_b = (_a = ssrContext == null ? void 0 : ssrContext.runtimeConfig) == null ? void 0 : _a.nitro) == null ? void 0 : _b.routeRules })
+    );
+    let routeRules = defu({}, ..._routeRulesMatcher.matchAll(
+      withoutBase(path.split("?")[0], (_c = ssrContext == null ? void 0 : ssrContext.runtimeConfig) == null ? void 0 : _c.app.baseURL)
+    ).reverse()).ogImage;
+    if (typeof routeRules === "undefined")
+      return;
+    const ogImageInstances = nuxtApp.ssrContext._ogImageInstances || [];
+    if (routeRules === false) {
+      ogImageInstances == null ? void 0 : ogImageInstances.forEach((e22) => {
+        e22.dispose();
+      });
+      nuxtApp.ssrContext._ogImagePayload = void 0;
+      nuxtApp.ssrContext._ogImageInstances = void 0;
+      return;
+    }
+    routeRules = defu((_f = (_e = (_d = nuxtApp.ssrContext) == null ? void 0 : _d.event.context._nitro) == null ? void 0 : _e.routeRules) == null ? void 0 : _f.ogImage, routeRules);
+    const { defaults } = useOgImageRuntimeConfig();
+    const resolvedOptions = normaliseOptions(defu(routeRules, defaults));
+    const src = getOgImagePath(ssrContext.url, resolvedOptions);
+    createOgImageMeta(src, routeRules, resolvedOptions, nuxtApp.ssrContext);
+  });
 });
 const slidOverInjectionKey = Symbol("nuxt-ui.slideover");
 function _useSlideover() {
@@ -1723,35 +2052,6 @@ ${Object.entries(gray || config$9.cool).map(([key, value]) => `--color-gray-${ke
   };
   useHead(headData);
 });
-function toArray(value) {
-  return Array.isArray(value) ? value : [value];
-}
-const useStateKeyPrefix = "$s";
-function useState(...args) {
-  const autoKey = typeof args[args.length - 1] === "string" ? args.pop() : void 0;
-  if (typeof args[0] !== "string") {
-    args.unshift(autoKey);
-  }
-  const [_key, init] = args;
-  if (!_key || typeof _key !== "string") {
-    throw new TypeError("[nuxt] [useState] key must be a string: " + _key);
-  }
-  if (init !== void 0 && typeof init !== "function") {
-    throw new Error("[nuxt] [useState] init must be a function: " + init);
-  }
-  const key = useStateKeyPrefix + _key;
-  const nuxtApp = useNuxtApp();
-  const state = toRef(nuxtApp.payload.state, key);
-  if (state.value === void 0 && init) {
-    const initialValue = init();
-    if (isRef(initialValue)) {
-      nuxtApp.payload.state[key] = initialValue;
-      return initialValue;
-    }
-    state.value = initialValue;
-  }
-  return state;
-}
 const preference = "system";
 const plugin_server_XNCxeHyTuP = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
   var _a;
@@ -1828,18 +2128,6 @@ const customDirectives_mPCDmOIJcJ = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) =
     }
   });
 });
-function useRequestEvent(nuxtApp = useNuxtApp()) {
-  var _a;
-  return (_a = nuxtApp.ssrContext) == null ? void 0 : _a.event;
-}
-function useRequestFetch() {
-  var _a;
-  return ((_a = useRequestEvent()) == null ? void 0 : _a.$fetch) || globalThis.$fetch;
-}
-function prerenderRoutes(path) {
-  const paths = toArray(path);
-  appendHeader(useRequestEvent(), "x-nitro-prerender", paths.map((p) => encodeURIComponent(p)).join(", "));
-}
 let routes;
 const prerender_server_LXx1wM9sKF = /* @__PURE__ */ defineNuxtPlugin(async () => {
   let __temp, __restore;
@@ -1877,8 +2165,11 @@ function processRoutes(routes2, currentPath = "/", routesToPrerender = /* @__PUR
 const plugins = [
   unhead_KgADcZ0jPj,
   plugin,
+  _0_siteConfig_7pzUtwM1Zj,
   revive_payload_server_eJ33V7gbc6,
   components_plugin_KR1HBZs4kY,
+  og_image_canonical_urls_server_3MRa0uZwqs,
+  route_rule_og_image_server_OQYH1Ux5Eu,
   slideovers_LDumGYo2KH,
   modals_bidRKewKK5,
   colors_244lXBzhnM,
@@ -10253,7 +10544,7 @@ const createQueryFetch = () => async (query) => {
     addPrerenderPath(apiPath);
   }
   if (shouldUseClientDB()) {
-    const db = await import('./client-db-Dvsimkzu.mjs').then((m2) => m2.useContentDatabase());
+    const db = await import('./client-db-D6Ox_iqq.mjs').then((m2) => m2.useContentDatabase());
     return db.fetch(query);
   }
   const data = await $fetch(apiPath, {
@@ -10316,7 +10607,7 @@ const fetchContentNavigation = async (queryBuilder) => {
     addPrerenderPath(apiPath);
   }
   if (shouldUseClientDB()) {
-    const generateNavigation = await import('./client-db-Dvsimkzu.mjs').then((m2) => m2.generateNavigation);
+    const generateNavigation = await import('./client-db-D6Ox_iqq.mjs').then((m2) => m2.generateNavigation);
     return generateNavigation(params);
   }
   const data = await $fetch(apiPath, {
@@ -10758,7 +11049,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = () => null;
+    const IslandRenderer = defineAsyncComponent(() => import('./island-renderer-Bj21wAsm.mjs').then((r2) => r2.default || r2));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;
@@ -10822,5 +11113,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { useShortcuts as $, __nuxt_component_0$8 as A, i$3 as B, o$1 as C, w$2 as D, w$4 as E, h as F, t$2 as G, u$5 as H, i$1 as I, A$2 as J, I$1 as K, s$3 as L, l$2 as M, N$4 as N, o as O, v$2 as P, N$5 as Q, _ as R, O$1 as S, Ge$1 as T, l$3 as U, N$1 as V, Q$1 as W, V as X, Ye as Y, useId as Z, __nuxt_component_1$1 as _, __nuxt_component_0$4 as a, __nuxt_component_0$3 as a0, useToast as a1, useHead as a2, useRuntimeConfig as a3, useState as a4, useContentDisabled as a5, fetchContentNavigation as a6, resolveIconName as a7, get as a8, assertArray as a9, ensureArray as aa, omit as ab, sortList as ac, apply as ad, withoutKeys as ae, withKeys as af, createQuery as ag, __nuxt_component_0$9 as b, useRouter as c, useNuxtApp as d, entry$1 as default, useAppConfig as e, _export_sfc as f, appConfig as g, __nuxt_component_2 as h, getULinkProps as i, __nuxt_component_0$6 as j, useRoute as k, useAsyncData as l, mergeConfig as m, createError as n, useSeoMeta as o, findPageHeadline as p, queryContent as q, _sfc_main$3 as r, useContentPreview as s, __nuxt_component_0$a as t, useUI as u, nuxtLinkProps as v, config$9 as w, getNuxtLinkProps as x, getSlotChildrenText as y, __nuxt_component_1 as z };
+export { Ye as $, useContentPreview as A, __nuxt_component_0$a as B, nuxtLinkProps as C, config$9 as D, getNuxtLinkProps as E, getSlotChildrenText as F, __nuxt_component_1 as G, __nuxt_component_0$8 as H, i$3 as I, o$1 as J, w$2 as K, w$4 as L, h as M, t$2 as N, u$5 as O, i$1 as P, A$2 as Q, I$1 as R, s$3 as S, l$2 as T, N$4 as U, o as V, v$2 as W, N$5 as X, _ as Y, O$1 as Z, __nuxt_component_1$1 as _, __nuxt_component_0$4 as a, Ge$1 as a0, l$3 as a1, N$1 as a2, Q$1 as a3, V as a4, useId as a5, useShortcuts as a6, __nuxt_component_0$3 as a7, useToast as a8, useHead as a9, useState as aa, useContentDisabled as ab, fetchContentNavigation as ac, resolveIconName as ad, get as ae, assertArray as af, ensureArray as ag, omit as ah, sortList as ai, apply as aj, withoutKeys as ak, withKeys as al, createQuery as am, __nuxt_component_0$5 as an, useSiteConfig as ao, __nuxt_component_0$9 as b, createError as c, useRouter as d, entry$1 as default, useNuxtApp as e, useAppConfig as f, _export_sfc as g, appConfig as h, __nuxt_component_2 as i, getULinkProps as j, __nuxt_component_0$6 as k, useRuntimeConfig as l, mergeConfig as m, useRoute as n, normaliseOptions as o, useOgImageRuntimeConfig as p, createOgImageMeta as q, getOgImagePath as r, separateProps as s, useRequestEvent as t, useUI as u, useAsyncData as v, queryContent as w, useSeoMeta as x, findPageHeadline as y, _sfc_main$3 as z };
 //# sourceMappingURL=server.mjs.map

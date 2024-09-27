@@ -15,6 +15,9 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/router").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/prefetch.client").default> &
   InjectionType<typeof import("../../node_modules/nuxt-plotly/dist/runtime/plugin").default> &
+  InjectionType<typeof import("../../node_modules/nuxt-og-image/dist/runtime/nuxt/plugins/og-image-canonical-urls.server").default> &
+  InjectionType<typeof import("../../node_modules/nuxt-og-image/dist/runtime/nuxt/plugins/route-rule-og-image.server").default> &
+  InjectionType<typeof import("../../node_modules/nuxt-site-config/dist/runtime/nuxt/plugins/0.siteConfig").default> &
   InjectionType<typeof import("../../node_modules/@nuxthq/studio/dist/runtime/plugins/preview.client").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/ui/dist/runtime/plugins/slideovers").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/ui/dist/runtime/plugins/modals").default> &
@@ -32,7 +35,7 @@ declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }
 
   interface NuxtAppLiterals {
-    pluginName: 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'nuxt:payload' | 'nuxt:revive-payload:server' | 'nuxt:global-components' | 'nuxt:prefetch' | 'nuxt:chunk-reload'
+    pluginName: 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'nuxt-site-config:init' | 'nuxt:payload' | 'nuxt:revive-payload:server' | 'nuxt:global-components' | 'nuxt:prefetch' | 'nuxt:chunk-reload'
   }
 }
 
