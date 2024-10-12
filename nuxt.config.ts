@@ -66,10 +66,13 @@ export default defineNuxtConfig({
   },
   plugins: ['~/plugins/customDirectives.js'],
   router: {
-    base: '/longitudinal.dev/'
+    base: '/longitudinal.dev/' // Base URL for GitHub Pages
   },
   // Set site URL for OG image generation
   site: {
-    url: 'https://opendevsci.github.io/longitudinal.dev/' // Set the correct site URL here
+    url: 'https://opendevsci.github.io/longitudinal.dev/' // Ensure correct site URL for deployment
+  },
+  app: {
+    baseURL: process.env.NUXT_APP_BASE_URL || '/longitudinal.dev/' // Ensure the base URL points to your GitHub Pages repo
   }
 })

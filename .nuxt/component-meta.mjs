@@ -1296,29 +1296,6 @@ export default {
           "default": "undefined"
         },
         {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "{}",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          },
-          "default": "{}"
-        },
-        {
           "name": "type",
           "global": false,
           "description": "",
@@ -1355,6 +1332,29 @@ export default {
           ],
           "schema": "string",
           "default": "undefined"
+        },
+        {
+          "name": "ui",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "{}",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          },
+          "default": "{}"
         },
         {
           "name": "required",
@@ -1463,40 +1463,6 @@ export default {
           "schema": "string"
         },
         {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1240,
-                1327
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "ui",
-          "type": "{}",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        },
-        {
           "name": "type",
           "type": "string",
           "description": "",
@@ -1534,6 +1500,21 @@ export default {
           }
         },
         {
+          "name": "class",
+          "type": "any",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1240,
+                1327
+              ]
+            }
+          ],
+          "schema": "any"
+        },
+        {
           "name": "description",
           "type": "string",
           "description": "",
@@ -1547,6 +1528,25 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "ui",
+          "type": "{}",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
         }
       ]
     }
@@ -1891,25 +1891,6 @@ export default {
           "default": "undefined"
         },
         {
-          "name": "language",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                186,
-                242
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
           "name": "filename",
           "global": false,
           "description": "",
@@ -1922,6 +1903,25 @@ export default {
               "range": [
                 305,
                 361
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "undefined"
+        },
+        {
+          "name": "language",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                186,
+                242
               ]
             }
           ],
@@ -2064,6 +2064,21 @@ export default {
           "schema": "string"
         },
         {
+          "name": "filename",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                305,
+                361
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
           "name": "code",
           "type": "string",
           "description": "",
@@ -2114,21 +2129,6 @@ export default {
               "true"
             ]
           }
-        },
-        {
-          "name": "filename",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                305,
-                361
-              ]
-            }
-          ],
-          "schema": "string"
         },
         {
           "name": "highlights",
@@ -3447,8 +3447,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@827": {
-                                    "name": "__@match@827",
+                                  "__@match@822": {
+                                    "name": "__@match@822",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -3474,8 +3474,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@829": {
-                                    "name": "__@replace@829",
+                                  "__@replace@824": {
+                                    "name": "__@replace@824",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -3516,8 +3516,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@832": {
-                                    "name": "__@search@832",
+                                  "__@search@827": {
+                                    "name": "__@search@827",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -3543,8 +3543,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@834": {
-                                    "name": "__@split@834",
+                                  "__@split@829": {
+                                    "name": "__@split@829",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -3574,8 +3574,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@836": {
-                                    "name": "__@matchAll@836",
+                                  "__@matchAll@831": {
+                                    "name": "__@matchAll@831",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -3955,6 +3955,16 @@ export default {
                             ]
                           }
                         },
+                        "title": {
+                          "name": "title",
+                          "global": false,
+                          "description": "",
+                          "tags": [],
+                          "required": false,
+                          "type": "string | number | boolean | RegExp | QueryBuilderWhere",
+                          "declarations": [],
+                          "schema": "string | number | boolean | RegExp | QueryBuilderWhere"
+                        },
                         "_id": {
                           "name": "_id",
                           "global": false,
@@ -3977,16 +3987,6 @@ export default {
                         },
                         "_path": {
                           "name": "_path",
-                          "global": false,
-                          "description": "",
-                          "tags": [],
-                          "required": false,
-                          "type": "string | number | boolean | RegExp | QueryBuilderWhere",
-                          "declarations": [],
-                          "schema": "string | number | boolean | RegExp | QueryBuilderWhere"
-                        },
-                        "title": {
-                          "name": "title",
                           "global": false,
                           "description": "",
                           "tags": [],
@@ -4969,36 +4969,6 @@ export default {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3983,
-                4099
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "query",
-          "type": "undefined",
-          "description": "A query builder params object to be passed to <ContentQuery /> component.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                4217,
-                4345
-              ]
-            }
-          ],
-          "schema": "undefined"
-        },
-        {
           "name": "tag",
           "type": "string",
           "description": "The tag to use for the renderer element if it is used.",
@@ -5034,6 +5004,36 @@ export default {
               "true"
             ]
           }
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3983,
+                4099
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "query",
+          "type": "undefined",
+          "description": "A query builder params object to be passed to <ContentQuery /> component.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                4217,
+                4345
+              ]
+            }
+          ],
+          "schema": "undefined"
         },
         {
           "name": "head",
@@ -5730,8 +5730,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@827": {
-                                    "name": "__@match@827",
+                                  "__@match@822": {
+                                    "name": "__@match@822",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -5757,8 +5757,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@829": {
-                                    "name": "__@replace@829",
+                                  "__@replace@824": {
+                                    "name": "__@replace@824",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -5799,8 +5799,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@832": {
-                                    "name": "__@search@832",
+                                  "__@search@827": {
+                                    "name": "__@search@827",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -5826,8 +5826,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@834": {
-                                    "name": "__@split@834",
+                                  "__@split@829": {
+                                    "name": "__@split@829",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -5857,8 +5857,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@836": {
-                                    "name": "__@matchAll@836",
+                                  "__@matchAll@831": {
+                                    "name": "__@matchAll@831",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -9842,21 +9842,6 @@ export default {
           "schema": "Record<string, any>"
         },
         {
-          "name": "tag",
-          "type": "string",
-          "description": "The tag to use for the renderer element if it is used.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
-              "range": [
-                1151,
-                1222
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "excerpt",
           "type": "boolean",
           "description": "Whether or not to render the excerpt.",
@@ -9877,6 +9862,21 @@ export default {
               "true"
             ]
           }
+        },
+        {
+          "name": "tag",
+          "type": "string",
+          "description": "The tag to use for the renderer element if it is used.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
+              "range": [
+                1151,
+                1222
+              ]
+            }
+          ],
+          "schema": "string"
         }
       ]
     }
@@ -10055,21 +10055,6 @@ export default {
           "schema": "Record<string, any>"
         },
         {
-          "name": "tag",
-          "type": "string",
-          "description": "Root tag to use for rendering",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
-              "range": [
-                556,
-                603
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "excerpt",
           "type": "boolean",
           "description": "Render only the excerpt",
@@ -10090,6 +10075,21 @@ export default {
               "true"
             ]
           }
+        },
+        {
+          "name": "tag",
+          "type": "string",
+          "description": "Root tag to use for rendering",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "range": [
+                556,
+                603
+              ]
+            }
+          ],
+          "schema": "string"
         }
       ]
     }
@@ -10334,8 +10334,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@805": {
-                "name": "__@hasInstance@805",
+              "__@hasInstance@800": {
+                "name": "__@hasInstance@800",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -10356,8 +10356,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@807": {
-                "name": "__@metadata@807",
+              "__@metadata@802": {
+                "name": "__@metadata@802",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -10634,8 +10634,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@805": {
-                "name": "__@hasInstance@805",
+              "__@hasInstance@800": {
+                "name": "__@hasInstance@800",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -10656,8 +10656,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@807": {
-                "name": "__@metadata@807",
+              "__@metadata@802": {
+                "name": "__@metadata@802",
                 "global": false,
                 "description": "",
                 "tags": [],
