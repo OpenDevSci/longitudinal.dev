@@ -3,7 +3,7 @@ import { $fetch as $fetch$1 } from 'file:///Users/shawes/git/opendevsci/longitud
 import { b as baseURL } from '../_/renderer3.mjs';
 import { createHooks } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hookable/dist/index.mjs';
 import { getContext } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unctx/dist/index.mjs';
-import { createError as createError$1, getRequestHeader, setCookie, getCookie, deleteCookie, sanitizeStatusCode, appendHeader } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/h3/dist/index.mjs';
+import { createError as createError$1, getRequestHeader, setCookie, getCookie, deleteCookie, sanitizeStatusCode } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/h3/dist/index.mjs';
 import { joinURL, withQuery, withLeadingSlash, withoutTrailingSlash, parseQuery, withBase, hasProtocol, isScriptProtocol, parseURL, withoutBase, withTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ufo/dist/index.mjs';
 import { CapoPlugin, getActiveHead } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unhead/dist/index.mjs';
 import { defineHeadPlugin, composableNames, unpackMeta } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@unhead/shared/dist/index.mjs';
@@ -652,7 +652,7 @@ const generateRouteKey$1 = (routeProps, override) => {
 const wrapInKeepAlive = (props, children) => {
   return { default: () => children };
 };
-function toArray$1(value) {
+function toArray(value) {
   return Array.isArray(value) ? value : [value];
 }
 async function getRouteRules(url) {
@@ -878,7 +878,7 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
       routerBase += "#";
     }
     const history2 = ((_a = routerOptions.history) == null ? void 0 : _a.call(routerOptions, routerBase)) ?? createMemoryHistory(routerBase);
-    const routes2 = ((_b = routerOptions.routes) == null ? void 0 : _b.call(routerOptions, _routes)) ?? _routes;
+    const routes = ((_b = routerOptions.routes) == null ? void 0 : _b.call(routerOptions, _routes)) ?? _routes;
     let startPosition;
     const router = createRouter({
       ...routerOptions,
@@ -899,7 +899,7 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
         }
       },
       history: history2,
-      routes: routes2
+      routes
     });
     nuxtApp.vueApp.use(router);
     const previousRoute = shallowRef(router.currentRoute.value);
@@ -989,7 +989,7 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
           if (!componentMiddleware) {
             continue;
           }
-          for (const entry2 of toArray$1(componentMiddleware)) {
+          for (const entry2 of toArray(componentMiddleware)) {
             middlewareEntries.add(entry2);
           }
         }
@@ -1051,9 +1051,6 @@ const plugin = /* @__PURE__ */ defineNuxtPlugin({
     return { provide: { router } };
   }
 });
-function toArray(value) {
-  return Array.isArray(value) ? value : [value];
-}
 function useRequestEvent(nuxtApp = useNuxtApp()) {
   var _a;
   return (_a = nuxtApp.ssrContext) == null ? void 0 : _a.event;
@@ -1061,10 +1058,6 @@ function useRequestEvent(nuxtApp = useNuxtApp()) {
 function useRequestFetch() {
   var _a;
   return ((_a = useRequestEvent()) == null ? void 0 : _a.$fetch) || globalThis.$fetch;
-}
-function prerenderRoutes(path) {
-  const paths = toArray(path);
-  appendHeader(useRequestEvent(), "x-nitro-prerender", paths.map((p) => encodeURIComponent(p)).join(", "));
 }
 const useStateKeyPrefix = "$s";
 function useState(...args) {
@@ -2128,40 +2121,6 @@ const customDirectives_mPCDmOIJcJ = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) =
     }
   });
 });
-let routes;
-const prerender_server_LXx1wM9sKF = /* @__PURE__ */ defineNuxtPlugin(async () => {
-  let __temp, __restore;
-  if (routerOptions.hashMode) {
-    return;
-  }
-  if (routes && !routes.length) {
-    return;
-  }
-  routes || (routes = Array.from(processRoutes(([__temp, __restore] = executeAsync(() => {
-    var _a;
-    return (_a = routerOptions.routes) == null ? void 0 : _a.call(routerOptions, _routes);
-  }), __temp = await __temp, __restore(), __temp) ?? _routes)));
-  const batch = routes.splice(0, 10);
-  prerenderRoutes(batch);
-});
-const OPTIONAL_PARAM_RE = /^\/?:.*(?:\?|\(\.\*\)\*)$/;
-function processRoutes(routes2, currentPath = "/", routesToPrerender = /* @__PURE__ */ new Set()) {
-  var _a;
-  for (const route of routes2) {
-    if (OPTIONAL_PARAM_RE.test(route.path) && !((_a = route.children) == null ? void 0 : _a.length)) {
-      routesToPrerender.add(currentPath);
-    }
-    if (route.path.includes(":")) {
-      continue;
-    }
-    const fullPath = joinURL(currentPath, route.path);
-    routesToPrerender.add(fullPath);
-    if (route.children) {
-      processRoutes(route.children, fullPath, routesToPrerender);
-    }
-  }
-  return routesToPrerender;
-}
 const plugins = [
   unhead_KgADcZ0jPj,
   plugin,
@@ -2176,8 +2135,7 @@ const plugins = [
   plugin_server_XNCxeHyTuP,
   presets_1aypKNZ222,
   variables_kQtglGecod,
-  customDirectives_mPCDmOIJcJ,
-  prerender_server_LXx1wM9sKF
+  customDirectives_mPCDmOIJcJ
 ];
 function defaultEstimatedProgress(duration, elapsed) {
   const completionPercentage = elapsed / duration * 100;
@@ -9300,7 +9258,7 @@ const __nuxt_component_4 = defineComponent({
 function _mergeTransitionProps(routeProps) {
   const _props = routeProps.map((prop) => ({
     ...prop,
-    onAfterLeave: prop.onAfterLeave ? toArray$1(prop.onAfterLeave) : void 0
+    onAfterLeave: prop.onAfterLeave ? toArray(prop.onAfterLeave) : void 0
   }));
   return defu(..._props);
 }
