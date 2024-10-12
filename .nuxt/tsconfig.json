@@ -96,13 +96,13 @@
         "../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#mdc-configs": [
-        "./mdc-configs.mjs"
+        "./mdc-configs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter.mjs"
+        "./mdc-highlighter"
       ],
       "#mdc-imports": [
-        "./mdc-imports.mjs"
+        "./mdc-imports"
       ],
       "#ui": [
         "../node_modules/@nuxt/ui/dist/runtime"
@@ -111,19 +111,13 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors.mjs"
+        "./ui.colors"
       ],
       "#icon-collections": [
-        "./icon-collections.mjs"
+        "./icon-collections"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
-      ],
-      "#nuxt-component-meta": [
-        "./component-meta.mjs"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d.ts"
       ],
       "#vue-router": [
         "./vue-router-stub"
@@ -134,8 +128,11 @@
       "#tailwind-config": [
         "./tailwind.config"
       ],
+      "#tailwind-config/*": [
+        "./tailwind.config/*"
+      ],
       "#app-manifest": [
-        "./manifest/meta/57e7be89-f24c-4877-ae2a-bfa948e6eda8.json"
+        "./manifest/meta/dev"
       ],
       "#build": [
         "."
@@ -188,7 +185,6 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime",
     "../node_modules/@nuxt/ui/runtime",
     "../node_modules/@nuxt/fonts/runtime",
-    "../node_modules/nuxt-component-meta/runtime",
     "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/nuxt-site-config/dist/runtime",
     "../node_modules/nuxt-og-image/runtime",
@@ -213,7 +209,6 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
     "../node_modules/@nuxt/fonts/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/nuxt-site-config/dist/runtime/server",
     "../node_modules/nuxt-og-image/runtime/server",
