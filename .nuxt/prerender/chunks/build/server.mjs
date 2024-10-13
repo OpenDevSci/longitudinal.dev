@@ -1,10 +1,10 @@
-import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, toRef, isRef, defineAsyncComponent, unref, defineComponent, h as h$1, useAttrs, computed, toValue, useSSRContext, provide, createElementBlock, nextTick, onMounted, cloneVNode, Fragment, onUnmounted, Teleport, reactive, shallowRef, normalizeClass, shallowReactive, Suspense, Transition, onServerPrefetch, useSlots, mergeProps, createVNode, resolveDynamicComponent, withCtx, renderSlot, resolveComponent, withAsyncContext, openBlock, createBlock, createCommentVNode, createTextVNode, toDisplayString, createSlots, renderList, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, withKeys as withKeys$1, withDirectives, vShow, isShallow, isReactive, toRaw } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
+import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, toRef, isRef, defineAsyncComponent, defineComponent, h as h$1, useAttrs, computed, toValue, useSSRContext, provide, createElementBlock, nextTick, onMounted, cloneVNode, Fragment, onUnmounted, unref, Teleport, reactive, shallowRef, normalizeClass, shallowReactive, Suspense, Transition, onServerPrefetch, useSlots, mergeProps, createVNode, resolveDynamicComponent, withCtx, renderSlot, resolveComponent, withAsyncContext, openBlock, createBlock, createCommentVNode, createTextVNode, toDisplayString, createSlots, renderList, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, withKeys as withKeys$1, withDirectives, vShow, isShallow, isReactive, toRaw } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
 import { $fetch as $fetch$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ofetch/dist/node.mjs';
 import { b as baseURL } from '../_/renderer3.mjs';
 import { createHooks } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hookable/dist/index.mjs';
 import { getContext } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unctx/dist/index.mjs';
 import { createError as createError$1, getRequestHeader, setCookie, getCookie, deleteCookie, sanitizeStatusCode } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/h3/dist/index.mjs';
-import { joinURL, withQuery, withLeadingSlash, withoutTrailingSlash, parseQuery, withBase, hasProtocol, isScriptProtocol, parseURL, withoutBase, withTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ufo/dist/index.mjs';
+import { withLeadingSlash, joinURL, withoutTrailingSlash, parseQuery, withBase, hasProtocol, withQuery, isScriptProtocol, parseURL, withoutBase, withTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ufo/dist/index.mjs';
 import { CapoPlugin, getActiveHead } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unhead/dist/index.mjs';
 import { defineHeadPlugin, composableNames, unpackMeta } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@unhead/shared/dist/index.mjs';
 import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue-router/dist/vue-router.node.mjs';
@@ -671,7 +671,7 @@ const _routes = [
     name: "slug",
     path: "/:slug(.*)*",
     meta: __nuxt_page_meta || {},
-    component: () => import('./_...slug_-RosEDnQ6.mjs').then((m2) => m2.default || m2)
+    component: () => import('./_...slug_-DP6_yUSc.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "about",
@@ -686,12 +686,12 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-gUIXiAn3.mjs').then((m2) => m2.default || m2)
+    component: () => import('./index-kDIty-w6.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "plotly-view",
     path: "/plotly-view",
-    component: () => import('./plotly-view-CtuaG_PZ.mjs').then((m2) => m2.default || m2)
+    component: () => import('./plotly-view-CyzErzzL.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "resources_seenote",
@@ -706,7 +706,7 @@ const _routes = [
   {
     name: "test",
     path: "/test",
-    component: () => import('./test-CfZHNESi.mjs').then((m2) => m2.default || m2)
+    component: () => import('./test-CxofOlom.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "tools",
@@ -1139,41 +1139,41 @@ const LazyTestComponent = defineAsyncComponent(() => import('./TestComponent-BPH
 const LazyArticleList = defineAsyncComponent(() => import('./ArticleList-BDLP6qgF.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyMethodCardList = defineAsyncComponent(() => import('./MethodCardList-C2L0wxSl.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazySimpleCarousel = defineAsyncComponent(() => import('./SimpleCarousel-O-inhhmQ.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCallout = defineAsyncComponent(() => import('./Callout-CWjXRo0M.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCard = defineAsyncComponent(() => import('./Card-BDw2lDLH.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCallout = defineAsyncComponent(() => import('./Callout-DSwrQId9.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCard = defineAsyncComponent(() => import('./Card-CahAk9jT.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyCardGroup = defineAsyncComponent(() => import('./CardGroup-REkX0go7.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyCodeGroup = defineAsyncComponent(() => import('./CodeGroup-ujtzGjIJ.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-BpQZWGei.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-1JJC87Cp.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyField = defineAsyncComponent(() => import('./Field-CD9ouTL0.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyFieldGroup = defineAsyncComponent(() => import('./FieldGroup-FgMcRV9R.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyShortcut = defineAsyncComponent(() => import('./Shortcut-CbTJqkY_.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyShortcut = defineAsyncComponent(() => import('./Shortcut-CVxnFeHm.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyTabs = defineAsyncComponent(() => import('./Tabs-BO4xuony.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-DMtPSXvA.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton-CrZM48we.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-C0zAUeSr.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton-CyJMqRDP.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseCodeIcon = defineAsyncComponent(() => import('./ProseCodeIcon-BxQtCHS4.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-2VXD7_QD.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-DScNLYsj.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-CzLCtab6.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-DKhTZCHT.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-CIRQLBHf.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentList = defineAsyncComponent(() => import('./ContentList-C7ZulO0Q.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-DfOJwZjP.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-D6QavM2p.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-BZ4In3mA.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-C7LiaGWG.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-BANmnHQ3.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentList = defineAsyncComponent(() => import('./ContentList-C_BLKa9o.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-DHhEAz3s.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-DOVjn35C.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-DSYDeib8.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-B4Gzi1ai.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyContentSlot = defineAsyncComponent(() => import('./ContentSlot-C2mEnxkD.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenEmpty = defineAsyncComponent(() => import('./DocumentDrivenEmpty-CVfz7tly.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenNotFound = defineAsyncComponent(() => import('./DocumentDrivenNotFound-4pTrsASA.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyMarkdown = defineAsyncComponent(() => import('./Markdown-DVqqGV91.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseCodeInline = defineAsyncComponent(() => import('./ProseCodeInline-CrCGboaA.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-BfTxPOVb.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-Bq-KTk5d.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseA = defineAsyncComponent(() => import('./ProseA-DNFoBgVD.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseBlockquote = defineAsyncComponent(() => import('./ProseBlockquote-CKJs4nRM.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-7EB9_P56.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-_bW_Bc7Y.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-Wscvu4Vv.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-Dvaq7zko.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-DtuxY9tT.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-DQEtGu6v.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-BorqeNQi.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-XxiH379L.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-1dF7W0L3.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-CWiXn1dM.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyProseP = defineAsyncComponent(() => import('./ProseP-B4aH5vAO.mjs').then((r2) => r2["default"] || r2.default || r2));
@@ -1194,7 +1194,7 @@ const LazyUIcon = defineAsyncComponent(() => Promise.resolve().then(function() {
 const LazyIcon = defineAsyncComponent(() => Promise.resolve().then(function() {
   return Icon$1;
 }).then((r2) => r2["default"] || r2.default || r2));
-const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-WMjjr6FF.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-BZ2CJdxn.mjs').then((r2) => r2["default"] || r2.default || r2));
 const lazyGlobalComponents = [
   ["CardComponent1", LazyCardComponent1],
   ["CardComponent2", LazyCardComponent2],
@@ -10502,7 +10502,7 @@ const createQueryFetch = () => async (query) => {
     addPrerenderPath(apiPath);
   }
   if (shouldUseClientDB()) {
-    const db = await import('./client-db-D6Ox_iqq.mjs').then((m2) => m2.useContentDatabase());
+    const db = await import('./client-db-DhwsFYEa.mjs').then((m2) => m2.useContentDatabase());
     return db.fetch(query);
   }
   const data = await $fetch(apiPath, {
@@ -10565,7 +10565,7 @@ const fetchContentNavigation = async (queryBuilder) => {
     addPrerenderPath(apiPath);
   }
   if (shouldUseClientDB()) {
-    const generateNavigation = await import('./client-db-D6Ox_iqq.mjs').then((m2) => m2.generateNavigation);
+    const generateNavigation = await import('./client-db-DhwsFYEa.mjs').then((m2) => m2.generateNavigation);
     return generateNavigation(params);
   }
   const data = await $fetch(apiPath, {
@@ -11007,7 +11007,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = defineAsyncComponent(() => import('./island-renderer-Bj21wAsm.mjs').then((r2) => r2.default || r2));
+    const IslandRenderer = defineAsyncComponent(() => import('./island-renderer-02vZcY27.mjs').then((r2) => r2.default || r2));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;
@@ -11071,5 +11071,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { Ye as $, useContentPreview as A, __nuxt_component_0$a as B, nuxtLinkProps as C, config$9 as D, getNuxtLinkProps as E, getSlotChildrenText as F, __nuxt_component_1 as G, __nuxt_component_0$8 as H, i$3 as I, o$1 as J, w$2 as K, w$4 as L, h as M, t$2 as N, u$5 as O, i$1 as P, A$2 as Q, I$1 as R, s$3 as S, l$2 as T, N$4 as U, o as V, v$2 as W, N$5 as X, _ as Y, O$1 as Z, __nuxt_component_1$1 as _, __nuxt_component_0$4 as a, Ge$1 as a0, l$3 as a1, N$1 as a2, Q$1 as a3, V as a4, useId as a5, useShortcuts as a6, __nuxt_component_0$3 as a7, useToast as a8, useHead as a9, useState as aa, useContentDisabled as ab, fetchContentNavigation as ac, resolveIconName as ad, get as ae, assertArray as af, ensureArray as ag, omit as ah, sortList as ai, apply as aj, withoutKeys as ak, withKeys as al, createQuery as am, __nuxt_component_0$5 as an, useSiteConfig as ao, __nuxt_component_0$9 as b, createError as c, useRouter as d, entry$1 as default, useNuxtApp as e, useAppConfig as f, _export_sfc as g, appConfig as h, __nuxt_component_2 as i, getULinkProps as j, __nuxt_component_0$6 as k, useRuntimeConfig as l, mergeConfig as m, useRoute as n, normaliseOptions as o, useOgImageRuntimeConfig as p, createOgImageMeta as q, getOgImagePath as r, separateProps as s, useRequestEvent as t, useUI as u, useAsyncData as v, queryContent as w, useSeoMeta as x, findPageHeadline as y, _sfc_main$3 as z };
+export { useShortcuts as $, __nuxt_component_0$8 as A, i$3 as B, o$1 as C, w$2 as D, w$4 as E, h as F, t$2 as G, u$5 as H, i$1 as I, A$2 as J, I$1 as K, s$3 as L, l$2 as M, N$4 as N, o as O, v$2 as P, N$5 as Q, _ as R, O$1 as S, Ge$1 as T, l$3 as U, N$1 as V, Q$1 as W, V as X, Ye as Y, useId as Z, __nuxt_component_1$1 as _, __nuxt_component_0$4 as a, __nuxt_component_0$3 as a0, useToast as a1, useHead as a2, useRuntimeConfig as a3, useState as a4, useContentDisabled as a5, fetchContentNavigation as a6, resolveIconName as a7, get as a8, assertArray as a9, ensureArray as aa, omit as ab, sortList as ac, apply as ad, withoutKeys as ae, withKeys as af, createQuery as ag, __nuxt_component_0$5 as ah, useOgImageRuntimeConfig as ai, useSiteConfig as aj, __nuxt_component_0$9 as b, createError as c, useRouter as d, entry$1 as default, useNuxtApp as e, useAppConfig as f, _export_sfc as g, appConfig as h, __nuxt_component_2 as i, getULinkProps as j, __nuxt_component_0$6 as k, useRoute as l, mergeConfig as m, useAsyncData as n, useSeoMeta as o, findPageHeadline as p, queryContent as q, _sfc_main$3 as r, useContentPreview as s, __nuxt_component_0$a as t, useUI as u, nuxtLinkProps as v, config$9 as w, getNuxtLinkProps as x, getSlotChildrenText as y, __nuxt_component_1 as z };
 //# sourceMappingURL=server.mjs.map

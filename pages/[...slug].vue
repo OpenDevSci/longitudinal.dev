@@ -42,11 +42,11 @@ useSeoMeta({
 });
 
 // Define OG image for social sharing
-defineOgImage({
-  component: "Docs",
-  title: page.value.title,
-  description: page.value.description,
-});
+// defineOgImage({
+//   component: "Docs",
+//   title: page.value.title,
+//   description: page.value.description,
+// });
 
 // Computed values for headline and links
 const headline = computed(() => findPageHeadline(page.value));

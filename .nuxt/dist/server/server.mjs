@@ -636,7 +636,7 @@ const _routes = [
     name: "slug",
     path: "/:slug(.*)*",
     meta: __nuxt_page_meta || {},
-    component: () => import("./_nuxt/_...slug_-RosEDnQ6.js").then((m2) => m2.default || m2)
+    component: () => import("./_nuxt/_...slug_-DP6_yUSc.js").then((m2) => m2.default || m2)
   },
   {
     name: "about",
@@ -651,12 +651,12 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-gUIXiAn3.js").then((m2) => m2.default || m2)
+    component: () => import("./_nuxt/index-kDIty-w6.js").then((m2) => m2.default || m2)
   },
   {
     name: "plotly-view",
     path: "/plotly-view",
-    component: () => import("./_nuxt/plotly-view-CtuaG_PZ.js").then((m2) => m2.default || m2)
+    component: () => import("./_nuxt/plotly-view-CyzErzzL.js").then((m2) => m2.default || m2)
   },
   {
     name: "resources_seenote",
@@ -671,7 +671,7 @@ const _routes = [
   {
     name: "test",
     path: "/test",
-    component: () => import("./_nuxt/test-CfZHNESi.js").then((m2) => m2.default || m2)
+    component: () => import("./_nuxt/test-CxofOlom.js").then((m2) => m2.default || m2)
   },
   {
     name: "tools",
@@ -1104,41 +1104,41 @@ const LazyTestComponent = defineAsyncComponent(() => import("./_nuxt/TestCompone
 const LazyArticleList = defineAsyncComponent(() => import("./_nuxt/ArticleList-BDLP6qgF.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyMethodCardList = defineAsyncComponent(() => import("./_nuxt/MethodCardList-C2L0wxSl.js").then((r2) => r2["default"] || r2.default || r2));
 const LazySimpleCarousel = defineAsyncComponent(() => import("./_nuxt/SimpleCarousel-O-inhhmQ.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyCallout = defineAsyncComponent(() => import("./_nuxt/Callout-CWjXRo0M.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyCard = defineAsyncComponent(() => import("./_nuxt/Card-BDw2lDLH.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyCallout = defineAsyncComponent(() => import("./_nuxt/Callout-DSwrQId9.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyCard = defineAsyncComponent(() => import("./_nuxt/Card-CahAk9jT.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyCardGroup = defineAsyncComponent(() => import("./_nuxt/CardGroup-REkX0go7.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyCodeGroup = defineAsyncComponent(() => import("./_nuxt/CodeGroup-ujtzGjIJ.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyCollapsible = defineAsyncComponent(() => import("./_nuxt/Collapsible-BpQZWGei.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyCollapsible = defineAsyncComponent(() => import("./_nuxt/Collapsible-1JJC87Cp.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyField = defineAsyncComponent(() => import("./_nuxt/Field-CD9ouTL0.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyFieldGroup = defineAsyncComponent(() => import("./_nuxt/FieldGroup-FgMcRV9R.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyShortcut = defineAsyncComponent(() => import("./_nuxt/Shortcut-CbTJqkY_.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyShortcut = defineAsyncComponent(() => import("./_nuxt/Shortcut-CVxnFeHm.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyTabs = defineAsyncComponent(() => import("./_nuxt/Tabs-BO4xuony.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCode = defineAsyncComponent(() => import("./_nuxt/ProseCode-DMtPSXvA.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeButton = defineAsyncComponent(() => import("./_nuxt/ProseCodeButton-CrZM48we.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCode = defineAsyncComponent(() => import("./_nuxt/ProseCode-C0zAUeSr.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeButton = defineAsyncComponent(() => import("./_nuxt/ProseCodeButton-CyJMqRDP.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseCodeIcon = defineAsyncComponent(() => import("./_nuxt/ProseCodeIcon-BxQtCHS4.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH1 = defineAsyncComponent(() => import("./_nuxt/ProseH1-2VXD7_QD.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH2 = defineAsyncComponent(() => import("./_nuxt/ProseH2-DScNLYsj.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH3 = defineAsyncComponent(() => import("./_nuxt/ProseH3-CzLCtab6.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseH4 = defineAsyncComponent(() => import("./_nuxt/ProseH4-DKhTZCHT.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyContentDoc = defineAsyncComponent(() => import("./_nuxt/ContentDoc-CIRQLBHf.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyContentList = defineAsyncComponent(() => import("./_nuxt/ContentList-C7ZulO0Q.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyContentNavigation = defineAsyncComponent(() => import("./_nuxt/ContentNavigation-DfOJwZjP.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyContentQuery = defineAsyncComponent(() => import("./_nuxt/ContentQuery-D6QavM2p.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRenderer = defineAsyncComponent(() => import("./_nuxt/ContentRenderer-BZ4In3mA.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRendererMarkdown = defineAsyncComponent(() => import("./_nuxt/ContentRendererMarkdown-C7LiaGWG.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyContentDoc = defineAsyncComponent(() => import("./_nuxt/ContentDoc-BANmnHQ3.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyContentList = defineAsyncComponent(() => import("./_nuxt/ContentList-C_BLKa9o.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyContentNavigation = defineAsyncComponent(() => import("./_nuxt/ContentNavigation-DHhEAz3s.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyContentQuery = defineAsyncComponent(() => import("./_nuxt/ContentQuery-DOVjn35C.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRenderer = defineAsyncComponent(() => import("./_nuxt/ContentRenderer-DSYDeib8.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRendererMarkdown = defineAsyncComponent(() => import("./_nuxt/ContentRendererMarkdown-B4Gzi1ai.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyContentSlot = defineAsyncComponent(() => import("./_nuxt/ContentSlot-C2mEnxkD.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenEmpty = defineAsyncComponent(() => import("./_nuxt/DocumentDrivenEmpty-CVfz7tly.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenNotFound = defineAsyncComponent(() => import("./_nuxt/DocumentDrivenNotFound-4pTrsASA.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyMarkdown = defineAsyncComponent(() => import("./_nuxt/Markdown-DVqqGV91.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseCodeInline = defineAsyncComponent(() => import("./_nuxt/ProseCodeInline-CrCGboaA.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyProsePre = defineAsyncComponent(() => import("./_nuxt/ProsePre-BfTxPOVb.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyProsePre = defineAsyncComponent(() => import("./_nuxt/ProsePre-Bq-KTk5d.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseA = defineAsyncComponent(() => import("./_nuxt/ProseA-DNFoBgVD.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseBlockquote = defineAsyncComponent(() => import("./_nuxt/ProseBlockquote-CKJs4nRM.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseEm = defineAsyncComponent(() => import("./_nuxt/ProseEm-7EB9_P56.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH5 = defineAsyncComponent(() => import("./_nuxt/ProseH5-_bW_Bc7Y.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH6 = defineAsyncComponent(() => import("./_nuxt/ProseH6-Wscvu4Vv.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH5 = defineAsyncComponent(() => import("./_nuxt/ProseH5-Dvaq7zko.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH6 = defineAsyncComponent(() => import("./_nuxt/ProseH6-DtuxY9tT.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseHr = defineAsyncComponent(() => import("./_nuxt/ProseHr-DQEtGu6v.js").then((r2) => r2["default"] || r2.default || r2));
-const LazyProseImg = defineAsyncComponent(() => import("./_nuxt/ProseImg-BorqeNQi.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyProseImg = defineAsyncComponent(() => import("./_nuxt/ProseImg-XxiH379L.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseLi = defineAsyncComponent(() => import("./_nuxt/ProseLi-1dF7W0L3.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseOl = defineAsyncComponent(() => import("./_nuxt/ProseOl-CWiXn1dM.js").then((r2) => r2["default"] || r2.default || r2));
 const LazyProseP = defineAsyncComponent(() => import("./_nuxt/ProseP-B4aH5vAO.js").then((r2) => r2["default"] || r2.default || r2));
@@ -1159,7 +1159,7 @@ const LazyUIcon = defineAsyncComponent(() => Promise.resolve().then(function() {
 const LazyIcon = defineAsyncComponent(() => Promise.resolve().then(function() {
   return Icon$1;
 }).then((r2) => r2["default"] || r2.default || r2));
-const LazyIconCSS = defineAsyncComponent(() => import("./_nuxt/IconCSS-WMjjr6FF.js").then((r2) => r2["default"] || r2.default || r2));
+const LazyIconCSS = defineAsyncComponent(() => import("./_nuxt/IconCSS-BZ2CJdxn.js").then((r2) => r2["default"] || r2.default || r2));
 const lazyGlobalComponents = [
   ["CardComponent1", LazyCardComponent1],
   ["CardComponent2", LazyCardComponent2],
@@ -10467,7 +10467,7 @@ const createQueryFetch = () => async (query) => {
     addPrerenderPath(apiPath);
   }
   if (shouldUseClientDB()) {
-    const db = await import("./_nuxt/client-db-D6Ox_iqq.js").then((m2) => m2.useContentDatabase());
+    const db = await import("./_nuxt/client-db-DhwsFYEa.js").then((m2) => m2.useContentDatabase());
     return db.fetch(query);
   }
   const data = await $fetch(apiPath, {
@@ -10530,7 +10530,7 @@ const fetchContentNavigation = async (queryBuilder) => {
     addPrerenderPath(apiPath);
   }
   if (shouldUseClientDB()) {
-    const generateNavigation = await import("./_nuxt/client-db-D6Ox_iqq.js").then((m2) => m2.generateNavigation);
+    const generateNavigation = await import("./_nuxt/client-db-DhwsFYEa.js").then((m2) => m2.generateNavigation);
     return generateNavigation(params);
   }
   const data = await $fetch(apiPath, {
@@ -10972,7 +10972,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = defineAsyncComponent(() => import("./_nuxt/island-renderer-Bj21wAsm.js").then((r2) => r2.default || r2));
+    const IslandRenderer = defineAsyncComponent(() => import("./_nuxt/island-renderer-02vZcY27.js").then((r2) => r2.default || r2));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;
@@ -11036,60 +11036,55 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 export {
-  Ye as $,
-  useContentPreview as A,
-  __nuxt_component_0$a as B,
-  nuxtLinkProps as C,
-  config$9 as D,
-  getNuxtLinkProps as E,
-  getSlotChildrenText as F,
-  __nuxt_component_1 as G,
-  __nuxt_component_0$8 as H,
-  i$3 as I,
-  o$1 as J,
-  w$2 as K,
-  w$4 as L,
-  h as M,
-  t$2 as N,
-  u$5 as O,
-  i$1 as P,
-  A$2 as Q,
-  I$1 as R,
-  s$3 as S,
-  l$2 as T,
-  N$4 as U,
-  o as V,
-  v$2 as W,
-  N$5 as X,
-  _ as Y,
-  O$1 as Z,
+  useShortcuts as $,
+  __nuxt_component_0$8 as A,
+  i$3 as B,
+  o$1 as C,
+  w$2 as D,
+  w$4 as E,
+  h as F,
+  t$2 as G,
+  u$5 as H,
+  i$1 as I,
+  A$2 as J,
+  I$1 as K,
+  s$3 as L,
+  l$2 as M,
+  N$4 as N,
+  o as O,
+  v$2 as P,
+  N$5 as Q,
+  _ as R,
+  O$1 as S,
+  Ge$1 as T,
+  l$3 as U,
+  N$1 as V,
+  Q$1 as W,
+  V as X,
+  Ye as Y,
+  useId as Z,
   __nuxt_component_1$1 as _,
   __nuxt_component_0$4 as a,
-  Ge$1 as a0,
-  l$3 as a1,
-  N$1 as a2,
-  Q$1 as a3,
-  V as a4,
-  useId as a5,
-  useShortcuts as a6,
-  __nuxt_component_0$3 as a7,
-  useToast as a8,
-  useHead as a9,
-  useState as aa,
-  useContentDisabled as ab,
-  fetchContentNavigation as ac,
-  resolveIconName as ad,
-  get as ae,
-  assertArray as af,
-  ensureArray as ag,
-  omit as ah,
-  sortList as ai,
-  apply as aj,
-  withoutKeys as ak,
-  withKeys as al,
-  createQuery as am,
-  __nuxt_component_0$5 as an,
-  useSiteConfig as ao,
+  __nuxt_component_0$3 as a0,
+  useToast as a1,
+  useHead as a2,
+  useRuntimeConfig as a3,
+  useState as a4,
+  useContentDisabled as a5,
+  fetchContentNavigation as a6,
+  resolveIconName as a7,
+  get as a8,
+  assertArray as a9,
+  ensureArray as aa,
+  omit as ab,
+  sortList as ac,
+  apply as ad,
+  withoutKeys as ae,
+  withKeys as af,
+  createQuery as ag,
+  __nuxt_component_0$5 as ah,
+  useOgImageRuntimeConfig as ai,
+  useSiteConfig as aj,
   __nuxt_component_0$9 as b,
   createError as c,
   useRouter as d,
@@ -11101,20 +11096,20 @@ export {
   __nuxt_component_2 as i,
   getULinkProps as j,
   __nuxt_component_0$6 as k,
-  useRuntimeConfig as l,
+  useRoute as l,
   mergeConfig as m,
-  useRoute as n,
-  normaliseOptions as o,
-  useOgImageRuntimeConfig as p,
-  createOgImageMeta as q,
-  getOgImagePath as r,
-  separateProps as s,
-  useRequestEvent as t,
+  useAsyncData as n,
+  useSeoMeta as o,
+  findPageHeadline as p,
+  queryContent as q,
+  _sfc_main$3 as r,
+  useContentPreview as s,
+  __nuxt_component_0$a as t,
   useUI as u,
-  useAsyncData as v,
-  queryContent as w,
-  useSeoMeta as x,
-  findPageHeadline as y,
-  _sfc_main$3 as z
+  nuxtLinkProps as v,
+  config$9 as w,
+  getNuxtLinkProps as x,
+  getSlotChildrenText as y,
+  __nuxt_component_1 as z
 };
 //# sourceMappingURL=server.mjs.map
