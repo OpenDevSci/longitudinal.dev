@@ -70,7 +70,7 @@ export default defineNuxtConfig({
   },
   // Set site URL for OG image generation
   site: {
-    url: 'https://opendevsci.github.io/longitudinal.dev/' // Ensure correct site URL for deployment
+    url: 'https://opendevsci.github.io' // Ensure correct site URL for deployment
   },
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || '/longitudinal.dev/' // Ensure the base URL points to your GitHub Pages repo

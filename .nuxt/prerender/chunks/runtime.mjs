@@ -248,7 +248,7 @@ const appConfig = defuFn(appConfig0, appConfig1, inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/longitudinal.dev/",
-    "buildId": "1c9f0736-f66b-4ce1-8b14-ec44dd8dcefb",
+    "buildId": "1661d707-21a2-4420-8139-15167f1940c2",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -331,7 +331,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1728828356132,
+      "integrity": 1728829600385,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -597,7 +597,7 @@ const _inlineRuntimeConfig = {
       {
         "_priority": -3,
         "_context": "nuxt-site-config:config",
-        "url": "https://opendevsci.github.io/longitudinal.dev/"
+        "url": "https://opendevsci.github.io"
       }
     ],
     "version": "2.2.12",
@@ -4931,6 +4931,29 @@ const components = {
           "default": "undefined"
         },
         {
+          "name": "ui",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "{}",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          },
+          "default": "{}"
+        },
+        {
           "name": "type",
           "global": false,
           "description": "",
@@ -4967,29 +4990,6 @@ const components = {
           ],
           "schema": "string",
           "default": "undefined"
-        },
-        {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "{}",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          },
-          "default": "{}"
         },
         {
           "name": "required",
@@ -5113,6 +5113,25 @@ const components = {
           "schema": "any"
         },
         {
+          "name": "ui",
+          "type": "{}",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
+        },
+        {
           "name": "type",
           "type": "string",
           "description": "",
@@ -5163,25 +5182,6 @@ const components = {
             }
           ],
           "schema": "string"
-        },
-        {
-          "name": "ui",
-          "type": "{}",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
         }
       ]
     }
@@ -8604,36 +8604,6 @@ const components = {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3983,
-                4099
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "query",
-          "type": "undefined",
-          "description": "A query builder params object to be passed to <ContentQuery /> component.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                4217,
-                4345
-              ]
-            }
-          ],
-          "schema": "undefined"
-        },
-        {
           "name": "tag",
           "type": "string",
           "description": "The tag to use for the renderer element if it is used.",
@@ -8669,6 +8639,36 @@ const components = {
               "true"
             ]
           }
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3983,
+                4099
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "query",
+          "type": "undefined",
+          "description": "A query builder params object to be passed to <ContentQuery /> component.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                4217,
+                4345
+              ]
+            }
+          ],
+          "schema": "undefined"
         },
         {
           "name": "head",
@@ -18329,6 +18329,21 @@ const components = {
           }
         },
         {
+          "name": "class",
+          "type": "any",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                6019,
+                6090
+              ]
+            }
+          ],
+          "schema": "any"
+        },
+        {
           "name": "type",
           "type": "string",
           "description": "",
@@ -18344,19 +18359,19 @@ const components = {
           "schema": "string"
         },
         {
-          "name": "class",
-          "type": "any",
+          "name": "icon",
+          "type": "string",
           "description": "",
           "declarations": [
             {
               "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
-                6019,
-                6090
+                5363,
+                5433
               ]
             }
           ],
-          "schema": "any"
+          "schema": "string"
         },
         {
           "name": "variant",
@@ -18534,21 +18549,6 @@ const components = {
             }
           ],
           "schema": "any"
-        },
-        {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                5363,
-                5433
-              ]
-            }
-          ],
-          "schema": "string"
         },
         {
           "name": "loadingIcon",
@@ -21306,7 +21306,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _WSBVO7, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _WSBVO7, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _WSBVO7, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1728828356132.json', handler: _N7CKZO, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1728829600385.json', handler: _N7CKZO, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _PgrdMk, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _PgrdMk, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _PgrdMk, lazy: false, middleware: false, method: "get" },
