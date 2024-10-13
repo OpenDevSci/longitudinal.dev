@@ -2049,21 +2049,6 @@ export default {
           }
         },
         {
-          "name": "code",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                78,
-                126
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "icon",
           "type": "string",
           "description": "",
@@ -2088,6 +2073,21 @@ export default {
               "range": [
                 305,
                 361
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                78,
+                126
               ]
             }
           ],
@@ -12213,25 +12213,6 @@ export default {
       "type": 1,
       "props": [
         {
-          "name": "code",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                248,
-                293
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "\"\""
-        },
-        {
           "name": "filename",
           "global": false,
           "description": "",
@@ -12249,6 +12230,25 @@ export default {
           ],
           "schema": "string",
           "default": "null"
+        },
+        {
+          "name": "code",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                248,
+                293
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "\"\""
         },
         {
           "name": "language",
@@ -12401,21 +12401,6 @@ export default {
           }
         },
         {
-          "name": "code",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                248,
-                293
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "filename",
           "type": "string",
           "description": "",
@@ -12425,6 +12410,21 @@ export default {
               "range": [
                 352,
                 403
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                248,
+                293
               ]
             }
           ],

@@ -248,7 +248,7 @@ const appConfig = defuFn(appConfig0, appConfig1, inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/longitudinal-dev/",
-    "buildId": "30932195-909e-4504-86d0-08657bc62ddb",
+    "buildId": "e96d5d56-5463-47be-84a8-04045320d6a1",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -331,7 +331,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1728832036633,
+      "integrity": 1728833986887,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -5684,21 +5684,6 @@ const components = {
           }
         },
         {
-          "name": "code",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                78,
-                126
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "icon",
           "type": "string",
           "description": "",
@@ -5723,6 +5708,21 @@ const components = {
               "range": [
                 305,
                 361
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                78,
+                126
               ]
             }
           ],
@@ -15848,25 +15848,6 @@ const components = {
       "type": 1,
       "props": [
         {
-          "name": "code",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                248,
-                293
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "\"\""
-        },
-        {
           "name": "filename",
           "global": false,
           "description": "",
@@ -15884,6 +15865,25 @@ const components = {
           ],
           "schema": "string",
           "default": "null"
+        },
+        {
+          "name": "code",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                248,
+                293
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "\"\""
         },
         {
           "name": "language",
@@ -16036,21 +16036,6 @@ const components = {
           }
         },
         {
-          "name": "code",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                248,
-                293
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "filename",
           "type": "string",
           "description": "",
@@ -16060,6 +16045,21 @@ const components = {
               "range": [
                 352,
                 403
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                248,
+                293
               ]
             }
           ],
@@ -21306,7 +21306,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1728832036633.json', handler: _6bbxUj, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1728833986887.json', handler: _6bbxUj, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
