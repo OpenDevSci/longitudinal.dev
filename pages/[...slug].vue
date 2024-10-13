@@ -6,7 +6,7 @@ const route = useRoute();
 const { toc, seo } = useAppConfig(); // Keeping both 'toc' and 'seo'
 
 definePageMeta({
-  layout: "docs",
+  layout: "default",
 });
 
 // Fetch page data

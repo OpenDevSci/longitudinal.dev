@@ -248,7 +248,7 @@ const appConfig = defuFn(appConfig0, appConfig1, inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/longitudinal-dev/",
-    "buildId": "e96d5d56-5463-47be-84a8-04045320d6a1",
+    "buildId": "2e862445-ea51-4e3c-9a49-05a87298fab1",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -331,7 +331,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1728833986887,
+      "integrity": 1728837065594,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -5684,6 +5684,21 @@ const components = {
           }
         },
         {
+          "name": "code",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                78,
+                126
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
           "name": "icon",
           "type": "string",
           "description": "",
@@ -5708,21 +5723,6 @@ const components = {
               "range": [
                 305,
                 361
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "code",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                78,
-                126
               ]
             }
           ],
@@ -7082,8 +7082,8 @@ const components = {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@822": {
-                                    "name": "__@match@822",
+                                  "__@match@826": {
+                                    "name": "__@match@826",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -7109,8 +7109,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@824": {
-                                    "name": "__@replace@824",
+                                  "__@replace@828": {
+                                    "name": "__@replace@828",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -7151,8 +7151,8 @@ const components = {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@827": {
-                                    "name": "__@search@827",
+                                  "__@search@831": {
+                                    "name": "__@search@831",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -7178,8 +7178,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@829": {
-                                    "name": "__@split@829",
+                                  "__@split@833": {
+                                    "name": "__@split@833",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -7209,8 +7209,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@831": {
-                                    "name": "__@matchAll@831",
+                                  "__@matchAll@835": {
+                                    "name": "__@matchAll@835",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -9365,8 +9365,8 @@ const components = {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@822": {
-                                    "name": "__@match@822",
+                                  "__@match@826": {
+                                    "name": "__@match@826",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -9392,8 +9392,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@824": {
-                                    "name": "__@replace@824",
+                                  "__@replace@828": {
+                                    "name": "__@replace@828",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -9434,8 +9434,8 @@ const components = {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@827": {
-                                    "name": "__@search@827",
+                                  "__@search@831": {
+                                    "name": "__@search@831",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -9461,8 +9461,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@829": {
-                                    "name": "__@split@829",
+                                  "__@split@833": {
+                                    "name": "__@split@833",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -9492,8 +9492,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@831": {
-                                    "name": "__@matchAll@831",
+                                  "__@matchAll@835": {
+                                    "name": "__@matchAll@835",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -13969,8 +13969,8 @@ const components = {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@800": {
-                "name": "__@hasInstance@800",
+              "__@hasInstance@804": {
+                "name": "__@hasInstance@804",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -13991,8 +13991,8 @@ const components = {
                   "schema": []
                 }
               },
-              "__@metadata@802": {
-                "name": "__@metadata@802",
+              "__@metadata@806": {
+                "name": "__@metadata@806",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -14269,8 +14269,8 @@ const components = {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@800": {
-                "name": "__@hasInstance@800",
+              "__@hasInstance@804": {
+                "name": "__@hasInstance@804",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -14291,8 +14291,8 @@ const components = {
                   "schema": []
                 }
               },
-              "__@metadata@802": {
-                "name": "__@metadata@802",
+              "__@metadata@806": {
+                "name": "__@metadata@806",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -15848,25 +15848,6 @@ const components = {
       "type": 1,
       "props": [
         {
-          "name": "filename",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                352,
-                403
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "null"
-        },
-        {
           "name": "code",
           "global": false,
           "description": "",
@@ -15884,6 +15865,25 @@ const components = {
           ],
           "schema": "string",
           "default": "\"\""
+        },
+        {
+          "name": "filename",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                352,
+                403
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "null"
         },
         {
           "name": "language",
@@ -16036,21 +16036,6 @@ const components = {
           }
         },
         {
-          "name": "filename",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                352,
-                403
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "code",
           "type": "string",
           "description": "",
@@ -16060,6 +16045,21 @@ const components = {
               "range": [
                 248,
                 293
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "filename",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                352,
+                403
               ]
             }
           ],
@@ -21306,7 +21306,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1728833986887.json', handler: _6bbxUj, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1728837065594.json', handler: _6bbxUj, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _97vJYI, lazy: false, middleware: false, method: "get" },

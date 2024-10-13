@@ -11,28 +11,35 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     ['nuxt-plotly', { inject: true }]
   ],
+
   hooks: {
     'components:extend': (components) => {
       const globals = components.filter(c => ['UButton', 'UIcon', 'ArticleList', 'MethodCardList', 'SimpleCarousel', 'TabComponent', 'TestComponent'].includes(c.pascalName))
       globals.forEach(c => c.global = true)
     }
   },
+
   ui: {
     icons: ['heroicons', 'simple-icons']
   },
+
   colorMode: {
     disableTransition: true
   },
+
   routeRules: {
     '/': { prerender: true },
     '/api/search.json': { prerender: true }
   },
+
   devtools: {
     enabled: true
   },
+
   typescript: {
     strict: false
   },
+
   eslint: {
     config: {
       stylistic: {
@@ -41,21 +48,25 @@ export default defineNuxtConfig({
       }
     }
   },
+
   content: {
     highlight: {
       langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'mdc', 'md', 'yaml', 'r'],
       documentDriven: true
     }
   },
+
   vite: {
     optimizeDeps: {
       include: ['plotly.js-dist-min']
     }
   },
+
   css: [
     '@fortawesome/fontawesome-free/css/all.min.css',
     '~/assets/css/main.css'
   ],
+
   build: {
     postcss: {
       plugins: {
@@ -64,14 +75,18 @@ export default defineNuxtConfig({
       }
     }
   },
+
   plugins: ['~/plugins/customDirectives.js'],
+
   router: {
-    base: '/longitudinal-dev/' // Base URL for GitHub Pages
+    base: '/longitudinal-dev/' // Base URL for GitHub Pages deployment
   },
+
   // Set site URL for OG image generation
   site: {
-    url: 'https://opendevsci.github.io' // Ensure correct site URL for deployment
+    url: 'https://opendevsci.github.io' // Only the domain, no path
   },
+
   app: {
     baseURL: process.env.NUXT_APP_BASE_URL || '/longitudinal-dev/' // Ensure the base URL points to your GitHub Pages repo
   }

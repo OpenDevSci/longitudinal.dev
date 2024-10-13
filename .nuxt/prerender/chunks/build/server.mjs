@@ -664,7 +664,7 @@ async function getRouteRules(url) {
   }
 }
 const __nuxt_page_meta = {
-  layout: "docs"
+  layout: "default"
 };
 const _routes = [
   {
