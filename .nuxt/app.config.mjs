@@ -38,7 +38,7 @@ if (import.meta.hot) {
   })
 }
 
-import cfg0 from "/Users/shawes/git/opendevsci/longitudinal.dev/app.config.ts"
-import cfg1 from "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/app.config.ts"
+import cfg0 from "/Users/shawes/git/opendevsci/longitudinal-dev/app.config.ts"
+import cfg1 from "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/app.config.ts"
 
 export default /*@__PURE__*/ defuFn(cfg0, cfg1, inlineConfig)

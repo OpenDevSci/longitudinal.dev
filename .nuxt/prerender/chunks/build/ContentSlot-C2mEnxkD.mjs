@@ -1,4 +1,4 @@
-import { defineComponent, getCurrentInstance, useSlots, computed, h, useSSRContext } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
+import { defineComponent, getCurrentInstance, useSlots, computed, h, useSSRContext } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 import { f as flatUnwrap } from './node-B5VQLu6X.mjs';
 
 const _sfc_main$1 = defineComponent({

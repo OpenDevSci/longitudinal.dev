@@ -1,45 +1,45 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHost, getRequestProtocol, getQuery as getQuery$1, createError, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, getResponseHeader, appendHeader, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ofetch/dist/node.mjs';
-import destr, { destr as destr$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hookable/dist/index.mjs';
-import { klona } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/klona/dist/index.mjs';
-import { snakeCase, kebabCase, pascalCase, camelCase } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/scule/dist/index.mjs';
-import defu, { defuFn, defu as defu$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/defu/dist/defu.mjs';
-import { hash } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, hasProtocol, withHttps, withoutProtocol, withTrailingSlash, withoutTrailingSlash, withoutLeadingSlash, decodePath, withLeadingSlash, isRelative } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ufo/dist/index.mjs';
-import { createStorage, defineDriver, prefixStorage, normalizeKey } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/fs.mjs';
-import fsDriver from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/fs-lite.mjs';
-import lruCacheDriver from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/lru-cache.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/radix3/dist/index.mjs';
-import { toValue } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHost, getRequestProtocol, getQuery as getQuery$1, createError, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, getResponseHeader, appendHeader, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ofetch/dist/node.mjs';
+import destr, { destr as destr$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/hookable/dist/index.mjs';
+import { klona } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/klona/dist/index.mjs';
+import { snakeCase, kebabCase, pascalCase, camelCase } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/scule/dist/index.mjs';
+import defu, { defuFn, defu as defu$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/defu/dist/defu.mjs';
+import { hash } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, hasProtocol, withHttps, withoutProtocol, withTrailingSlash, withoutTrailingSlash, withoutLeadingSlash, decodePath, withLeadingSlash, isRelative } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ufo/dist/index.mjs';
+import { createStorage, defineDriver, prefixStorage, normalizeKey } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unstorage/drivers/fs.mjs';
+import fsDriver from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unstorage/drivers/fs-lite.mjs';
+import lruCacheDriver from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unstorage/drivers/lru-cache.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/radix3/dist/index.mjs';
+import { toValue } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve, extname } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/pathe/dist/index.mjs';
-import { isSpecialLang, isSpecialTheme, addClassToHast, getHighlighterCore } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/core.mjs';
-import { transformerNotationDiff, transformerNotationFocus, transformerNotationHighlight, transformerNotationErrorLevel } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@shikijs/transformers/dist/index.mjs';
-import { unified } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unified/index.js';
-import { toString as toString$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/mdast-util-to-string/index.js';
-import { postprocess, preprocess } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark/index.js';
-import { stringifyPosition } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unist-util-stringify-position/index.js';
-import { markdownLineEnding, markdownSpace } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-character/index.js';
-import { push, splice } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-chunked/index.js';
-import { resolveAll } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-resolve-all/index.js';
-import { normalizeUri } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-sanitize-uri/index.js';
-import slugify from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/slugify/slugify.js';
-import remarkParse from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-parse/index.js';
-import remark2rehype from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-rehype/index.js';
-import remarkMDC, { parseFrontMatter } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-mdc/dist/index.mjs';
-import { toString } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hast-util-to-string/index.js';
-import Slugger from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/github-slugger/index.js';
-import { detab } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/detab/index.js';
-import remarkEmoji from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-emoji/index.js';
-import remarkGFM from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-gfm/index.js';
-import rehypeExternalLinks from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-external-links/index.js';
-import rehypeSortAttributeValues from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-sort-attribute-values/index.js';
-import rehypeSortAttributes from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-sort-attributes/index.js';
-import rehypeRaw from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-raw/index.js';
+import { dirname, resolve, extname } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/pathe/dist/index.mjs';
+import { isSpecialLang, isSpecialTheme, addClassToHast, getHighlighterCore } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/core.mjs';
+import { transformerNotationDiff, transformerNotationFocus, transformerNotationHighlight, transformerNotationErrorLevel } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@shikijs/transformers/dist/index.mjs';
+import { unified } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unified/index.js';
+import { toString as toString$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/mdast-util-to-string/index.js';
+import { postprocess, preprocess } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark/index.js';
+import { stringifyPosition } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unist-util-stringify-position/index.js';
+import { markdownLineEnding, markdownSpace } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark-util-character/index.js';
+import { push, splice } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark-util-chunked/index.js';
+import { resolveAll } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark-util-resolve-all/index.js';
+import { normalizeUri } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark-util-sanitize-uri/index.js';
+import slugify from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/slugify/slugify.js';
+import remarkParse from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-parse/index.js';
+import remark2rehype from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-rehype/index.js';
+import remarkMDC, { parseFrontMatter } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-mdc/dist/index.mjs';
+import { toString } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/hast-util-to-string/index.js';
+import Slugger from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/github-slugger/index.js';
+import { detab } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/detab/index.js';
+import remarkEmoji from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-emoji/index.js';
+import remarkGFM from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-gfm/index.js';
+import rehypeExternalLinks from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-external-links/index.js';
+import rehypeSortAttributeValues from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attribute-values/index.js';
+import rehypeSortAttributes from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attributes/index.js';
+import rehypeRaw from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-raw/index.js';
 
 function getEnv(key, opts) {
   const envKey = snakeCase(key).toUpperCase();
@@ -107,17 +107,17 @@ const appConfig0 = defineAppConfig({
       "icon": "i-simple-icons-github",
       "to": "https://github.com/OpenDevSci/LongDev-ABCD",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on GitHub"
+      "aria-label": "Longitudinal-dev on GitHub"
     }, {
       "icon": "i-simple-icons-discord",
       "to": "https://discord.com/channels/1288111827649171456/1288111940820013139",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Discord"
+      "aria-label": "Longitudinal-dev on Discord"
     }, {
       "icon": "i-simple-icons-slack",
       "to": "https://longitudinaldev.slack.com",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Slack"
+      "aria-label": "Longitudinal-dev on Slack"
     }]
   },
   footer: {
@@ -127,17 +127,17 @@ const appConfig0 = defineAppConfig({
       "icon": "i-simple-icons-github",
       "to": "https://github.com/OpenDevSci/LongDev-ABCD",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on GitHub"
+      "aria-label": "Longitudinal-dev on GitHub"
     }, {
       "icon": "i-simple-icons-discord",
       "to": "https://discord.com/channels/1288111827649171456/1288111940820013139",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Discord"
+      "aria-label": "Longitudinal-dev on Discord"
     }, {
       "icon": "i-simple-icons-slack",
       "to": "https://longitudinaldev.slack.com",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Slack"
+      "aria-label": "Longitudinal-dev on Slack"
     }]
   },
   toc: {
@@ -247,8 +247,8 @@ const appConfig = defuFn(appConfig0, appConfig1, inlineAppConfig);
 
 const _inlineRuntimeConfig = {
   "app": {
-    "baseURL": "/longitudinal.dev/",
-    "buildId": "1661d707-21a2-4420-8139-15167f1940c2",
+    "baseURL": "/longitudinal-dev/",
+    "buildId": "30932195-909e-4504-86d0-08657bc62ddb",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -331,7 +331,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1728829600385,
+      "integrity": 1728832036633,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -586,7 +586,7 @@ const _inlineRuntimeConfig = {
       {
         "_context": "system",
         "_priority": -15,
-        "name": "longitudinal.dev",
+        "name": "longitudinal-dev",
         "env": "production"
       },
       {
@@ -1311,7 +1311,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"nuxt-og-image:fonts","dir":"/Users/shawes/git/opendevsci/longitudinal.dev/.nuxt/cache/nuxt-og-image@3.0.0-rc.53/_fonts"},{"baseName":"server","dir":"/Users/shawes/git/opendevsci/longitudinal.dev/server/assets"}];
+const serverAssets = [{"baseName":"nuxt-og-image:fonts","dir":"/Users/shawes/git/opendevsci/longitudinal-dev/.nuxt/cache/nuxt-og-image@3.0.0-rc.53/_fonts"},{"baseName":"server","dir":"/Users/shawes/git/opendevsci/longitudinal-dev/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -1320,7 +1320,7 @@ for (const asset of serverAssets) {
 }
 
 const normalizeFsKey = (item) => item.replaceAll(":", "_");
-const _47Users_47shawes_47git_47opendevsci_47longitudinal_46dev_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js = defineDriver((opts) => {
+const _47Users_47shawes_47git_47opendevsci_47longitudinal_45dev_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js = defineDriver((opts) => {
   const fs = fsDriver({ base: opts.base });
   const lru = lruCacheDriver({ max: 1e3 });
   return {
@@ -1345,14 +1345,14 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('internal:nuxt:prerender', _47Users_47shawes_47git_47opendevsci_47longitudinal_46dev_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"/Users/shawes/git/opendevsci/longitudinal.dev/.nuxt/cache/nitro/prerender"}));
-storage.mount('data', fsDriver({"driver":"fsLite","base":"/Users/shawes/git/opendevsci/longitudinal.dev/.data/kv"}));
-storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/Users/shawes/git/opendevsci/longitudinal.dev/content","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/shawes/git/opendevsci/longitudinal.dev/.nuxt/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/shawes/git/opendevsci/longitudinal.dev","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/shawes/git/opendevsci/longitudinal.dev/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/shawes/git/opendevsci/longitudinal.dev/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/shawes/git/opendevsci/longitudinal.dev/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('internal:nuxt:prerender', _47Users_47shawes_47git_47opendevsci_47longitudinal_45dev_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"/Users/shawes/git/opendevsci/longitudinal-dev/.nuxt/cache/nitro/prerender"}));
+storage.mount('data', fsDriver({"driver":"fsLite","base":"/Users/shawes/git/opendevsci/longitudinal-dev/.data/kv"}));
+storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/Users/shawes/git/opendevsci/longitudinal-dev/content","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/shawes/git/opendevsci/longitudinal-dev/.nuxt/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/shawes/git/opendevsci/longitudinal-dev","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/shawes/git/opendevsci/longitudinal-dev/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/shawes/git/opendevsci/longitudinal-dev/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/shawes/git/opendevsci/longitudinal-dev/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -2872,7 +2872,7 @@ function contentHeading(body) {
 }
 
 const PRERENDER_NO_SSR_ROUTES = /* @__PURE__ */ new Set(["/index.html", "/200.html", "/404.html"]);
-const _DRTab275AB = defineNitroPlugin(async (nitroApp) => {
+const _dEXXJ5qqOO = defineNitroPlugin(async (nitroApp) => {
   nitroApp.hooks.hook("render:html", async (ctx, { event }) => {
     const routeOptions = getRouteRules(event);
     const isIsland = process.env.NUXT_COMPONENT_ISLANDS && event.path.startsWith("/__nuxt_island");
@@ -2979,7 +2979,7 @@ function useOgImageRuntimeConfig() {
   return useRuntimeConfig()["nuxt-og-image"];
 }
 
-const _kkgWWwbv5W = defineNitroPlugin((nitroApp) => {
+const _0nW4I5F3mX = defineNitroPlugin((nitroApp) => {
   const { isNuxtContentDocumentDriven, defaults } = useOgImageRuntimeConfig();
   nitroApp.hooks.hook("content:file:afterParse", async (content) => {
     if (content._draft || content._extension !== "md" || content._partial || content.indexable === false || content.index === false)
@@ -3242,7 +3242,7 @@ async function fetchPathHtmlAndExtractOptions(e, path, key) {
   return payload;
 }
 
-const _I7N2Hk8Z5o = defineNitroPlugin(async (nitro) => {
+const _kBwZEMEUko = defineNitroPlugin(async (nitro) => {
   nitro.hooks.hook("render:html", async (html, ctx) => {
     const { head, bodyAppend } = html;
     const path = parseURL(ctx.event.path).pathname;
@@ -3265,17 +3265,17 @@ const _I7N2Hk8Z5o = defineNitroPlugin(async (nitro) => {
 
 const script = "\"use strict\";(()=>{const a=window,e=document.documentElement,c=window.localStorage,d=[\"dark\",\"light\"],n=c&&c.getItem&&c.getItem(\"nuxt-color-mode\")||\"system\";let l=n===\"system\"?f():n;const i=e.getAttribute(\"data-color-mode-forced\");i&&(l=i),r(l),a[\"__NUXT_COLOR_MODE__\"]={preference:n,value:l,getColorScheme:f,addColorScheme:r,removeColorScheme:u};function r(o){const t=\"\"+o+\"\",s=\"\";e.classList?e.classList.add(t):e.className+=\" \"+t,s&&e.setAttribute(\"data-\"+s,o)}function u(o){const t=\"\"+o+\"\",s=\"\";e.classList?e.classList.remove(t):e.className=e.className.replace(new RegExp(t,\"g\"),\"\"),s&&e.removeAttribute(\"data-\"+s)}function m(o){return a.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function f(){if(a.matchMedia&&m(\"\").media!==\"not all\"){for(const o of d)if(m(\":\"+o).matches)return o}return\"light\"}})();\n";
 
-const _IQfutDbw76 = (function(nitro) {
+const _Y7aAS4NUoN = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
 const plugins = [
-  _DRTab275AB,
-_kkgWWwbv5W,
-_I7N2Hk8Z5o,
-_IQfutDbw76
+  _dEXXJ5qqOO,
+_0nW4I5F3mX,
+_kBwZEMEUko,
+_Y7aAS4NUoN
 ];
 
 const errorHandler = (async function errorhandler(error, event) {
@@ -3455,7 +3455,7 @@ function createShikiHighlighter({
     const shiki2 = await getHighlighterCore({
       langs,
       themes,
-      loadWasm: () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/wasm.mjs')
+      loadWasm: () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/wasm.mjs')
     });
     for await (const config of await getConfigs()) {
       await config.shiki?.setup?.(shiki2);
@@ -3589,33 +3589,33 @@ function createShikiHighlighter({
 }
 
 const bundledLangs = {
-"json": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/json.mjs'),
-"javascript": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/javascript.mjs'),
-"js": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/javascript.mjs'),
-"typescript": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/typescript.mjs'),
-"ts": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/typescript.mjs'),
-"html": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/html.mjs'),
-"css": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/css.mjs'),
-"vue": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/vue.mjs'),
-"shellscript": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/shellscript.mjs'),
-"bash": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/shellscript.mjs'),
-"sh": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/shellscript.mjs'),
-"shell": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/shellscript.mjs'),
-"zsh": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/shellscript.mjs'),
-"mdc": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/mdc.mjs'),
-"markdown": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/markdown.mjs'),
-"md": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/markdown.mjs'),
-"yaml": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/yaml.mjs'),
-"yml": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/yaml.mjs'),
-"r": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/r.mjs'),
-"diff": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/diff.mjs'),
-"ini": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/ini.mjs'),
-"properties": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/langs/ini.mjs'),
+"json": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/json.mjs'),
+"javascript": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/javascript.mjs'),
+"js": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/javascript.mjs'),
+"typescript": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/typescript.mjs'),
+"ts": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/typescript.mjs'),
+"html": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/html.mjs'),
+"css": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/css.mjs'),
+"vue": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/vue.mjs'),
+"shellscript": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/shellscript.mjs'),
+"bash": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/shellscript.mjs'),
+"sh": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/shellscript.mjs'),
+"shell": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/shellscript.mjs'),
+"zsh": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/shellscript.mjs'),
+"mdc": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/mdc.mjs'),
+"markdown": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/markdown.mjs'),
+"md": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/markdown.mjs'),
+"yaml": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/yaml.mjs'),
+"yml": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/yaml.mjs'),
+"r": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/r.mjs'),
+"diff": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/diff.mjs'),
+"ini": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/ini.mjs'),
+"properties": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/ini.mjs'),
 };
 const bundledThemes = {
-"material-theme-lighter": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/themes/material-theme-lighter.mjs').then(r => r.default),
-"material-theme": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/themes/material-theme.mjs').then(r => r.default),
-"material-theme-palenight": () => import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/themes/material-theme-palenight.mjs').then(r => r.default),
+"material-theme-lighter": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/themes/material-theme-lighter.mjs').then(r => r.default),
+"material-theme": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/themes/material-theme.mjs').then(r => r.default),
+"material-theme-palenight": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/themes/material-theme-palenight.mjs').then(r => r.default),
 };
 const options = {"theme":{"light":"material-theme-lighter","default":"material-theme","dark":"material-theme-palenight"}};
 const highlighter = createShikiHighlighter({ bundledLangs, bundledThemes, options, getMdcConfigs });
@@ -3626,7 +3626,7 @@ const mdcHighlighter = /*#__PURE__*/Object.freeze({
   default: highlighter
 });
 
-const _ggw7em = eventHandler(async (event) => {
+const _g4pBLw = eventHandler(async (event) => {
   const { code, lang, theme: themeString, options: optionsStr } = getQuery$1(event);
   const theme = JSON.parse(themeString);
   const options = optionsStr ? JSON.parse(optionsStr) : {};
@@ -3646,7 +3646,7 @@ const components = {
     "shortPath": "components/content/CardComponent1.vue",
     "export": "default",
     "priority": 1,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/components/content/CardComponent1.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/content/CardComponent1.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -3693,7 +3693,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -3764,7 +3764,7 @@ const components = {
     "shortPath": "components/content/CardComponent2.vue",
     "export": "default",
     "priority": 1,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/components/content/CardComponent2.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/content/CardComponent2.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -3789,7 +3789,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -3832,7 +3832,7 @@ const components = {
     "shortPath": "components/content/TabComponent.vue",
     "export": "default",
     "priority": 1,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/components/content/TabComponent.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/content/TabComponent.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -3844,7 +3844,7 @@ const components = {
           "signature": "(event: \"update:activeTab\", ...args: any[]): void",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 4304,
                 4338
@@ -3871,7 +3871,7 @@ const components = {
     "shortPath": "components/content/TestComponent.vue",
     "export": "default",
     "priority": 1,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/components/content/TestComponent.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/content/TestComponent.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -3892,7 +3892,7 @@ const components = {
     "shortPath": "components/ArticleList.vue",
     "export": "default",
     "priority": 1,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/components/ArticleList.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/ArticleList.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -3913,7 +3913,7 @@ const components = {
     "shortPath": "components/MethodCardList.vue",
     "export": "default",
     "priority": 1,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/components/MethodCardList.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/MethodCardList.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -3934,7 +3934,7 @@ const components = {
     "shortPath": "components/SimpleCarousel.vue",
     "export": "default",
     "priority": 1,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/components/SimpleCarousel.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/SimpleCarousel.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -3955,7 +3955,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -3968,7 +3968,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1600,
                 1652
@@ -3987,7 +3987,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1656,
                 1746
@@ -4006,7 +4006,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1750,
                 1800
@@ -4025,7 +4025,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1804,
                 1858
@@ -4044,7 +4044,7 @@ const components = {
           "type": "any",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1953,
                 2046
@@ -4087,7 +4087,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -4121,7 +4121,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1600,
                 1652
@@ -4136,7 +4136,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1656,
                 1746
@@ -4151,7 +4151,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1750,
                 1800
@@ -4166,7 +4166,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1804,
                 1858
@@ -4181,7 +4181,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1862,
                 1949
@@ -4196,7 +4196,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Callout.vue",
               "range": [
                 1953,
                 2046
@@ -4220,7 +4220,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -4233,7 +4233,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1663,
                 1715
@@ -4252,7 +4252,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1719,
                 1809
@@ -4271,7 +4271,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1813,
                 1863
@@ -4290,7 +4290,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1867,
                 1921
@@ -4309,7 +4309,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1925,
                 1978
@@ -4328,7 +4328,7 @@ const components = {
           "type": "any",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 2073,
                 2166
@@ -4371,7 +4371,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -4405,7 +4405,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1663,
                 1715
@@ -4420,7 +4420,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1719,
                 1809
@@ -4435,7 +4435,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1813,
                 1863
@@ -4450,7 +4450,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1867,
                 1921
@@ -4465,7 +4465,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1925,
                 1978
@@ -4480,7 +4480,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 1982,
                 2069
@@ -4495,7 +4495,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Card.vue",
               "range": [
                 2073,
                 2166
@@ -4519,7 +4519,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CardGroup.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CardGroup.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CardGroup.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -4544,7 +4544,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -4578,7 +4578,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CardGroup.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CardGroup.vue",
               "range": [
                 282,
                 369
@@ -4602,7 +4602,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -4627,7 +4627,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -4661,7 +4661,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
               "range": [
                 1228,
                 1315
@@ -4676,7 +4676,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/CodeGroup.vue",
               "range": [
                 1487,
                 1500
@@ -4700,7 +4700,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -4713,7 +4713,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
               "range": [
                 1085,
                 1140
@@ -4732,7 +4732,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
               "range": [
                 1144,
                 1197
@@ -4751,7 +4751,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
               "range": [
                 1201,
                 1255
@@ -4794,7 +4794,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -4828,7 +4828,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
               "range": [
                 1085,
                 1140
@@ -4843,7 +4843,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
               "range": [
                 1144,
                 1197
@@ -4858,7 +4858,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Collapsible.vue",
               "range": [
                 1201,
                 1255
@@ -4882,7 +4882,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -4895,14 +4895,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 953,
                 1001
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 953,
                 1001
@@ -4920,7 +4920,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 1181,
                 1236
@@ -4931,29 +4931,6 @@ const components = {
           "default": "undefined"
         },
         {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "{}",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          },
-          "default": "{}"
-        },
-        {
           "name": "type",
           "global": false,
           "description": "",
@@ -4962,7 +4939,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 1068,
                 1120
@@ -4981,7 +4958,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 1005,
                 1064
@@ -4992,6 +4969,29 @@ const components = {
           "default": "undefined"
         },
         {
+          "name": "ui",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "{}",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          },
+          "default": "{}"
+        },
+        {
           "name": "required",
           "global": false,
           "description": "",
@@ -5000,7 +5000,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 1124,
                 1177
@@ -5039,7 +5039,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -5073,7 +5073,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 1181,
                 1236
@@ -5088,7 +5088,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 953,
                 1001
@@ -5098,46 +5098,12 @@ const components = {
           "schema": "string"
         },
         {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1240,
-                1327
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "ui",
-          "type": "{}",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        },
-        {
           "name": "type",
           "type": "string",
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 1068,
                 1120
@@ -5152,7 +5118,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 1124,
                 1177
@@ -5169,12 +5135,27 @@ const components = {
           }
         },
         {
+          "name": "class",
+          "type": "any",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1240,
+                1327
+              ]
+            }
+          ],
+          "schema": "any"
+        },
+        {
           "name": "description",
           "type": "string",
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
               "range": [
                 1005,
                 1064
@@ -5182,6 +5163,25 @@ const components = {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "ui",
+          "type": "{}",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
         }
       ]
     }
@@ -5198,7 +5198,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/FieldGroup.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/FieldGroup.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/FieldGroup.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -5223,7 +5223,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -5257,7 +5257,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/FieldGroup.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/FieldGroup.vue",
               "range": [
                 380,
                 467
@@ -5281,7 +5281,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -5294,14 +5294,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
               "range": [
                 285,
                 334
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
               "range": [
                 285,
                 334
@@ -5320,7 +5320,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
               "range": [
                 285,
                 334
@@ -5335,7 +5335,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Shortcut.vue",
               "range": [
                 338,
                 425
@@ -5359,7 +5359,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -5372,7 +5372,7 @@ const components = {
           "type": "number",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
               "range": [
                 1382,
                 1435
@@ -5404,7 +5404,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -5438,7 +5438,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
               "range": [
                 1382,
                 1435
@@ -5453,7 +5453,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Tabs.vue",
               "range": [
                 1439,
                 1526
@@ -5477,7 +5477,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -5490,14 +5490,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 78,
                 126
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 78,
                 126
@@ -5515,29 +5515,10 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 130,
                 182
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
-          "name": "language",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                186,
-                242
               ]
             }
           ],
@@ -5553,10 +5534,29 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 305,
                 361
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "undefined"
+        },
+        {
+          "name": "language",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                186,
+                242
               ]
             }
           ],
@@ -5572,7 +5572,7 @@ const components = {
           "type": "number[]",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 365,
                 444
@@ -5597,7 +5597,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 448,
                 500
@@ -5616,7 +5616,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 246,
                 301
@@ -5655,7 +5655,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -5689,7 +5689,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 78,
                 126
@@ -5704,10 +5704,25 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 130,
                 182
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "filename",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                305,
+                361
               ]
             }
           ],
@@ -5719,7 +5734,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 186,
                 242
@@ -5734,7 +5749,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 246,
                 301
@@ -5751,27 +5766,12 @@ const components = {
           }
         },
         {
-          "name": "filename",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                305,
-                361
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "highlights",
           "type": "number[]",
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 365,
                 444
@@ -5792,7 +5792,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
               "range": [
                 448,
                 500
@@ -5816,7 +5816,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -5829,14 +5829,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
               "range": [
                 55,
                 103
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
               "range": [
                 55,
                 103
@@ -5855,7 +5855,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeButton.vue",
               "range": [
                 55,
                 103
@@ -5879,7 +5879,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -5892,7 +5892,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
               "range": [
                 55,
                 107
@@ -5911,7 +5911,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
               "range": [
                 111,
                 167
@@ -5931,7 +5931,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
               "range": [
                 55,
                 107
@@ -5946,7 +5946,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCodeIcon.vue",
               "range": [
                 111,
                 167
@@ -5970,7 +5970,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -5983,14 +5983,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
               "range": [
                 414,
                 460
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
               "range": [
                 414,
                 460
@@ -6021,7 +6021,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -6055,7 +6055,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH1.vue",
               "range": [
                 414,
                 460
@@ -6079,7 +6079,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -6092,14 +6092,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
               "range": [
                 414,
                 460
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
               "range": [
                 414,
                 460
@@ -6130,7 +6130,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -6164,7 +6164,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH2.vue",
               "range": [
                 414,
                 460
@@ -6188,7 +6188,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -6201,14 +6201,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
               "range": [
                 414,
                 460
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
               "range": [
                 414,
                 460
@@ -6239,7 +6239,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -6273,7 +6273,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH3.vue",
               "range": [
                 414,
                 460
@@ -6297,7 +6297,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -6310,14 +6310,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
               "range": [
                 414,
                 460
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
               "range": [
                 414,
                 460
@@ -6348,7 +6348,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -6382,7 +6382,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseH4.vue",
               "range": [
                 414,
                 460
@@ -6406,7 +6406,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -6419,7 +6419,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 4632,
                 4644
@@ -6437,7 +6437,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 4653,
                 4666
@@ -6455,7 +6455,7 @@ const components = {
           "type": "QueryBuilderParams",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 4675,
                 4701
@@ -6475,7 +6475,7 @@ const components = {
                 "type": "boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9173,
                       9189
@@ -6500,7 +6500,7 @@ const components = {
                 "type": "number",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9194,
                       9208
@@ -6518,7 +6518,7 @@ const components = {
                 "type": "number",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9213,
                       9228
@@ -6536,7 +6536,7 @@ const components = {
                 "type": "string[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9233,
                       9249
@@ -6560,7 +6560,7 @@ const components = {
                 "type": "string[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9254,
                       9273
@@ -6578,7 +6578,7 @@ const components = {
                 "type": "SortOptions[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9278,
                       9299
@@ -6611,7 +6611,7 @@ const components = {
                               "type": "string",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     3558,
                                     3575
@@ -6634,7 +6634,7 @@ const components = {
                               "type": "boolean",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     3749,
                                     3768
@@ -6657,7 +6657,7 @@ const components = {
                               "type": "\"upper\" | \"lower\" | \"false\"",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     3953,
                                     3994
@@ -6688,7 +6688,7 @@ const components = {
                               "type": "\"base\" | \"accent\" | \"case\" | \"variant\"",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     4733,
                                     4787
@@ -6727,7 +6727,7 @@ const components = {
                 "type": "QueryBuilderWhere[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9304,
                       9332
@@ -6756,7 +6756,7 @@ const components = {
                           "type": "QueryBuilderWhere[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 5305,
                                 5332
@@ -6779,7 +6779,7 @@ const components = {
                           "type": "QueryBuilderWhere[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 5576,
                                 5602
@@ -6802,7 +6802,7 @@ const components = {
                           "type": "string | number | boolean | RegExp | QueryBuilderWhere",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 5799,
                                 5861
@@ -6835,7 +6835,7 @@ const components = {
                                     "type": "(string: string) => RegExpExecArray",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           40960,
                                           41005
@@ -6862,7 +6862,7 @@ const components = {
                                     "type": "(string: string) => boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41187,
                                           41217
@@ -6884,7 +6884,7 @@ const components = {
                                     "type": "string",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41399,
                                           41423
@@ -6902,7 +6902,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41569,
                                           41594
@@ -6920,7 +6920,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41744,
                                           41773
@@ -6938,7 +6938,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41922,
                                           41950
@@ -6956,7 +6956,7 @@ const components = {
                                     "type": "number",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41956,
                                           41974
@@ -6979,7 +6979,7 @@ const components = {
                                     "type": "(pattern: string, flags?: string) => RegExp",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           42077,
                                           42124
@@ -7001,7 +7001,7 @@ const components = {
                                     "type": "string",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
                                         "range": [
                                           14897,
                                           14920
@@ -7019,7 +7019,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
                                         "range": [
                                           15085,
                                           15110
@@ -7037,7 +7037,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
                                         "range": [
                                           15276,
                                           15302
@@ -7055,7 +7055,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
                                         "range": [
                                           1204,
                                           1229
@@ -7073,7 +7073,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2022.regexp.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2022.regexp.d.ts",
                                         "range": [
                                           1304,
                                           1333
@@ -7096,7 +7096,7 @@ const components = {
                                     "type": "(string: string) => RegExpMatchArray",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           5644,
                                           5700
@@ -7135,14 +7135,14 @@ const components = {
                                     "type": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           6110,
                                           6173
                                         ]
                                       },
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           6478,
                                           6576
@@ -7165,7 +7165,7 @@ const components = {
                                     "type": "(string: string) => number",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           6782,
                                           6822
@@ -7196,7 +7196,7 @@ const components = {
                                     "type": "(string: string, limit?: number) => string[]",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           7384,
                                           7441
@@ -7223,7 +7223,7 @@ const components = {
                                     "type": "(str: string) => IterableIterator<RegExpMatchArray>",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
                                         "range": [
                                           1385,
                                           1452
@@ -7256,7 +7256,7 @@ const components = {
                           "type": "string | number | boolean | RegExp",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6060,
                                 6101
@@ -7289,7 +7289,7 @@ const components = {
                           "type": "string | number | boolean | RegExp",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6294,
                                 6335
@@ -7312,7 +7312,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6533,
                                 6546
@@ -7335,7 +7335,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6757,
                                 6771
@@ -7358,7 +7358,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6966,
                                 6979
@@ -7381,7 +7381,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 7187,
                                 7201
@@ -7404,7 +7404,7 @@ const components = {
                           "type": "string | RegExp",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 7435,
                                 7460
@@ -7434,7 +7434,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 7664,
                                 7679
@@ -7457,7 +7457,7 @@ const components = {
                           "type": "boolean",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 7860,
                                 7878
@@ -7480,7 +7480,7 @@ const components = {
                           "type": "string | number | boolean | (string | number | boolean)[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 8135,
                                 8208
@@ -7528,7 +7528,7 @@ const components = {
                           "type": "(string | number | boolean)[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 8451,
                                 8499
@@ -7551,7 +7551,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 8695,
                                 8715
@@ -7574,7 +7574,7 @@ const components = {
                           "type": "string | (string | number | boolean)[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 8938,
                                 8986
@@ -7704,7 +7704,7 @@ const components = {
                 "type": "{ query: string | QueryBuilderWhere; before?: number; after?: number; }",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9337,
                       9448
@@ -7724,7 +7724,7 @@ const components = {
                       "type": "string | QueryBuilderWhere",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             9358,
                             9392
@@ -7749,7 +7749,7 @@ const components = {
                       "type": "number",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             9401,
                             9417
@@ -7767,7 +7767,7 @@ const components = {
                       "type": "number",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             9426,
                             9441
@@ -7791,7 +7791,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 4606,
                 4623
@@ -7816,7 +7816,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 4710,
                 4724
@@ -7840,7 +7840,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 6347,
                 6476
@@ -7860,7 +7860,7 @@ const components = {
                 "type": "ParsedContent",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
                     "range": [
                       6380,
                       6399
@@ -7880,7 +7880,7 @@ const components = {
                       "type": "MarkdownRoot",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             2459,
                             2482
@@ -7900,7 +7900,7 @@ const components = {
                             "type": "\"root\"",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1465,
                                   1478
@@ -7918,7 +7918,7 @@ const components = {
                             "type": "MarkdownNode[]",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1483,
                                   1508
@@ -7942,7 +7942,7 @@ const components = {
                                       "type": "string",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1214,
                                             1227
@@ -7960,7 +7960,7 @@ const components = {
                                       "type": "string",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1232,
                                             1245
@@ -7978,7 +7978,7 @@ const components = {
                                       "type": "string",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1250,
                                             1265
@@ -7996,7 +7996,7 @@ const components = {
                                       "type": "Record<string, any>",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1270,
                                             1298
@@ -8014,7 +8014,7 @@ const components = {
                                       "type": "any",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1303,
                                             1317
@@ -8032,7 +8032,7 @@ const components = {
                                       "type": "MarkdownNode[]",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1322,
                                             1348
@@ -8050,7 +8050,7 @@ const components = {
                                       "type": "Record<string, any>",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1353,
                                             1386
@@ -8068,7 +8068,7 @@ const components = {
                                       "type": "Record<string, any>",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1391,
                                             1426
@@ -8091,7 +8091,7 @@ const components = {
                             "type": "Record<string, any>",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1513,
                                   1541
@@ -8109,7 +8109,7 @@ const components = {
                             "type": "Toc",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1546,
                                   1556
@@ -8129,7 +8129,7 @@ const components = {
                                   "type": "string",
                                   "declarations": [
                                     {
-                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                       "range": [
                                         1095,
                                         1109
@@ -8147,7 +8147,7 @@ const components = {
                                   "type": "number",
                                   "declarations": [
                                     {
-                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                       "range": [
                                         1114,
                                         1128
@@ -8165,7 +8165,7 @@ const components = {
                                   "type": "number",
                                   "declarations": [
                                     {
-                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                       "range": [
                                         1133,
                                         1153
@@ -8183,7 +8183,7 @@ const components = {
                                   "type": "TocLink[]",
                                   "declarations": [
                                     {
-                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                       "range": [
                                         1158,
                                         1175
@@ -8207,7 +8207,7 @@ const components = {
                                             "type": "string",
                                             "declarations": [
                                               {
-                                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                 "range": [
                                                   991,
                                                   1002
@@ -8225,7 +8225,7 @@ const components = {
                                             "type": "string",
                                             "declarations": [
                                               {
-                                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                 "range": [
                                                   1007,
                                                   1020
@@ -8243,7 +8243,7 @@ const components = {
                                             "type": "number",
                                             "declarations": [
                                               {
-                                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                 "range": [
                                                   1025,
                                                   1039
@@ -8261,7 +8261,7 @@ const components = {
                                             "type": "TocLink[]",
                                             "declarations": [
                                               {
-                                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                 "range": [
                                                   1044,
                                                   1065
@@ -8290,7 +8290,7 @@ const components = {
                       "type": "MarkdownRoot",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             2523,
                             2549
@@ -8308,7 +8308,7 @@ const components = {
                       "type": "string",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             2319,
                             2338
@@ -8326,7 +8326,7 @@ const components = {
                       "type": "string",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             185,
                             197
@@ -8344,7 +8344,7 @@ const components = {
                       "type": "string",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             240,
                             257
@@ -8362,7 +8362,7 @@ const components = {
                       "type": "string",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             369,
                             384
@@ -8380,7 +8380,7 @@ const components = {
                       "type": "string",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             426,
                             441
@@ -8398,7 +8398,7 @@ const components = {
                       "type": "boolean",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             490,
                             507
@@ -8423,7 +8423,7 @@ const components = {
                       "type": "boolean",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             558,
                             577
@@ -8441,7 +8441,7 @@ const components = {
                       "type": "string",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             620,
                             637
@@ -8459,7 +8459,7 @@ const components = {
                       "type": "\"markdown\" | \"yaml\" | \"json\" | \"csv\"",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             706,
                             751
@@ -8486,7 +8486,7 @@ const components = {
                       "type": "string",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             830,
                             845
@@ -8504,7 +8504,7 @@ const components = {
                       "type": "\"yaml\" | \"json\" | \"csv\" | \"md\" | \"yml\" | \"json5\"",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             895,
                             957
@@ -8536,7 +8536,7 @@ const components = {
                 "type": "() => Promise<void>",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
                     "range": [
                       6412,
                       6441
@@ -8560,14 +8560,14 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 6329,
                 6483
@@ -8587,7 +8587,7 @@ const components = {
                 "type": "(context: { doc: ParsedContent; refresh: () => Promise<void>; }) => VNode<RendererNode, RendererElement, { [key: string]: any; }>[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
                     "range": [
                       6347,
                       6476
@@ -8609,7 +8609,7 @@ const components = {
           "description": "The tag to use for the renderer element if it is used.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 3494,
                 3606
@@ -8624,7 +8624,7 @@ const components = {
           "description": "Whether or not to render the excerpt.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 3714,
                 3803
@@ -8646,7 +8646,7 @@ const components = {
           "description": "The path of the content to load from content source.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 3983,
                 4099
@@ -8661,7 +8661,7 @@ const components = {
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 4217,
                 4345
@@ -8676,7 +8676,7 @@ const components = {
           "description": "Whether or not to map the document data to the `head` property.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
               "range": [
                 4453,
                 4570
@@ -8707,7 +8707,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/ContentList.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -8720,7 +8720,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
               "range": [
                 2373,
                 2386
@@ -8738,7 +8738,7 @@ const components = {
           "type": "QueryBuilderParams",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
               "range": [
                 2395,
                 2421
@@ -8758,7 +8758,7 @@ const components = {
                 "type": "boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9173,
                       9189
@@ -8783,7 +8783,7 @@ const components = {
                 "type": "number",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9194,
                       9208
@@ -8801,7 +8801,7 @@ const components = {
                 "type": "number",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9213,
                       9228
@@ -8819,7 +8819,7 @@ const components = {
                 "type": "string[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9233,
                       9249
@@ -8843,7 +8843,7 @@ const components = {
                 "type": "string[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9254,
                       9273
@@ -8861,7 +8861,7 @@ const components = {
                 "type": "SortOptions[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9278,
                       9299
@@ -8894,7 +8894,7 @@ const components = {
                               "type": "string",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     3558,
                                     3575
@@ -8917,7 +8917,7 @@ const components = {
                               "type": "boolean",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     3749,
                                     3768
@@ -8940,7 +8940,7 @@ const components = {
                               "type": "\"upper\" | \"lower\" | \"false\"",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     3953,
                                     3994
@@ -8971,7 +8971,7 @@ const components = {
                               "type": "\"base\" | \"accent\" | \"case\" | \"variant\"",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     4733,
                                     4787
@@ -9010,7 +9010,7 @@ const components = {
                 "type": "QueryBuilderWhere[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9304,
                       9332
@@ -9039,7 +9039,7 @@ const components = {
                           "type": "QueryBuilderWhere[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 5305,
                                 5332
@@ -9062,7 +9062,7 @@ const components = {
                           "type": "QueryBuilderWhere[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 5576,
                                 5602
@@ -9085,7 +9085,7 @@ const components = {
                           "type": "string | number | boolean | RegExp | QueryBuilderWhere",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 5799,
                                 5861
@@ -9118,7 +9118,7 @@ const components = {
                                     "type": "(string: string) => RegExpExecArray",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           40960,
                                           41005
@@ -9145,7 +9145,7 @@ const components = {
                                     "type": "(string: string) => boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41187,
                                           41217
@@ -9167,7 +9167,7 @@ const components = {
                                     "type": "string",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41399,
                                           41423
@@ -9185,7 +9185,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41569,
                                           41594
@@ -9203,7 +9203,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41744,
                                           41773
@@ -9221,7 +9221,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41922,
                                           41950
@@ -9239,7 +9239,7 @@ const components = {
                                     "type": "number",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           41956,
                                           41974
@@ -9262,7 +9262,7 @@ const components = {
                                     "type": "(pattern: string, flags?: string) => RegExp",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                                         "range": [
                                           42077,
                                           42124
@@ -9284,7 +9284,7 @@ const components = {
                                     "type": "string",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
                                         "range": [
                                           14897,
                                           14920
@@ -9302,7 +9302,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
                                         "range": [
                                           15085,
                                           15110
@@ -9320,7 +9320,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
                                         "range": [
                                           15276,
                                           15302
@@ -9338,7 +9338,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
                                         "range": [
                                           1204,
                                           1229
@@ -9356,7 +9356,7 @@ const components = {
                                     "type": "boolean",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2022.regexp.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2022.regexp.d.ts",
                                         "range": [
                                           1304,
                                           1333
@@ -9379,7 +9379,7 @@ const components = {
                                     "type": "(string: string) => RegExpMatchArray",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           5644,
                                           5700
@@ -9418,14 +9418,14 @@ const components = {
                                     "type": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           6110,
                                           6173
                                         ]
                                       },
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           6478,
                                           6576
@@ -9448,7 +9448,7 @@ const components = {
                                     "type": "(string: string) => number",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           6782,
                                           6822
@@ -9479,7 +9479,7 @@ const components = {
                                     "type": "(string: string, limit?: number) => string[]",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                                         "range": [
                                           7384,
                                           7441
@@ -9506,7 +9506,7 @@ const components = {
                                     "type": "(str: string) => IterableIterator<RegExpMatchArray>",
                                     "declarations": [
                                       {
-                                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+                                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
                                         "range": [
                                           1385,
                                           1452
@@ -9539,7 +9539,7 @@ const components = {
                           "type": "string | number | boolean | RegExp",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6060,
                                 6101
@@ -9572,7 +9572,7 @@ const components = {
                           "type": "string | number | boolean | RegExp",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6294,
                                 6335
@@ -9595,7 +9595,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6533,
                                 6546
@@ -9618,7 +9618,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6757,
                                 6771
@@ -9641,7 +9641,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 6966,
                                 6979
@@ -9664,7 +9664,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 7187,
                                 7201
@@ -9687,7 +9687,7 @@ const components = {
                           "type": "string | RegExp",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 7435,
                                 7460
@@ -9717,7 +9717,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 7664,
                                 7679
@@ -9740,7 +9740,7 @@ const components = {
                           "type": "boolean",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 7860,
                                 7878
@@ -9763,7 +9763,7 @@ const components = {
                           "type": "string | number | boolean | (string | number | boolean)[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 8135,
                                 8208
@@ -9811,7 +9811,7 @@ const components = {
                           "type": "(string | number | boolean)[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 8451,
                                 8499
@@ -9834,7 +9834,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 8695,
                                 8715
@@ -9857,7 +9857,7 @@ const components = {
                           "type": "string | (string | number | boolean)[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 8938,
                                 8986
@@ -9987,7 +9987,7 @@ const components = {
                 "type": "{ query: string | QueryBuilderWhere; before?: number; after?: number; }",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       9337,
                       9448
@@ -10007,7 +10007,7 @@ const components = {
                       "type": "string | QueryBuilderWhere",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             9358,
                             9392
@@ -10032,7 +10032,7 @@ const components = {
                       "type": "number",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             9401,
                             9417
@@ -10050,7 +10050,7 @@ const components = {
                       "type": "number",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             9426,
                             9441
@@ -10073,7 +10073,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
               "range": [
                 3377,
                 3509
@@ -10093,7 +10093,7 @@ const components = {
                 "type": "ParsedContent[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
                     "range": [
                       3410,
                       3432
@@ -10117,7 +10117,7 @@ const components = {
                           "type": "MarkdownRoot",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 2459,
                                 2482
@@ -10137,7 +10137,7 @@ const components = {
                                 "type": "\"root\"",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1465,
                                       1478
@@ -10155,7 +10155,7 @@ const components = {
                                 "type": "MarkdownNode[]",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1483,
                                       1508
@@ -10179,7 +10179,7 @@ const components = {
                                           "type": "string",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1214,
                                                 1227
@@ -10197,7 +10197,7 @@ const components = {
                                           "type": "string",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1232,
                                                 1245
@@ -10215,7 +10215,7 @@ const components = {
                                           "type": "string",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1250,
                                                 1265
@@ -10233,7 +10233,7 @@ const components = {
                                           "type": "Record<string, any>",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1270,
                                                 1298
@@ -10251,7 +10251,7 @@ const components = {
                                           "type": "any",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1303,
                                                 1317
@@ -10269,7 +10269,7 @@ const components = {
                                           "type": "MarkdownNode[]",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1322,
                                                 1348
@@ -10287,7 +10287,7 @@ const components = {
                                           "type": "Record<string, any>",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1353,
                                                 1386
@@ -10305,7 +10305,7 @@ const components = {
                                           "type": "Record<string, any>",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1391,
                                                 1426
@@ -10328,7 +10328,7 @@ const components = {
                                 "type": "Record<string, any>",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1513,
                                       1541
@@ -10346,7 +10346,7 @@ const components = {
                                 "type": "Toc",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1546,
                                       1556
@@ -10366,7 +10366,7 @@ const components = {
                                       "type": "string",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1095,
                                             1109
@@ -10384,7 +10384,7 @@ const components = {
                                       "type": "number",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1114,
                                             1128
@@ -10402,7 +10402,7 @@ const components = {
                                       "type": "number",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1133,
                                             1153
@@ -10420,7 +10420,7 @@ const components = {
                                       "type": "TocLink[]",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1158,
                                             1175
@@ -10444,7 +10444,7 @@ const components = {
                                                 "type": "string",
                                                 "declarations": [
                                                   {
-                                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                     "range": [
                                                       991,
                                                       1002
@@ -10462,7 +10462,7 @@ const components = {
                                                 "type": "string",
                                                 "declarations": [
                                                   {
-                                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                     "range": [
                                                       1007,
                                                       1020
@@ -10480,7 +10480,7 @@ const components = {
                                                 "type": "number",
                                                 "declarations": [
                                                   {
-                                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                     "range": [
                                                       1025,
                                                       1039
@@ -10498,7 +10498,7 @@ const components = {
                                                 "type": "TocLink[]",
                                                 "declarations": [
                                                   {
-                                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                     "range": [
                                                       1044,
                                                       1065
@@ -10527,7 +10527,7 @@ const components = {
                           "type": "MarkdownRoot",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 2523,
                                 2549
@@ -10545,7 +10545,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 2319,
                                 2338
@@ -10563,7 +10563,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 185,
                                 197
@@ -10581,7 +10581,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 240,
                                 257
@@ -10599,7 +10599,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 369,
                                 384
@@ -10617,7 +10617,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 426,
                                 441
@@ -10635,7 +10635,7 @@ const components = {
                           "type": "boolean",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 490,
                                 507
@@ -10660,7 +10660,7 @@ const components = {
                           "type": "boolean",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 558,
                                 577
@@ -10678,7 +10678,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 620,
                                 637
@@ -10696,7 +10696,7 @@ const components = {
                           "type": "\"markdown\" | \"yaml\" | \"json\" | \"csv\"",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 706,
                                 751
@@ -10723,7 +10723,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 830,
                                 845
@@ -10741,7 +10741,7 @@ const components = {
                           "type": "\"yaml\" | \"json\" | \"csv\" | \"md\" | \"yml\" | \"json5\"",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 895,
                                 957
@@ -10775,7 +10775,7 @@ const components = {
                 "type": "() => Promise<void>",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
                     "range": [
                       3445,
                       3474
@@ -10799,14 +10799,14 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
               "range": [
                 3359,
                 3516
@@ -10826,7 +10826,7 @@ const components = {
                 "type": "(context: { list: ParsedContent[]; refresh: () => Promise<void>; }) => VNode<RendererNode, RendererElement, { [key: string]: any; }>[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
                     "range": [
                       3377,
                       3509
@@ -10848,7 +10848,7 @@ const components = {
           "description": "The path of the content to load from content source.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
               "range": [
                 1975,
                 2091
@@ -10863,7 +10863,7 @@ const components = {
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
               "range": [
                 2209,
                 2337
@@ -10887,7 +10887,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -10900,7 +10900,7 @@ const components = {
           "type": "QueryBuilderParams | QueryBuilder<ParsedContentMeta>",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
               "range": [
                 1708,
                 1787
@@ -10924,7 +10924,7 @@ const components = {
                     "type": "boolean",
                     "declarations": [
                       {
-                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                         "range": [
                           9173,
                           9189
@@ -10949,7 +10949,7 @@ const components = {
                     "type": "number",
                     "declarations": [
                       {
-                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                         "range": [
                           9194,
                           9208
@@ -10967,7 +10967,7 @@ const components = {
                     "type": "number",
                     "declarations": [
                       {
-                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                         "range": [
                           9213,
                           9228
@@ -10985,7 +10985,7 @@ const components = {
                     "type": "string[]",
                     "declarations": [
                       {
-                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                         "range": [
                           9233,
                           9249
@@ -11009,7 +11009,7 @@ const components = {
                     "type": "string[]",
                     "declarations": [
                       {
-                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                         "range": [
                           9254,
                           9273
@@ -11027,7 +11027,7 @@ const components = {
                     "type": "SortOptions[]",
                     "declarations": [
                       {
-                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                         "range": [
                           9278,
                           9299
@@ -11060,7 +11060,7 @@ const components = {
                                   "type": "string",
                                   "declarations": [
                                     {
-                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                       "range": [
                                         3558,
                                         3575
@@ -11083,7 +11083,7 @@ const components = {
                                   "type": "boolean",
                                   "declarations": [
                                     {
-                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                       "range": [
                                         3749,
                                         3768
@@ -11106,7 +11106,7 @@ const components = {
                                   "type": "\"upper\" | \"lower\" | \"false\"",
                                   "declarations": [
                                     {
-                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                       "range": [
                                         3953,
                                         3994
@@ -11137,7 +11137,7 @@ const components = {
                                   "type": "\"base\" | \"accent\" | \"case\" | \"variant\"",
                                   "declarations": [
                                     {
-                                      "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                      "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                       "range": [
                                         4733,
                                         4787
@@ -11176,7 +11176,7 @@ const components = {
                     "type": "QueryBuilderWhere[]",
                     "declarations": [
                       {
-                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                         "range": [
                           9304,
                           9332
@@ -11205,7 +11205,7 @@ const components = {
                               "type": "QueryBuilderWhere[]",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     5305,
                                     5332
@@ -11228,7 +11228,7 @@ const components = {
                               "type": "QueryBuilderWhere[]",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     5576,
                                     5602
@@ -11251,7 +11251,7 @@ const components = {
                               "type": "string | number | boolean | RegExp | QueryBuilderWhere",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     5799,
                                     5861
@@ -11289,7 +11289,7 @@ const components = {
                               "type": "string | number | boolean | RegExp",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     6060,
                                     6101
@@ -11322,7 +11322,7 @@ const components = {
                               "type": "string | number | boolean | RegExp",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     6294,
                                     6335
@@ -11345,7 +11345,7 @@ const components = {
                               "type": "number",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     6533,
                                     6546
@@ -11368,7 +11368,7 @@ const components = {
                               "type": "number",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     6757,
                                     6771
@@ -11391,7 +11391,7 @@ const components = {
                               "type": "number",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     6966,
                                     6979
@@ -11414,7 +11414,7 @@ const components = {
                               "type": "number",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     7187,
                                     7201
@@ -11437,7 +11437,7 @@ const components = {
                               "type": "string | RegExp",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     7435,
                                     7460
@@ -11467,7 +11467,7 @@ const components = {
                               "type": "string",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     7664,
                                     7679
@@ -11490,7 +11490,7 @@ const components = {
                               "type": "boolean",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     7860,
                                     7878
@@ -11513,7 +11513,7 @@ const components = {
                               "type": "string | number | boolean | (string | number | boolean)[]",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     8135,
                                     8208
@@ -11561,7 +11561,7 @@ const components = {
                               "type": "(string | number | boolean)[]",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     8451,
                                     8499
@@ -11584,7 +11584,7 @@ const components = {
                               "type": "string",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     8695,
                                     8715
@@ -11607,7 +11607,7 @@ const components = {
                               "type": "string | (string | number | boolean)[]",
                               "declarations": [
                                 {
-                                  "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                  "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                   "range": [
                                     8938,
                                     8986
@@ -11737,7 +11737,7 @@ const components = {
                     "type": "{ query: string | QueryBuilderWhere; before?: number; after?: number; }",
                     "declarations": [
                       {
-                        "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                        "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                         "range": [
                           9337,
                           9448
@@ -11757,7 +11757,7 @@ const components = {
                           "type": "string | QueryBuilderWhere",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 9358,
                                 9392
@@ -11782,7 +11782,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 9401,
                                 9417
@@ -11800,7 +11800,7 @@ const components = {
                           "type": "number",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 9426,
                                 9441
@@ -11826,7 +11826,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
               "range": [
                 2590,
                 2687
@@ -11846,7 +11846,7 @@ const components = {
                 "type": "NavItem[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
                     "range": [
                       2630,
                       2652
@@ -11870,7 +11870,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 11231,
                                 11245
@@ -11888,7 +11888,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 11250,
                                 11264
@@ -11906,7 +11906,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 11269,
                                 11282
@@ -11924,7 +11924,7 @@ const components = {
                           "type": "boolean",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 11287,
                                 11304
@@ -11949,7 +11949,7 @@ const components = {
                           "type": "NavItem[]",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 11309,
                                 11330
@@ -11975,14 +11975,14 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
               "range": [
                 2572,
                 2694
@@ -12002,7 +12002,7 @@ const components = {
                 "type": "({ navigation }: { navigation: NavItem[]; }) => VNode<RendererNode, RendererElement, { [key: string]: any; }>[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
                     "range": [
                       2590,
                       2687
@@ -12024,7 +12024,7 @@ const components = {
           "description": "A query to be passed to `fetchContentNavigation()`.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
               "range": [
                 1461,
                 1642
@@ -12039,7 +12039,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.vue.d.ts",
               "range": [
                 1662,
                 1678
@@ -12063,7 +12063,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -12076,7 +12076,7 @@ const components = {
           "type": "number",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6505,
                 6518
@@ -12094,7 +12094,7 @@ const components = {
           "type": "number",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6527,
                 6541
@@ -12112,7 +12112,7 @@ const components = {
           "type": "string[]",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6550,
                 6565
@@ -12136,7 +12136,7 @@ const components = {
           "type": "string[]",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6574,
                 6592
@@ -12160,7 +12160,7 @@ const components = {
           "type": "SortParams",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6601,
                 6618
@@ -12185,7 +12185,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       3558,
                       3575
@@ -12208,7 +12208,7 @@ const components = {
                 "type": "boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       3749,
                       3768
@@ -12238,7 +12238,7 @@ const components = {
                 "type": "\"upper\" | \"lower\" | \"false\"",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       3953,
                       3994
@@ -12269,7 +12269,7 @@ const components = {
                 "type": "\"base\" | \"accent\" | \"case\" | \"variant\"",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       4733,
                       4787
@@ -12299,7 +12299,7 @@ const components = {
           "type": "{ [key: string]: any; }",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6627,
                 6678
@@ -12321,7 +12321,7 @@ const components = {
           "type": "\"surround\" | \"one\"",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6687,
                 6712
@@ -12346,7 +12346,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6721,
                 6734
@@ -12364,7 +12364,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6743,
                 6758
@@ -12381,7 +12381,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 8930,
                 9004
@@ -12401,7 +12401,7 @@ const components = {
                 "type": "ParsedContent | ParsedContent[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
                     "range": [
                       162,
                       205
@@ -12425,7 +12425,7 @@ const components = {
                           "type": "MarkdownRoot",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 2459,
                                 2482
@@ -12445,7 +12445,7 @@ const components = {
                                 "type": "\"root\"",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1465,
                                       1478
@@ -12463,7 +12463,7 @@ const components = {
                                 "type": "MarkdownNode[]",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1483,
                                       1508
@@ -12487,7 +12487,7 @@ const components = {
                                           "type": "string",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1214,
                                                 1227
@@ -12505,7 +12505,7 @@ const components = {
                                           "type": "string",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1232,
                                                 1245
@@ -12523,7 +12523,7 @@ const components = {
                                           "type": "string",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1250,
                                                 1265
@@ -12541,7 +12541,7 @@ const components = {
                                           "type": "Record<string, any>",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1270,
                                                 1298
@@ -12559,7 +12559,7 @@ const components = {
                                           "type": "any",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1303,
                                                 1317
@@ -12577,7 +12577,7 @@ const components = {
                                           "type": "MarkdownNode[]",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1322,
                                                 1348
@@ -12595,7 +12595,7 @@ const components = {
                                           "type": "Record<string, any>",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1353,
                                                 1386
@@ -12613,7 +12613,7 @@ const components = {
                                           "type": "Record<string, any>",
                                           "declarations": [
                                             {
-                                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                               "range": [
                                                 1391,
                                                 1426
@@ -12636,7 +12636,7 @@ const components = {
                                 "type": "Record<string, any>",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1513,
                                       1541
@@ -12654,7 +12654,7 @@ const components = {
                                 "type": "Toc",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1546,
                                       1556
@@ -12674,7 +12674,7 @@ const components = {
                                       "type": "string",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1095,
                                             1109
@@ -12692,7 +12692,7 @@ const components = {
                                       "type": "number",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1114,
                                             1128
@@ -12710,7 +12710,7 @@ const components = {
                                       "type": "number",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1133,
                                             1153
@@ -12728,7 +12728,7 @@ const components = {
                                       "type": "TocLink[]",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1158,
                                             1175
@@ -12752,7 +12752,7 @@ const components = {
                                                 "type": "string",
                                                 "declarations": [
                                                   {
-                                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                     "range": [
                                                       991,
                                                       1002
@@ -12770,7 +12770,7 @@ const components = {
                                                 "type": "string",
                                                 "declarations": [
                                                   {
-                                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                     "range": [
                                                       1007,
                                                       1020
@@ -12788,7 +12788,7 @@ const components = {
                                                 "type": "number",
                                                 "declarations": [
                                                   {
-                                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                     "range": [
                                                       1025,
                                                       1039
@@ -12806,7 +12806,7 @@ const components = {
                                                 "type": "TocLink[]",
                                                 "declarations": [
                                                   {
-                                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                                     "range": [
                                                       1044,
                                                       1065
@@ -12835,7 +12835,7 @@ const components = {
                           "type": "MarkdownRoot",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 2523,
                                 2549
@@ -12853,7 +12853,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 2319,
                                 2338
@@ -12871,7 +12871,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 185,
                                 197
@@ -12889,7 +12889,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 240,
                                 257
@@ -12907,7 +12907,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 369,
                                 384
@@ -12925,7 +12925,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 426,
                                 441
@@ -12943,7 +12943,7 @@ const components = {
                           "type": "boolean",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 490,
                                 507
@@ -12968,7 +12968,7 @@ const components = {
                           "type": "boolean",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 558,
                                 577
@@ -12986,7 +12986,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 620,
                                 637
@@ -13004,7 +13004,7 @@ const components = {
                           "type": "\"markdown\" | \"yaml\" | \"json\" | \"csv\"",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 706,
                                 751
@@ -13031,7 +13031,7 @@ const components = {
                           "type": "string",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 830,
                                 845
@@ -13049,7 +13049,7 @@ const components = {
                           "type": "\"yaml\" | \"json\" | \"csv\" | \"md\" | \"yml\" | \"json5\"",
                           "declarations": [
                             {
-                              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                               "range": [
                                 895,
                                 957
@@ -13090,7 +13090,7 @@ const components = {
                 "type": "() => Promise<void>",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
                     "range": [
                       210,
                       239
@@ -13111,7 +13111,7 @@ const components = {
                 "type": "boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
                     "range": [
                       244,
                       263
@@ -13132,14 +13132,14 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 8912,
                 9011
@@ -13159,7 +13159,7 @@ const components = {
                 "type": "(context: ContentQueryDefaultSlotContext) => VNode<RendererNode, RendererElement, { [key: string]: any; }>[]",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
                     "range": [
                       8930,
                       9004
@@ -13181,7 +13181,7 @@ const components = {
           "description": "A type of query to be made.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6272,
                 6399
@@ -13203,7 +13203,7 @@ const components = {
           "description": "Sort results",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 5522,
                 5641
@@ -13218,7 +13218,7 @@ const components = {
           "description": "The path of the content to load from content source.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 4752,
                 4868
@@ -13233,7 +13233,7 @@ const components = {
           "description": "Select a subset of fields",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 4938,
                 5055
@@ -13254,7 +13254,7 @@ const components = {
           "description": "Remove a subset of fields",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 5125,
                 5245
@@ -13275,7 +13275,7 @@ const components = {
           "description": "Filter results",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 5304,
                 5465
@@ -13290,7 +13290,7 @@ const components = {
           "description": "Limit number of results",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 5709,
                 5825
@@ -13305,7 +13305,7 @@ const components = {
           "description": "Skip number of results",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 5892,
                 6007
@@ -13320,7 +13320,7 @@ const components = {
           "description": "Filter contents based on locale",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6083,
                 6200
@@ -13335,7 +13335,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6419,
                 6434
@@ -13350,7 +13350,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6443,
                 6453
@@ -13365,7 +13365,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentQuery.vue.d.ts",
               "range": [
                 6462,
                 6475
@@ -13389,7 +13389,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -13402,7 +13402,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
               "range": [
                 1256,
                 1268
@@ -13421,7 +13421,7 @@ const components = {
           "type": "Record<string, any>",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
               "range": [
                 1273,
                 1300
@@ -13440,7 +13440,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
               "range": [
                 1234,
                 1251
@@ -13467,7 +13467,7 @@ const components = {
           "description": "The document to render.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
               "range": [
                 781,
                 881
@@ -13482,7 +13482,7 @@ const components = {
           "description": "The tag to use for the renderer element if it is used.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
               "range": [
                 1151,
                 1222
@@ -13497,7 +13497,7 @@ const components = {
           "description": "Whether or not to render the excerpt.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRenderer.vue.d.ts",
               "range": [
                 969,
                 1046
@@ -13528,7 +13528,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -13541,14 +13541,14 @@ const components = {
           "type": "Record<string, any>",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 359,
                 408
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 359,
                 408
@@ -13566,7 +13566,7 @@ const components = {
           "type": "Record<string, any>",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 675,
                 734
@@ -13585,7 +13585,7 @@ const components = {
           "type": "Record<string, any>",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 739,
                 792
@@ -13604,7 +13604,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 556,
                 603
@@ -13623,7 +13623,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 453,
                 505
@@ -13650,7 +13650,7 @@ const components = {
           "description": "Content to render",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 359,
                 408
@@ -13665,7 +13665,7 @@ const components = {
           "description": "The map of custom components to use for rendering.",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 675,
                 734
@@ -13680,7 +13680,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 739,
                 792
@@ -13695,7 +13695,7 @@ const components = {
           "description": "Root tag to use for rendering",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 556,
                 603
@@ -13710,7 +13710,7 @@ const components = {
           "description": "Render only the excerpt",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentRendererMarkdown.vue",
               "range": [
                 453,
                 505
@@ -13741,7 +13741,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -13754,7 +13754,7 @@ const components = {
           "type": "Function",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue.d.ts",
               "range": [
                 881,
                 895
@@ -13783,7 +13783,7 @@ const components = {
                 "type": "(this: Function, thisArg: any, argArray?: any) => any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       10258,
                       10315
@@ -13814,7 +13814,7 @@ const components = {
                 "type": "(this: Function, thisArg: any, ...argArray: any[]) => any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       10563,
                       10623
@@ -13845,7 +13845,7 @@ const components = {
                 "type": "(this: Function, thisArg: any, ...argArray: any[]) => any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11046,
                       11106
@@ -13867,7 +13867,7 @@ const components = {
                 "type": "() => string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11170,
                       11189
@@ -13888,7 +13888,7 @@ const components = {
                 "type": "any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11195,
                       11210
@@ -13906,7 +13906,7 @@ const components = {
                 "type": "number",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11215,
                       11239
@@ -13924,7 +13924,7 @@ const components = {
                 "type": "any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11276,
                       11291
@@ -13942,7 +13942,7 @@ const components = {
                 "type": "Function",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11296,
                       11313
@@ -13960,7 +13960,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
                     "range": [
                       4364,
                       4386
@@ -13978,7 +13978,7 @@ const components = {
                 "type": "(value: any) => boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                     "range": [
                       5097,
                       5139
@@ -14000,7 +14000,7 @@ const components = {
                 "type": "DecoratorMetadataObject",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.esnext.decorators.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.esnext.decorators.d.ts",
                     "range": [
                       1023,
                       1067
@@ -14026,7 +14026,7 @@ const components = {
           "type": "string | boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue.d.ts",
               "range": [
                 900,
                 925
@@ -14054,7 +14054,7 @@ const components = {
           "description": "A slot name or function",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue.d.ts",
               "range": [
                 606,
                 682
@@ -14083,7 +14083,7 @@ const components = {
                 "type": "(this: Function, thisArg: any, argArray?: any) => any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       10258,
                       10315
@@ -14114,7 +14114,7 @@ const components = {
                 "type": "(this: Function, thisArg: any, ...argArray: any[]) => any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       10563,
                       10623
@@ -14145,7 +14145,7 @@ const components = {
                 "type": "(this: Function, thisArg: any, ...argArray: any[]) => any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11046,
                       11106
@@ -14167,7 +14167,7 @@ const components = {
                 "type": "() => string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11170,
                       11189
@@ -14188,7 +14188,7 @@ const components = {
                 "type": "any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11195,
                       11210
@@ -14206,7 +14206,7 @@ const components = {
                 "type": "number",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11215,
                       11239
@@ -14224,7 +14224,7 @@ const components = {
                 "type": "any",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11276,
                       11291
@@ -14242,7 +14242,7 @@ const components = {
                 "type": "Function",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es5.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es5.d.ts",
                     "range": [
                       11296,
                       11313
@@ -14260,7 +14260,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.core.d.ts",
                     "range": [
                       4364,
                       4386
@@ -14278,7 +14278,7 @@ const components = {
                 "type": "(value: any) => boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
                     "range": [
                       5097,
                       5139
@@ -14300,7 +14300,7 @@ const components = {
                 "type": "DecoratorMetadataObject",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/typescript/lib/lib.esnext.decorators.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/typescript/lib/lib.esnext.decorators.d.ts",
                     "range": [
                       1023,
                       1067
@@ -14322,7 +14322,7 @@ const components = {
           "description": "Tags to unwrap separated by spaces\nExample: 'ul li'",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentSlot.vue.d.ts",
               "range": [
                 769,
                 869
@@ -14354,7 +14354,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -14367,14 +14367,14 @@ const components = {
           "type": "ParsedContent",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue.d.ts",
               "range": [
                 470,
                 548
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue.d.ts",
               "range": [
                 470,
                 548
@@ -14394,7 +14394,7 @@ const components = {
                 "type": "MarkdownRoot",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       2459,
                       2482
@@ -14414,7 +14414,7 @@ const components = {
                       "type": "\"root\"",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             1465,
                             1478
@@ -14432,7 +14432,7 @@ const components = {
                       "type": "MarkdownNode[]",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             1483,
                             1508
@@ -14456,7 +14456,7 @@ const components = {
                                 "type": "string",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1214,
                                       1227
@@ -14474,7 +14474,7 @@ const components = {
                                 "type": "string",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1232,
                                       1245
@@ -14492,7 +14492,7 @@ const components = {
                                 "type": "string",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1250,
                                       1265
@@ -14510,7 +14510,7 @@ const components = {
                                 "type": "Record<string, any>",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1270,
                                       1298
@@ -14528,7 +14528,7 @@ const components = {
                                 "type": "any",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1303,
                                       1317
@@ -14546,7 +14546,7 @@ const components = {
                                 "type": "MarkdownNode[]",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1322,
                                       1348
@@ -14564,7 +14564,7 @@ const components = {
                                 "type": "Record<string, any>",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1353,
                                       1386
@@ -14582,7 +14582,7 @@ const components = {
                                 "type": "Record<string, any>",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1391,
                                       1426
@@ -14605,7 +14605,7 @@ const components = {
                       "type": "Record<string, any>",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             1513,
                             1541
@@ -14623,7 +14623,7 @@ const components = {
                       "type": "Toc",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             1546,
                             1556
@@ -14643,7 +14643,7 @@ const components = {
                             "type": "string",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1095,
                                   1109
@@ -14661,7 +14661,7 @@ const components = {
                             "type": "number",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1114,
                                   1128
@@ -14679,7 +14679,7 @@ const components = {
                             "type": "number",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1133,
                                   1153
@@ -14697,7 +14697,7 @@ const components = {
                             "type": "TocLink[]",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1158,
                                   1175
@@ -14721,7 +14721,7 @@ const components = {
                                       "type": "string",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             991,
                                             1002
@@ -14739,7 +14739,7 @@ const components = {
                                       "type": "string",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1007,
                                             1020
@@ -14757,7 +14757,7 @@ const components = {
                                       "type": "number",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1025,
                                             1039
@@ -14775,7 +14775,7 @@ const components = {
                                       "type": "TocLink[]",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1044,
                                             1065
@@ -14804,7 +14804,7 @@ const components = {
                 "type": "MarkdownRoot",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       2523,
                       2549
@@ -14822,7 +14822,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       2319,
                       2338
@@ -14840,7 +14840,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       185,
                       197
@@ -14858,7 +14858,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       240,
                       257
@@ -14876,7 +14876,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       369,
                       384
@@ -14894,7 +14894,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       426,
                       441
@@ -14912,7 +14912,7 @@ const components = {
                 "type": "boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       490,
                       507
@@ -14937,7 +14937,7 @@ const components = {
                 "type": "boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       558,
                       577
@@ -14955,7 +14955,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       620,
                       637
@@ -14973,7 +14973,7 @@ const components = {
                 "type": "\"markdown\" | \"yaml\" | \"json\" | \"csv\"",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       706,
                       751
@@ -15000,7 +15000,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       830,
                       845
@@ -15018,7 +15018,7 @@ const components = {
                 "type": "\"yaml\" | \"json\" | \"csv\" | \"md\" | \"yml\" | \"json5\"",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       895,
                       957
@@ -15051,7 +15051,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenEmpty.vue.d.ts",
               "range": [
                 470,
                 548
@@ -15071,7 +15071,7 @@ const components = {
                 "type": "MarkdownRoot",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       2459,
                       2482
@@ -15091,7 +15091,7 @@ const components = {
                       "type": "\"root\"",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             1465,
                             1478
@@ -15109,7 +15109,7 @@ const components = {
                       "type": "MarkdownNode[]",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             1483,
                             1508
@@ -15133,7 +15133,7 @@ const components = {
                                 "type": "string",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1214,
                                       1227
@@ -15151,7 +15151,7 @@ const components = {
                                 "type": "string",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1232,
                                       1245
@@ -15169,7 +15169,7 @@ const components = {
                                 "type": "string",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1250,
                                       1265
@@ -15187,7 +15187,7 @@ const components = {
                                 "type": "Record<string, any>",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1270,
                                       1298
@@ -15205,7 +15205,7 @@ const components = {
                                 "type": "any",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1303,
                                       1317
@@ -15223,7 +15223,7 @@ const components = {
                                 "type": "MarkdownNode[]",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1322,
                                       1348
@@ -15241,7 +15241,7 @@ const components = {
                                 "type": "Record<string, any>",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1353,
                                       1386
@@ -15259,7 +15259,7 @@ const components = {
                                 "type": "Record<string, any>",
                                 "declarations": [
                                   {
-                                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                     "range": [
                                       1391,
                                       1426
@@ -15282,7 +15282,7 @@ const components = {
                       "type": "Record<string, any>",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             1513,
                             1541
@@ -15300,7 +15300,7 @@ const components = {
                       "type": "Toc",
                       "declarations": [
                         {
-                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                           "range": [
                             1546,
                             1556
@@ -15320,7 +15320,7 @@ const components = {
                             "type": "string",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1095,
                                   1109
@@ -15338,7 +15338,7 @@ const components = {
                             "type": "number",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1114,
                                   1128
@@ -15356,7 +15356,7 @@ const components = {
                             "type": "number",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1133,
                                   1153
@@ -15374,7 +15374,7 @@ const components = {
                             "type": "TocLink[]",
                             "declarations": [
                               {
-                                "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                 "range": [
                                   1158,
                                   1175
@@ -15398,7 +15398,7 @@ const components = {
                                       "type": "string",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             991,
                                             1002
@@ -15416,7 +15416,7 @@ const components = {
                                       "type": "string",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1007,
                                             1020
@@ -15434,7 +15434,7 @@ const components = {
                                       "type": "number",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1025,
                                             1039
@@ -15452,7 +15452,7 @@ const components = {
                                       "type": "TocLink[]",
                                       "declarations": [
                                         {
-                                          "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                                          "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                                           "range": [
                                             1044,
                                             1065
@@ -15481,7 +15481,7 @@ const components = {
                 "type": "MarkdownRoot",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       2523,
                       2549
@@ -15499,7 +15499,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       2319,
                       2338
@@ -15517,7 +15517,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       185,
                       197
@@ -15535,7 +15535,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       240,
                       257
@@ -15553,7 +15553,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       369,
                       384
@@ -15571,7 +15571,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       426,
                       441
@@ -15589,7 +15589,7 @@ const components = {
                 "type": "boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       490,
                       507
@@ -15614,7 +15614,7 @@ const components = {
                 "type": "boolean",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       558,
                       577
@@ -15632,7 +15632,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       620,
                       637
@@ -15650,7 +15650,7 @@ const components = {
                 "type": "\"markdown\" | \"yaml\" | \"json\" | \"csv\"",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       706,
                       751
@@ -15677,7 +15677,7 @@ const components = {
                 "type": "string",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       830,
                       845
@@ -15695,7 +15695,7 @@ const components = {
                 "type": "\"yaml\" | \"json\" | \"csv\" | \"md\" | \"yml\" | \"json5\"",
                 "declarations": [
                   {
-                    "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
+                    "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/types/index.d.ts",
                     "range": [
                       895,
                       957
@@ -15733,7 +15733,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenNotFound.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenNotFound.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/DocumentDrivenNotFound.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -15754,7 +15754,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/Markdown.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Markdown.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Markdown.vue",
     "meta": {
       "type": null,
       "props": [],
@@ -15775,7 +15775,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -15800,7 +15800,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -15843,7 +15843,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -15856,7 +15856,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 248,
                 293
@@ -15867,25 +15867,6 @@ const components = {
           "default": "\"\""
         },
         {
-          "name": "language",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                297,
-                348
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "null"
-        },
-        {
           "name": "filename",
           "global": false,
           "description": "",
@@ -15894,10 +15875,29 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 352,
                 403
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "null"
+        },
+        {
+          "name": "language",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                297,
+                348
               ]
             }
           ],
@@ -15913,7 +15913,7 @@ const components = {
           "type": "number[]",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 407,
                 481
@@ -15938,7 +15938,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 485,
                 532
@@ -15970,7 +15970,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -16004,7 +16004,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 536,
                 584
@@ -16019,7 +16019,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 588,
                 646
@@ -16041,25 +16041,10 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 248,
                 293
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "language",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                297,
-                348
               ]
             }
           ],
@@ -16071,10 +16056,25 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 352,
                 403
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "language",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                297,
+                348
               ]
             }
           ],
@@ -16086,7 +16086,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 407,
                 481
@@ -16107,7 +16107,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
               "range": [
                 485,
                 532
@@ -16131,7 +16131,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -16144,7 +16144,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
               "range": [
                 146,
                 191
@@ -16163,7 +16163,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
               "range": [
                 195,
                 270
@@ -16195,7 +16195,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -16229,7 +16229,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
               "range": [
                 146,
                 191
@@ -16244,7 +16244,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseA.vue",
               "range": [
                 195,
                 270
@@ -16268,7 +16268,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseBlockquote.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseBlockquote.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseBlockquote.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -16293,7 +16293,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -16336,7 +16336,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseEm.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseEm.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseEm.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -16361,7 +16361,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -16404,7 +16404,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH5.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH5.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH5.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -16417,14 +16417,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH5.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH5.vue",
               "range": [
                 264,
                 275
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH5.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH5.vue",
               "range": [
                 264,
                 275
@@ -16455,7 +16455,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -16489,7 +16489,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH5.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH5.vue",
               "range": [
                 264,
                 275
@@ -16513,7 +16513,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH6.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH6.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH6.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -16526,14 +16526,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH6.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH6.vue",
               "range": [
                 264,
                 275
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH6.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH6.vue",
               "range": [
                 264,
                 275
@@ -16564,7 +16564,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -16598,7 +16598,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH6.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseH6.vue",
               "range": [
                 264,
                 275
@@ -16622,7 +16622,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseHr.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseHr.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseHr.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -16643,7 +16643,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -16656,7 +16656,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
               "range": [
                 289,
                 333
@@ -16675,7 +16675,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
               "range": [
                 337,
                 381
@@ -16694,7 +16694,7 @@ const components = {
           "type": "string | number",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
               "range": [
                 385,
                 448
@@ -16720,7 +16720,7 @@ const components = {
           "type": "string | number",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
               "range": [
                 452,
                 516
@@ -16747,7 +16747,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
               "range": [
                 289,
                 333
@@ -16762,7 +16762,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
               "range": [
                 337,
                 381
@@ -16777,7 +16777,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
               "range": [
                 385,
                 448
@@ -16799,7 +16799,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseImg.vue",
               "range": [
                 452,
                 516
@@ -16830,7 +16830,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseLi.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseLi.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseLi.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -16855,7 +16855,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -16898,7 +16898,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseOl.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseOl.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseOl.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -16923,7 +16923,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -16966,7 +16966,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseP.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseP.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseP.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -16991,7 +16991,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -17034,7 +17034,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseStrong.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseStrong.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseStrong.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -17059,7 +17059,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -17102,7 +17102,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTable.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTable.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTable.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -17127,7 +17127,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -17170,7 +17170,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTbody.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTbody.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTbody.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -17195,7 +17195,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -17238,7 +17238,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTd.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTd.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTd.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -17263,7 +17263,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -17306,7 +17306,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTh.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTh.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTh.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -17331,7 +17331,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -17374,7 +17374,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseThead.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseThead.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseThead.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -17399,7 +17399,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -17442,7 +17442,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTr.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTr.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseTr.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -17467,7 +17467,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -17510,7 +17510,7 @@ const components = {
     "shortPath": "node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseUl.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseUl.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxtjs/mdc/dist/runtime/components/prose/ProseUl.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -17535,7 +17535,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -17578,7 +17578,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -17591,7 +17591,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8034,
                 8057
@@ -17613,7 +17613,7 @@ const components = {
           "type": "ButtonSize",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8062,
                 8079
@@ -17643,7 +17643,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8084,
                 8097
@@ -17662,7 +17662,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8102,
                 8116
@@ -17681,7 +17681,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8160,
                 8182
@@ -17703,7 +17703,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8187,
                 8206
@@ -17725,7 +17725,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8211,
                 8232
@@ -17747,7 +17747,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8237,
                 8261
@@ -17769,7 +17769,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8266,
                 8292
@@ -17791,7 +17791,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8297,
                 8324
@@ -17813,7 +17813,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8329,
                 8361
@@ -17835,7 +17835,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8366,
                 8397
@@ -17857,7 +17857,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8402,
                 8434
@@ -17879,7 +17879,7 @@ const components = {
           "type": "NuxtLinkProps",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8439,
                 8463
@@ -17901,7 +17901,7 @@ const components = {
           "type": "any",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8490,
                 8501
@@ -17920,7 +17920,7 @@ const components = {
           "type": "ButtonVariant",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8506,
                 8529
@@ -17949,7 +17949,7 @@ const components = {
           "type": "RouteLocationRaw",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8557,
                 8578
@@ -17967,7 +17967,7 @@ const components = {
           "type": "RouteLocationRaw",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8583,
                 8606
@@ -17985,7 +17985,7 @@ const components = {
           "type": "any",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8611,
                 8619
@@ -18004,7 +18004,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8687,
                 8700
@@ -18023,7 +18023,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8705,
                 8725
@@ -18042,7 +18042,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8730,
                 8750
@@ -18061,7 +18061,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8755,
                 8776
@@ -18080,7 +18080,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8137,
                 8155
@@ -18106,7 +18106,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8468,
                 8485
@@ -18132,7 +18132,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8534,
                 8552
@@ -18158,7 +18158,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8624,
                 8639
@@ -18184,7 +18184,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8644,
                 8661
@@ -18210,7 +18210,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8666,
                 8682
@@ -18236,7 +18236,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8781,
                 8799
@@ -18262,7 +18262,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 8804,
                 8820
@@ -18289,7 +18289,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 7594,
                 7730
@@ -18308,7 +18308,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4985,
                 5106
@@ -18334,7 +18334,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 6019,
                 6090
@@ -18349,7 +18349,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4506,
                 4578
@@ -18364,7 +18364,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5363,
                 5433
@@ -18379,7 +18379,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5231,
                 5358
@@ -18404,7 +18404,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 6307,
                 6443
@@ -18419,7 +18419,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 6448,
                 6583
@@ -18438,7 +18438,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4583,
                 4658
@@ -18460,7 +18460,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4663,
                 4734
@@ -18475,7 +18475,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4739,
                 4816
@@ -18497,7 +18497,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4821,
                 4899
@@ -18519,7 +18519,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4904,
                 4980
@@ -18541,7 +18541,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5111,
                 5226
@@ -18556,7 +18556,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5438,
                 5520
@@ -18571,7 +18571,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5525,
                 5602
@@ -18586,7 +18586,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5607,
                 5685
@@ -18601,7 +18601,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5690,
                 5768
@@ -18623,7 +18623,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5773,
                 5850
@@ -18645,7 +18645,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5855,
                 5931
@@ -18667,7 +18667,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 5936,
                 6014
@@ -18689,7 +18689,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 6168,
                 6302
@@ -18704,7 +18704,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 6588,
                 6720
@@ -18723,7 +18723,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 6725,
                 6859
@@ -18742,7 +18742,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 6864,
                 7001
@@ -18761,7 +18761,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 7006,
                 7145
@@ -18780,7 +18780,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 7150,
                 7290
@@ -18799,7 +18799,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 7295,
                 7440
@@ -18818,7 +18818,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 7445,
                 7589
@@ -18837,7 +18837,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 7735,
                 7880
@@ -18856,7 +18856,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 7885,
                 8022
@@ -18875,7 +18875,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 3685,
                 3720
@@ -18890,7 +18890,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 3725,
                 3811
@@ -18905,7 +18905,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 3816,
                 3868
@@ -18927,7 +18927,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 3873,
                 3926
@@ -18949,7 +18949,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 3931,
                 3976
@@ -18971,7 +18971,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 3981,
                 4028
@@ -18986,7 +18986,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4033,
                 4096
@@ -19001,7 +19001,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4101,
                 4165
@@ -19016,7 +19016,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4170,
                 4222
@@ -19031,7 +19031,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4227,
                 4280
@@ -19046,7 +19046,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
               "range": [
                 4285,
                 4326
@@ -19074,7 +19074,7 @@ const components = {
     "shortPath": "node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue",
     "export": "default",
     "priority": 0,
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue",
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue",
     "meta": {
       "type": 1,
       "props": [
@@ -19087,14 +19087,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
               "range": [
                 443,
                 514
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
               "range": [
                 443,
                 514
@@ -19112,7 +19112,7 @@ const components = {
           "type": "boolean",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
               "range": [
                 608,
                 625
@@ -19139,7 +19139,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
               "range": [
                 443,
                 514
@@ -19154,7 +19154,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Icon.vue.d.ts",
               "range": [
                 223,
                 263
@@ -19175,7 +19175,7 @@ const components = {
     "prefetch": false,
     "preload": false,
     "mode": "all",
-    "shortPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
+    "shortPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
     "priority": 0,
     "meta": {
       "type": 1,
@@ -19189,14 +19189,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
               "range": [
                 669,
                 717
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
               "range": [
                 669,
                 717
@@ -19214,7 +19214,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
               "range": [
                 721,
                 766
@@ -19246,7 +19246,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vue/runtime-core/dist/runtime-core.d.ts",
               "range": [
                 8501,
                 8528
@@ -19280,7 +19280,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
               "range": [
                 721,
                 766
@@ -19295,7 +19295,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/Icon.vue",
               "range": [
                 669,
                 717
@@ -19308,7 +19308,7 @@ const components = {
     },
     "name": "Icon",
     "filePath": "node_modules/nuxt-icon/dist/runtime/Icon.vue",
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/Icon.vue"
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/Icon.vue"
   },
   "IconCSS": {
     "export": "default",
@@ -19319,7 +19319,7 @@ const components = {
     "prefetch": false,
     "preload": false,
     "mode": "all",
-    "shortPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
+    "shortPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
     "priority": 0,
     "meta": {
       "type": 1,
@@ -19333,14 +19333,14 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
               "range": [
                 387,
                 435
               ]
             },
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
               "range": [
                 387,
                 435
@@ -19358,7 +19358,7 @@ const components = {
           "type": "string",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
               "range": [
                 439,
                 484
@@ -19378,7 +19378,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
               "range": [
                 439,
                 484
@@ -19393,7 +19393,7 @@ const components = {
           "description": "",
           "declarations": [
             {
-              "file": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
               "range": [
                 387,
                 435
@@ -19406,11 +19406,11 @@ const components = {
     },
     "name": "IconCSS",
     "filePath": "node_modules/nuxt-icon/dist/runtime/IconCSS.vue",
-    "fullPath": "/Users/shawes/git/opendevsci/longitudinal.dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue"
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-icon/dist/runtime/IconCSS.vue"
   }
 };
 
-const _Sfe1SJ = eventHandler(async () => {
+const _IHJ8NT = eventHandler(async () => {
   const componentsIgnoredPrefix = ["Content", "DocumentDriven", "Markdown"];
   const filteredComponents = Object.values(components).filter((c) => c.global && !componentsIgnoredPrefix.some((prefix) => c.pascalName.startsWith(prefix))).map(({ pascalName, filePath, meta }) => {
     return {
@@ -19456,7 +19456,7 @@ const _Sfe1SJ = eventHandler(async () => {
   };
 });
 
-const _qhLVMC = defineEventHandler((event) => {
+const _aFtAuv = defineEventHandler((event) => {
   appendHeader(event, "Access-Control-Allow-Origin", "*");
   const componentName = (event.context.params["component?"] || "").replace(/\.json$/, "");
   if (componentName) {
@@ -19475,7 +19475,7 @@ const _qhLVMC = defineEventHandler((event) => {
   return components;
 });
 
-const _NYKyn5 = defineEventHandler(async (e) => {
+const _sc6iEJ = defineEventHandler(async (e) => {
   if (e.context.siteConfig)
     return;
   const runtimeConfig = useRuntimeConfig(e);
@@ -20503,7 +20503,7 @@ const json = defineTransformer({
     let parsed;
     if (typeof content === "string") {
       if (_id.endsWith("json5")) {
-        parsed = (await import('file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+        parsed = (await import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
       } else if (_id.endsWith("json")) {
         parsed = destr$1(content);
       }
@@ -21113,7 +21113,7 @@ const getContentQuery = (event) => {
   return query;
 };
 
-const _WSBVO7 = defineEventHandler(async (event) => {
+const _IgczFZ = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   const { advanceQuery } = useRuntimeConfig().public.content.experimental;
   if (query.first) {
@@ -21142,7 +21142,7 @@ const _WSBVO7 = defineEventHandler(async (event) => {
   return serverQueryContent(event, query).find();
 });
 
-const _N7CKZO = defineEventHandler(async (event) => {
+const _6bbxUj = defineEventHandler(async (event) => {
   const { content } = useRuntimeConfig();
   const now = Date.now();
   const contents = await serverQueryContent(event).find();
@@ -21250,7 +21250,7 @@ function isObject(obj) {
   return Object.prototype.toString.call(obj) === "[object Object]";
 }
 
-const _PgrdMk = defineEventHandler(async (event) => {
+const _97vJYI = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   if (!isPreview(event) && Object.keys(query).length === 0) {
     const cache = await cacheStorage.getItem("content-navigation.json");
@@ -21287,30 +21287,30 @@ const _PgrdMk = defineEventHandler(async (event) => {
   return createNav(contents?.result || contents, configs);
 });
 
-const _lazy_hDqJ7j = () => import('./routes/api/search.json.get.mjs');
-const _lazy_5mVm5x = () => import('./routes/__og-image__/font/font.mjs');
-const _lazy_8Up0ZV = () => import('./routes/__og-image__/image/image.mjs');
-const _lazy_xlrUUZ = () => import('./_/renderer3.mjs').then(function (n) { return n.r; });
+const _lazy_ZU91uf = () => import('./routes/api/search.json.get.mjs');
+const _lazy_4XtsNp = () => import('./routes/__og-image__/font/font.mjs');
+const _lazy_4DpZl4 = () => import('./routes/__og-image__/image/image.mjs');
+const _lazy_nTj7bs = () => import('./_/renderer3.mjs').then(function (n) { return n.r; });
 
 const handlers = [
   { route: '', handler: _f4b49z, lazy: false, middleware: true, method: undefined },
-  { route: '/api/search.json', handler: _lazy_hDqJ7j, lazy: true, middleware: false, method: "get" },
-  { route: '/api/_mdc/highlight', handler: _ggw7em, lazy: false, middleware: false, method: undefined },
-  { route: '/__studio.json', handler: _Sfe1SJ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/component-meta', handler: _qhLVMC, lazy: false, middleware: false, method: "get" },
-  { route: '/api/component-meta.json', handler: _qhLVMC, lazy: false, middleware: false, method: "get" },
-  { route: '/api/component-meta/:component?', handler: _qhLVMC, lazy: false, middleware: false, method: "get" },
-  { route: '', handler: _NYKyn5, lazy: false, middleware: true, method: undefined },
-  { route: '/__og-image__/font/**', handler: _lazy_5mVm5x, lazy: true, middleware: false, method: undefined },
-  { route: '/__og-image__/image/**', handler: _lazy_8Up0ZV, lazy: true, middleware: false, method: undefined },
-  { route: '/api/_content/query/:qid/**:params', handler: _WSBVO7, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query/:qid', handler: _WSBVO7, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query', handler: _WSBVO7, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1728829600385.json', handler: _N7CKZO, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid/**:params', handler: _PgrdMk, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid', handler: _PgrdMk, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation', handler: _PgrdMk, lazy: false, middleware: false, method: "get" },
-  { route: '/**', handler: _lazy_xlrUUZ, lazy: true, middleware: false, method: undefined }
+  { route: '/api/search.json', handler: _lazy_ZU91uf, lazy: true, middleware: false, method: "get" },
+  { route: '/api/_mdc/highlight', handler: _g4pBLw, lazy: false, middleware: false, method: undefined },
+  { route: '/__studio.json', handler: _IHJ8NT, lazy: false, middleware: false, method: "get" },
+  { route: '/api/component-meta', handler: _aFtAuv, lazy: false, middleware: false, method: "get" },
+  { route: '/api/component-meta.json', handler: _aFtAuv, lazy: false, middleware: false, method: "get" },
+  { route: '/api/component-meta/:component?', handler: _aFtAuv, lazy: false, middleware: false, method: "get" },
+  { route: '', handler: _sc6iEJ, lazy: false, middleware: true, method: undefined },
+  { route: '/__og-image__/font/**', handler: _lazy_4XtsNp, lazy: true, middleware: false, method: undefined },
+  { route: '/__og-image__/image/**', handler: _lazy_4DpZl4, lazy: true, middleware: false, method: undefined },
+  { route: '/api/_content/query/:qid/**:params', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query/:qid', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1728832036633.json', handler: _6bbxUj, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid/**:params', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
+  { route: '/**', handler: _lazy_nTj7bs, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

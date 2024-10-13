@@ -1,7 +1,7 @@
-import { defineComponent, getCurrentInstance, toRaw, computed, h, resolveComponent, Text, useSSRContext, Comment } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
-import destr from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/destr/dist/index.mjs';
-import { pascalCase, kebabCase } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/scule/dist/index.mjs';
-import { find, html } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/property-information/index.js';
+import { defineComponent, getCurrentInstance, toRaw, computed, h, resolveComponent, Text, useSSRContext, Comment } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
+import destr from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/destr/dist/index.mjs';
+import { pascalCase, kebabCase } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/scule/dist/index.mjs';
+import { find, html } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/property-information/index.js';
 
 const htmlTags = [
   "a",

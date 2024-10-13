@@ -53,7 +53,7 @@ export const options = resolveOptions({
     ],
     "servers": [],
     "root": [
-      "/Users/shawes/git/opendevsci/longitudinal.dev"
+      "/Users/shawes/git/opendevsci/longitudinal-dev"
     ],
     "src": [
       "",

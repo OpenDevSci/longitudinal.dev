@@ -1,60 +1,60 @@
-import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, toRef, isRef, defineAsyncComponent, defineComponent, h as h$1, useAttrs, computed, toValue, useSSRContext, provide, createElementBlock, nextTick, onMounted, cloneVNode, Fragment, onUnmounted, unref, Teleport, reactive, shallowRef, normalizeClass, shallowReactive, Suspense, Transition, onServerPrefetch, useSlots, mergeProps, createVNode, resolveDynamicComponent, withCtx, renderSlot, resolveComponent, withAsyncContext, openBlock, createBlock, createCommentVNode, createTextVNode, toDisplayString, createSlots, renderList, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, withKeys as withKeys$1, withDirectives, vShow, isShallow, isReactive, toRaw } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
-import { $fetch as $fetch$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ofetch/dist/node.mjs';
+import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, toRef, isRef, defineAsyncComponent, defineComponent, h as h$1, useAttrs, computed, toValue, useSSRContext, provide, createElementBlock, nextTick, onMounted, cloneVNode, Fragment, onUnmounted, unref, Teleport, reactive, shallowRef, normalizeClass, shallowReactive, Suspense, Transition, onServerPrefetch, useSlots, mergeProps, createVNode, resolveDynamicComponent, withCtx, renderSlot, resolveComponent, withAsyncContext, openBlock, createBlock, createCommentVNode, createTextVNode, toDisplayString, createSlots, renderList, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, withKeys as withKeys$1, withDirectives, vShow, isShallow, isReactive, toRaw } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
+import { $fetch as $fetch$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ofetch/dist/node.mjs';
 import { b as baseURL } from '../_/renderer3.mjs';
-import { createHooks } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hookable/dist/index.mjs';
-import { getContext } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unctx/dist/index.mjs';
-import { createError as createError$1, getRequestHeader, setCookie, getCookie, deleteCookie, sanitizeStatusCode } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/h3/dist/index.mjs';
-import { withLeadingSlash, joinURL, withoutTrailingSlash, parseQuery, withBase, hasProtocol, withQuery, isScriptProtocol, parseURL, withoutBase, withTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ufo/dist/index.mjs';
-import { CapoPlugin, getActiveHead } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unhead/dist/index.mjs';
-import { defineHeadPlugin, composableNames, unpackMeta } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@unhead/shared/dist/index.mjs';
-import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue-router/dist/vue-router.node.mjs';
-import { toRouteMatcher, createRouter as createRouter$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/radix3/dist/index.mjs';
-import { defu, defuFn, createDefu } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/defu/dist/defu.mjs';
-import { createSharedComposable, useActiveElement, useTimestamp } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@vueuse/core/index.mjs';
-import { klona } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/klona/dist/index.mjs';
-import { extendTailwindMerge, twMerge, twJoin } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/tailwind-merge/dist/bundle-mjs.mjs';
-import { ssrRenderAttrs, ssrRenderClass, ssrRenderSlot, ssrRenderVNode, ssrRenderComponent, ssrInterpolate, ssrRenderList, ssrRenderStyle, ssrRenderSuspense, ssrIncludeBooleanAttr, ssrRenderTeleport } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/server-renderer/index.mjs';
-import { hash as hash$2, isEqual } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/ohash/dist/index.mjs';
-import { Icon as Icon$2 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@iconify/vue/dist/offline.mjs';
-import { addAPIProvider, loadIcon } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@iconify/vue/dist/iconify.mjs';
-import { splitByCase, upperFirst } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/scule/dist/index.mjs';
-import destr from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/destr/dist/index.mjs';
-import { parse } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/cookie-es/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/devalue/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@unhead/ssr/dist/index.mjs';
+import { createHooks } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/hookable/dist/index.mjs';
+import { getContext } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unctx/dist/index.mjs';
+import { createError as createError$1, getRequestHeader, setCookie, getCookie, deleteCookie, sanitizeStatusCode } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/h3/dist/index.mjs';
+import { withLeadingSlash, joinURL, withoutTrailingSlash, parseQuery, withBase, hasProtocol, withQuery, isScriptProtocol, parseURL, withoutBase, withTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ufo/dist/index.mjs';
+import { CapoPlugin, getActiveHead } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unhead/dist/index.mjs';
+import { defineHeadPlugin, composableNames, unpackMeta } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@unhead/shared/dist/index.mjs';
+import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue-router/dist/vue-router.node.mjs';
+import { toRouteMatcher, createRouter as createRouter$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/radix3/dist/index.mjs';
+import { defu, defuFn, createDefu } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/defu/dist/defu.mjs';
+import { createSharedComposable, useActiveElement, useTimestamp } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vueuse/core/index.mjs';
+import { klona } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/klona/dist/index.mjs';
+import { extendTailwindMerge, twMerge, twJoin } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/tailwind-merge/dist/bundle-mjs.mjs';
+import { ssrRenderAttrs, ssrRenderClass, ssrRenderSlot, ssrRenderVNode, ssrRenderComponent, ssrInterpolate, ssrRenderList, ssrRenderStyle, ssrRenderSuspense, ssrIncludeBooleanAttr, ssrRenderTeleport } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/server-renderer/index.mjs';
+import { hash as hash$2, isEqual } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ohash/dist/index.mjs';
+import { Icon as Icon$2 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@iconify/vue/dist/offline.mjs';
+import { addAPIProvider, loadIcon } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@iconify/vue/dist/iconify.mjs';
+import { splitByCase, upperFirst } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/scule/dist/index.mjs';
+import destr from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/destr/dist/index.mjs';
+import { parse } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/cookie-es/dist/index.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/devalue/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@unhead/ssr/dist/index.mjs';
 import '../runtime.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unenv/runtime/fetch/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/fs.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unstorage/drivers/lru-cache.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unenv/runtime/fetch/index.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unstorage/dist/index.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unstorage/drivers/lru-cache.mjs';
 import 'node:fs';
 import 'node:url';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/pathe/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/shiki/dist/core.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@shikijs/transformers/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unified/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/mdast-util-to-string/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unist-util-stringify-position/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-character/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-chunked/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-resolve-all/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/micromark-util-sanitize-uri/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/slugify/slugify.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-parse/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-rehype/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-mdc/dist/index.mjs';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hast-util-to-string/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/github-slugger/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/detab/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-emoji/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/remark-gfm/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-external-links/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-sort-attribute-values/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-sort-attributes/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/rehype-raw/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/pathe/dist/index.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/core.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@shikijs/transformers/dist/index.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unified/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/mdast-util-to-string/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unist-util-stringify-position/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark-util-character/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark-util-chunked/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark-util-resolve-all/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/micromark-util-sanitize-uri/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/slugify/slugify.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-parse/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-rehype/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-mdc/dist/index.mjs';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/hast-util-to-string/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/github-slugger/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/detab/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-emoji/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/remark-gfm/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-external-links/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attribute-values/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attributes/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-raw/index.js';
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch$1.create({
@@ -1650,17 +1650,17 @@ const cfg0 = defineAppConfig({
       "icon": "i-simple-icons-github",
       "to": "https://github.com/OpenDevSci/LongDev-ABCD",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on GitHub"
+      "aria-label": "Longitudinal-dev on GitHub"
     }, {
       "icon": "i-simple-icons-discord",
       "to": "https://discord.com/channels/1288111827649171456/1288111940820013139",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Discord"
+      "aria-label": "Longitudinal-dev on Discord"
     }, {
       "icon": "i-simple-icons-slack",
       "to": "https://longitudinaldev.slack.com",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Slack"
+      "aria-label": "Longitudinal-dev on Slack"
     }]
   },
   footer: {
@@ -1670,17 +1670,17 @@ const cfg0 = defineAppConfig({
       "icon": "i-simple-icons-github",
       "to": "https://github.com/OpenDevSci/LongDev-ABCD",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on GitHub"
+      "aria-label": "Longitudinal-dev on GitHub"
     }, {
       "icon": "i-simple-icons-discord",
       "to": "https://discord.com/channels/1288111827649171456/1288111940820013139",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Discord"
+      "aria-label": "Longitudinal-dev on Discord"
     }, {
       "icon": "i-simple-icons-slack",
       "to": "https://longitudinaldev.slack.com",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Slack"
+      "aria-label": "Longitudinal-dev on Slack"
     }]
   },
   toc: {

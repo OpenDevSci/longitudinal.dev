@@ -1,5 +1,5 @@
-import { visit } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/unist-util-visit/index.js';
-import { toString } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/hast-util-to-string/index.js';
+import { visit } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unist-util-visit/index.js';
+import { toString } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/hast-util-to-string/index.js';
 
 function rehypeHighlight$1(opts) {
   const options = opts;

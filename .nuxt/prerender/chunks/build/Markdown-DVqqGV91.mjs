@@ -1,4 +1,4 @@
-import { defineComponent, getCurrentInstance, useSlots, computed, useSSRContext } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
+import { defineComponent, getCurrentInstance, useSlots, computed, useSSRContext } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 import _sfc_main$1 from './ContentSlot-C2mEnxkD.mjs';
 import './node-B5VQLu6X.mjs';
 

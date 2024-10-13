@@ -1,7 +1,7 @@
-import { defineComponent, toRef, computed, useSSRContext, createVNode, resolveDynamicComponent, mergeProps, withCtx, openBlock, createBlock, renderSlot, createCommentVNode } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
-import { twMerge, twJoin } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/tailwind-merge/dist/bundle-mjs.mjs';
+import { defineComponent, toRef, computed, useSSRContext, createVNode, resolveDynamicComponent, mergeProps, withCtx, openBlock, createBlock, renderSlot, createCommentVNode } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
+import { twMerge, twJoin } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/tailwind-merge/dist/bundle-mjs.mjs';
 import { m as mergeConfig, h as appConfig, u as useUI, g as _export_sfc } from './server.mjs';
-import { ssrRenderVNode, ssrRenderClass, ssrRenderSlot } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/server-renderer/index.mjs';
+import { ssrRenderVNode, ssrRenderClass, ssrRenderSlot } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/server-renderer/index.mjs';
 
 const card = {
   base: "",

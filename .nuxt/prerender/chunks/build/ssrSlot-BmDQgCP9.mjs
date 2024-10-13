@@ -1,5 +1,5 @@
 import { f as flatUnwrap } from './node-B5VQLu6X.mjs';
-import { ssrRenderSlot as ssrRenderSlot$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/server-renderer/index.mjs';
+import { ssrRenderSlot as ssrRenderSlot$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/server-renderer/index.mjs';
 
 const ssrRenderSlot = (slots, name, props, fallbackRenderFn, push, parentComponent, slotScopeId) => {
   if (slots[name]) {

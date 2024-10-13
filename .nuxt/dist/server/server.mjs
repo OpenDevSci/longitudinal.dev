@@ -1615,17 +1615,17 @@ const cfg0 = defineAppConfig({
       "icon": "i-simple-icons-github",
       "to": "https://github.com/OpenDevSci/LongDev-ABCD",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on GitHub"
+      "aria-label": "Longitudinal-dev on GitHub"
     }, {
       "icon": "i-simple-icons-discord",
       "to": "https://discord.com/channels/1288111827649171456/1288111940820013139",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Discord"
+      "aria-label": "Longitudinal-dev on Discord"
     }, {
       "icon": "i-simple-icons-slack",
       "to": "https://longitudinaldev.slack.com",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Slack"
+      "aria-label": "Longitudinal-dev on Slack"
     }]
   },
   footer: {
@@ -1635,17 +1635,17 @@ const cfg0 = defineAppConfig({
       "icon": "i-simple-icons-github",
       "to": "https://github.com/OpenDevSci/LongDev-ABCD",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on GitHub"
+      "aria-label": "Longitudinal-dev on GitHub"
     }, {
       "icon": "i-simple-icons-discord",
       "to": "https://discord.com/channels/1288111827649171456/1288111940820013139",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Discord"
+      "aria-label": "Longitudinal-dev on Discord"
     }, {
       "icon": "i-simple-icons-slack",
       "to": "https://longitudinaldev.slack.com",
       "target": "_blank",
-      "aria-label": "Longitudinal.dev on Slack"
+      "aria-label": "Longitudinal-dev on Slack"
     }]
   },
   toc: {

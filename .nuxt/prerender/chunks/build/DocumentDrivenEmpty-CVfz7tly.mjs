@@ -1,4 +1,4 @@
-import { defineComponent, h, useSSRContext } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
+import { defineComponent, h, useSSRContext } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 
 const _sfc_main = defineComponent({
   name: "DocumentDrivenEmpty",

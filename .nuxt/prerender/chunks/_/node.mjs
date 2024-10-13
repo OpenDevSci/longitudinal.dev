@@ -1,4 +1,4 @@
-import { Resvg } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/@resvg/resvg-js/index.js';
+import { Resvg } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@resvg/resvg-js/index.js';
 
 const node = {
   initWasmPromise: Promise.resolve(),

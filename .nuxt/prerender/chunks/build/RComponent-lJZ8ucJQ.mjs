@@ -1,4 +1,4 @@
-import { useSSRContext } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
+import { useSSRContext } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 import { g as _export_sfc } from './server.mjs';
 
 const _sfc_main = {};

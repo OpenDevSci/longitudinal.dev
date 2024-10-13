@@ -1,5 +1,5 @@
 import { f as flatUnwrap } from './node-B5VQLu6X.mjs';
-import { renderSlot as renderSlot$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal.dev/node_modules/vue/index.mjs';
+import { renderSlot as renderSlot$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 
 const renderSlot = (slots, name, props, ...rest) => {
   if (slots[name]) {
