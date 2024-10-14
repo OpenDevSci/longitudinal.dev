@@ -3447,8 +3447,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@826": {
-                                    "name": "__@match@826",
+                                  "__@match@821": {
+                                    "name": "__@match@821",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -3474,8 +3474,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@828": {
-                                    "name": "__@replace@828",
+                                  "__@replace@823": {
+                                    "name": "__@replace@823",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -3516,8 +3516,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@831": {
-                                    "name": "__@search@831",
+                                  "__@search@826": {
+                                    "name": "__@search@826",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -3543,8 +3543,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@833": {
-                                    "name": "__@split@833",
+                                  "__@split@828": {
+                                    "name": "__@split@828",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -3574,8 +3574,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@835": {
-                                    "name": "__@matchAll@835",
+                                  "__@matchAll@830": {
+                                    "name": "__@matchAll@830",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -4969,21 +4969,6 @@ export default {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3983,
-                4099
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "query",
           "type": "undefined",
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
@@ -4997,6 +4982,21 @@ export default {
             }
           ],
           "schema": "undefined"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3983,
+                4099
+              ]
+            }
+          ],
+          "schema": "string"
         },
         {
           "name": "tag",
@@ -5730,8 +5730,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@826": {
-                                    "name": "__@match@826",
+                                  "__@match@821": {
+                                    "name": "__@match@821",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -5757,8 +5757,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@828": {
-                                    "name": "__@replace@828",
+                                  "__@replace@823": {
+                                    "name": "__@replace@823",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -5799,8 +5799,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@831": {
-                                    "name": "__@search@831",
+                                  "__@search@826": {
+                                    "name": "__@search@826",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -5826,8 +5826,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@833": {
-                                    "name": "__@split@833",
+                                  "__@split@828": {
+                                    "name": "__@split@828",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -5857,8 +5857,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@835": {
-                                    "name": "__@matchAll@835",
+                                  "__@matchAll@830": {
+                                    "name": "__@matchAll@830",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -7208,21 +7208,6 @@ export default {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
-              "range": [
-                1975,
-                2091
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "query",
           "type": "undefined",
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
@@ -7236,6 +7221,21 @@ export default {
             }
           ],
           "schema": "undefined"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "range": [
+                1975,
+                2091
+              ]
+            }
+          ],
+          "schema": "string"
         }
       ]
     }
@@ -10334,8 +10334,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@804": {
-                "name": "__@hasInstance@804",
+              "__@hasInstance@799": {
+                "name": "__@hasInstance@799",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -10356,8 +10356,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@806": {
-                "name": "__@metadata@806",
+              "__@metadata@801": {
+                "name": "__@metadata@801",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -10634,8 +10634,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@804": {
-                "name": "__@hasInstance@804",
+              "__@hasInstance@799": {
+                "name": "__@hasInstance@799",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -10656,8 +10656,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@806": {
-                "name": "__@metadata@806",
+              "__@metadata@801": {
+                "name": "__@metadata@801",
                 "global": false,
                 "description": "",
                 "tags": [],

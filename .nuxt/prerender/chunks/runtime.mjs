@@ -248,7 +248,7 @@ const appConfig = defuFn(appConfig0, appConfig1, inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/longitudinal-dev/",
-    "buildId": "a6b24e45-e256-4319-99a6-2e1fb6bc80c7",
+    "buildId": "5ed334a4-8631-4d52-a9ab-48a479e415b1",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -331,7 +331,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1728925235900,
+      "integrity": 1728925883711,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -7082,8 +7082,8 @@ const components = {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@826": {
-                                    "name": "__@match@826",
+                                  "__@match@821": {
+                                    "name": "__@match@821",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -7109,8 +7109,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@828": {
-                                    "name": "__@replace@828",
+                                  "__@replace@823": {
+                                    "name": "__@replace@823",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -7151,8 +7151,8 @@ const components = {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@831": {
-                                    "name": "__@search@831",
+                                  "__@search@826": {
+                                    "name": "__@search@826",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -7178,8 +7178,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@833": {
-                                    "name": "__@split@833",
+                                  "__@split@828": {
+                                    "name": "__@split@828",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -7209,8 +7209,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@835": {
-                                    "name": "__@matchAll@835",
+                                  "__@matchAll@830": {
+                                    "name": "__@matchAll@830",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -8604,21 +8604,6 @@ const components = {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3983,
-                4099
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "query",
           "type": "undefined",
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
@@ -8632,6 +8617,21 @@ const components = {
             }
           ],
           "schema": "undefined"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3983,
+                4099
+              ]
+            }
+          ],
+          "schema": "string"
         },
         {
           "name": "tag",
@@ -9365,8 +9365,8 @@ const components = {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@826": {
-                                    "name": "__@match@826",
+                                  "__@match@821": {
+                                    "name": "__@match@821",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -9392,8 +9392,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@828": {
-                                    "name": "__@replace@828",
+                                  "__@replace@823": {
+                                    "name": "__@replace@823",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -9434,8 +9434,8 @@ const components = {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@831": {
-                                    "name": "__@search@831",
+                                  "__@search@826": {
+                                    "name": "__@search@826",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -9461,8 +9461,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@833": {
-                                    "name": "__@split@833",
+                                  "__@split@828": {
+                                    "name": "__@split@828",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -9492,8 +9492,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@835": {
-                                    "name": "__@matchAll@835",
+                                  "__@matchAll@830": {
+                                    "name": "__@matchAll@830",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -10843,21 +10843,6 @@ const components = {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
-              "range": [
-                1975,
-                2091
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "query",
           "type": "undefined",
           "description": "A query builder params object to be passed to <ContentQuery /> component.",
@@ -10871,6 +10856,21 @@ const components = {
             }
           ],
           "schema": "undefined"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "range": [
+                1975,
+                2091
+              ]
+            }
+          ],
+          "schema": "string"
         }
       ]
     }
@@ -13969,8 +13969,8 @@ const components = {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@804": {
-                "name": "__@hasInstance@804",
+              "__@hasInstance@799": {
+                "name": "__@hasInstance@799",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -13991,8 +13991,8 @@ const components = {
                   "schema": []
                 }
               },
-              "__@metadata@806": {
-                "name": "__@metadata@806",
+              "__@metadata@801": {
+                "name": "__@metadata@801",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -14269,8 +14269,8 @@ const components = {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@804": {
-                "name": "__@hasInstance@804",
+              "__@hasInstance@799": {
+                "name": "__@hasInstance@799",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -14291,8 +14291,8 @@ const components = {
                   "schema": []
                 }
               },
-              "__@metadata@806": {
-                "name": "__@metadata@806",
+              "__@metadata@801": {
+                "name": "__@metadata@801",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -21306,7 +21306,7 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1728925235900.json', handler: _6bbxUj, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1728925883711.json', handler: _6bbxUj, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
