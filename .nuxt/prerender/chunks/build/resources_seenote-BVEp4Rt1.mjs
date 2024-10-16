@@ -1,4 +1,4 @@
-import { g as _export_sfc, b as __nuxt_component_0$9 } from './server.mjs';
+import { g as _export_sfc, b as __nuxt_component_0$a } from './server.mjs';
 import { useSSRContext, ref, mergeProps, withCtx, createTextVNode } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 import { ssrRenderAttrs, ssrRenderAttr, ssrRenderComponent, ssrRenderList, ssrInterpolate } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/server-renderer/index.mjs';
 import { p as publicAssetsURL } from '../_/renderer3.mjs';
@@ -56,6 +56,7 @@ import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attribute-values/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attributes/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-raw/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ipx/dist/index.mjs';
 
 const _imports_0 = publicAssetsURL("/images/r-logo.png");
 const _sfc_main$1 = {
@@ -187,7 +188,7 @@ const _sfc_main = {
       }
     ]);
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_NuxtLink = __nuxt_component_0$9;
+      const _component_NuxtLink = __nuxt_component_0$a;
       _push(`<div${ssrRenderAttrs(mergeProps({ class: "wrapper" }, _attrs))} data-v-2e61ab35><header class="r-header flex justify-center items-center text-white h-64" data-v-2e61ab35><div class="r-logo-animation flex items-end" data-v-2e61ab35><img${ssrRenderAttr("src", _imports_0)} alt="Learn R" class="w-32 h-32" data-v-2e61ab35><span class="text-4xl font-bold ml-2" data-v-2e61ab35>esources</span></div></header><header class="header bg-white p-4 text-black h-20" data-v-2e61ab35><nav class="navigation flex justify-center gap-4 h-full items-center" data-v-2e61ab35>`);
       _push(ssrRenderComponent(_component_NuxtLink, {
         to: "#books",

@@ -1,4 +1,4 @@
-import { b as __nuxt_component_0$9 } from './server.mjs';
+import { b as __nuxt_component_0$a } from './server.mjs';
 import { defineComponent, mergeProps, withCtx, renderSlot, useSSRContext } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 import { ssrRenderComponent, ssrRenderSlot } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/server-renderer/index.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ofetch/dist/node.mjs';
@@ -47,6 +47,7 @@ import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attribute-values/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attributes/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-raw/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ipx/dist/index.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unhead/dist/index.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@unhead/shared/dist/index.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unctx/dist/index.mjs';
@@ -73,7 +74,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   },
   setup(__props) {
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_NuxtLink = __nuxt_component_0$9;
+      const _component_NuxtLink = __nuxt_component_0$a;
       _push(ssrRenderComponent(_component_NuxtLink, mergeProps({
         href: __props.href,
         target: __props.target

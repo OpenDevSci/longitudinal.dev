@@ -1,15 +1,15 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['@nuxt/ui-pro'],
-  components: true,
+
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
-    '@nuxt/ui',
     '@nuxt/fonts',
+    '@nuxt/image',
+    '@nuxt/ui',
     '@nuxthq/studio',
-    'nuxt-og-image',
-    '@nuxtjs/tailwindcss',
-    ['nuxt-plotly', { inject: true }]
+    'nuxt-og-image'
   ],
 
   hooks: {
@@ -19,17 +19,25 @@ export default defineNuxtConfig({
     }
   },
 
-  ui: {
-    icons: ['heroicons', 'simple-icons']
-  },
-
   colorMode: {
     disableTransition: true
   },
 
+  nitro: {
+    prerender: {
+      routes: [
+        '/'
+      ],
+      crawlLinks: true
+    }
+  },
+
   routeRules: {
-    '/': { prerender: true },
     '/api/search.json': { prerender: true }
+  },
+
+  app: {
+    baseURL: process.env.NUXT_APP_BASE_URL || '/longitudinal/' // Set this to your GitHub repo slug
   },
 
   devtools: {
@@ -38,6 +46,10 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: false
+  },
+
+  future: {
+    compatibilityVersion: 4
   },
 
   eslint: {
@@ -49,45 +61,5 @@ export default defineNuxtConfig({
     }
   },
 
-  content: {
-    highlight: {
-      langs: ['json', 'js', 'ts', 'html', 'css', 'vue', 'shell', 'mdc', 'md', 'yaml', 'r'],
-      documentDriven: true
-    }
-  },
-
-  vite: {
-    optimizeDeps: {
-      include: ['plotly.js-dist-min']
-    }
-  },
-
-  css: [
-    '@fortawesome/fontawesome-free/css/all.min.css',
-    '~/assets/css/main.css'
-  ],
-
-  build: {
-    postcss: {
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {}
-      }
-    }
-  },
-
-  plugins: ['~/plugins/customDirectives.js'],
-
-  router: {
-    base: '/longitudinal-dev/' // Base URL for GitHub Pages deployment
-  },
-
-  // Set site URL for OG image generation
-  site: {
-    url: 'https://opendevsci.github.io' // Only the domain, no path
-  },
-
-  app: {
-    baseURL: process.env.NUXT_APP_BASE_URL || '/longitudinal-dev/' // Ensure the base URL points to your GitHub Pages repo
-  }
+  compatibilityDate: '2024-07-11'
 })

@@ -187,6 +187,20 @@ const getSPARenderer = lazyCachedFunction(async () => {
 const payloadCache = useStorage("internal:nuxt:prerender:payload") ;
 const islandCache = useStorage("internal:nuxt:prerender:island") ;
 const islandPropCache = useStorage("internal:nuxt:prerender:island-props") ;
+const sharedPrerenderPromises = /* @__PURE__ */ new Map() ;
+const sharedPrerenderKeys = /* @__PURE__ */ new Set();
+const sharedPrerenderCache = {
+  get(key) {
+    if (sharedPrerenderKeys.has(key)) {
+      return sharedPrerenderPromises.get(key) ?? useStorage("internal:nuxt:prerender:shared").getItem(key);
+    }
+  },
+  async set(key, value) {
+    sharedPrerenderKeys.add(key);
+    sharedPrerenderPromises.set(key, value);
+    useStorage("internal:nuxt:prerender:shared").setItem(key, await value).finally(() => sharedPrerenderPromises.delete(key));
+  }
+} ;
 const ISLAND_SUFFIX_RE = /\.json(\?.*)?$/;
 async function getIslandContext(event) {
   let url = event.path || "";
@@ -271,6 +285,9 @@ const renderer = defineRenderHandler(async (event) => {
     },
     islandContext
   };
+  {
+    ssrContext._sharedPrerenderCache = sharedPrerenderCache;
+  }
   const _PAYLOAD_EXTRACTION = !ssrContext.noSSR && !isRenderingIsland;
   const payloadURL = _PAYLOAD_EXTRACTION ? joinURL(ssrContext.runtimeConfig.app.cdnURL || ssrContext.runtimeConfig.app.baseURL, url, "_payload.json" ) + "?" + ssrContext.runtimeConfig.app.buildId : void 0;
   {

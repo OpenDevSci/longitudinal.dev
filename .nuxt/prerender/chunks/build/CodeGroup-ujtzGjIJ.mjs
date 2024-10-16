@@ -48,6 +48,7 @@ import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attribute-values/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attributes/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-raw/index.js';
+import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ipx/dist/index.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unhead/dist/index.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@unhead/shared/dist/index.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unctx/dist/index.mjs';

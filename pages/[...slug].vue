@@ -6,7 +6,7 @@ const route = useRoute();
 const { toc, seo } = useAppConfig(); // Keeping both 'toc' and 'seo'
 
 definePageMeta({
-  layout: "default",
+  layout: "docs",
 });
 
 // Fetch page data
@@ -41,12 +41,11 @@ useSeoMeta({
   ogDescription: page.value.description,
 });
 
-// Define OG image for social sharing
-// defineOgImage({
-//   component: "Docs",
-//   title: page.value.title,
-//   description: page.value.description,
-// });
+defineOgImage({
+  component: "Docs",
+  title: page.value.title,
+  description: page.value.description,
+});
 
 // Computed values for headline and links
 const headline = computed(() => findPageHeadline(page.value));

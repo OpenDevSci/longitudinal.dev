@@ -74,11 +74,8 @@
       "assets/*": [
         "../assets/*"
       ],
-      "public": [
-        "../public"
-      ],
-      "public/*": [
-        "../public/*"
+      "/Users/shawes/git/opendevsci/longitudinal-dev/public": [
+        "../Users/shawes/git/opendevsci/longitudinal-dev/public"
       ],
       "#ui-pro": [
         "../node_modules/@nuxt/ui-pro"
@@ -96,13 +93,19 @@
         "../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#mdc-configs": [
-        "./mdc-configs.mjs"
+        "./mdc-configs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter.mjs"
+        "./mdc-highlighter"
       ],
       "#mdc-imports": [
-        "./mdc-imports.mjs"
+        "./mdc-imports"
+      ],
+      "#image": [
+        "../node_modules/@nuxt/image/dist/runtime"
+      ],
+      "#image/*": [
+        "../node_modules/@nuxt/image/dist/runtime/*"
       ],
       "#ui": [
         "../node_modules/@nuxt/ui/dist/runtime"
@@ -111,19 +114,13 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors.mjs"
+        "./ui.colors"
       ],
       "#icon-collections": [
-        "./icon-collections.mjs"
+        "./icon-collections"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
-      ],
-      "#nuxt-component-meta": [
-        "./component-meta.mjs"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d.ts"
       ],
       "#vue-router": [
         "./vue-router-stub"
@@ -134,8 +131,11 @@
       "#tailwind-config": [
         "./tailwind.config"
       ],
+      "#tailwind-config/*": [
+        "./tailwind.config/*"
+      ],
       "#app-manifest": [
-        "./manifest/meta/5ed334a4-8631-4d52-a9ab-48a479e415b1.json"
+        "./manifest/meta/dev.json"
       ],
       "#build": [
         "."
@@ -156,7 +156,7 @@
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
     "strict": false,
-    "noUncheckedIndexedAccess": false,
+    "noUncheckedIndexedAccess": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitOverride": true,
     "module": "preserve",
@@ -183,16 +183,15 @@
     "../node_modules/@nuxtjs/mdc/runtime",
     "../node_modules/@nuxt/content/runtime",
     "../node_modules/@nuxt/eslint/runtime",
+    "../node_modules/@nuxt/fonts/runtime",
+    "../node_modules/@nuxt/image/runtime",
     "../node_modules/nuxt-icon/runtime",
     "../node_modules/@nuxtjs/color-mode/runtime",
     "../node_modules/@nuxtjs/tailwindcss/runtime",
     "../node_modules/@nuxt/ui/runtime",
-    "../node_modules/@nuxt/fonts/runtime",
-    "../node_modules/nuxt-component-meta/runtime",
     "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/nuxt-site-config/dist/runtime",
     "../node_modules/nuxt-og-image/runtime",
-    "../node_modules/nuxt-plotly/runtime",
     "../node_modules/@nuxt/devtools/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
     ".."
@@ -208,16 +207,15 @@
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
     "../node_modules/@nuxt/eslint/runtime/server",
+    "../node_modules/@nuxt/fonts/runtime/server",
+    "../node_modules/@nuxt/image/runtime/server",
     "../node_modules/nuxt-icon/runtime/server",
     "../node_modules/@nuxtjs/color-mode/runtime/server",
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
-    "../node_modules/@nuxt/fonts/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/nuxt-site-config/dist/runtime/server",
     "../node_modules/nuxt-og-image/runtime/server",
-    "../node_modules/nuxt-plotly/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "../.output"

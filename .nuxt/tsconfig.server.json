@@ -94,11 +94,8 @@
       "assets/*": [
         "../assets/*"
       ],
-      "public": [
-        "../public"
-      ],
-      "public/*": [
-        "../public/*"
+      "/Users/shawes/git/opendevsci/longitudinal-dev/public": [
+        "../Users/shawes/git/opendevsci/longitudinal-dev/public"
       ],
       "#ui-pro": [
         "../node_modules/@nuxt/ui-pro"
@@ -115,6 +112,12 @@
       "#mdc-imports": [
         "./mdc-imports"
       ],
+      "#image": [
+        "../node_modules/@nuxt/image/dist/runtime"
+      ],
+      "#image/*": [
+        "../node_modules/@nuxt/image/dist/runtime/*"
+      ],
       "#ui": [
         "../node_modules/@nuxt/ui/dist/runtime"
       ],
@@ -129,12 +132,6 @@
       ],
       "#color-mode-options": [
         "./color-mode-options"
-      ],
-      "#nuxt-component-meta": [
-        "./component-meta"
-      ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d"
       ],
       "#tailwind-config": [
         "./tailwind.config"
@@ -155,13 +152,13 @@
         "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/satori/renderer"
       ],
       "#nuxt-og-image/renderers/chromium": [
-        "./unenv/runtime/mock/empty"
+        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/chromium/renderer"
       ],
       "#nuxt-og-image/bindings/css-inline": [
         "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/css-inline/node"
       ],
       "#nuxt-og-image/bindings/sharp": [
-        "./unenv/runtime/mock/empty"
+        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/sharp/node"
       ],
       "#nuxt-og-image/bindings/resvg": [
         "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/resvg/node"
@@ -170,19 +167,7 @@
         "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/satori/node"
       ],
       "#nuxt-og-image/bindings/chromium": [
-        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/chromium/null"
-      ],
-      "electron": [
-        "./unenv/runtime/mock/proxy-cjs"
-      ],
-      "bufferutil": [
-        "./unenv/runtime/mock/proxy-cjs"
-      ],
-      "utf-8-validate": [
-        "./unenv/runtime/mock/proxy-cjs"
-      ],
-      "queue": [
-        "./unenv/runtime/mock/proxy-cjs"
+        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/chromium/chrome-launcher"
       ]
     }
   },
@@ -192,16 +177,15 @@
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
     "../node_modules/@nuxt/eslint/runtime/server",
+    "../node_modules/@nuxt/fonts/runtime/server",
+    "../node_modules/@nuxt/image/runtime/server",
     "../node_modules/nuxt-icon/runtime/server",
     "../node_modules/@nuxtjs/color-mode/runtime/server",
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
-    "../node_modules/@nuxt/fonts/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
     "../node_modules/nuxt-og-image/runtime/server",
-    "../node_modules/nuxt-plotly/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
     "./module/nuxt-site-config.d.ts",
