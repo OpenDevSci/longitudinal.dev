@@ -117,6 +117,16 @@ export default defineNuxtConfig({
         tailwindcss: {},
         autoprefixer: {}
       }
+    },
+    extend(config, { isClient, isServer }) {
+      if (isServer) {
+        config.output = config.output || {};
+        config.output.manualChunks = (id) => {
+          if (id.includes('nitropack') || id.includes('virtual:#imports')) {
+            return 'nitro-chunk';
+          }
+        }
+      }
     }
   },
   plugins: ['~/plugins/customDirectives.js'],
