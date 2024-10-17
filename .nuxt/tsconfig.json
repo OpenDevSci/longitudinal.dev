@@ -93,13 +93,13 @@
         "../node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#mdc-configs": [
-        "./mdc-configs"
+        "./mdc-configs.mjs"
       ],
       "#mdc-highlighter": [
-        "./mdc-highlighter"
+        "./mdc-highlighter.mjs"
       ],
       "#mdc-imports": [
-        "./mdc-imports"
+        "./mdc-imports.mjs"
       ],
       "#ui": [
         "../node_modules/@nuxt/ui/dist/runtime"
@@ -108,13 +108,19 @@
         "../node_modules/@nuxt/ui/dist/runtime/*"
       ],
       "#ui-colors": [
-        "./ui.colors"
+        "./ui.colors.mjs"
       ],
       "#icon-collections": [
-        "./icon-collections"
+        "./icon-collections.mjs"
       ],
       "#color-mode-options": [
         "./color-mode-options.mjs"
+      ],
+      "#nuxt-component-meta": [
+        "./component-meta.mjs"
+      ],
+      "#nuxt-component-meta/types": [
+        "./component-meta.d.ts"
       ],
       "#vue-router": [
         "./vue-router-stub"
@@ -125,11 +131,8 @@
       "#tailwind-config": [
         "./tailwind.config"
       ],
-      "#tailwind-config/*": [
-        "./tailwind.config/*"
-      ],
       "#app-manifest": [
-        "./manifest/meta/dev.json"
+        "./manifest/meta/e5587220-9191-40df-ae12-0b41564b8849.json"
       ],
       "#build": [
         "."
@@ -182,6 +185,7 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime",
     "../node_modules/@nuxt/ui/runtime",
     "../node_modules/@nuxt/fonts/runtime",
+    "../node_modules/nuxt-component-meta/runtime",
     "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/nuxt-site-config/dist/runtime",
     "../node_modules/nuxt-og-image/runtime",
@@ -206,6 +210,7 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
     "../node_modules/@nuxt/fonts/runtime/server",
+    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/nuxt-site-config/dist/runtime/server",
     "../node_modules/nuxt-og-image/runtime/server",

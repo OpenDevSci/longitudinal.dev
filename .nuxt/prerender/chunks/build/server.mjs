@@ -720,7 +720,7 @@ const _routes = [
   {
     name: "test",
     path: "/test",
-    component: () => import('./test-B-ACXwOz.mjs').then((m2) => m2.default || m2)
+    component: () => import('./test-Cj0gPnys.mjs').then((m2) => m2.default || m2)
   }
 ];
 const _wrapIf = (component, props, slots) => {
