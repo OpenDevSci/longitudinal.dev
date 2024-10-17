@@ -29,10 +29,11 @@
     "vue-multiselect": "^3.0.0"
   },
   "devDependencies": {
+    "@nuxt/cli": "^2.18.1",
     "@nuxt/eslint": "^0.3.13",
     "@nuxthq/studio": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^8.9.0",
-    "eslint": "^9.12.0",
+    "eslint": "^8.56.0",
     "vue-tsc": "^2.0.21"
   }
 }
