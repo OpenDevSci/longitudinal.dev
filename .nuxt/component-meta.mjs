@@ -1275,29 +1275,6 @@ export default {
           "default": "undefined"
         },
         {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "{}",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          },
-          "default": "{}"
-        },
-        {
           "name": "type",
           "global": false,
           "description": "",
@@ -1334,6 +1311,29 @@ export default {
           ],
           "schema": "string",
           "default": "undefined"
+        },
+        {
+          "name": "ui",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "{}",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          },
+          "default": "{}"
         },
         {
           "name": "required",
@@ -1442,40 +1442,6 @@ export default {
           "schema": "string"
         },
         {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1240,
-                1327
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "ui",
-          "type": "{}",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        },
-        {
           "name": "type",
           "type": "string",
           "description": "",
@@ -1513,6 +1479,21 @@ export default {
           }
         },
         {
+          "name": "class",
+          "type": "any",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1240,
+                1327
+              ]
+            }
+          ],
+          "schema": "any"
+        },
+        {
           "name": "description",
           "type": "string",
           "description": "",
@@ -1526,6 +1507,25 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "ui",
+          "type": "{}",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
         }
       ]
     }
@@ -4957,36 +4957,6 @@ export default {
           }
         },
         {
-          "name": "query",
-          "type": "undefined",
-          "description": "A query builder params object to be passed to <ContentQuery /> component.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                4217,
-                4345
-              ]
-            }
-          ],
-          "schema": "undefined"
-        },
-        {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3983,
-                4099
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "tag",
           "type": "string",
           "description": "The tag to use for the renderer element if it is used.",
@@ -5022,6 +4992,36 @@ export default {
               "true"
             ]
           }
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3983,
+                4099
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "query",
+          "type": "undefined",
+          "description": "A query builder params object to be passed to <ContentQuery /> component.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                4217,
+                4345
+              ]
+            }
+          ],
+          "schema": "undefined"
         },
         {
           "name": "head",
@@ -7205,21 +7205,6 @@ export default {
           }
         },
         {
-          "name": "query",
-          "type": "undefined",
-          "description": "A query builder params object to be passed to <ContentQuery /> component.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
-              "range": [
-                2209,
-                2337
-              ]
-            }
-          ],
-          "schema": "undefined"
-        },
-        {
           "name": "path",
           "type": "string",
           "description": "The path of the content to load from content source.",
@@ -7233,6 +7218,21 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "query",
+          "type": "undefined",
+          "description": "A query builder params object to be passed to <ContentQuery /> component.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentList.vue.d.ts",
+              "range": [
+                2209,
+                2337
+              ]
+            }
+          ],
+          "schema": "undefined"
         }
       ]
     }
@@ -14748,6 +14748,46 @@ export default {
           "schema": "string"
         },
         {
+          "name": "icon",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                5363,
+                5433
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "variant",
+          "type": "ButtonVariant",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                5231,
+                5358
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "enum",
+            "type": "ButtonVariant",
+            "schema": [
+              "\"link\"",
+              "\"solid\"",
+              "\"outline\"",
+              "\"soft\"",
+              "\"ghost\""
+            ]
+          }
+        },
+        {
           "name": "href",
           "type": "RouteLocationRaw",
           "description": "",
@@ -14898,46 +14938,6 @@ export default {
             }
           ],
           "schema": "any"
-        },
-        {
-          "name": "variant",
-          "type": "ButtonVariant",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                5231,
-                5358
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "enum",
-            "type": "ButtonVariant",
-            "schema": [
-              "\"link\"",
-              "\"solid\"",
-              "\"outline\"",
-              "\"soft\"",
-              "\"ghost\""
-            ]
-          }
-        },
-        {
-          "name": "icon",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                5363,
-                5433
-              ]
-            }
-          ],
-          "schema": "string"
         },
         {
           "name": "loadingIcon",
