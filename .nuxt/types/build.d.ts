@@ -12,7 +12,6 @@ declare module "#build/root-component.mjs";
 declare module "#build/plugins/server.mjs";
 declare module "#build/test-component-wrapper.mjs";
 declare module "#build/content-components.mjs";
-declare module "#build/image-options.mjs";
 declare module "#build/color-mode-options.mjs";
 declare module "#build/nuxt-og-image/components.mjs";
 declare module "#build/devtools/settings.mjs";

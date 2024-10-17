@@ -120,11 +120,11 @@ declare global {
   const useCarouselScroll: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCarouselScroll')['useCarouselScroll']
   const useColorMode: typeof import('../../node_modules/@nuxtjs/color-mode/dist/runtime/composables')['useColorMode']
   const useConsentScriptTrigger: typeof import('../../node_modules/nuxt/dist/app/composables/script-stubs')['useConsentScriptTrigger']
-  const useContent: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/utils')['useContentDisabled']
+  const useContent: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/content')['useContent']
   const useContentHead: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/head')['useContentHead']
   const useContentHelpers: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/helpers')['useContentHelpers']
   const useContentPreview: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/preview')['useContentPreview']
-  const useContentState: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/utils')['useContentDisabled']
+  const useContentState: typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/content')['useContentState']
   const useCookie: typeof import('../../node_modules/nuxt/dist/app/composables/cookie')['useCookie']
   const useCopyToClipboard: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCopyToClipboard')['useCopyToClipboard']
   const useCssModule: typeof import('../../node_modules/vue')['useCssModule']
@@ -137,7 +137,6 @@ declare global {
   const useHeadSafe: typeof import('../../node_modules/@unhead/vue')['useHeadSafe']
   const useHydration: typeof import('../../node_modules/nuxt/dist/app/composables/hydrate')['useHydration']
   const useId: typeof import('../../node_modules/nuxt/dist/app/composables/id')['useId']
-  const useImage: typeof import('../../node_modules/@nuxt/image/dist/runtime/composables')['useImage']
   const useInjectButtonGroup: typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useButtonGroup')['useInjectButtonGroup']
   const useLazyAsyncData: typeof import('../../node_modules/nuxt/dist/app/composables/asyncData')['useLazyAsyncData']
   const useLazyFetch: typeof import('../../node_modules/nuxt/dist/app/composables/fetch')['useLazyFetch']
@@ -343,11 +342,11 @@ declare module 'vue' {
     readonly useCarouselScroll: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCarouselScroll')['useCarouselScroll']>
     readonly useColorMode: UnwrapRef<typeof import('../../node_modules/@nuxtjs/color-mode/dist/runtime/composables')['useColorMode']>
     readonly useConsentScriptTrigger: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/script-stubs')['useConsentScriptTrigger']>
-    readonly useContent: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/utils')['useContentDisabled']>
+    readonly useContent: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/content')['useContent']>
     readonly useContentHead: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/head')['useContentHead']>
     readonly useContentHelpers: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/helpers')['useContentHelpers']>
     readonly useContentPreview: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/preview')['useContentPreview']>
-    readonly useContentState: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/utils')['useContentDisabled']>
+    readonly useContentState: UnwrapRef<typeof import('../../node_modules/@nuxt/content/dist/runtime/composables/content')['useContentState']>
     readonly useCookie: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/cookie')['useCookie']>
     readonly useCopyToClipboard: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useCopyToClipboard')['useCopyToClipboard']>
     readonly useCssModule: UnwrapRef<typeof import('../../node_modules/vue')['useCssModule']>
@@ -360,7 +359,6 @@ declare module 'vue' {
     readonly useHeadSafe: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHeadSafe']>
     readonly useHydration: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/hydrate')['useHydration']>
     readonly useId: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/id')['useId']>
-    readonly useImage: UnwrapRef<typeof import('../../node_modules/@nuxt/image/dist/runtime/composables')['useImage']>
     readonly useInjectButtonGroup: UnwrapRef<typeof import('../../node_modules/@nuxt/ui/dist/runtime/composables/useButtonGroup')['useInjectButtonGroup']>
     readonly useLazyAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/asyncData')['useLazyAsyncData']>
     readonly useLazyFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/fetch')['useLazyFetch']>

@@ -5,7 +5,6 @@ export default {
   components: {
     RComponent,
   },
-  layout: "playground", // Specify the layout
 };
 </script>
 

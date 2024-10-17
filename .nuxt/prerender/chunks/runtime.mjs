@@ -1,4 +1,4 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHost, getRequestProtocol, getQuery as getQuery$1, createError, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, getResponseHeader, appendHeader, getCookie, lazyEventHandler, useBase, createApp, createRouter as createRouter$1, toNodeListener } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/h3/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, isEvent, createEvent, fetchWithEvent, getRequestHeader, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHost, getRequestProtocol, getQuery as getQuery$1, createError, setResponseStatus, setResponseHeader, send, getRequestHeaders, removeResponseHeader, getResponseHeader, appendHeader, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/h3/dist/index.mjs';
 import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ofetch/dist/node.mjs';
 import destr, { destr as destr$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/destr/dist/index.mjs';
 import { createCall, createFetch } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unenv/runtime/fetch/index.mjs';
@@ -16,7 +16,7 @@ import { toRouteMatcher, createRouter } from 'file:///Users/shawes/git/opendevsc
 import { toValue } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve, extname, isAbsolute } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/pathe/dist/index.mjs';
+import { dirname, resolve, extname } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/pathe/dist/index.mjs';
 import { isSpecialLang, isSpecialTheme, addClassToHast, getHighlighterCore } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/core.mjs';
 import { transformerNotationDiff, transformerNotationFocus, transformerNotationHighlight, transformerNotationErrorLevel } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@shikijs/transformers/dist/index.mjs';
 import { unified } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unified/index.js';
@@ -40,7 +40,6 @@ import rehypeExternalLinks from 'file:///Users/shawes/git/opendevsci/longitudina
 import rehypeSortAttributeValues from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attribute-values/index.js';
 import rehypeSortAttributes from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attributes/index.js';
 import rehypeRaw from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-raw/index.js';
-import { ipxFSStorage, ipxHttpStorage, createIPX, createIPXH3Handler } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ipx/dist/index.mjs';
 
 function getEnv(key, opts) {
   const envKey = snakeCase(key).toUpperCase();
@@ -249,7 +248,7 @@ const appConfig = defuFn(appConfig0, appConfig1, inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/longitudinal-dev/",
-    "buildId": "c873c88e-137e-47bf-bb31-70b8f315caaf",
+    "buildId": "23db1365-665d-48b1-861a-10962bdc1ba5",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -329,7 +328,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1728929103334,
+      "integrity": 1729129254875,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -343,7 +342,8 @@ const _inlineRuntimeConfig = {
         "fields": [
           "icon",
           "to",
-          "target"
+          "target",
+          "layout"
         ]
       },
       "tags": {
@@ -392,21 +392,17 @@ const _inlineRuntimeConfig = {
           "bash",
           "ini"
         ],
-        "highlighter": "shiki",
         "langs": [
-          "js",
-          "jsx",
           "json",
+          "js",
           "ts",
-          "tsx",
-          "vue",
-          "css",
           "html",
+          "css",
           "vue",
-          "bash",
+          "shell",
           "md",
-          "mdc",
           "yaml",
+          "r",
           "json",
           "js",
           "ts",
@@ -419,10 +415,20 @@ const _inlineRuntimeConfig = {
           "yaml",
           "bash",
           "ini"
-        ]
+        ],
+        "highlighter": "shiki"
       },
       "wsUrl": "",
-      "documentDriven": false,
+      "documentDriven": {
+        "page": true,
+        "navigation": true,
+        "surround": true,
+        "globals": {},
+        "layoutFallbacks": [
+          "theme"
+        ],
+        "injectPage": true
+      },
       "host": "",
       "trailingSlash": false,
       "search": "",
@@ -441,7 +447,7 @@ const _inlineRuntimeConfig = {
   },
   "content": {
     "cacheVersion": 2,
-    "cacheIntegrity": "42LCwcizp5",
+    "cacheIntegrity": "RQkoNfmA0T",
     "transformers": [],
     "base": "",
     "api": {
@@ -484,21 +490,17 @@ const _inlineRuntimeConfig = {
         "bash",
         "ini"
       ],
-      "highlighter": "shiki",
       "langs": [
-        "js",
-        "jsx",
         "json",
+        "js",
         "ts",
-        "tsx",
-        "vue",
-        "css",
         "html",
+        "css",
         "vue",
-        "bash",
+        "shell",
         "md",
-        "mdc",
         "yaml",
+        "r",
         "json",
         "js",
         "ts",
@@ -511,7 +513,8 @@ const _inlineRuntimeConfig = {
         "yaml",
         "bash",
         "ini"
-      ]
+      ],
+      "highlighter": "shiki"
     },
     "markdown": {
       "tags": {
@@ -558,11 +561,12 @@ const _inlineRuntimeConfig = {
       "fields": [
         "icon",
         "to",
-        "target"
+        "target",
+        "layout"
       ]
     },
     "contentHead": true,
-    "documentDriven": false,
+    "documentDriven": true,
     "respectPathCase": false,
     "experimental": {
       "clientDB": false,
@@ -593,6 +597,11 @@ const _inlineRuntimeConfig = {
         "_context": "package.json",
         "_priority": -10,
         "name": "nuxt-ui-pro-template-docs"
+      },
+      {
+        "_context": "buildEnv",
+        "_priority": -1,
+        "url": "https://opendevsci.github.io/"
       }
     ],
     "version": "2.2.12",
@@ -632,7 +641,7 @@ const _inlineRuntimeConfig = {
     ],
     "hasNuxtIcon": true,
     "colorPreference": "light",
-    "isNuxtContentDocumentDriven": false
+    "isNuxtContentDocumentDriven": true
   },
   "appConfigSchema": {
     "properties": {
@@ -1249,19 +1258,7 @@ const _inlineRuntimeConfig = {
       }
     }
   },
-  "contentSchema": {},
-  "ipx": {
-    "baseURL": "/_ipx",
-    "alias": {},
-    "fs": {
-      "dir": [
-        "/Users/shawes/git/opendevsci/longitudinal-dev/public"
-      ]
-    },
-    "http": {
-      "domains": []
-    }
-  }
+  "contentSchema": {}
 };
 const envOptions = {
   prefix: "NITRO_",
@@ -3596,16 +3593,14 @@ function createShikiHighlighter({
 }
 
 const bundledLangs = {
+"json": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/json.mjs'),
 "javascript": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/javascript.mjs'),
 "js": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/javascript.mjs'),
-"jsx": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/jsx.mjs'),
-"json": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/json.mjs'),
 "typescript": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/typescript.mjs'),
 "ts": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/typescript.mjs'),
-"tsx": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/tsx.mjs'),
-"vue": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/vue.mjs'),
-"css": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/css.mjs'),
 "html": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/html.mjs'),
+"css": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/css.mjs'),
+"vue": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/vue.mjs'),
 "shellscript": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/shellscript.mjs'),
 "bash": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/shellscript.mjs'),
 "sh": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/shellscript.mjs'),
@@ -3613,9 +3608,9 @@ const bundledLangs = {
 "zsh": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/shellscript.mjs'),
 "markdown": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/markdown.mjs'),
 "md": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/markdown.mjs'),
-"mdc": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/mdc.mjs'),
 "yaml": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/yaml.mjs'),
 "yml": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/yaml.mjs'),
+"r": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/r.mjs'),
 "diff": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/diff.mjs'),
 "ini": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/ini.mjs'),
 "properties": () => import('file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/shiki/dist/langs/ini.mjs'),
@@ -3880,6 +3875,48 @@ const components = {
     "export": "default",
     "priority": 1,
     "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/content/TestComponent.vue",
+    "meta": {
+      "type": 1,
+      "props": [],
+      "slots": [],
+      "events": [],
+      "exposed": []
+    }
+  },
+  "ArticleList": {
+    "mode": "all",
+    "global": true,
+    "prefetch": false,
+    "preload": false,
+    "filePath": "components/ArticleList.vue",
+    "pascalName": "ArticleList",
+    "kebabName": "article-list",
+    "chunkName": "components/article-list",
+    "shortPath": "components/ArticleList.vue",
+    "export": "default",
+    "priority": 1,
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/ArticleList.vue",
+    "meta": {
+      "type": 1,
+      "props": [],
+      "slots": [],
+      "events": [],
+      "exposed": []
+    }
+  },
+  "SimpleCarousel": {
+    "mode": "all",
+    "global": true,
+    "prefetch": false,
+    "preload": false,
+    "filePath": "components/SimpleCarousel.vue",
+    "pascalName": "SimpleCarousel",
+    "kebabName": "simple-carousel",
+    "chunkName": "components/simple-carousel",
+    "shortPath": "components/SimpleCarousel.vue",
+    "export": "default",
+    "priority": 1,
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/SimpleCarousel.vue",
     "meta": {
       "type": 1,
       "props": [],
@@ -4876,29 +4913,6 @@ const components = {
           "default": "undefined"
         },
         {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "{}",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          },
-          "default": "{}"
-        },
-        {
           "name": "type",
           "global": false,
           "description": "",
@@ -4935,6 +4949,29 @@ const components = {
           ],
           "schema": "string",
           "default": "undefined"
+        },
+        {
+          "name": "ui",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "{}",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          },
+          "default": "{}"
         },
         {
           "name": "required",
@@ -5043,40 +5080,6 @@ const components = {
           "schema": "string"
         },
         {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1240,
-                1327
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "ui",
-          "type": "{}",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        },
-        {
           "name": "type",
           "type": "string",
           "description": "",
@@ -5114,6 +5117,21 @@ const components = {
           }
         },
         {
+          "name": "class",
+          "type": "any",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1240,
+                1327
+              ]
+            }
+          ],
+          "schema": "any"
+        },
+        {
           "name": "description",
           "type": "string",
           "description": "",
@@ -5127,6 +5145,25 @@ const components = {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "ui",
+          "type": "{}",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
         }
       ]
     }
@@ -5471,25 +5508,6 @@ const components = {
           "default": "undefined"
         },
         {
-          "name": "filename",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                305,
-                361
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
           "name": "language",
           "global": false,
           "description": "",
@@ -5502,6 +5520,25 @@ const components = {
               "range": [
                 186,
                 242
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "undefined"
+        },
+        {
+          "name": "filename",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                305,
+                361
               ]
             }
           ],
@@ -5659,21 +5696,6 @@ const components = {
           "schema": "string"
         },
         {
-          "name": "filename",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                305,
-                361
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "language",
           "type": "string",
           "description": "",
@@ -5709,6 +5731,21 @@ const components = {
               "true"
             ]
           }
+        },
+        {
+          "name": "filename",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                305,
+                361
+              ]
+            }
+          ],
+          "schema": "string"
         },
         {
           "name": "highlights",
@@ -7027,8 +7064,8 @@ const components = {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@831": {
-                                    "name": "__@match@831",
+                                  "__@match@827": {
+                                    "name": "__@match@827",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -7054,8 +7091,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@833": {
-                                    "name": "__@replace@833",
+                                  "__@replace@829": {
+                                    "name": "__@replace@829",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -7096,8 +7133,8 @@ const components = {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@836": {
-                                    "name": "__@search@836",
+                                  "__@search@832": {
+                                    "name": "__@search@832",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -7123,8 +7160,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@838": {
-                                    "name": "__@split@838",
+                                  "__@split@834": {
+                                    "name": "__@split@834",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -7154,8 +7191,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@840": {
-                                    "name": "__@matchAll@840",
+                                  "__@matchAll@836": {
+                                    "name": "__@matchAll@836",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -8558,36 +8595,6 @@ const components = {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3983,
-                4099
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "query",
-          "type": "undefined",
-          "description": "A query builder params object to be passed to <ContentQuery /> component.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                4217,
-                4345
-              ]
-            }
-          ],
-          "schema": "undefined"
-        },
-        {
           "name": "tag",
           "type": "string",
           "description": "The tag to use for the renderer element if it is used.",
@@ -8623,6 +8630,36 @@ const components = {
               "true"
             ]
           }
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3983,
+                4099
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "query",
+          "type": "undefined",
+          "description": "A query builder params object to be passed to <ContentQuery /> component.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                4217,
+                4345
+              ]
+            }
+          ],
+          "schema": "undefined"
         },
         {
           "name": "head",
@@ -9319,8 +9356,8 @@ const components = {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@831": {
-                                    "name": "__@match@831",
+                                  "__@match@827": {
+                                    "name": "__@match@827",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -9346,8 +9383,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@833": {
-                                    "name": "__@replace@833",
+                                  "__@replace@829": {
+                                    "name": "__@replace@829",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -9388,8 +9425,8 @@ const components = {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@836": {
-                                    "name": "__@search@836",
+                                  "__@search@832": {
+                                    "name": "__@search@832",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -9415,8 +9452,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@838": {
-                                    "name": "__@split@838",
+                                  "__@split@834": {
+                                    "name": "__@split@834",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -9446,8 +9483,8 @@ const components = {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@840": {
-                                    "name": "__@matchAll@840",
+                                  "__@matchAll@836": {
+                                    "name": "__@matchAll@836",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -13941,8 +13978,8 @@ const components = {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@809": {
-                "name": "__@hasInstance@809",
+              "__@hasInstance@805": {
+                "name": "__@hasInstance@805",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -13963,8 +14000,8 @@ const components = {
                   "schema": []
                 }
               },
-              "__@metadata@811": {
-                "name": "__@metadata@811",
+              "__@metadata@807": {
+                "name": "__@metadata@807",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -14241,8 +14278,8 @@ const components = {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@809": {
-                "name": "__@hasInstance@809",
+              "__@hasInstance@805": {
+                "name": "__@hasInstance@805",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -14263,8 +14300,8 @@ const components = {
                   "schema": []
                 }
               },
-              "__@metadata@811": {
-                "name": "__@metadata@811",
+              "__@metadata@807": {
+                "name": "__@metadata@807",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -15838,25 +15875,6 @@ const components = {
       "type": 1,
       "props": [
         {
-          "name": "code",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                248,
-                293
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "\"\""
-        },
-        {
           "name": "filename",
           "global": false,
           "description": "",
@@ -15874,6 +15892,25 @@ const components = {
           ],
           "schema": "string",
           "default": "null"
+        },
+        {
+          "name": "code",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                248,
+                293
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "\"\""
         },
         {
           "name": "language",
@@ -16026,21 +16063,6 @@ const components = {
           }
         },
         {
-          "name": "code",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                248,
-                293
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "filename",
           "type": "string",
           "description": "",
@@ -16050,6 +16072,21 @@ const components = {
               "range": [
                 352,
                 403
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                248,
+                293
               ]
             }
           ],
@@ -18319,21 +18356,6 @@ const components = {
           }
         },
         {
-          "name": "type",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                4506,
-                4578
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "class",
           "type": "any",
           "description": "",
@@ -18347,6 +18369,21 @@ const components = {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                4506,
+                4578
+              ]
+            }
+          ],
+          "schema": "string"
         },
         {
           "name": "icon",
@@ -21277,24 +21314,6 @@ const _97vJYI = defineEventHandler(async (event) => {
   return createNav(contents?.result || contents, configs);
 });
 
-const _a4usuu = lazyEventHandler(() => {
-  const opts = useRuntimeConfig().ipx || {};
-  const fsDir = opts?.fs?.dir ? (Array.isArray(opts.fs.dir) ? opts.fs.dir : [opts.fs.dir]).map((dir) => isAbsolute(dir) ? dir : fileURLToPath(new URL(dir, globalThis._importMeta_.url))) : void 0;
-  const fsStorage = opts.fs?.dir ? ipxFSStorage({ ...opts.fs, dir: fsDir }) : void 0;
-  const httpStorage = opts.http?.domains ? ipxHttpStorage({ ...opts.http }) : void 0;
-  if (!fsStorage && !httpStorage) {
-    throw new Error("IPX storage is not configured!");
-  }
-  const ipxOptions = {
-    ...opts,
-    storage: fsStorage || httpStorage,
-    httpStorage
-  };
-  const ipx = createIPX(ipxOptions);
-  const ipxHandler = createIPXH3Handler(ipx);
-  return useBase(opts.baseURL, ipxHandler);
-});
-
 const _lazy_ZU91uf = () => import('./routes/api/search.json.get.mjs');
 const _lazy_4XtsNp = () => import('./routes/__og-image__/font/font.mjs');
 const _lazy_4DpZl4 = () => import('./routes/__og-image__/image/image.mjs');
@@ -21314,11 +21333,10 @@ const handlers = [
   { route: '/api/_content/query/:qid/**:params', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query/:qid', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/query', handler: _IgczFZ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1728929103334.json', handler: _6bbxUj, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1729129254875.json', handler: _6bbxUj, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid/**:params', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation/:qid', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
   { route: '/api/_content/navigation', handler: _97vJYI, lazy: false, middleware: false, method: "get" },
-  { route: '/_ipx/**', handler: _a4usuu, lazy: false, middleware: false, method: undefined },
   { route: '/**', handler: _lazy_nTj7bs, lazy: true, middleware: false, method: undefined }
 ];
 

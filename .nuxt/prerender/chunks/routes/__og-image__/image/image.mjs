@@ -44,7 +44,6 @@ import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attribute-values/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attributes/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-raw/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ipx/dist/index.mjs';
 
 async function useOgImageBufferCache(ctx, options) {
   const maxAge = Number(options.cacheMaxAgeSeconds);
