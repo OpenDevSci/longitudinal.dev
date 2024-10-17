@@ -1,10 +1,10 @@
-import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, toRef, isRef, defineAsyncComponent, unref, defineComponent, h as h$1, useAttrs, computed, toValue, useSSRContext, provide, createElementBlock, nextTick, onMounted, cloneVNode, Fragment, onUnmounted, Teleport, reactive, shallowRef, normalizeClass, mergeProps, withCtx, openBlock, createBlock, createVNode, createCommentVNode, createTextVNode, toDisplayString, shallowReactive, Suspense, Transition, onServerPrefetch, useSlots, resolveDynamicComponent, renderSlot, resolveComponent, withAsyncContext, createSlots, renderList, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, withKeys as withKeys$1, withDirectives, vShow, isShallow, isReactive, toRaw } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
+import { hasInjectionContext, inject, version, ref, watchEffect, watch, getCurrentInstance, toRef, isRef, defineAsyncComponent, unref, computed, defineComponent, h as h$1, useAttrs, toValue, useSSRContext, provide, createElementBlock, nextTick, onMounted, cloneVNode, Fragment, onUnmounted, Teleport, reactive, shallowRef, normalizeClass, mergeProps, withCtx, openBlock, createBlock, createVNode, createCommentVNode, createTextVNode, toDisplayString, shallowReactive, Suspense, Transition, onServerPrefetch, useSlots, resolveDynamicComponent, renderSlot, resolveComponent, withAsyncContext, createSlots, renderList, createApp, effectScope, getCurrentScope, onErrorCaptured, isReadonly, withKeys as withKeys$1, withDirectives, vShow, isShallow, isReactive, toRaw } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/index.mjs';
 import { $fetch as $fetch$1 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ofetch/dist/node.mjs';
 import { b as baseURL } from '../_/renderer3.mjs';
 import { createHooks } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/hookable/dist/index.mjs';
 import { getContext } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unctx/dist/index.mjs';
 import { createError as createError$1, getRequestHeader, setCookie, getCookie, deleteCookie, sanitizeStatusCode, appendHeader } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/h3/dist/index.mjs';
-import { joinURL, withQuery, withLeadingSlash, withoutTrailingSlash, parseQuery, withBase, hasProtocol, isScriptProtocol, parseURL, withoutBase, withTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ufo/dist/index.mjs';
+import { joinURL, withQuery, withoutTrailingSlash, withLeadingSlash, withBase, parseQuery, hasProtocol, isScriptProtocol, parseURL, withoutBase, withTrailingSlash } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ufo/dist/index.mjs';
 import { CapoPlugin, getActiveHead } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/unhead/dist/index.mjs';
 import { defineHeadPlugin, composableNames, unpackMeta } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@unhead/shared/dist/index.mjs';
 import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue-router/dist/vue-router.node.mjs';
@@ -13,13 +13,13 @@ import { defu, defuFn, createDefu } from 'file:///Users/shawes/git/opendevsci/lo
 import { createSharedComposable, useActiveElement, useTimestamp } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@vueuse/core/index.mjs';
 import { klona } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/klona/dist/index.mjs';
 import { extendTailwindMerge, twMerge, twJoin } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/tailwind-merge/dist/bundle-mjs.mjs';
-import { ssrRenderAttrs, ssrRenderList, ssrRenderComponent, ssrRenderClass, ssrInterpolate, ssrRenderSlot, ssrRenderVNode, ssrRenderStyle, ssrRenderSuspense, ssrIncludeBooleanAttr, ssrRenderTeleport } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/server-renderer/index.mjs';
 import { hash as hash$2, isEqual } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ohash/dist/index.mjs';
+import destr from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/destr/dist/index.mjs';
+import { parse } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/cookie-es/dist/index.mjs';
+import { ssrRenderAttrs, ssrRenderList, ssrRenderComponent, ssrRenderClass, ssrInterpolate, ssrRenderSlot, ssrRenderVNode, ssrRenderStyle, ssrRenderSuspense, ssrIncludeBooleanAttr, ssrRenderTeleport } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue/server-renderer/index.mjs';
 import { Icon as Icon$2 } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@iconify/vue/dist/offline.mjs';
 import { addAPIProvider, loadIcon } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@iconify/vue/dist/iconify.mjs';
 import { splitByCase, upperFirst } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/scule/dist/index.mjs';
-import destr from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/destr/dist/index.mjs';
-import { parse } from 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/cookie-es/dist/index.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/devalue/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@unhead/ssr/dist/index.mjs';
@@ -55,7 +55,6 @@ import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attribute-values/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-sort-attributes/index.js';
 import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/rehype-raw/index.js';
-import 'file:///Users/shawes/git/opendevsci/longitudinal-dev/node_modules/ipx/dist/index.mjs';
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch$1.create({
@@ -254,7 +253,7 @@ function defineNuxtPlugin(plugin2) {
   }), plugin2, { [NuxtPluginIndicator]: true, _name });
 }
 function callWithNuxt(nuxt, setup, args) {
-  const fn2 = () => setup();
+  const fn2 = () => args ? setup(...args) : setup();
   const nuxtAppCtx = getNuxtAppCtx(nuxt._name);
   {
     return nuxt.vueApp.runWithContext(() => nuxtAppCtx.callAsync(nuxt, fn2));
@@ -304,6 +303,20 @@ const useRoute = () => {
 function defineNuxtRouteMiddleware(middleware) {
   return middleware;
 }
+const addRouteMiddleware = (name, middleware, options = {}) => {
+  const nuxtApp = useNuxtApp();
+  const global2 = options.global || typeof name !== "string";
+  const mw = typeof name !== "string" ? name : middleware;
+  if (!mw) {
+    console.warn("[nuxt] No route middleware passed to `addRouteMiddleware`.", name);
+    return;
+  }
+  if (global2) {
+    nuxtApp._middleware.global.push(mw);
+  } else {
+    nuxtApp._middleware.named[name] = mw;
+  }
+};
 const isProcessingMiddleware = () => {
   try {
     if (useNuxtApp()._processingMiddleware) {
@@ -672,42 +685,42 @@ const _routes = [
     name: "slug",
     path: "/:slug(.*)*",
     meta: __nuxt_page_meta || {},
-    component: () => import('./_...slug_-F_znil3y.mjs').then((m2) => m2.default || m2)
+    component: () => import('./_...slug_-DN7N0ZUT.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "about",
     path: "/about",
-    component: () => import('./about-Wzru_b_F.mjs').then((m2) => m2.default || m2)
+    component: () => import('./about-dwFNHIeL.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "contribute",
     path: "/contribute",
-    component: () => import('./contribute-zUuI97Aa.mjs').then((m2) => m2.default || m2)
+    component: () => import('./contribute-CPGYp1kX.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-KvUTZ4mw.mjs').then((m2) => m2.default || m2)
+    component: () => import('./index-i3Aui2Gi.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "plotly-view",
     path: "/plotly-view",
-    component: () => import('./plotly-view-CtuaG_PZ.mjs').then((m2) => m2.default || m2)
+    component: () => import('./plotly-view-BskmfxCY.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "resources_seenote",
     path: "/resources_seenote",
-    component: () => import('./resources_seenote-BVEp4Rt1.mjs').then((m2) => m2.default || m2)
+    component: () => import('./resources_seenote-BP-mv-dd.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "sandbox",
     path: "/sandbox",
-    component: () => import('./sandbox-BlKKuqaQ.mjs').then((m2) => m2.default || m2)
+    component: () => import('./sandbox-0r7ICJu4.mjs').then((m2) => m2.default || m2)
   },
   {
     name: "test",
     path: "/test",
-    component: () => import('./test-By5Fzw79.mjs').then((m2) => m2.default || m2)
+    component: () => import('./test-B-ACXwOz.mjs').then((m2) => m2.default || m2)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -1135,56 +1148,58 @@ const revive_payload_server_eJ33V7gbc6 = /* @__PURE__ */ defineNuxtPlugin({
     }
   }
 });
-const LazyCardComponent1 = defineAsyncComponent(() => import('./CardComponent1-CUBt7ISL.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCardComponent2 = defineAsyncComponent(() => import('./CardComponent2-DVkZMLZv.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyTabComponent = defineAsyncComponent(() => import('./TabComponent-COvEvh8P.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyTestComponent = defineAsyncComponent(() => import('./TestComponent-BPHuWplR.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCallout = defineAsyncComponent(() => import('./Callout-B0vmv1g5.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCard = defineAsyncComponent(() => import('./Card-BPyn4qDn.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCardGroup = defineAsyncComponent(() => import('./CardGroup-REkX0go7.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCodeGroup = defineAsyncComponent(() => import('./CodeGroup-ujtzGjIJ.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-BpQZWGei.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyField = defineAsyncComponent(() => import('./Field-CD9ouTL0.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyFieldGroup = defineAsyncComponent(() => import('./FieldGroup-FgMcRV9R.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyShortcut = defineAsyncComponent(() => import('./Shortcut-CbTJqkY_.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyTabs = defineAsyncComponent(() => import('./Tabs-BO4xuony.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-DMtPSXvA.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton-CrZM48we.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeIcon = defineAsyncComponent(() => import('./ProseCodeIcon-BxQtCHS4.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-2VXD7_QD.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-DScNLYsj.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-CzLCtab6.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-DKhTZCHT.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-BBFHq-Yo.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentList = defineAsyncComponent(() => import('./ContentList-C7ZulO0Q.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-DfOJwZjP.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-D6QavM2p.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-CYEUHY72.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-DjhxtSiC.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCardComponent1 = defineAsyncComponent(() => import('./CardComponent1-CW8mSaL2.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCardComponent2 = defineAsyncComponent(() => import('./CardComponent2-1EF_a8k3.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyTabComponent = defineAsyncComponent(() => import('./TabComponent-ByuaDSk1.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyTestComponent = defineAsyncComponent(() => import('./TestComponent-BRUIPF11.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyArticleList = defineAsyncComponent(() => import('./ArticleList-Dfs57z6a.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazySimpleCarousel = defineAsyncComponent(() => import('./SimpleCarousel-tBAENdTp.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCallout = defineAsyncComponent(() => import('./Callout-D7Bll4Ym.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCard = defineAsyncComponent(() => import('./Card-DAaUj_0b.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCardGroup = defineAsyncComponent(() => import('./CardGroup-DR-xJ67w.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCodeGroup = defineAsyncComponent(() => import('./CodeGroup-BX5JBXVT.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyCollapsible = defineAsyncComponent(() => import('./Collapsible-Dp3dExLP.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyField = defineAsyncComponent(() => import('./Field-Bv81N-92.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyFieldGroup = defineAsyncComponent(() => import('./FieldGroup-FLye_KjX.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyShortcut = defineAsyncComponent(() => import('./Shortcut-Dnaenkvw.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyTabs = defineAsyncComponent(() => import('./Tabs-DMd50D5x.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCode = defineAsyncComponent(() => import('./ProseCode-DFhgGPmp.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeButton = defineAsyncComponent(() => import('./ProseCodeButton-4lH-Uy_X.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeIcon = defineAsyncComponent(() => import('./ProseCodeIcon-9lo-w0AO.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH1 = defineAsyncComponent(() => import('./ProseH1-C7aOjz1J.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH2 = defineAsyncComponent(() => import('./ProseH2-CcAaMJOj.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH3 = defineAsyncComponent(() => import('./ProseH3-CjsUsuGl.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH4 = defineAsyncComponent(() => import('./ProseH4-CqE_0R5o.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-DPVMUtmS.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentList = defineAsyncComponent(() => import('./ContentList-CdIaeIne.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-1jQdZVBF.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-Y20GEHF9.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-O291B7hI.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-Dsuy2Q8m.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyContentSlot = defineAsyncComponent(() => import('./ContentSlot-C2mEnxkD.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenEmpty = defineAsyncComponent(() => import('./DocumentDrivenEmpty-CVfz7tly.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyDocumentDrivenNotFound = defineAsyncComponent(() => import('./DocumentDrivenNotFound-4pTrsASA.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyMarkdown = defineAsyncComponent(() => import('./Markdown-DVqqGV91.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseCodeInline = defineAsyncComponent(() => import('./ProseCodeInline-CrCGboaA.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-BfTxPOVb.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseA = defineAsyncComponent(() => import('./ProseA-DNFoBgVD.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseBlockquote = defineAsyncComponent(() => import('./ProseBlockquote-CKJs4nRM.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-7EB9_P56.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-_bW_Bc7Y.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-Wscvu4Vv.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-DQEtGu6v.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-BorqeNQi.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-1dF7W0L3.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-CWiXn1dM.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseP = defineAsyncComponent(() => import('./ProseP-B4aH5vAO.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseStrong = defineAsyncComponent(() => import('./ProseStrong-7dbHdj-2.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTable = defineAsyncComponent(() => import('./ProseTable-CtPwtDiY.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTbody = defineAsyncComponent(() => import('./ProseTbody-CLEdifF5.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTd = defineAsyncComponent(() => import('./ProseTd-BDU15Sb2.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTh = defineAsyncComponent(() => import('./ProseTh-FhqXObml.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseThead = defineAsyncComponent(() => import('./ProseThead-B-0fdVvs.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseTr = defineAsyncComponent(() => import('./ProseTr-DL5yDvya.mjs').then((r2) => r2["default"] || r2.default || r2));
-const LazyProseUl = defineAsyncComponent(() => import('./ProseUl-U-5At8AW.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseCodeInline = defineAsyncComponent(() => import('./ProseCodeInline-CRN2WHqs.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProsePre = defineAsyncComponent(() => import('./ProsePre-BX1K0Yw5.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseA = defineAsyncComponent(() => import('./ProseA-DmWcitik.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseBlockquote = defineAsyncComponent(() => import('./ProseBlockquote-C3W_DwJu.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseEm = defineAsyncComponent(() => import('./ProseEm-C2w3WzpL.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH5 = defineAsyncComponent(() => import('./ProseH5-Ca2sR_u_.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseH6 = defineAsyncComponent(() => import('./ProseH6-CTiMa8sD.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseHr = defineAsyncComponent(() => import('./ProseHr-CsReCBOV.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseImg = defineAsyncComponent(() => import('./ProseImg-C-9QQ5qx.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseLi = defineAsyncComponent(() => import('./ProseLi-DtLeY-bS.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseOl = defineAsyncComponent(() => import('./ProseOl-Cu9mbC4l.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseP = defineAsyncComponent(() => import('./ProseP-6K6Up0Ms.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseStrong = defineAsyncComponent(() => import('./ProseStrong-Ctgzh8eh.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTable = defineAsyncComponent(() => import('./ProseTable-CzVqSteL.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTbody = defineAsyncComponent(() => import('./ProseTbody-BIJyWFwX.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTd = defineAsyncComponent(() => import('./ProseTd-FaIApV5z.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTh = defineAsyncComponent(() => import('./ProseTh-VmIrSK_E.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseThead = defineAsyncComponent(() => import('./ProseThead-44K90m7R.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseTr = defineAsyncComponent(() => import('./ProseTr-imZ8tLSA.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyProseUl = defineAsyncComponent(() => import('./ProseUl-DqpVdzKB.mjs').then((r2) => r2["default"] || r2.default || r2));
 const LazyUButton = defineAsyncComponent(() => Promise.resolve().then(function() {
   return Button;
 }).then((r2) => r2["default"] || r2.default || r2));
@@ -1194,12 +1209,14 @@ const LazyUIcon = defineAsyncComponent(() => Promise.resolve().then(function() {
 const LazyIcon = defineAsyncComponent(() => Promise.resolve().then(function() {
   return Icon$1;
 }).then((r2) => r2["default"] || r2.default || r2));
-const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-WMjjr6FF.mjs').then((r2) => r2["default"] || r2.default || r2));
+const LazyIconCSS = defineAsyncComponent(() => import('./IconCSS-Cyx0pU6x.mjs').then((r2) => r2["default"] || r2.default || r2));
 const lazyGlobalComponents = [
   ["CardComponent1", LazyCardComponent1],
   ["CardComponent2", LazyCardComponent2],
   ["TabComponent", LazyTabComponent],
   ["TestComponent", LazyTestComponent],
+  ["ArticleList", LazyArticleList],
+  ["SimpleCarousel", LazySimpleCarousel],
   ["Callout", LazyCallout],
   ["Card", LazyCard],
   ["CardGroup", LazyCardGroup],
@@ -2066,6 +2083,635 @@ const plugin_server_XNCxeHyTuP = /* @__PURE__ */ defineNuxtPlugin((nuxtApp) => {
   });
   nuxtApp.provide("colorMode", colorMode);
 });
+const useContentState = () => {
+  const pages = useState("dd-pages", () => shallowRef(shallowReactive({})));
+  const surrounds = useState("dd-surrounds", () => shallowRef(shallowReactive({})));
+  const navigation = useState("dd-navigation");
+  const globals = useState("dd-globals", () => shallowRef(shallowReactive({})));
+  return {
+    pages,
+    surrounds,
+    navigation,
+    globals
+  };
+};
+const useContent = () => {
+  const { navigation, pages, surrounds, globals } = useContentState();
+  const _path = computed(() => withoutTrailingSlash(useRoute().path));
+  const page = computed(() => pages.value[_path.value]);
+  const surround = computed(() => surrounds.value[_path.value]);
+  const toc = computed(() => {
+    var _a, _b;
+    return (_b = (_a = page == null ? void 0 : page.value) == null ? void 0 : _a.body) == null ? void 0 : _b.toc;
+  });
+  const type = computed(() => {
+    var _a;
+    return (_a = page.value) == null ? void 0 : _a._type;
+  });
+  const excerpt = computed(() => {
+    var _a;
+    return (_a = page.value) == null ? void 0 : _a.excerpt;
+  });
+  const layout = computed(() => {
+    var _a;
+    return (_a = page.value) == null ? void 0 : _a.layout;
+  });
+  const next = computed(() => {
+    var _a;
+    return (_a = surround.value) == null ? void 0 : _a[1];
+  });
+  const prev = computed(() => {
+    var _a;
+    return (_a = surround.value) == null ? void 0 : _a[0];
+  });
+  return {
+    // Refs
+    globals,
+    navigation,
+    surround,
+    page,
+    // From page
+    excerpt,
+    toc,
+    type,
+    layout,
+    // From surround
+    next,
+    prev
+  };
+};
+const navBottomLink = (link) => {
+  if (!link.children) {
+    return link._path;
+  }
+  for (const child of (link == null ? void 0 : link.children) || []) {
+    const result = navBottomLink(child);
+    if (result) {
+      return result;
+    }
+  }
+};
+const navDirFromPath = (path, tree) => {
+  for (const file of tree) {
+    if (file._path === path && !file._id) {
+      return file.children;
+    }
+    if (file.children) {
+      const result = navDirFromPath(path, file.children);
+      if (result) {
+        return result;
+      }
+    }
+  }
+};
+const navPageFromPath = (path, tree) => {
+  for (const file of tree) {
+    if (file._path === path) {
+      return file;
+    }
+    if (file.children) {
+      const result = navPageFromPath(path, file.children);
+      if (result) {
+        return result;
+      }
+    }
+  }
+};
+const navKeyFromPath = (path, key, tree) => {
+  let value;
+  const goDeep = (path2, tree2) => {
+    for (const file of tree2) {
+      if (path2 !== "/" && file._path === "/") {
+        continue;
+      }
+      if ((path2 == null ? void 0 : path2.startsWith(file._path)) && file[key]) {
+        value = file[key];
+      }
+      if (file._path === path2) {
+        return;
+      }
+      if (file.children) {
+        goDeep(path2, file.children);
+      }
+    }
+  };
+  goDeep(path, tree);
+  return value;
+};
+const useContentHelpers = () => {
+  return {
+    navBottomLink,
+    navDirFromPath,
+    navPageFromPath,
+    navKeyFromPath
+  };
+};
+function jsonStringify(value) {
+  return JSON.stringify(value, regExpReplacer);
+}
+function regExpReplacer(_key, value) {
+  if (value instanceof RegExp) {
+    return `--REGEX ${value.toString()}`;
+  }
+  return value;
+}
+const encodeQueryParams = (params) => {
+  let encoded = jsonStringify(params);
+  encoded = typeof Buffer !== "undefined" ? Buffer.from(encoded).toString("base64") : btoa(encoded);
+  encoded = encoded.replace(/\+/g, "-").replace(/\//g, "_").replace(/=/g, "");
+  const chunks = encoded.match(/.{1,100}/g) || [];
+  return chunks.join("/");
+};
+const CookieDefaults = {
+  path: "/",
+  watch: true,
+  decode: (val) => destr(decodeURIComponent(val)),
+  encode: (val) => encodeURIComponent(typeof val === "string" ? val : JSON.stringify(val))
+};
+function useCookie(name, _opts) {
+  var _a;
+  const opts = { ...CookieDefaults, ..._opts };
+  const cookies = readRawCookies(opts) || {};
+  let delay;
+  if (opts.maxAge !== void 0) {
+    delay = opts.maxAge * 1e3;
+  } else if (opts.expires) {
+    delay = opts.expires.getTime() - Date.now();
+  }
+  const hasExpired = delay !== void 0 && delay <= 0;
+  const cookieValue = klona(hasExpired ? void 0 : cookies[name] ?? ((_a = opts.default) == null ? void 0 : _a.call(opts)));
+  const cookie = ref(cookieValue);
+  {
+    const nuxtApp = useNuxtApp();
+    const writeFinalCookieValue = () => {
+      if (opts.readonly || isEqual(cookie.value, cookies[name])) {
+        return;
+      }
+      writeServerCookie(useRequestEvent(nuxtApp), name, cookie.value, opts);
+    };
+    const unhook = nuxtApp.hooks.hookOnce("app:rendered", writeFinalCookieValue);
+    nuxtApp.hooks.hookOnce("app:error", () => {
+      unhook();
+      return writeFinalCookieValue();
+    });
+  }
+  return cookie;
+}
+function readRawCookies(opts = {}) {
+  {
+    return parse(getRequestHeader(useRequestEvent(), "cookie") || "", opts);
+  }
+}
+function writeServerCookie(event, name, value, opts = {}) {
+  if (event) {
+    if (value !== null && value !== void 0) {
+      return setCookie(event, name, value, opts);
+    }
+    if (getCookie(event, name) !== void 0) {
+      return deleteCookie(event, name, opts);
+    }
+  }
+}
+const useContentPreview = () => {
+  const getPreviewToken = () => {
+    return useCookie("previewToken").value || false || void 0;
+  };
+  const setPreviewToken = (token) => {
+    useCookie("previewToken").value = token;
+    useRoute().query.preview = token || "";
+  };
+  const isEnabled = () => {
+    const query = useRoute().query;
+    if (Object.prototype.hasOwnProperty.call(query, "preview") && !query.preview) {
+      return false;
+    }
+    if (query.preview || useCookie("previewToken").value) {
+      return true;
+    }
+    return false;
+  };
+  return {
+    isEnabled,
+    getPreviewToken,
+    setPreviewToken
+  };
+};
+const withContentBase = (url) => withBase(url, (/* @__PURE__ */ useRuntimeConfig()).public.content.api.baseURL);
+const addPrerenderPath = (path) => {
+  const event = useRequestEvent();
+  event.node.res.setHeader(
+    "x-nitro-prerender",
+    [
+      event.node.res.getHeader("x-nitro-prerender"),
+      path
+    ].filter(Boolean).join(",")
+  );
+};
+const shouldUseClientDB = () => {
+  (/* @__PURE__ */ useRuntimeConfig()).public.content;
+  {
+    return false;
+  }
+};
+const get = (obj, path) => path.split(".").reduce((acc, part) => acc && acc[part], obj);
+const _pick = (obj, condition) => Object.keys(obj).filter(condition).reduce((newObj, key) => Object.assign(newObj, { [key]: obj[key] }), {});
+const omit = (keys) => (obj) => keys && keys.length ? _pick(obj, (key) => !keys.includes(key)) : obj;
+const apply = (fn2) => (data) => Array.isArray(data) ? data.map((item) => fn2(item)) : fn2(data);
+const detectProperties = (keys) => {
+  const prefixes = [];
+  const properties = [];
+  for (const key of keys) {
+    if (["$", "_"].includes(key)) {
+      prefixes.push(key);
+    } else {
+      properties.push(key);
+    }
+  }
+  return { prefixes, properties };
+};
+const withoutKeys = (keys = []) => (obj) => {
+  if (keys.length === 0 || !obj) {
+    return obj;
+  }
+  const { prefixes, properties } = detectProperties(keys);
+  return _pick(obj, (key) => !properties.includes(key) && !prefixes.includes(key[0]));
+};
+const withKeys = (keys = []) => (obj) => {
+  if (keys.length === 0 || !obj) {
+    return obj;
+  }
+  const { prefixes, properties } = detectProperties(keys);
+  return _pick(obj, (key) => properties.includes(key) || prefixes.includes(key[0]));
+};
+const sortList = (data, params) => {
+  const comperable = new Intl.Collator(params.$locale, {
+    numeric: params.$numeric,
+    caseFirst: params.$caseFirst,
+    sensitivity: params.$sensitivity
+  });
+  const keys = Object.keys(params).filter((key) => !key.startsWith("$"));
+  for (const key of keys) {
+    data = data.sort((a2, b2) => {
+      const values = [get(a2, key), get(b2, key)].map((value) => {
+        if (value === null) {
+          return void 0;
+        }
+        if (value instanceof Date) {
+          return value.toISOString();
+        }
+        return value;
+      });
+      if (params[key] === -1) {
+        values.reverse();
+      }
+      return comperable.compare(values[0], values[1]);
+    });
+  }
+  return data;
+};
+const assertArray = (value, message = "Expected an array") => {
+  if (!Array.isArray(value)) {
+    throw new TypeError(message);
+  }
+};
+const ensureArray = (value) => {
+  return Array.isArray(value) ? value : [void 0, null].includes(value) ? [] : [value];
+};
+const arrayParams = ["sort", "where", "only", "without"];
+function createQuery(fetcher, opts = {}) {
+  const queryParams = {};
+  for (const key of Object.keys(opts.initialParams || {})) {
+    queryParams[key] = arrayParams.includes(key) ? ensureArray(opts.initialParams[key]) : opts.initialParams[key];
+  }
+  const $set = (key, fn2 = (v2) => v2) => {
+    return (...values) => {
+      queryParams[key] = fn2(...values);
+      return query;
+    };
+  };
+  const resolveResult = (result) => {
+    var _a;
+    if (opts.legacy) {
+      if (result == null ? void 0 : result.surround) {
+        return result.surround;
+      }
+      if (!result) {
+        return result;
+      }
+      if (result == null ? void 0 : result.dirConfig) {
+        result.result = {
+          _path: (_a = result.dirConfig) == null ? void 0 : _a._path,
+          ...result.result,
+          _dir: result.dirConfig
+        };
+      }
+      return (result == null ? void 0 : result._path) || Array.isArray(result) || !Object.prototype.hasOwnProperty.call(result, "result") ? result : result == null ? void 0 : result.result;
+    }
+    return result;
+  };
+  const query = {
+    params: () => ({
+      ...queryParams,
+      ...queryParams.where ? { where: [...ensureArray(queryParams.where)] } : {},
+      ...queryParams.sort ? { sort: [...ensureArray(queryParams.sort)] } : {}
+    }),
+    only: $set("only", ensureArray),
+    without: $set("without", ensureArray),
+    where: $set("where", (q2) => [...ensureArray(queryParams.where), ...ensureArray(q2)]),
+    sort: $set("sort", (sort) => [...ensureArray(queryParams.sort), ...ensureArray(sort)]),
+    limit: $set("limit", (v2) => parseInt(String(v2), 10)),
+    skip: $set("skip", (v2) => parseInt(String(v2), 10)),
+    // find
+    find: () => fetcher(query).then(resolveResult),
+    findOne: () => fetcher($set("first")(true)).then(resolveResult),
+    count: () => fetcher($set("count")(true)).then(resolveResult),
+    // locale
+    locale: (_locale) => query.where({ _locale }),
+    withSurround: $set("surround", (surroundQuery, options) => ({ query: surroundQuery, ...options })),
+    withDirConfig: () => $set("dirConfig")(true)
+  };
+  if (opts.legacy) {
+    query.findSurround = (surroundQuery, options) => {
+      return query.withSurround(surroundQuery, options).find().then(resolveResult);
+    };
+    return query;
+  }
+  return query;
+}
+const createQueryFetch = () => async (query) => {
+  const { content } = (/* @__PURE__ */ useRuntimeConfig()).public;
+  const params = query.params();
+  const apiPath = content.experimental.stripQueryParameters ? withContentBase(`/query/${`${hash$2(params)}.${content.integrity}`}/${encodeQueryParams(params)}.json`) : withContentBase(`/query/${hash$2(params)}.${content.integrity}.json`);
+  {
+    addPrerenderPath(apiPath);
+  }
+  if (shouldUseClientDB()) {
+    const db = await import('./client-db-OpClpYzm.mjs').then((m2) => m2.useContentDatabase());
+    return db.fetch(query);
+  }
+  const data = await $fetch(apiPath, {
+    method: "GET",
+    responseType: "json",
+    params: content.experimental.stripQueryParameters ? void 0 : {
+      _params: jsonStringify(params),
+      previewToken: useContentPreview().getPreviewToken()
+    }
+  });
+  if (typeof data === "string" && data.startsWith("<!DOCTYPE html>")) {
+    throw new Error("Not found");
+  }
+  return data;
+};
+function queryContent(query, ...pathParts) {
+  const { content } = (/* @__PURE__ */ useRuntimeConfig()).public;
+  const queryBuilder = createQuery(createQueryFetch(), {
+    initialParams: typeof query !== "string" ? query : {},
+    legacy: true
+  });
+  let path;
+  if (typeof query === "string") {
+    path = withLeadingSlash(joinURL(query, ...pathParts));
+  }
+  const originalParamsFn = queryBuilder.params;
+  queryBuilder.params = () => {
+    var _a, _b, _c;
+    const params = originalParamsFn();
+    if (path) {
+      params.where = params.where || [];
+      if (params.first && (params.where || []).length === 0) {
+        params.where.push({ _path: withoutTrailingSlash(path) });
+      } else {
+        params.where.push({ _path: new RegExp(`^${path.replace(/[-[\]{}()*+.,^$\s/]/g, "\\$&")}`) });
+      }
+    }
+    if (!((_a = params.sort) == null ? void 0 : _a.length)) {
+      params.sort = [{ _file: 1, $numeric: true }];
+    }
+    if (content.locales.length) {
+      const queryLocale = (_c = (_b = params.where) == null ? void 0 : _b.find((w2) => w2._locale)) == null ? void 0 : _c._locale;
+      if (!queryLocale) {
+        params.where = params.where || [];
+        params.where.push({ _locale: content.defaultLocale });
+      }
+    }
+    return params;
+  };
+  return queryBuilder;
+}
+const fetchContentNavigation = async (queryBuilder) => {
+  const { content } = (/* @__PURE__ */ useRuntimeConfig()).public;
+  if (typeof (queryBuilder == null ? void 0 : queryBuilder.params) !== "function") {
+    queryBuilder = queryContent(queryBuilder);
+  }
+  const params = queryBuilder.params();
+  const apiPath = content.experimental.stripQueryParameters ? withContentBase(`/navigation/${`${hash$2(params)}.${content.integrity}`}/${encodeQueryParams(params)}.json`) : withContentBase(`/navigation/${hash$2(params)}.${content.integrity}.json`);
+  {
+    addPrerenderPath(apiPath);
+  }
+  if (shouldUseClientDB()) {
+    const generateNavigation = await import('./client-db-OpClpYzm.mjs').then((m2) => m2.generateNavigation);
+    return generateNavigation(params);
+  }
+  const data = await $fetch(apiPath, {
+    method: "GET",
+    responseType: "json",
+    params: content.experimental.stripQueryParameters ? void 0 : {
+      _params: jsonStringify(params),
+      previewToken: useContentPreview().getPreviewToken()
+    }
+  });
+  if (typeof data === "string" && data.startsWith("<!DOCTYPE html>")) {
+    throw new Error("Not found");
+  }
+  return data;
+};
+const layouts = {
+  default: () => import('./default-BoRjVl4H.mjs').then((m2) => m2.default || m2),
+  docs: () => import('./docs-DSJX2Bo6.mjs').then((m2) => m2.default || m2),
+  resources: () => import('./resources-D77vKW1q.mjs').then((m2) => m2.default || m2),
+  test: () => import('./test-BLMpQgVn.mjs').then((m2) => m2.default || m2)
+};
+const documentDriven_cMiI6j6ghD = /* @__PURE__ */ defineNuxtPlugin((nuxt) => {
+  var _a, _b, _c, _d;
+  const moduleOptions = (_b = (_a = /* @__PURE__ */ useRuntimeConfig()) == null ? void 0 : _a.public) == null ? void 0 : _b.content.documentDriven;
+  (_d = (_c = /* @__PURE__ */ useRuntimeConfig()) == null ? void 0 : _c.public) == null ? void 0 : _d.content.experimental.clientDB;
+  const { navigation, pages, globals, surrounds } = useContentState();
+  const findLayout = (to, page, navigation2, globals2) => {
+    var _a2;
+    if (page && (page == null ? void 0 : page.layout)) {
+      return page.layout;
+    }
+    if (to.matched.length && ((_a2 = to.matched[0].meta) == null ? void 0 : _a2.layout)) {
+      return to.matched[0].meta.layout;
+    }
+    if (navigation2 && page) {
+      const { navKeyFromPath: navKeyFromPath2 } = useContentHelpers();
+      const layoutFromNav = navKeyFromPath2(page._path, "layout", navigation2);
+      if (layoutFromNav) {
+        return layoutFromNav;
+      }
+    }
+    if (moduleOptions.layoutFallbacks && globals2) {
+      let layoutFallback;
+      for (const fallback of moduleOptions.layoutFallbacks) {
+        if (globals2[fallback] && globals2[fallback].layout) {
+          layoutFallback = globals2[fallback].layout;
+          break;
+        }
+      }
+      if (layoutFallback) {
+        return layoutFallback;
+      }
+    }
+    return "default";
+  };
+  const refresh = async (to, dedup = false) => {
+    nuxt.callHook("content:document-driven:start", { route: to, dedup });
+    const routeConfig = to.meta.documentDriven || {};
+    if (to.meta.documentDriven === false) {
+      return;
+    }
+    const _path = withoutTrailingSlash(to.path);
+    const promises = [];
+    if (moduleOptions.navigation && routeConfig.navigation !== false) {
+      const navigationQuery = () => {
+        const { navigation: navigation2 } = useContentState();
+        if (navigation2.value && !dedup) {
+          return navigation2.value;
+        }
+        return fetchContentNavigation().then((_navigation) => {
+          navigation2.value = _navigation;
+          return _navigation;
+        }).catch(() => null);
+      };
+      promises.push(navigationQuery);
+    } else {
+      promises.push(() => Promise.resolve(null));
+    }
+    if (moduleOptions.globals) {
+      const globalsQuery = () => {
+        const { globals: globals2 } = useContentState();
+        if (typeof moduleOptions.globals === "object" && Array.isArray(moduleOptions.globals)) {
+          console.log("Globals must be a list of keys with QueryBuilderParams as a value.");
+          return;
+        }
+        return Promise.all(
+          Object.entries(moduleOptions.globals).map(
+            ([key, query]) => {
+              if (!dedup && globals2.value[key]) {
+                return globals2.value[key];
+              }
+              let type = "findOne";
+              if (query == null ? void 0 : query.type) {
+                type = query.type;
+              }
+              return queryContent(query)[type]().catch(() => null);
+            }
+          )
+        ).then(
+          (values) => {
+            return values.reduce(
+              (acc, value, index) => {
+                const key = Object.keys(moduleOptions.globals)[index];
+                acc[key] = value;
+                return acc;
+              },
+              {}
+            );
+          }
+        );
+      };
+      promises.push(globalsQuery);
+    } else {
+      promises.push(() => Promise.resolve(null));
+    }
+    if (moduleOptions.page && routeConfig.page !== false) {
+      let where = { _path };
+      if (typeof routeConfig.page === "string") {
+        where = { _path: routeConfig.page };
+      }
+      if (typeof routeConfig.page === "object") {
+        where = routeConfig.page;
+      }
+      const pageQuery = () => {
+        const { pages: pages2 } = useContentState();
+        if (!dedup && pages2.value[_path] && pages2.value[_path]._path === _path) {
+          return pages2.value[_path];
+        }
+        return queryContent().where(where).findOne().catch(() => null);
+      };
+      promises.push(pageQuery);
+    } else {
+      promises.push(() => Promise.resolve(null));
+    }
+    if (moduleOptions.surround && routeConfig.surround !== false) {
+      let surround = _path;
+      if (["string", "object"].includes(typeof routeConfig.page)) {
+        surround = routeConfig.page;
+      }
+      if (["string", "object"].includes(typeof routeConfig.surround)) {
+        surround = routeConfig.surround;
+      }
+      const surroundQuery = () => {
+        const { surrounds: surrounds2 } = useContentState();
+        if (!dedup && surrounds2.value[_path]) {
+          return surrounds2.value[_path];
+        }
+        return queryContent().where({
+          _partial: { $not: true },
+          navigation: { $not: false }
+        }).without(["body"]).findSurround(surround).catch(() => null);
+      };
+      promises.push(surroundQuery);
+    } else {
+      promises.push(() => Promise.resolve(null));
+    }
+    return await Promise.all(promises.map((promise) => promise())).then(async ([
+      _navigation,
+      _globals,
+      _page,
+      _surround
+    ]) => {
+      var _a2, _b2;
+      if (_navigation) {
+        navigation.value = _navigation;
+      }
+      if (_globals) {
+        globals.value = _globals;
+      }
+      if (_surround) {
+        surrounds.value[_path] = _surround;
+      }
+      const redirectTo = (_page == null ? void 0 : _page.redirect) || ((_b2 = (_a2 = _page == null ? void 0 : _page._dir) == null ? void 0 : _a2.navigation) == null ? void 0 : _b2.redirect);
+      if (redirectTo) {
+        pages.value[_path] = _page;
+        return redirectTo;
+      }
+      if (_page) {
+        const layoutName = findLayout(to, _page, _navigation, _globals);
+        const layout = layouts[layoutName];
+        if (layout && typeof layout === "function") {
+          await layout();
+        }
+        to.meta.layout = layoutName;
+        _page.layout = layoutName;
+      }
+      pages.value[_path] = _page;
+      await nuxt.callHook("content:document-driven:finish", { route: to, dedup, page: _page, navigation: _navigation, globals: _globals, surround: _surround });
+    });
+  };
+  addRouteMiddleware(async (to, from) => {
+    const redirect = await refresh(to, false);
+    if (redirect) {
+      if (hasProtocol(redirect)) {
+        return callWithNuxt(nuxt, navigateTo, [redirect, { external: true }]);
+      } else {
+        return redirect;
+      }
+    }
+  });
+  nuxt.hook("app:data:refresh", async () => false);
+});
 const presets_1aypKNZ222 = /* @__PURE__ */ defineNuxtPlugin(() => {
   const appConfig2 = useAppConfig();
   return {
@@ -2164,6 +2810,7 @@ const plugins = [
   modals_bidRKewKK5,
   colors_244lXBzhnM,
   plugin_server_XNCxeHyTuP,
+  documentDriven_cMiI6j6ghD,
   presets_1aypKNZ222,
   variables_kQtglGecod,
   customDirectives_mPCDmOIJcJ,
@@ -8768,11 +9415,11 @@ const _sfc_main$d = {
   setup(__props) {
     ref(null);
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${ssrRenderAttrs(mergeProps({ class: "subheader bg-gray-800 text-white py-2 relative" }, _attrs))} data-v-b9d897e9><button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 p-2 rounded-l z-10" data-v-b9d897e9><i class="fas fa-chevron-left text-white" data-v-b9d897e9></i></button><div class="flex flex-col md:flex-row justify-between items-center px-4 overflow-x-auto ml-8 mr-8" data-v-b9d897e9><ul class="flex flex-nowrap space-x-4" data-v-b9d897e9><li data-v-b9d897e9><a href="/tutorials/longitudinal-analyses-models/growth-curve-models/latent_growth_curve_models_tutorial" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Growth Curves</a></li><li data-v-b9d897e9><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Cheat Sheets</a></li><li data-v-b9d897e9><a href="/tutorials/longitudinal-analyses-models/mixed-effects-and-multilevel/linear-mixedeffects-models" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Linear Mixed Models</a></li><li data-v-b9d897e9><a href="/tools#ides" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>IDEs</a></li>`);
+      _push(`<div${ssrRenderAttrs(mergeProps({ class: "subheader bg-gray-800 text-white py-2 relative" }, _attrs))} data-v-7eaf8ea3><button class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 p-2 rounded-l z-10" data-v-7eaf8ea3><i class="fas fa-chevron-left text-white" data-v-7eaf8ea3></i></button><div class="flex flex-col md:flex-row justify-between items-center px-4 overflow-x-auto ml-8 mr-8" data-v-7eaf8ea3><ul class="flex flex-nowrap space-x-4" data-v-7eaf8ea3><li data-v-7eaf8ea3></li><li data-v-7eaf8ea3><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-7eaf8ea3>Cheat Sheets</a></li><li data-v-7eaf8ea3></li><li data-v-7eaf8ea3></li>`);
       _push(ssrRenderComponent(AppDropdown, null, {
         link: withCtx((_2, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<li data-v-b9d897e9${_scopeId}><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9${_scopeId}>Data Wrangling</a></li>`);
+            _push2(`<li data-v-7eaf8ea3${_scopeId}><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-7eaf8ea3${_scopeId}>Data Wrangling</a></li>`);
           } else {
             return [
               createVNode("li", null, [
@@ -8786,7 +9433,7 @@ const _sfc_main$d = {
         }),
         dropdown: withCtx((_2, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<ul class="py-1" data-v-b9d897e9${_scopeId}><li data-v-b9d897e9${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-b9d897e9${_scopeId}>Overview</a></li><li data-v-b9d897e9${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-b9d897e9${_scopeId}>Python</a></li><li data-v-b9d897e9${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-b9d897e9${_scopeId}>Machine Learning</a></li></ul>`);
+            _push2(`<ul class="py-1" data-v-7eaf8ea3${_scopeId}><li data-v-7eaf8ea3${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-7eaf8ea3${_scopeId}>Overview</a></li><li data-v-7eaf8ea3${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-7eaf8ea3${_scopeId}>Python</a></li><li data-v-7eaf8ea3${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-7eaf8ea3${_scopeId}>Machine Learning</a></li></ul>`);
           } else {
             return [
               createVNode("ul", { class: "py-1" }, [
@@ -8817,21 +9464,16 @@ const _sfc_main$d = {
       _push(ssrRenderComponent(AppDropdown, null, {
         link: withCtx((_2, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<li data-v-b9d897e9${_scopeId}><a href="/tools#programming-languages" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9${_scopeId}>Programming Languages</a></li>`);
+            _push2(`<li data-v-7eaf8ea3${_scopeId}></li>`);
           } else {
             return [
-              createVNode("li", null, [
-                createVNode("a", {
-                  href: "/tools#programming-languages",
-                  class: "text-white hover:text-gray-300 whitespace-nowrap"
-                }, "Programming Languages")
-              ])
+              createVNode("li")
             ];
           }
         }),
         dropdown: withCtx((_2, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<ul class="py-1" data-v-b9d897e9${_scopeId}><li data-v-b9d897e9${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-b9d897e9${_scopeId}>Python</a></li><li data-v-b9d897e9${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-b9d897e9${_scopeId}>JavaScript</a></li><li data-v-b9d897e9${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-b9d897e9${_scopeId}>Java</a></li><li data-v-b9d897e9${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-b9d897e9${_scopeId}>C++</a></li></ul>`);
+            _push2(`<ul class="py-1" data-v-7eaf8ea3${_scopeId}><li data-v-7eaf8ea3${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-7eaf8ea3${_scopeId}>Python</a></li><li data-v-7eaf8ea3${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-7eaf8ea3${_scopeId}>JavaScript</a></li><li data-v-7eaf8ea3${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-7eaf8ea3${_scopeId}>Java</a></li><li data-v-7eaf8ea3${_scopeId}><a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" data-v-7eaf8ea3${_scopeId}>C++</a></li></ul>`);
           } else {
             return [
               createVNode("ul", { class: "py-1" }, [
@@ -8865,7 +9507,7 @@ const _sfc_main$d = {
         }),
         _: 1
       }, _parent));
-      _push(`<li data-v-b9d897e9><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Workshops</a></li><li data-v-b9d897e9><a href="/tutorials" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Tutorials</a></li><li data-v-b9d897e9><a href="/tutorials/data-visualization/viz_customizing-plots-ggplot2" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Visualizations</a></li><li data-v-b9d897e9><a href="/tools#notebooks" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Quarto</a></li><li data-v-b9d897e9><a href="/tools/6.data-formats" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Markdown</a></li><li data-v-b9d897e9><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Book Club</a></li><li data-v-b9d897e9><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Missing Data</a></li><li data-v-b9d897e9><a href="https://longitudinaldev.slack.com" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Slack Channel</a></li><li data-v-b9d897e9><a href="https://github.com/OpenDevSci/LongDev-ABCD" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Github</a></li><li data-v-b9d897e9><a href="/playground" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-b9d897e9>Playground</a></li></ul></div><button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 p-2 rounded-r z-10" data-v-b9d897e9><i class="fas fa-chevron-right text-white" data-v-b9d897e9></i></button></div>`);
+      _push(`<li data-v-7eaf8ea3><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-7eaf8ea3>Workshops</a></li><li data-v-7eaf8ea3></li><li data-v-7eaf8ea3></li><li data-v-7eaf8ea3></li><li data-v-7eaf8ea3></li><li data-v-7eaf8ea3><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-7eaf8ea3>Book Club</a></li><li data-v-7eaf8ea3><a href="#" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-7eaf8ea3>Missing Data</a></li><li data-v-7eaf8ea3><a href="https://longitudinaldev.slack.com" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-7eaf8ea3>Slack Channel</a></li><li data-v-7eaf8ea3><a href="https://github.com/OpenDevSci/LongDev-ABCD" class="text-white hover:text-gray-300 whitespace-nowrap" data-v-7eaf8ea3>Github</a></li><li data-v-7eaf8ea3></li></ul></div><button class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 p-2 rounded-r z-10" data-v-7eaf8ea3><i class="fas fa-chevron-right text-white" data-v-7eaf8ea3></i></button></div>`);
     };
   }
 };
@@ -8875,7 +9517,7 @@ _sfc_main$d.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/AppSubheader.vue");
   return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
 };
-const AppSubheader = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-b9d897e9"]]);
+const AppSubheader = /* @__PURE__ */ _export_sfc(_sfc_main$d, [["__scopeId", "data-v-7eaf8ea3"]]);
 const _sfc_main$c = /* @__PURE__ */ defineComponent({
   __name: "AppHeader",
   __ssrInlineRender: true,
@@ -9062,12 +9704,6 @@ _sfc_main$b.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/@nuxt/ui-pro/components/main/Main.vue");
   return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
-};
-const layouts = {
-  default: () => import('./default-CIcfMnch.mjs').then((m2) => m2.default || m2),
-  docs: () => import('./docs-C6iD4pmj.mjs').then((m2) => m2.default || m2),
-  resources: () => import('./resources-BkPt3n2a.mjs').then((m2) => m2.default || m2),
-  test: () => import('./test-DIh7u-3f.mjs').then((m2) => m2.default || m2)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
@@ -10294,330 +10930,6 @@ function pick(obj, keys) {
   }
   return newObj;
 }
-function jsonStringify(value) {
-  return JSON.stringify(value, regExpReplacer);
-}
-function regExpReplacer(_key, value) {
-  if (value instanceof RegExp) {
-    return `--REGEX ${value.toString()}`;
-  }
-  return value;
-}
-const encodeQueryParams = (params) => {
-  let encoded = jsonStringify(params);
-  encoded = typeof Buffer !== "undefined" ? Buffer.from(encoded).toString("base64") : btoa(encoded);
-  encoded = encoded.replace(/\+/g, "-").replace(/\//g, "_").replace(/=/g, "");
-  const chunks = encoded.match(/.{1,100}/g) || [];
-  return chunks.join("/");
-};
-const CookieDefaults = {
-  path: "/",
-  watch: true,
-  decode: (val) => destr(decodeURIComponent(val)),
-  encode: (val) => encodeURIComponent(typeof val === "string" ? val : JSON.stringify(val))
-};
-function useCookie(name, _opts) {
-  var _a;
-  const opts = { ...CookieDefaults, ..._opts };
-  const cookies = readRawCookies(opts) || {};
-  let delay;
-  if (opts.maxAge !== void 0) {
-    delay = opts.maxAge * 1e3;
-  } else if (opts.expires) {
-    delay = opts.expires.getTime() - Date.now();
-  }
-  const hasExpired = delay !== void 0 && delay <= 0;
-  const cookieValue = klona(hasExpired ? void 0 : cookies[name] ?? ((_a = opts.default) == null ? void 0 : _a.call(opts)));
-  const cookie = ref(cookieValue);
-  {
-    const nuxtApp = useNuxtApp();
-    const writeFinalCookieValue = () => {
-      if (opts.readonly || isEqual(cookie.value, cookies[name])) {
-        return;
-      }
-      writeServerCookie(useRequestEvent(nuxtApp), name, cookie.value, opts);
-    };
-    const unhook = nuxtApp.hooks.hookOnce("app:rendered", writeFinalCookieValue);
-    nuxtApp.hooks.hookOnce("app:error", () => {
-      unhook();
-      return writeFinalCookieValue();
-    });
-  }
-  return cookie;
-}
-function readRawCookies(opts = {}) {
-  {
-    return parse(getRequestHeader(useRequestEvent(), "cookie") || "", opts);
-  }
-}
-function writeServerCookie(event, name, value, opts = {}) {
-  if (event) {
-    if (value !== null && value !== void 0) {
-      return setCookie(event, name, value, opts);
-    }
-    if (getCookie(event, name) !== void 0) {
-      return deleteCookie(event, name, opts);
-    }
-  }
-}
-const useContentPreview = () => {
-  const getPreviewToken = () => {
-    return useCookie("previewToken").value || false || void 0;
-  };
-  const setPreviewToken = (token) => {
-    useCookie("previewToken").value = token;
-    useRoute().query.preview = token || "";
-  };
-  const isEnabled = () => {
-    const query = useRoute().query;
-    if (Object.prototype.hasOwnProperty.call(query, "preview") && !query.preview) {
-      return false;
-    }
-    if (query.preview || useCookie("previewToken").value) {
-      return true;
-    }
-    return false;
-  };
-  return {
-    isEnabled,
-    getPreviewToken,
-    setPreviewToken
-  };
-};
-const withContentBase = (url) => withBase(url, (/* @__PURE__ */ useRuntimeConfig()).public.content.api.baseURL);
-const useContentDisabled = () => {
-  console.warn("useContent is only accessible when you are using `documentDriven` mode.");
-  console.warn("Learn more by visiting: https://content.nuxt.com/document-driven");
-  throw new Error("useContent is only accessible when you are using `documentDriven` mode.");
-};
-const addPrerenderPath = (path) => {
-  const event = useRequestEvent();
-  event.node.res.setHeader(
-    "x-nitro-prerender",
-    [
-      event.node.res.getHeader("x-nitro-prerender"),
-      path
-    ].filter(Boolean).join(",")
-  );
-};
-const shouldUseClientDB = () => {
-  (/* @__PURE__ */ useRuntimeConfig()).public.content;
-  {
-    return false;
-  }
-};
-const get = (obj, path) => path.split(".").reduce((acc, part) => acc && acc[part], obj);
-const _pick = (obj, condition) => Object.keys(obj).filter(condition).reduce((newObj, key) => Object.assign(newObj, { [key]: obj[key] }), {});
-const omit = (keys) => (obj) => keys && keys.length ? _pick(obj, (key) => !keys.includes(key)) : obj;
-const apply = (fn2) => (data) => Array.isArray(data) ? data.map((item) => fn2(item)) : fn2(data);
-const detectProperties = (keys) => {
-  const prefixes = [];
-  const properties = [];
-  for (const key of keys) {
-    if (["$", "_"].includes(key)) {
-      prefixes.push(key);
-    } else {
-      properties.push(key);
-    }
-  }
-  return { prefixes, properties };
-};
-const withoutKeys = (keys = []) => (obj) => {
-  if (keys.length === 0 || !obj) {
-    return obj;
-  }
-  const { prefixes, properties } = detectProperties(keys);
-  return _pick(obj, (key) => !properties.includes(key) && !prefixes.includes(key[0]));
-};
-const withKeys = (keys = []) => (obj) => {
-  if (keys.length === 0 || !obj) {
-    return obj;
-  }
-  const { prefixes, properties } = detectProperties(keys);
-  return _pick(obj, (key) => properties.includes(key) || prefixes.includes(key[0]));
-};
-const sortList = (data, params) => {
-  const comperable = new Intl.Collator(params.$locale, {
-    numeric: params.$numeric,
-    caseFirst: params.$caseFirst,
-    sensitivity: params.$sensitivity
-  });
-  const keys = Object.keys(params).filter((key) => !key.startsWith("$"));
-  for (const key of keys) {
-    data = data.sort((a2, b2) => {
-      const values = [get(a2, key), get(b2, key)].map((value) => {
-        if (value === null) {
-          return void 0;
-        }
-        if (value instanceof Date) {
-          return value.toISOString();
-        }
-        return value;
-      });
-      if (params[key] === -1) {
-        values.reverse();
-      }
-      return comperable.compare(values[0], values[1]);
-    });
-  }
-  return data;
-};
-const assertArray = (value, message = "Expected an array") => {
-  if (!Array.isArray(value)) {
-    throw new TypeError(message);
-  }
-};
-const ensureArray = (value) => {
-  return Array.isArray(value) ? value : [void 0, null].includes(value) ? [] : [value];
-};
-const arrayParams = ["sort", "where", "only", "without"];
-function createQuery(fetcher, opts = {}) {
-  const queryParams = {};
-  for (const key of Object.keys(opts.initialParams || {})) {
-    queryParams[key] = arrayParams.includes(key) ? ensureArray(opts.initialParams[key]) : opts.initialParams[key];
-  }
-  const $set = (key, fn2 = (v2) => v2) => {
-    return (...values) => {
-      queryParams[key] = fn2(...values);
-      return query;
-    };
-  };
-  const resolveResult = (result) => {
-    var _a;
-    if (opts.legacy) {
-      if (result == null ? void 0 : result.surround) {
-        return result.surround;
-      }
-      if (!result) {
-        return result;
-      }
-      if (result == null ? void 0 : result.dirConfig) {
-        result.result = {
-          _path: (_a = result.dirConfig) == null ? void 0 : _a._path,
-          ...result.result,
-          _dir: result.dirConfig
-        };
-      }
-      return (result == null ? void 0 : result._path) || Array.isArray(result) || !Object.prototype.hasOwnProperty.call(result, "result") ? result : result == null ? void 0 : result.result;
-    }
-    return result;
-  };
-  const query = {
-    params: () => ({
-      ...queryParams,
-      ...queryParams.where ? { where: [...ensureArray(queryParams.where)] } : {},
-      ...queryParams.sort ? { sort: [...ensureArray(queryParams.sort)] } : {}
-    }),
-    only: $set("only", ensureArray),
-    without: $set("without", ensureArray),
-    where: $set("where", (q2) => [...ensureArray(queryParams.where), ...ensureArray(q2)]),
-    sort: $set("sort", (sort) => [...ensureArray(queryParams.sort), ...ensureArray(sort)]),
-    limit: $set("limit", (v2) => parseInt(String(v2), 10)),
-    skip: $set("skip", (v2) => parseInt(String(v2), 10)),
-    // find
-    find: () => fetcher(query).then(resolveResult),
-    findOne: () => fetcher($set("first")(true)).then(resolveResult),
-    count: () => fetcher($set("count")(true)).then(resolveResult),
-    // locale
-    locale: (_locale) => query.where({ _locale }),
-    withSurround: $set("surround", (surroundQuery, options) => ({ query: surroundQuery, ...options })),
-    withDirConfig: () => $set("dirConfig")(true)
-  };
-  if (opts.legacy) {
-    query.findSurround = (surroundQuery, options) => {
-      return query.withSurround(surroundQuery, options).find().then(resolveResult);
-    };
-    return query;
-  }
-  return query;
-}
-const createQueryFetch = () => async (query) => {
-  const { content } = (/* @__PURE__ */ useRuntimeConfig()).public;
-  const params = query.params();
-  const apiPath = content.experimental.stripQueryParameters ? withContentBase(`/query/${`${hash$2(params)}.${content.integrity}`}/${encodeQueryParams(params)}.json`) : withContentBase(`/query/${hash$2(params)}.${content.integrity}.json`);
-  {
-    addPrerenderPath(apiPath);
-  }
-  if (shouldUseClientDB()) {
-    const db = await import('./client-db-C0wdK6c-.mjs').then((m2) => m2.useContentDatabase());
-    return db.fetch(query);
-  }
-  const data = await $fetch(apiPath, {
-    method: "GET",
-    responseType: "json",
-    params: content.experimental.stripQueryParameters ? void 0 : {
-      _params: jsonStringify(params),
-      previewToken: useContentPreview().getPreviewToken()
-    }
-  });
-  if (typeof data === "string" && data.startsWith("<!DOCTYPE html>")) {
-    throw new Error("Not found");
-  }
-  return data;
-};
-function queryContent(query, ...pathParts) {
-  const { content } = (/* @__PURE__ */ useRuntimeConfig()).public;
-  const queryBuilder = createQuery(createQueryFetch(), {
-    initialParams: typeof query !== "string" ? query : {},
-    legacy: true
-  });
-  let path;
-  if (typeof query === "string") {
-    path = withLeadingSlash(joinURL(query, ...pathParts));
-  }
-  const originalParamsFn = queryBuilder.params;
-  queryBuilder.params = () => {
-    var _a, _b, _c;
-    const params = originalParamsFn();
-    if (path) {
-      params.where = params.where || [];
-      if (params.first && (params.where || []).length === 0) {
-        params.where.push({ _path: withoutTrailingSlash(path) });
-      } else {
-        params.where.push({ _path: new RegExp(`^${path.replace(/[-[\]{}()*+.,^$\s/]/g, "\\$&")}`) });
-      }
-    }
-    if (!((_a = params.sort) == null ? void 0 : _a.length)) {
-      params.sort = [{ _file: 1, $numeric: true }];
-    }
-    if (content.locales.length) {
-      const queryLocale = (_c = (_b = params.where) == null ? void 0 : _b.find((w2) => w2._locale)) == null ? void 0 : _c._locale;
-      if (!queryLocale) {
-        params.where = params.where || [];
-        params.where.push({ _locale: content.defaultLocale });
-      }
-    }
-    return params;
-  };
-  return queryBuilder;
-}
-const fetchContentNavigation = async (queryBuilder) => {
-  const { content } = (/* @__PURE__ */ useRuntimeConfig()).public;
-  if (typeof (queryBuilder == null ? void 0 : queryBuilder.params) !== "function") {
-    queryBuilder = queryContent(queryBuilder);
-  }
-  const params = queryBuilder.params();
-  const apiPath = content.experimental.stripQueryParameters ? withContentBase(`/navigation/${`${hash$2(params)}.${content.integrity}`}/${encodeQueryParams(params)}.json`) : withContentBase(`/navigation/${hash$2(params)}.${content.integrity}.json`);
-  {
-    addPrerenderPath(apiPath);
-  }
-  if (shouldUseClientDB()) {
-    const generateNavigation = await import('./client-db-C0wdK6c-.mjs').then((m2) => m2.generateNavigation);
-    return generateNavigation(params);
-  }
-  const data = await $fetch(apiPath, {
-    method: "GET",
-    responseType: "json",
-    params: content.experimental.stripQueryParameters ? void 0 : {
-      _params: jsonStringify(params),
-      previewToken: useContentPreview().getPreviewToken()
-    }
-  });
-  if (typeof data === "string" && data.startsWith("<!DOCTYPE html>")) {
-    throw new Error("Not found");
-  }
-  return data;
-};
 function useFetch(request, arg1, arg2) {
   const [opts = {}, autoKey] = typeof arg1 === "string" ? [{}, arg1] : [arg1, arg2];
   const _request = computed(() => toValue(request));
@@ -11044,7 +11356,7 @@ const _sfc_main = {
   __name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
-    const IslandRenderer = defineAsyncComponent(() => import('./island-renderer-t8eFjO23.mjs').then((r2) => r2.default || r2));
+    const IslandRenderer = defineAsyncComponent(() => import('./island-renderer-EbNO_zE1.mjs').then((r2) => r2.default || r2));
     const nuxtApp = useNuxtApp();
     nuxtApp.deferHydration();
     nuxtApp.ssrContext.url;
@@ -11108,5 +11420,5 @@ let entry;
 }
 const entry$1 = (ssrContext) => entry(ssrContext);
 
-export { Ye as $, __nuxt_component_0$b as A, nuxtLinkProps as B, config$9 as C, getNuxtLinkProps as D, getSlotChildrenText as E, __nuxt_component_1 as F, useContentPreview as G, __nuxt_component_0$9 as H, i$3 as I, o$1 as J, w$2 as K, w$4 as L, h as M, t$2 as N, u$5 as O, i$1 as P, A$2 as Q, I$1 as R, s$3 as S, l$2 as T, N$4 as U, o as V, v$2 as W, N$5 as X, _ as Y, O$1 as Z, __nuxt_component_1$1 as _, __nuxt_component_0$5 as a, Ge$1 as a0, l$3 as a1, N$1 as a2, Q$1 as a3, V as a4, useId as a5, useShortcuts as a6, __nuxt_component_0$4 as a7, useToast as a8, useHead as a9, useState as aa, useContentDisabled as ab, fetchContentNavigation as ac, resolveIconName as ad, get as ae, assertArray as af, ensureArray as ag, omit as ah, sortList as ai, apply as aj, withoutKeys as ak, withKeys as al, createQuery as am, __nuxt_component_0$1 as an, _sfc_main$o as ao, mapContentNavigation as ap, _sfc_main$f as aq, __nuxt_component_0$6 as ar, useSiteConfig as as, __nuxt_component_0$a as b, createError as c, useRouter as d, entry$1 as default, useNuxtApp as e, useAppConfig as f, _export_sfc as g, appConfig as h, __nuxt_component_2 as i, getULinkProps as j, __nuxt_component_0$7 as k, useRuntimeConfig as l, mergeConfig as m, useRoute as n, normaliseOptions as o, useOgImageRuntimeConfig as p, createOgImageMeta as q, getOgImagePath as r, separateProps as s, useRequestEvent as t, useUI as u, useAsyncData as v, queryContent as w, useSeoMeta as x, findPageHeadline as y, _sfc_main$3 as z };
+export { Ye as $, useContentPreview as A, __nuxt_component_0$b as B, nuxtLinkProps as C, config$9 as D, getNuxtLinkProps as E, getSlotChildrenText as F, __nuxt_component_1 as G, __nuxt_component_0$9 as H, i$3 as I, o$1 as J, w$2 as K, w$4 as L, h as M, t$2 as N, u$5 as O, i$1 as P, A$2 as Q, I$1 as R, s$3 as S, l$2 as T, N$4 as U, o as V, v$2 as W, N$5 as X, _ as Y, O$1 as Z, __nuxt_component_1$1 as _, __nuxt_component_0$5 as a, Ge$1 as a0, l$3 as a1, N$1 as a2, Q$1 as a3, V as a4, useId as a5, useShortcuts as a6, __nuxt_component_0$4 as a7, useToast as a8, useHead as a9, useState as aa, useContent as ab, fetchContentNavigation as ac, resolveIconName as ad, get as ae, assertArray as af, ensureArray as ag, omit as ah, sortList as ai, apply as aj, withoutKeys as ak, withKeys as al, createQuery as am, __nuxt_component_0$1 as an, _sfc_main$o as ao, mapContentNavigation as ap, _sfc_main$f as aq, __nuxt_component_0$6 as ar, useSiteConfig as as, __nuxt_component_0$a as b, createError as c, useRouter as d, entry$1 as default, useNuxtApp as e, useAppConfig as f, _export_sfc as g, appConfig as h, __nuxt_component_2 as i, getULinkProps as j, __nuxt_component_0$7 as k, useRuntimeConfig as l, mergeConfig as m, useRoute as n, normaliseOptions as o, useOgImageRuntimeConfig as p, createOgImageMeta as q, getOgImagePath as r, separateProps as s, useRequestEvent as t, useUI as u, useAsyncData as v, queryContent as w, useSeoMeta as x, findPageHeadline as y, _sfc_main$3 as z };
 //# sourceMappingURL=server.mjs.map

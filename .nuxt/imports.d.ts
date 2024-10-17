@@ -54,12 +54,12 @@ export { queryContent } from '../node_modules/@nuxt/content/dist/runtime/legacy/
 export { useContentHelpers } from '../node_modules/@nuxt/content/dist/runtime/composables/helpers';
 export { useContentHead } from '../node_modules/@nuxt/content/dist/runtime/composables/head';
 export { useContentPreview } from '../node_modules/@nuxt/content/dist/runtime/composables/preview';
-export { withContentBase, useContentDisabled as useContentState, useContentDisabled as useContent } from '../node_modules/@nuxt/content/dist/runtime/composables/utils';
+export { withContentBase } from '../node_modules/@nuxt/content/dist/runtime/composables/utils';
 export { useUnwrap } from '../node_modules/@nuxt/content/dist/runtime/composables/useUnwrap';
 export { fetchContentNavigation } from '../node_modules/@nuxt/content/dist/runtime/legacy/composables/navigation';
+export { useContentState, useContent } from '../node_modules/@nuxt/content/dist/runtime/composables/content';
 export { flatUnwrap as unwrapSlot } from '../node_modules/@nuxtjs/mdc/dist/runtime/utils/node';
 export { parseMarkdown } from '../node_modules/@nuxtjs/mdc/dist/runtime/parser';
-export { useImage } from '../node_modules/@nuxt/image/dist/runtime/composables';
 export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { defineOgImage } from '../node_modules/nuxt-og-image/dist/runtime/nuxt/composables/defineOgImage';
 export { defineOgImageComponent } from '../node_modules/nuxt-og-image/dist/runtime/nuxt/composables/defineOgImageComponent';

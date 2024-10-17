@@ -245,6 +245,48 @@ export default {
       "exposed": []
     }
   },
+  "ArticleList": {
+    "mode": "all",
+    "global": true,
+    "prefetch": false,
+    "preload": false,
+    "filePath": "components/ArticleList.vue",
+    "pascalName": "ArticleList",
+    "kebabName": "article-list",
+    "chunkName": "components/article-list",
+    "shortPath": "components/ArticleList.vue",
+    "export": "default",
+    "priority": 1,
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/ArticleList.vue",
+    "meta": {
+      "type": 1,
+      "props": [],
+      "slots": [],
+      "events": [],
+      "exposed": []
+    }
+  },
+  "SimpleCarousel": {
+    "mode": "all",
+    "global": true,
+    "prefetch": false,
+    "preload": false,
+    "filePath": "components/SimpleCarousel.vue",
+    "pascalName": "SimpleCarousel",
+    "kebabName": "simple-carousel",
+    "chunkName": "components/simple-carousel",
+    "shortPath": "components/SimpleCarousel.vue",
+    "export": "default",
+    "priority": 1,
+    "fullPath": "/Users/shawes/git/opendevsci/longitudinal-dev/components/SimpleCarousel.vue",
+    "meta": {
+      "type": 1,
+      "props": [],
+      "slots": [],
+      "events": [],
+      "exposed": []
+    }
+  },
   "Callout": {
     "mode": "all",
     "global": true,
@@ -1233,29 +1275,6 @@ export default {
           "default": "undefined"
         },
         {
-          "name": "ui",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "{}",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          },
-          "default": "{}"
-        },
-        {
           "name": "type",
           "global": false,
           "description": "",
@@ -1292,6 +1311,29 @@ export default {
           ],
           "schema": "string",
           "default": "undefined"
+        },
+        {
+          "name": "ui",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "{}",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          },
+          "default": "{}"
         },
         {
           "name": "required",
@@ -1400,40 +1442,6 @@ export default {
           "schema": "string"
         },
         {
-          "name": "class",
-          "type": "any",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1240,
-                1327
-              ]
-            }
-          ],
-          "schema": "any"
-        },
-        {
-          "name": "ui",
-          "type": "{}",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
-              "range": [
-                1331,
-                1418
-              ]
-            }
-          ],
-          "schema": {
-            "kind": "object",
-            "type": "{}",
-            "schema": {}
-          }
-        },
-        {
           "name": "type",
           "type": "string",
           "description": "",
@@ -1471,6 +1479,21 @@ export default {
           }
         },
         {
+          "name": "class",
+          "type": "any",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1240,
+                1327
+              ]
+            }
+          ],
+          "schema": "any"
+        },
+        {
           "name": "description",
           "type": "string",
           "description": "",
@@ -1484,6 +1507,25 @@ export default {
             }
           ],
           "schema": "string"
+        },
+        {
+          "name": "ui",
+          "type": "{}",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/Field.vue",
+              "range": [
+                1331,
+                1418
+              ]
+            }
+          ],
+          "schema": {
+            "kind": "object",
+            "type": "{}",
+            "schema": {}
+          }
         }
       ]
     }
@@ -1828,25 +1870,6 @@ export default {
           "default": "undefined"
         },
         {
-          "name": "filename",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                305,
-                361
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "undefined"
-        },
-        {
           "name": "language",
           "global": false,
           "description": "",
@@ -1859,6 +1882,25 @@ export default {
               "range": [
                 186,
                 242
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "undefined"
+        },
+        {
+          "name": "filename",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                305,
+                361
               ]
             }
           ],
@@ -2016,21 +2058,6 @@ export default {
           "schema": "string"
         },
         {
-          "name": "filename",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
-              "range": [
-                305,
-                361
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "language",
           "type": "string",
           "description": "",
@@ -2066,6 +2093,21 @@ export default {
               "true"
             ]
           }
+        },
+        {
+          "name": "filename",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/runtime/components/global/prose/ProseCode.vue",
+              "range": [
+                305,
+                361
+              ]
+            }
+          ],
+          "schema": "string"
         },
         {
           "name": "highlights",
@@ -3384,8 +3426,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@831": {
-                                    "name": "__@match@831",
+                                  "__@match@827": {
+                                    "name": "__@match@827",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -3411,8 +3453,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@833": {
-                                    "name": "__@replace@833",
+                                  "__@replace@829": {
+                                    "name": "__@replace@829",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -3453,8 +3495,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@836": {
-                                    "name": "__@search@836",
+                                  "__@search@832": {
+                                    "name": "__@search@832",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -3480,8 +3522,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@838": {
-                                    "name": "__@split@838",
+                                  "__@split@834": {
+                                    "name": "__@split@834",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -3511,8 +3553,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@840": {
-                                    "name": "__@matchAll@840",
+                                  "__@matchAll@836": {
+                                    "name": "__@matchAll@836",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -4915,36 +4957,6 @@ export default {
           }
         },
         {
-          "name": "path",
-          "type": "string",
-          "description": "The path of the content to load from content source.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                3983,
-                4099
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
-          "name": "query",
-          "type": "undefined",
-          "description": "A query builder params object to be passed to <ContentQuery /> component.",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
-              "range": [
-                4217,
-                4345
-              ]
-            }
-          ],
-          "schema": "undefined"
-        },
-        {
           "name": "tag",
           "type": "string",
           "description": "The tag to use for the renderer element if it is used.",
@@ -4980,6 +4992,36 @@ export default {
               "true"
             ]
           }
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "description": "The path of the content to load from content source.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                3983,
+                4099
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "query",
+          "type": "undefined",
+          "description": "A query builder params object to be passed to <ContentQuery /> component.",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue.d.ts",
+              "range": [
+                4217,
+                4345
+              ]
+            }
+          ],
+          "schema": "undefined"
         },
         {
           "name": "head",
@@ -5676,8 +5718,8 @@ export default {
                                     ],
                                     "schema": "boolean"
                                   },
-                                  "__@match@831": {
-                                    "name": "__@match@831",
+                                  "__@match@827": {
+                                    "name": "__@match@827",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an array containing the results of\nthat search.",
                                     "tags": [
@@ -5703,8 +5745,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@replace@833": {
-                                    "name": "__@replace@833",
+                                  "__@replace@829": {
+                                    "name": "__@replace@829",
                                     "global": false,
                                     "description": "Replaces text in a string, using this regular expression.",
                                     "tags": [
@@ -5745,8 +5787,8 @@ export default {
                                     ],
                                     "schema": "{ (string: string, replaceValue: string): string; (string: string, replacer: (substring: string, ...args: any[]) => string): string; }"
                                   },
-                                  "__@search@836": {
-                                    "name": "__@search@836",
+                                  "__@search@832": {
+                                    "name": "__@search@832",
                                     "global": false,
                                     "description": "Finds the position beginning first substring match in a regular expression search\nusing this regular expression.",
                                     "tags": [
@@ -5772,8 +5814,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@split@838": {
-                                    "name": "__@split@838",
+                                  "__@split@834": {
+                                    "name": "__@split@834",
                                     "global": false,
                                     "description": "Returns an array of substrings that were delimited by strings in the original input that\nmatch against this regular expression.\n\nIf the regular expression contains capturing parentheses, then each time this\nregular expression matches, the results (including any undefined results) of the\ncapturing parentheses are spliced.",
                                     "tags": [
@@ -5803,8 +5845,8 @@ export default {
                                       "schema": []
                                     }
                                   },
-                                  "__@matchAll@840": {
-                                    "name": "__@matchAll@840",
+                                  "__@matchAll@836": {
+                                    "name": "__@matchAll@836",
                                     "global": false,
                                     "description": "Matches a string with this regular expression, and returns an iterable of matches\ncontaining the results of that search.",
                                     "tags": [
@@ -10298,8 +10340,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@809": {
-                "name": "__@hasInstance@809",
+              "__@hasInstance@805": {
+                "name": "__@hasInstance@805",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -10320,8 +10362,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@811": {
-                "name": "__@metadata@811",
+              "__@metadata@807": {
+                "name": "__@metadata@807",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -10598,8 +10640,8 @@ export default {
                 ],
                 "schema": "string"
               },
-              "__@hasInstance@809": {
-                "name": "__@hasInstance@809",
+              "__@hasInstance@805": {
+                "name": "__@hasInstance@805",
                 "global": false,
                 "description": "Determines whether the given value inherits from this function if this function was used\nas a constructor function.\n\nA constructor function can control which objects are recognized as its instances by\n'instanceof' by overriding this method.",
                 "tags": [],
@@ -10620,8 +10662,8 @@ export default {
                   "schema": []
                 }
               },
-              "__@metadata@811": {
-                "name": "__@metadata@811",
+              "__@metadata@807": {
+                "name": "__@metadata@807",
                 "global": false,
                 "description": "",
                 "tags": [],
@@ -12195,25 +12237,6 @@ export default {
       "type": 1,
       "props": [
         {
-          "name": "code",
-          "global": false,
-          "description": "",
-          "tags": [],
-          "required": false,
-          "type": "string",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                248,
-                293
-              ]
-            }
-          ],
-          "schema": "string",
-          "default": "\"\""
-        },
-        {
           "name": "filename",
           "global": false,
           "description": "",
@@ -12231,6 +12254,25 @@ export default {
           ],
           "schema": "string",
           "default": "null"
+        },
+        {
+          "name": "code",
+          "global": false,
+          "description": "",
+          "tags": [],
+          "required": false,
+          "type": "string",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                248,
+                293
+              ]
+            }
+          ],
+          "schema": "string",
+          "default": "\"\""
         },
         {
           "name": "language",
@@ -12383,21 +12425,6 @@ export default {
           }
         },
         {
-          "name": "code",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
-              "range": [
-                248,
-                293
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "filename",
           "type": "string",
           "description": "",
@@ -12407,6 +12434,21 @@ export default {
               "range": [
                 352,
                 403
+              ]
+            }
+          ],
+          "schema": "string"
+        },
+        {
+          "name": "code",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/content/dist/runtime/components/Prose/ProsePre.vue",
+              "range": [
+                248,
+                293
               ]
             }
           ],
@@ -14676,21 +14718,6 @@ export default {
           }
         },
         {
-          "name": "type",
-          "type": "string",
-          "description": "",
-          "declarations": [
-            {
-              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
-              "range": [
-                4506,
-                4578
-              ]
-            }
-          ],
-          "schema": "string"
-        },
-        {
           "name": "class",
           "type": "any",
           "description": "",
@@ -14704,6 +14731,21 @@ export default {
             }
           ],
           "schema": "any"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "description": "",
+          "declarations": [
+            {
+              "file": "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/components/elements/Button.vue.d.ts",
+              "range": [
+                4506,
+                4578
+              ]
+            }
+          ],
+          "schema": "string"
         },
         {
           "name": "icon",

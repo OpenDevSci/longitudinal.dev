@@ -12,7 +12,7 @@
           require('@tailwindcss/typography'),
           require('@tailwindcss/container-queries'),
           require('@headlessui/tailwindcss'),
-          iconsPlugin({ collections: getIconCollections(["heroicons"]) })
+          iconsPlugin({ collections: getIconCollections(["heroicons","simple-icons","heroicons"]) })
         ],
         content: {
           files: [
