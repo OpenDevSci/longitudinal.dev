@@ -1,12 +1,286 @@
 import { NuxtModule, RuntimeConfig } from '@nuxt/schema'
 declare module '@nuxt/schema' {
+  interface NuxtOptions {
+    /**
+     * Configuration for `/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index`
+     */
+    ["uiPro"]: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/mdc`
+     */
+    ["mdc"]: typeof import("@nuxtjs/mdc").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/content`
+     */
+    ["content"]: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/eslint`
+     */
+    ["eslint"]: typeof import("@nuxt/eslint").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/icon`
+     */
+    ["icon"]: typeof import("@nuxt/icon").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/color-mode`
+     */
+    ["colorMode"]: typeof import("@nuxtjs/color-mode").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/tailwindcss`
+     */
+    ["tailwindcss"]: typeof import("@nuxtjs/tailwindcss").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/ui`
+     */
+    ["ui"]: typeof import("@nuxt/ui").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/fonts`
+     */
+    ["fonts"]: typeof import("@nuxt/fonts").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxthq/studio`
+     */
+    ["studio"]: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module`
+     */
+    ["site"]: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `nuxt-og-image`
+     */
+    ["ogImage"]: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `nuxt-plotly`
+     */
+    ["nuxtPlotly"]: typeof import("nuxt-plotly").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/devtools`
+     */
+    ["devtools"]: typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/telemetry`
+     */
+    ["telemetry"]: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? O : Record<string, any>
+  }
   interface NuxtConfig {
-    ["uiPro"]?: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["mdc"]?: typeof import("@nuxtjs/mdc").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["content"]?: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["eslint"]?: typeof import("@nuxt/eslint").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["icon"]?: typeof import("nuxt-icon").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["colorMode"]?: typeof import("@nuxtjs/color-mode").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["tailwindcss"]?: typeof import("@nuxtjs/tailwindcss").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["ui"]?: typeof import("@nuxt/ui").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["fonts"]?: typeof import("@nuxt/fonts").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["componentMeta"]?: typeof import("nuxt-component-meta").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["studio"]?: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["site"]?: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["ogImage"]?: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["nuxtPlotly"]?: typeof import("nuxt-plotly").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["devtools"]?: typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,  modules?: (undefined | null | false | NuxtModule | string | [NuxtModule | string, Record<string, any>] | ["/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index", Exclude<NuxtConfig["uiPro"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxt/eslint", Exclude<NuxtConfig["eslint"], boolean>] | ["nuxt-icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxt/fonts", Exclude<NuxtConfig["fonts"], boolean>] | ["nuxt-component-meta", Exclude<NuxtConfig["componentMeta"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-plotly", Exclude<NuxtConfig["nuxtPlotly"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
+    /**
+     * Configuration for `/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index`
+     */
+    ["uiPro"]?: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/mdc`
+     */
+    ["mdc"]?: typeof import("@nuxtjs/mdc").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/content`
+     */
+    ["content"]?: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/eslint`
+     */
+    ["eslint"]?: typeof import("@nuxt/eslint").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/icon`
+     */
+    ["icon"]?: typeof import("@nuxt/icon").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/color-mode`
+     */
+    ["colorMode"]?: typeof import("@nuxtjs/color-mode").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/tailwindcss`
+     */
+    ["tailwindcss"]?: typeof import("@nuxtjs/tailwindcss").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/ui`
+     */
+    ["ui"]?: typeof import("@nuxt/ui").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/fonts`
+     */
+    ["fonts"]?: typeof import("@nuxt/fonts").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxthq/studio`
+     */
+    ["studio"]?: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module`
+     */
+    ["site"]?: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `nuxt-og-image`
+     */
+    ["ogImage"]?: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `nuxt-plotly`
+     */
+    ["nuxtPlotly"]?: typeof import("nuxt-plotly").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/devtools`
+     */
+    ["devtools"]?: typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/telemetry`
+     */
+    ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index", Exclude<NuxtConfig["uiPro"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxt/eslint", Exclude<NuxtConfig["eslint"], boolean>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxt/fonts", Exclude<NuxtConfig["fonts"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-plotly", Exclude<NuxtConfig["nuxtPlotly"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
   }
 }
 declare module 'nuxt/schema' {
+  interface NuxtOptions {
+    /**
+     * Configuration for `/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index`
+     * @see https://www.npmjs.com/package//Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index
+     */
+    ["uiPro"]: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/mdc`
+     * @see https://www.npmjs.com/package/@nuxtjs/mdc
+     */
+    ["mdc"]: typeof import("@nuxtjs/mdc").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/content`
+     * @see https://www.npmjs.com/package/@nuxt/content
+     */
+    ["content"]: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/eslint`
+     * @see https://www.npmjs.com/package/@nuxt/eslint
+     */
+    ["eslint"]: typeof import("@nuxt/eslint").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/icon`
+     * @see https://www.npmjs.com/package/@nuxt/icon
+     */
+    ["icon"]: typeof import("@nuxt/icon").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/color-mode`
+     * @see https://www.npmjs.com/package/@nuxtjs/color-mode
+     */
+    ["colorMode"]: typeof import("@nuxtjs/color-mode").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/tailwindcss`
+     * @see https://www.npmjs.com/package/@nuxtjs/tailwindcss
+     */
+    ["tailwindcss"]: typeof import("@nuxtjs/tailwindcss").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/ui`
+     * @see https://www.npmjs.com/package/@nuxt/ui
+     */
+    ["ui"]: typeof import("@nuxt/ui").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/fonts`
+     * @see https://www.npmjs.com/package/@nuxt/fonts
+     */
+    ["fonts"]: typeof import("@nuxt/fonts").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxthq/studio`
+     * @see https://www.npmjs.com/package/@nuxthq/studio
+     */
+    ["studio"]: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module`
+     * @see https://www.npmjs.com/package//Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module
+     */
+    ["site"]: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `nuxt-og-image`
+     * @see https://www.npmjs.com/package/nuxt-og-image
+     */
+    ["ogImage"]: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `nuxt-plotly`
+     * @see https://www.npmjs.com/package/nuxt-plotly
+     */
+    ["nuxtPlotly"]: typeof import("nuxt-plotly").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/devtools`
+     * @see https://www.npmjs.com/package/@nuxt/devtools
+     */
+    ["devtools"]: typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? O : Record<string, any>
+    /**
+     * Configuration for `@nuxt/telemetry`
+     * @see https://www.npmjs.com/package/@nuxt/telemetry
+     */
+    ["telemetry"]: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? O : Record<string, any>
+  }
   interface NuxtConfig {
-    ["uiPro"]?: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["mdc"]?: typeof import("@nuxtjs/mdc").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["content"]?: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["eslint"]?: typeof import("@nuxt/eslint").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["icon"]?: typeof import("nuxt-icon").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["colorMode"]?: typeof import("@nuxtjs/color-mode").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["tailwindcss"]?: typeof import("@nuxtjs/tailwindcss").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["ui"]?: typeof import("@nuxt/ui").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["fonts"]?: typeof import("@nuxt/fonts").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["componentMeta"]?: typeof import("nuxt-component-meta").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["studio"]?: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["site"]?: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["ogImage"]?: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["nuxtPlotly"]?: typeof import("nuxt-plotly").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["devtools"]?: typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,    ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>,  modules?: (undefined | null | false | NuxtModule | string | [NuxtModule | string, Record<string, any>] | ["/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index", Exclude<NuxtConfig["uiPro"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxt/eslint", Exclude<NuxtConfig["eslint"], boolean>] | ["nuxt-icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxt/fonts", Exclude<NuxtConfig["fonts"], boolean>] | ["nuxt-component-meta", Exclude<NuxtConfig["componentMeta"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-plotly", Exclude<NuxtConfig["nuxtPlotly"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
+    /**
+     * Configuration for `/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index`
+     * @see https://www.npmjs.com/package//Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index
+     */
+    ["uiPro"]?: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/mdc`
+     * @see https://www.npmjs.com/package/@nuxtjs/mdc
+     */
+    ["mdc"]?: typeof import("@nuxtjs/mdc").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/content`
+     * @see https://www.npmjs.com/package/@nuxt/content
+     */
+    ["content"]?: typeof import("@nuxt/content").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/eslint`
+     * @see https://www.npmjs.com/package/@nuxt/eslint
+     */
+    ["eslint"]?: typeof import("@nuxt/eslint").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/icon`
+     * @see https://www.npmjs.com/package/@nuxt/icon
+     */
+    ["icon"]?: typeof import("@nuxt/icon").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/color-mode`
+     * @see https://www.npmjs.com/package/@nuxtjs/color-mode
+     */
+    ["colorMode"]?: typeof import("@nuxtjs/color-mode").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxtjs/tailwindcss`
+     * @see https://www.npmjs.com/package/@nuxtjs/tailwindcss
+     */
+    ["tailwindcss"]?: typeof import("@nuxtjs/tailwindcss").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/ui`
+     * @see https://www.npmjs.com/package/@nuxt/ui
+     */
+    ["ui"]?: typeof import("@nuxt/ui").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/fonts`
+     * @see https://www.npmjs.com/package/@nuxt/fonts
+     */
+    ["fonts"]?: typeof import("@nuxt/fonts").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxthq/studio`
+     * @see https://www.npmjs.com/package/@nuxthq/studio
+     */
+    ["studio"]?: typeof import("@nuxthq/studio").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module`
+     * @see https://www.npmjs.com/package//Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module
+     */
+    ["site"]?: typeof import("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `nuxt-og-image`
+     * @see https://www.npmjs.com/package/nuxt-og-image
+     */
+    ["ogImage"]?: typeof import("nuxt-og-image").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `nuxt-plotly`
+     * @see https://www.npmjs.com/package/nuxt-plotly
+     */
+    ["nuxtPlotly"]?: typeof import("nuxt-plotly").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/devtools`
+     * @see https://www.npmjs.com/package/@nuxt/devtools
+     */
+    ["devtools"]?: typeof import("@nuxt/devtools").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    /**
+     * Configuration for `@nuxt/telemetry`
+     * @see https://www.npmjs.com/package/@nuxt/telemetry
+     */
+    ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
+    modules?: (undefined | null | false | NuxtModule<any> | string | [NuxtModule | string, Record<string, any>] | ["/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/modules/pro/index", Exclude<NuxtConfig["uiPro"], boolean>] | ["@nuxtjs/mdc", Exclude<NuxtConfig["mdc"], boolean>] | ["@nuxt/content", Exclude<NuxtConfig["content"], boolean>] | ["@nuxt/eslint", Exclude<NuxtConfig["eslint"], boolean>] | ["@nuxt/icon", Exclude<NuxtConfig["icon"], boolean>] | ["@nuxtjs/color-mode", Exclude<NuxtConfig["colorMode"], boolean>] | ["@nuxtjs/tailwindcss", Exclude<NuxtConfig["tailwindcss"], boolean>] | ["@nuxt/ui", Exclude<NuxtConfig["ui"], boolean>] | ["@nuxt/fonts", Exclude<NuxtConfig["fonts"], boolean>] | ["@nuxthq/studio", Exclude<NuxtConfig["studio"], boolean>] | ["/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/nuxt-site-config/dist/module", Exclude<NuxtConfig["site"], boolean>] | ["nuxt-og-image", Exclude<NuxtConfig["ogImage"], boolean>] | ["nuxt-plotly", Exclude<NuxtConfig["nuxtPlotly"], boolean>] | ["@nuxt/devtools", Exclude<NuxtConfig["devtools"], boolean>] | ["@nuxt/telemetry", Exclude<NuxtConfig["telemetry"], boolean>])[],
   }
   interface RuntimeConfig {
    app: {
@@ -72,6 +346,8 @@ declare module 'nuxt/schema' {
          langs: Array<string>,
 
          highlighter: string,
+
+         shikiEngine: string,
       },
 
       markdown: {
@@ -167,18 +443,8 @@ declare module 'nuxt/schema' {
       },
    },
 
-   studio: {
-      version: string,
-
-      publicToken: any,
-
-      gitInfo: {
-         name: string,
-
-         owner: string,
-
-         url: string,
-      },
+   icon: {
+      serverKnownCssClasses: Array<any>,
    },
 
    "nuxt-site-config": {
@@ -199,6 +465,8 @@ declare module 'nuxt/schema' {
       resvgOptions: any,
 
       sharpOptions: any,
+
+      publicStoragePath: string,
 
       defaults: {
          emojis: string,
@@ -236,10 +504,12 @@ declare module 'nuxt/schema' {
          id: string,
 
          properties: {
-            nuxtIcon: {
+            icon: {
                title: string,
 
                description: string,
+
+               tags: Array<string>,
 
                id: string,
 
@@ -255,7 +525,7 @@ declare module 'nuxt/schema' {
 
                      id: string,
 
-                     default: string,
+                     default: any,
 
                      type: string,
                   },
@@ -264,6 +534,40 @@ declare module 'nuxt/schema' {
                      title: string,
 
                      description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: string,
+
+                     type: string,
+                  },
+
+                  attrs: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     tsType: string,
+
+                     id: string,
+
+                     default: {
+                        "aria-hidden": boolean,
+                     },
+
+                     type: string,
+                  },
+
+                  mode: {
+                     title: string,
+
+                     description: string,
+
+                     enum: Array<string>,
 
                      tags: Array<string>,
 
@@ -290,7 +594,7 @@ declare module 'nuxt/schema' {
                      type: string,
                   },
 
-                  iconifyApiOptions: {
+                  cssSelectorPrefix: {
                      title: string,
 
                      description: string,
@@ -299,60 +603,180 @@ declare module 'nuxt/schema' {
 
                      id: string,
 
-                     properties: {
-                        url: {
-                           title: string,
+                     default: string,
 
-                           description: string,
+                     type: string,
+                  },
 
-                           tags: Array<string>,
+                  cssLayer: {
+                     title: string,
 
-                           id: string,
+                     description: string,
 
-                           default: string,
+                     tags: Array<string>,
 
-                           type: string,
-                        },
+                     tsType: string,
 
-                        publicApiFallback: {
-                           title: string,
+                     id: string,
 
-                           description: string,
+                     default: any,
 
-                           tags: Array<string>,
+                     type: string,
+                  },
 
-                           id: string,
+                  cssWherePseudo: {
+                     title: string,
 
-                           default: boolean,
+                     description: string,
 
-                           type: string,
-                        },
-                     },
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: boolean,
+
+                     type: string,
+                  },
+
+                  collections: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     tsType: string,
+
+                     id: string,
+
+                     default: any,
+
+                     type: string,
+                  },
+
+                  provider: {
+                     title: string,
+
+                     description: string,
+
+                     enum: Array<string>,
+
+                     tags: Array<string>,
 
                      type: string,
 
-                     default: {
-                        url: string,
+                     id: string,
 
-                        publicApiFallback: boolean,
-                     },
+                     default: any,
+                  },
+
+                  iconifyApiEndpoint: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: string,
+
+                     type: string,
+                  },
+
+                  fallbackToApi: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     enum: Array<boolean|string>,
+
+                     type: string,
+
+                     id: string,
+
+                     default: boolean,
+                  },
+
+                  localApiEndpoint: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: string,
+
+                     type: string,
+                  },
+
+                  fetchTimeout: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     id: string,
+
+                     default: number,
+
+                     type: string,
+                  },
+
+                  customize: {
+                     title: string,
+
+                     description: string,
+
+                     tags: Array<string>,
+
+                     type: string,
+
+                     id: string,
+
+                     default: any,
                   },
                },
 
                type: string,
 
                default: {
-                  size: string,
+                  size: any,
 
                   class: string,
 
+                  attrs: {
+                     "aria-hidden": boolean,
+                  },
+
+                  mode: string,
+
                   aliases: any,
 
-                  iconifyApiOptions: {
-                     url: string,
+                  cssSelectorPrefix: string,
 
-                     publicApiFallback: boolean,
-                  },
+                  cssLayer: any,
+
+                  cssWherePseudo: boolean,
+
+                  collections: any,
+
+                  provider: any,
+
+                  iconifyApiEndpoint: string,
+
+                  fallbackToApi: boolean,
+
+                  localApiEndpoint: string,
+
+                  fetchTimeout: number,
+
+                  customize: any,
                },
             },
 
@@ -886,18 +1310,38 @@ declare module 'nuxt/schema' {
          type: string,
 
          default: {
-            nuxtIcon: {
-               size: string,
+            icon: {
+               size: any,
 
                class: string,
 
+               attrs: {
+                  "aria-hidden": boolean,
+               },
+
+               mode: string,
+
                aliases: any,
 
-               iconifyApiOptions: {
-                  url: string,
+               cssSelectorPrefix: string,
 
-                  publicApiFallback: boolean,
-               },
+               cssLayer: any,
+
+               cssWherePseudo: boolean,
+
+               collections: any,
+
+               provider: any,
+
+               iconifyApiEndpoint: string,
+
+               fallbackToApi: boolean,
+
+               localApiEndpoint: string,
+
+               fetchTimeout: number,
+
+               customize: any,
             },
 
             ui: {
@@ -963,18 +1407,38 @@ declare module 'nuxt/schema' {
       },
 
       default: {
-         nuxtIcon: {
-            size: string,
+         icon: {
+            size: any,
 
             class: string,
 
+            attrs: {
+               "aria-hidden": boolean,
+            },
+
+            mode: string,
+
             aliases: any,
 
-            iconifyApiOptions: {
-               url: string,
+            cssSelectorPrefix: string,
 
-               publicApiFallback: boolean,
-            },
+            cssLayer: any,
+
+            cssWherePseudo: boolean,
+
+            collections: any,
+
+            provider: any,
+
+            iconifyApiEndpoint: string,
+
+            fallbackToApi: boolean,
+
+            localApiEndpoint: string,
+
+            fetchTimeout: number,
+
+            customize: any,
          },
 
          ui: {
@@ -1119,7 +1583,7 @@ declare module 'nuxt/schema' {
 
       defaultLocale: any,
 
-      integrity: number,
+      integrity: any,
 
       experimental: {
          stripQueryParameters: boolean,
@@ -1203,6 +1667,8 @@ declare module 'nuxt/schema' {
          langs: Array<string>,
 
          highlighter: string,
+
+         shikiEngine: string,
       },
 
       wsUrl: string,
@@ -1234,12 +1700,6 @@ declare module 'nuxt/schema' {
 
          exclude: Array<number>,
       },
-   },
-
-   studio: {
-      apiURL: string,
-
-      iframeMessagingAllowedOrigins: any,
    },
   }
 }

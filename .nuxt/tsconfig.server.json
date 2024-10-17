@@ -2,6 +2,7 @@
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "noEmit": true,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
@@ -61,11 +62,14 @@
       "@vue/compiler-sfc": [
         "../node_modules/@vue/compiler-sfc"
       ],
-      "@vue/runtime-dom": [
-        "../node_modules/@vue/runtime-dom"
-      ],
       "vue-router": [
         "../node_modules/vue-router"
+      ],
+      "vue-router/auto-routes": [
+        "../node_modules/vue-router/vue-router-auto-routes"
+      ],
+      "unplugin-vue-router/client": [
+        "../node_modules/unplugin-vue-router/client"
       ],
       "@nuxt/schema": [
         "../node_modules/@nuxt/schema"
@@ -94,8 +98,11 @@
       "assets/*": [
         "../assets/*"
       ],
-      "/Users/shawes/git/opendevsci/longitudinal-dev/public": [
-        "../Users/shawes/git/opendevsci/longitudinal-dev/public"
+      "public": [
+        "../public"
+      ],
+      "public/*": [
+        "../public/*"
       ],
       "#ui-pro": [
         "../node_modules/@nuxt/ui-pro"
@@ -121,23 +128,26 @@
       "#ui-colors": [
         "./ui.colors"
       ],
-      "#icon-collections": [
-        "./icon-collections"
-      ],
       "#color-mode-options": [
         "./color-mode-options"
       ],
-      "#nuxt-component-meta": [
-        "./component-meta"
+      "#nuxt-og-image-utils": [
+        "../node_modules/nuxt-og-image/dist/runtime/shared"
       ],
-      "#nuxt-component-meta/types": [
-        "./component-meta.d"
+      "#nuxt-og-image-cache": [
+        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/cache/lru"
+      ],
+      "#vue-router": [
+        "./vue-router"
       ],
       "#tailwind-config": [
         "./tailwind.config"
       ],
       "#tailwind-config/*": [
         "./tailwind.config/*"
+      ],
+      "#nuxt-icon-server-bundle": [
+        "./nuxt-icon-server-bundle"
       ],
       "#internal/nuxt-site-config": [
         "../node_modules/nuxt-site-config/dist/runtime/nitro/composables"
@@ -152,13 +162,13 @@
         "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/satori/renderer"
       ],
       "#nuxt-og-image/renderers/chromium": [
-        "./unenv/runtime/mock/empty"
+        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/chromium/renderer"
       ],
       "#nuxt-og-image/bindings/css-inline": [
-        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/css-inline/node"
+        "./unenv/runtime/mock/empty"
       ],
       "#nuxt-og-image/bindings/sharp": [
-        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/sharp/node"
+        "./unenv/runtime/mock/empty"
       ],
       "#nuxt-og-image/bindings/resvg": [
         "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/resvg/node"
@@ -167,21 +177,14 @@
         "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/satori/node"
       ],
       "#nuxt-og-image/bindings/chromium": [
-        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/chromium/null"
-      ],
-      "electron": [
-        "./unenv/runtime/mock/proxy-cjs"
-      ],
-      "bufferutil": [
-        "./unenv/runtime/mock/proxy-cjs"
-      ],
-      "utf-8-validate": [
-        "./unenv/runtime/mock/proxy-cjs"
-      ],
-      "queue": [
-        "./unenv/runtime/mock/proxy-cjs"
+        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/chromium/chrome-launcher"
       ]
-    }
+    },
+    "lib": [
+      "esnext",
+      "webworker",
+      "dom.iterable"
+    ]
   },
   "include": [
     "./types/nitro-nuxt.d.ts",
@@ -189,12 +192,11 @@
     "../node_modules/@nuxtjs/mdc/runtime/server",
     "../node_modules/@nuxt/content/runtime/server",
     "../node_modules/@nuxt/eslint/runtime/server",
-    "../node_modules/nuxt-icon/runtime/server",
+    "../node_modules/@nuxt/icon/runtime/server",
     "../node_modules/@nuxtjs/color-mode/runtime/server",
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
     "../node_modules/@nuxt/fonts/runtime/server",
-    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
     "../node_modules/nuxt-og-image/runtime/server",

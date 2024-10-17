@@ -3,8 +3,8 @@
 // App Config
 import type { Defu } from 'defu'
 
-import type { default as appConfig0 } from "/Users/shawes/git/opendevsci/longitudinal-dev/app.config";
-import type { default as appConfig1 } from "/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui-pro/app.config";
+import type { default as appConfig0 } from "../../app.config";
+import type { default as appConfig1 } from "../../node_modules/@nuxt/ui-pro/app.config";
 
 type UserAppConfig = Defu<{}, [typeof appConfig0, typeof appConfig1]>
 

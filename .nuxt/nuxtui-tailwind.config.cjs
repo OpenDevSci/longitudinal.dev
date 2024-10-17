@@ -1,7 +1,6 @@
 
       const { defaultExtractor: createDefaultExtractor } = require('tailwindcss/lib/lib/defaultExtractor.js')
       const { customSafelistExtractor, generateSafelist } = require("/Users/shawes/git/opendevsci/longitudinal-dev/node_modules/@nuxt/ui/dist/runtime/utils/colors")
-      const { iconsPlugin, getIconCollections } = require('@egoist/tailwindcss-icons')
 
       const defaultExtractor = createDefaultExtractor({ tailwindConfig: { separator: ':' } })
 
@@ -11,8 +10,7 @@
           require('@tailwindcss/aspect-ratio'),
           require('@tailwindcss/typography'),
           require('@tailwindcss/container-queries'),
-          require('@headlessui/tailwindcss'),
-          iconsPlugin({ collections: getIconCollections(["heroicons","simple-icons","heroicons"]) })
+          require('@headlessui/tailwindcss')
         ],
         content: {
           files: [
