@@ -119,6 +119,12 @@
       "#color-mode-options": [
         "./color-mode-options.mjs"
       ],
+      "#nuxt-component-meta": [
+        "./component-meta"
+      ],
+      "#nuxt-component-meta/types": [
+        "./component-meta.d"
+      ],
       "#nuxt-og-image-utils": [
         "../node_modules/nuxt-og-image/dist/runtime/shared"
       ],
@@ -138,7 +144,7 @@
         "./tailwind.config/*"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev"
+        "./manifest/meta/9c8d1e6e-4eb1-4d1a-8d7a-a33872aa2184.json"
       ],
       "#build": [
         "."
@@ -201,6 +207,8 @@
     "../node_modules/@nuxt/ui/dist/runtime",
     "../node_modules/@nuxt/fonts/runtime",
     "../node_modules/@nuxt/fonts/dist/runtime",
+    "../node_modules/nuxt-component-meta/runtime",
+    "../node_modules/nuxt-component-meta/dist/runtime",
     "../node_modules/@nuxthq/studio/runtime",
     "../node_modules/@nuxthq/studio/dist/runtime",
     "../node_modules/nuxt-site-config/dist/runtime",
@@ -240,6 +248,8 @@
     "../node_modules/@nuxt/ui/dist/runtime/server",
     "../node_modules/@nuxt/fonts/runtime/server",
     "../node_modules/@nuxt/fonts/dist/runtime/server",
+    "../node_modules/nuxt-component-meta/runtime/server",
+    "../node_modules/nuxt-component-meta/dist/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/@nuxthq/studio/dist/runtime/server",
     "../node_modules/nuxt-site-config/dist/runtime/server",

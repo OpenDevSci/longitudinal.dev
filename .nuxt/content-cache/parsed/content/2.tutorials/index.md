@@ -1,1 +1,5 @@
-{"parsed":{"_path":"/tutorials","_dir":"","_draft":false,"_partial":false,"_locale":"","title":"Tutorials","description":"Tutorials landing page content goes here.","body":{"type":"root","children":[{"type":"element","tag":"p","props":{},"children":[{"type":"text","value":"Tutorials landing page content goes here."}]}],"toc":{"title":"","searchDepth":2,"depth":2,"links":[]}},"_type":"markdown","_id":"content:2.tutorials:index.md","_source":"content","_file":"2.tutorials/index.md","_stem":"2.tutorials/index","_extension":"md"},"hash":"X23RRRMLxm"}
+---
+title: Tutorials
+---
+
+Tutorials landing page content goes here.

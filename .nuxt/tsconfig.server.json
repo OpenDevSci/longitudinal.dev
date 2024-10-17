@@ -131,6 +131,12 @@
       "#color-mode-options": [
         "./color-mode-options"
       ],
+      "#nuxt-component-meta": [
+        "./component-meta"
+      ],
+      "#nuxt-component-meta/types": [
+        "./component-meta.d"
+      ],
       "#nuxt-og-image-utils": [
         "../node_modules/nuxt-og-image/dist/runtime/shared"
       ],
@@ -162,7 +168,7 @@
         "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/satori/renderer"
       ],
       "#nuxt-og-image/renderers/chromium": [
-        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/chromium/renderer"
+        "./unenv/runtime/mock/empty"
       ],
       "#nuxt-og-image/bindings/css-inline": [
         "./unenv/runtime/mock/empty"
@@ -177,7 +183,19 @@
         "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/satori/node"
       ],
       "#nuxt-og-image/bindings/chromium": [
-        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/chromium/chrome-launcher"
+        "../node_modules/nuxt-og-image/dist/runtime/nitro/og-image/bindings/chromium/null"
+      ],
+      "electron": [
+        "./unenv/runtime/mock/proxy-cjs"
+      ],
+      "bufferutil": [
+        "./unenv/runtime/mock/proxy-cjs"
+      ],
+      "utf-8-validate": [
+        "./unenv/runtime/mock/proxy-cjs"
+      ],
+      "queue": [
+        "./unenv/runtime/mock/proxy-cjs"
       ]
     },
     "lib": [
@@ -197,6 +215,7 @@
     "../node_modules/@nuxtjs/tailwindcss/runtime/server",
     "../node_modules/@nuxt/ui/runtime/server",
     "../node_modules/@nuxt/fonts/runtime/server",
+    "../node_modules/nuxt-component-meta/runtime/server",
     "../node_modules/@nuxthq/studio/runtime/server",
     "../node_modules/nuxt-site-config/dist/module.mjs/runtime/server",
     "../node_modules/nuxt-og-image/runtime/server",

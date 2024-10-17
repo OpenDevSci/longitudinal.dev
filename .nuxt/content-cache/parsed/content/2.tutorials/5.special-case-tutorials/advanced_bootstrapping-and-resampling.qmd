@@ -1,1 +1,5 @@
-{"parsed":{"_path":"/tutorials/special-case-tutorials/advanced_bootstrapping-and-resampling","_dir":"special-case-tutorials","_draft":false,"_partial":false,"_locale":"","title":"Bootstrapping and Resampling","description":"This tutorial explains bootstrapping and resampling techniques for longitudinal data.","body":{"type":"root","children":[{"type":"element","tag":"p","props":{},"children":[{"type":"text","value":"This tutorial explains bootstrapping and resampling techniques for longitudinal data."}]}],"toc":{"title":"","searchDepth":2,"depth":2,"links":[]}},"_type":"markdown","_id":"content:2.tutorials:5.special-case-tutorials:advanced_bootstrapping-and-resampling.qmd","_source":"content","_file":"2.tutorials/5.special-case-tutorials/advanced_bootstrapping-and-resampling.qmd","_stem":"2.tutorials/5.special-case-tutorials/advanced_bootstrapping-and-resampling","_extension":"qmd"},"hash":"gVW0elgJOp"}
+---
+title: 'Bootstrapping and Resampling'
+---
+
+This tutorial explains bootstrapping and resampling techniques for longitudinal data.

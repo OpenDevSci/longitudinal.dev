@@ -11,28 +11,24 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/head/runtime/plugins/unhead.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/router.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt-site-config/dist/runtime/nuxt/plugins/0.siteConfig.js").default> &
+  InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/payload.client.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/navigation-repaint.client.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/check-outdated-build.client.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/revive-payload.server.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/chunk-reload.client.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/prefetch.client.js").default> &
-  InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/check-if-page-unused.js").default> &
-  InjectionType<typeof import("../../node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.server.js").default> &
-  InjectionType<typeof import("../../node_modules/@nuxt/devtools/dist/runtime/plugins/devtools.client.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt-plotly/dist/runtime/plugin.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt-og-image/dist/runtime/nuxt/plugins/og-image-canonical-urls.server.js").default> &
   InjectionType<typeof import("../../node_modules/nuxt-og-image/dist/runtime/nuxt/plugins/route-rule-og-image.server.js").default> &
+  InjectionType<typeof import("../../node_modules/@nuxthq/studio/dist/runtime/plugins/preview.client.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/ui/dist/runtime/plugins/slideovers.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/ui/dist/runtime/plugins/modals.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/ui/dist/runtime/plugins/colors.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/plugin.server.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxtjs/color-mode/dist/runtime/plugin.client.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/icon/dist/runtime/plugin.js").default> &
-  InjectionType<typeof import("../../node_modules/@nuxt/content/dist/runtime/plugins/ws.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/content/dist/runtime/legacy/plugins/documentDriven.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/ui-pro/modules/pro/runtime/plugins/scrollbars.client").default> &
-  InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/dev-server-logs.js").default> &
-  InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/check-if-layout-used.js").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/ui-pro/plugins/presets").default> &
   InjectionType<typeof import("../../node_modules/@nuxt/ui-pro/plugins/variables").default> &
   InjectionType<typeof import("../../plugins/customDirectives.js").default> &
@@ -42,7 +38,7 @@ declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }
 
   interface NuxtAppLiterals {
-    pluginName: 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'nuxt-site-config:init' | 'nuxt:revive-payload:server' | 'nuxt:chunk-reload' | 'nuxt:global-components' | 'nuxt:prefetch' | 'nuxt:checkIfPageUnused' | '@nuxt/icon' | 'nuxt:checkIfLayoutUsed'
+    pluginName: 'nuxt:revive-payload:client' | 'nuxt:head' | 'nuxt:router' | 'nuxt-site-config:init' | 'nuxt:payload' | 'nuxt:revive-payload:server' | 'nuxt:chunk-reload' | 'nuxt:global-components' | 'nuxt:prefetch' | '@nuxt/icon'
   }
 }
 
